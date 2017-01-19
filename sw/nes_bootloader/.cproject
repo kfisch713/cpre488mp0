@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="xilinx.gnu.arm.exe.debug.1988645115">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="xilinx.gnu.arm.exe.debug.1988645115" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.xilinx.sdk.managedbuilder.XELF.arm" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="xilinx.gnu.arm.exe.debug.1988645115" name="Debug" parent="xilinx.gnu.arm.exe.debug">
+					<folderInfo id="xilinx.gnu.arm.exe.debug.1988645115." name="/" resourcePath="">
+						<toolChain id="xilinx.gnu.arm.exe.debug.toolchain.571296259" name="Xilinx ARM GNU Toolchain" superClass="xilinx.gnu.arm.exe.debug.toolchain">
+							<targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.arm" id="xilinx.arm.target.gnu.base.debug.225273839" isAbstract="false" name="Debug Platform" superClass="xilinx.arm.target.gnu.base.debug"/>
+							<builder buildPath="${workspace_loc:/nes_bootloader}/Debug" enableAutoBuild="true" id="xilinx.gnu.arm.toolchain.builder.debug.922066490" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU make" superClass="xilinx.gnu.arm.toolchain.builder.debug"/>
+							<tool id="xilinx.gnu.arm.c.toolchain.assembler.debug.1148539660" name="ARM gcc assembler" superClass="xilinx.gnu.arm.c.toolchain.assembler.debug">
+								<option id="xilinx.gnu.both.asm.option.include.paths.1121525997" name="Include Paths (-I)" superClass="xilinx.gnu.both.asm.option.include.paths"/>
+								<inputType id="xilinx.gnu.assembler.input.173542370" superClass="xilinx.gnu.assembler.input"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.c.toolchain.compiler.debug.1365026227" name="ARM gcc compiler" superClass="xilinx.gnu.arm.c.toolchain.compiler.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="xilinx.gnu.compiler.option.optimization.level.1618500418" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.option.debugging.level.2100492419" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.157336578" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/include"/>
+								</option>
+								<option id="xilinx.gnu.compiler.dircategory.includes.1017079701" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../src/NESCore/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/xilsd/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../xilsd/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../src/NESCore/&quot;"/>
+								</option>
+								<inputType id="xilinx.gnu.arm.c.compiler.input.2080369346" name="C source files" superClass="xilinx.gnu.arm.c.compiler.input"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.cxx.toolchain.compiler.debug.1973569356" name="ARM g++ compiler" superClass="xilinx.gnu.arm.cxx.toolchain.compiler.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="xilinx.gnu.compiler.option.optimization.level.534620424" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.option.debugging.level.418078448" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.941874208" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/include"/>
+								</option>
+							</tool>
+							<tool id="xilinx.gnu.arm.toolchain.archiver.1155228459" name="ARM archiver" superClass="xilinx.gnu.arm.toolchain.archiver"/>
+							<tool id="xilinx.gnu.arm.c.toolchain.linker.debug.1426648804" name="ARM gcc linker" superClass="xilinx.gnu.arm.c.toolchain.linker.debug">
+								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.1832842141" name="Software Platform Library Path" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/lib"/>
+								</option>
+								<option id="xilinx.gnu.linker.inferred.swplatform.flags.1284403108" name="Software Platform Inferred Flags" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
+									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+								</option>
+								<option id="xilinx.gnu.c.linker.option.lscript.1056798518" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
+								<inputType id="xilinx.gnu.linker.input.197395170" superClass="xilinx.gnu.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<inputType id="xilinx.gnu.linker.input.lscript.76105776" name="Linker Script" superClass="xilinx.gnu.linker.input.lscript"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.cxx.toolchain.linker.debug.198230833" name="ARM g++ linker" superClass="xilinx.gnu.arm.cxx.toolchain.linker.debug">
+								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.312446469" name="Software Platform Library Path" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/lib"/>
+								</option>
+								<option id="xilinx.gnu.linker.inferred.swplatform.flags.499513968" name="Software Platform Inferred Flags" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
+									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+								</option>
+								<option id="xilinx.gnu.c.linker.option.lscript.45876792" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.size.debug.2022325915" name="ARM Print Size" superClass="xilinx.gnu.arm.size.debug"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/NESCore/mapper/Mapper_255.c|src/NESCore/mapper/Mapper_252.c|src/NESCore/mapper/Mapper_251.c|src/NESCore/mapper/Mapper_249.c|src/NESCore/mapper/Mapper_248.c|src/NESCore/mapper/Mapper_246.c|src/NESCore/mapper/Mapper_245.c|src/NESCore/mapper/Mapper_244.c|src/NESCore/mapper/Mapper_243.c|src/NESCore/mapper/Mapper_242.c|src/NESCore/mapper/Mapper_241.c|src/NESCore/mapper/Mapper_240.c|src/NESCore/mapper/Mapper_236.c|src/NESCore/mapper/Mapper_235.c|src/NESCore/mapper/Mapper_234.c|src/NESCore/mapper/Mapper_233.c|src/NESCore/mapper/Mapper_232.c|src/NESCore/mapper/Mapper_231.c|src/NESCore/mapper/Mapper_230.c|src/NESCore/mapper/Mapper_229.c|src/NESCore/mapper/Mapper_228.c|src/NESCore/mapper/Mapper_227.c|src/NESCore/mapper/Mapper_226.c|src/NESCore/mapper/Mapper_225.c|src/NESCore/mapper/Mapper_222.c|src/NESCore/mapper/Mapper_202.c|src/NESCore/mapper/Mapper_201.c|src/NESCore/mapper/Mapper_200.c|src/NESCore/mapper/Mapper_194.c|src/NESCore/mapper/Mapper_193.c|src/NESCore/mapper/Mapper_191.c|src/NESCore/mapper/Mapper_189.c|src/NESCore/mapper/Mapper_188.c|src/NESCore/mapper/Mapper_187.c|src/NESCore/mapper/Mapper_185.c|src/NESCore/mapper/Mapper_183.c|src/NESCore/mapper/Mapper_182.c|src/NESCore/mapper/Mapper_181.c|src/NESCore/mapper/Mapper_180.c|src/NESCore/mapper/Mapper_160.c|src/NESCore/mapper/Mapper_151.c|src/NESCore/mapper/Mapper_140.c|src/NESCore/mapper/Mapper_135.c|src/NESCore/mapper/Mapper_134.c|src/NESCore/mapper/Mapper_133.c|src/NESCore/mapper/Mapper_122.c|src/NESCore/mapper/Mapper_119.c|src/NESCore/mapper/Mapper_118.c|src/NESCore/mapper/Mapper_117.c|src/NESCore/mapper/Mapper_116.c|src/NESCore/mapper/Mapper_115.c|src/NESCore/mapper/Mapper_114.c|src/NESCore/mapper/Mapper_113.c|src/NESCore/mapper/Mapper_112.c|src/NESCore/mapper/Mapper_110.c|src/NESCore/mapper/Mapper_109.c|src/NESCore/mapper/Mapper_108.c|src/NESCore/mapper/Mapper_107.c|src/NESCore/mapper/Mapper_105.c|src/NESCore/mapper/Mapper_101.c|src/NESCore/mapper/Mapper_100.c|src/NESCore/mapper/Mapper_099.c|src/NESCore/mapper/Mapper_097.c|src/NESCore/mapper/Mapper_096.c|src/NESCore/mapper/Mapper_095.c|src/NESCore/mapper/Mapper_094.c|src/NESCore/mapper/Mapper_093.c|src/NESCore/mapper/Mapper_092.c|src/NESCore/mapper/Mapper_091.c|src/NESCore/mapper/Mapper_090.c|src/NESCore/mapper/Mapper_089.c|src/NESCore/mapper/Mapper_088.c|src/NESCore/mapper/Mapper_087.c|src/NESCore/mapper/Mapper_086.c|src/NESCore/mapper/Mapper_085.c|src/NESCore/mapper/Mapper_083.c|src/NESCore/mapper/Mapper_082.c|src/NESCore/mapper/Mapper_080.c|src/NESCore/mapper/Mapper_079.c|src/NESCore/mapper/Mapper_078.c|src/NESCore/mapper/Mapper_077.c|src/NESCore/mapper/Mapper_076.c|src/NESCore/mapper/Mapper_075.c|src/NESCore/mapper/Mapper_074.c|src/NESCore/mapper/Mapper_073.c|src/NESCore/mapper/Mapper_072.c|src/NESCore/mapper/Mapper_071.c|src/NESCore/mapper/Mapper_070.c|src/NESCore/mapper/Mapper_069.c|src/NESCore/mapper/Mapper_068.c|src/NESCore/mapper/Mapper_067.c|src/NESCore/mapper/Mapper_066.c|src/NESCore/mapper/Mapper_065.c|src/NESCore/mapper/Mapper_064.c|src/NESCore/mapper/Mapper_062.c|src/NESCore/mapper/Mapper_061.c|src/NESCore/mapper/Mapper_060.c|src/NESCore/mapper/Mapper_058.c|src/NESCore/mapper/Mapper_057.c|src/NESCore/mapper/Mapper_051.c|src/NESCore/mapper/Mapper_050.c|src/NESCore/mapper/Mapper_049.c|src/NESCore/mapper/Mapper_048.c|src/NESCore/mapper/Mapper_047.c|src/NESCore/mapper/Mapper_046.c|src/NESCore/mapper/Mapper_045.c|src/NESCore/mapper/Mapper_044.c|src/NESCore/mapper/Mapper_043.c|src/NESCore/mapper/Mapper_042.c|src/NESCore/mapper/Mapper_041.c|src/NESCore/mapper/Mapper_040.c|src/NESCore/mapper/Mapper_034.c|src/NESCore/mapper/Mapper_033.c|src/NESCore/mapper/Mapper_032.c|src/NESCore/mapper/Mapper_026.c|src/NESCore/mapper/Mapper_025.c|src/NESCore/mapper/Mapper_024.c|src/NESCore/mapper/Mapper_023.c|src/NESCore/mapper/Mapper_022.c|src/NESCore/mapper/Mapper_021.c|src/NESCore/mapper/Mapper_019.c|src/NESCore/mapper/Mapper_018.c|src/NESCore/mapper/Mapper_017.c|src/NESCore/mapper/Mapper_016.c|src/NESCore/mapper/Mapper_015.c|src/NESCore/mapper/Mapper_013.c|src/NESCore/mapper/Mapper_011.c|src/NESCore/mapper/Mapper_010.c|src/NESCore/mapper/Mapper_009.c|src/NESCore/mapper/Mapper_008.c|src/NESCore/mapper/Mapper_007.c|src/NESCore/mapper/Mapper_006.c|src/NESCore/mapper/Mapper_005.c|src/NESCore/mapper/Mapper_004.c|src/NESCore/mapper/Mapper_003.c|src/NESCore/mapper/Mapper_002.c|src/NESCore/mapper/Mapper_001.c|src/NESCore/mapper/Mapper_000.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="xilinx.gnu.arm.exe.release.308705646">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="xilinx.gnu.arm.exe.release.308705646" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.xilinx.sdk.managedbuilder.XELF.arm" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="xilinx.gnu.arm.exe.release.308705646" name="Release" parent="xilinx.gnu.arm.exe.release">
+					<folderInfo id="xilinx.gnu.arm.exe.release.308705646." name="/" resourcePath="">
+						<toolChain id="xilinx.gnu.arm.exe.release.toolchain.475295207" name="Xilinx ARM GNU Toolchain" superClass="xilinx.gnu.arm.exe.release.toolchain">
+							<targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.arm" id="xilinx.arm.target.gnu.base.release.1356971481" isAbstract="false" name="Release Platform" superClass="xilinx.arm.target.gnu.base.release"/>
+							<builder buildPath="${workspace_loc:/nes_bootloader}/Release" enableAutoBuild="true" id="xilinx.gnu.arm.toolchain.builder.release.1527036455" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU make" superClass="xilinx.gnu.arm.toolchain.builder.release"/>
+							<tool id="xilinx.gnu.arm.c.toolchain.assembler.release.843594214" name="ARM gcc assembler" superClass="xilinx.gnu.arm.c.toolchain.assembler.release">
+								<inputType id="xilinx.gnu.assembler.input.1794394047" superClass="xilinx.gnu.assembler.input"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.c.toolchain.compiler.release.1758836594" name="ARM gcc compiler" superClass="xilinx.gnu.arm.c.toolchain.compiler.release">
+								<option defaultValue="gnu.c.optimization.level.more" id="xilinx.gnu.compiler.option.optimization.level.518125789" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.option.debugging.level.1343268887" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.1243598875" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/include"/>
+								</option>
+								<inputType id="xilinx.gnu.arm.c.compiler.input.2027704405" name="C source files" superClass="xilinx.gnu.arm.c.compiler.input"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.cxx.toolchain.compiler.release.219016610" name="ARM g++ compiler" superClass="xilinx.gnu.arm.cxx.toolchain.compiler.release">
+								<option defaultValue="gnu.c.optimization.level.more" id="xilinx.gnu.compiler.option.optimization.level.1258282358" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.option.debugging.level.1836848852" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.1941723709" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/include"/>
+								</option>
+							</tool>
+							<tool id="xilinx.gnu.arm.toolchain.archiver.175840288" name="ARM archiver" superClass="xilinx.gnu.arm.toolchain.archiver"/>
+							<tool id="xilinx.gnu.arm.c.toolchain.linker.release.906974743" name="ARM gcc linker" superClass="xilinx.gnu.arm.c.toolchain.linker.release">
+								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.962188175" name="Software Platform Library Path" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/lib"/>
+								</option>
+								<option id="xilinx.gnu.linker.inferred.swplatform.flags.1523562497" name="Software Platform Inferred Flags" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
+									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+								</option>
+								<option id="xilinx.gnu.c.linker.option.lscript.339957834" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
+								<inputType id="xilinx.gnu.linker.input.283859240" superClass="xilinx.gnu.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<inputType id="xilinx.gnu.linker.input.lscript.1944694625" name="Linker Script" superClass="xilinx.gnu.linker.input.lscript"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.cxx.toolchain.linker.release.1862958836" name="ARM g++ linker" superClass="xilinx.gnu.arm.cxx.toolchain.linker.release">
+								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.272535679" name="Software Platform Library Path" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../system_bsp/ps7_cortexa9_0/lib"/>
+								</option>
+								<option id="xilinx.gnu.linker.inferred.swplatform.flags.1046253412" name="Software Platform Inferred Flags" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
+									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+								</option>
+								<option id="xilinx.gnu.c.linker.option.lscript.1590560875" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.size.release.1429957433" name="ARM Print Size" superClass="xilinx.gnu.arm.size.release"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/NESCore/mapper/Mapper_255.c|src/NESCore/mapper/Mapper_252.c|src/NESCore/mapper/Mapper_251.c|src/NESCore/mapper/Mapper_249.c|src/NESCore/mapper/Mapper_248.c|src/NESCore/mapper/Mapper_246.c|src/NESCore/mapper/Mapper_245.c|src/NESCore/mapper/Mapper_244.c|src/NESCore/mapper/Mapper_243.c|src/NESCore/mapper/Mapper_242.c|src/NESCore/mapper/Mapper_241.c|src/NESCore/mapper/Mapper_240.c|src/NESCore/mapper/Mapper_236.c|src/NESCore/mapper/Mapper_235.c|src/NESCore/mapper/Mapper_234.c|src/NESCore/mapper/Mapper_233.c|src/NESCore/mapper/Mapper_232.c|src/NESCore/mapper/Mapper_231.c|src/NESCore/mapper/Mapper_230.c|src/NESCore/mapper/Mapper_229.c|src/NESCore/mapper/Mapper_228.c|src/NESCore/mapper/Mapper_227.c|src/NESCore/mapper/Mapper_226.c|src/NESCore/mapper/Mapper_225.c|src/NESCore/mapper/Mapper_222.c|src/NESCore/mapper/Mapper_202.c|src/NESCore/mapper/Mapper_201.c|src/NESCore/mapper/Mapper_200.c|src/NESCore/mapper/Mapper_194.c|src/NESCore/mapper/Mapper_193.c|src/NESCore/mapper/Mapper_191.c|src/NESCore/mapper/Mapper_189.c|src/NESCore/mapper/Mapper_188.c|src/NESCore/mapper/Mapper_187.c|src/NESCore/mapper/Mapper_185.c|src/NESCore/mapper/Mapper_183.c|src/NESCore/mapper/Mapper_182.c|src/NESCore/mapper/Mapper_181.c|src/NESCore/mapper/Mapper_180.c|src/NESCore/mapper/Mapper_160.c|src/NESCore/mapper/Mapper_151.c|src/NESCore/mapper/Mapper_140.c|src/NESCore/mapper/Mapper_135.c|src/NESCore/mapper/Mapper_134.c|src/NESCore/mapper/Mapper_133.c|src/NESCore/mapper/Mapper_122.c|src/NESCore/mapper/Mapper_119.c|src/NESCore/mapper/Mapper_118.c|src/NESCore/mapper/Mapper_117.c|src/NESCore/mapper/Mapper_116.c|src/NESCore/mapper/Mapper_115.c|src/NESCore/mapper/Mapper_114.c|src/NESCore/mapper/Mapper_113.c|src/NESCore/mapper/Mapper_112.c|src/NESCore/mapper/Mapper_110.c|src/NESCore/mapper/Mapper_109.c|src/NESCore/mapper/Mapper_108.c|src/NESCore/mapper/Mapper_107.c|src/NESCore/mapper/Mapper_105.c|src/NESCore/mapper/Mapper_101.c|src/NESCore/mapper/Mapper_100.c|src/NESCore/mapper/Mapper_099.c|src/NESCore/mapper/Mapper_097.c|src/NESCore/mapper/Mapper_096.c|src/NESCore/mapper/Mapper_095.c|src/NESCore/mapper/Mapper_094.c|src/NESCore/mapper/Mapper_093.c|src/NESCore/mapper/Mapper_092.c|src/NESCore/mapper/Mapper_091.c|src/NESCore/mapper/Mapper_090.c|src/NESCore/mapper/Mapper_089.c|src/NESCore/mapper/Mapper_088.c|src/NESCore/mapper/Mapper_087.c|src/NESCore/mapper/Mapper_086.c|src/NESCore/mapper/Mapper_085.c|src/NESCore/mapper/Mapper_083.c|src/NESCore/mapper/Mapper_082.c|src/NESCore/mapper/Mapper_080.c|src/NESCore/mapper/Mapper_079.c|src/NESCore/mapper/Mapper_078.c|src/NESCore/mapper/Mapper_077.c|src/NESCore/mapper/Mapper_076.c|src/NESCore/mapper/Mapper_075.c|src/NESCore/mapper/Mapper_074.c|src/NESCore/mapper/Mapper_073.c|src/NESCore/mapper/Mapper_072.c|src/NESCore/mapper/Mapper_071.c|src/NESCore/mapper/Mapper_070.c|src/NESCore/mapper/Mapper_069.c|src/NESCore/mapper/Mapper_068.c|src/NESCore/mapper/Mapper_067.c|src/NESCore/mapper/Mapper_066.c|src/NESCore/mapper/Mapper_065.c|src/NESCore/mapper/Mapper_064.c|src/NESCore/mapper/Mapper_062.c|src/NESCore/mapper/Mapper_061.c|src/NESCore/mapper/Mapper_060.c|src/NESCore/mapper/Mapper_058.c|src/NESCore/mapper/Mapper_057.c|src/NESCore/mapper/Mapper_051.c|src/NESCore/mapper/Mapper_050.c|src/NESCore/mapper/Mapper_049.c|src/NESCore/mapper/Mapper_048.c|src/NESCore/mapper/Mapper_047.c|src/NESCore/mapper/Mapper_046.c|src/NESCore/mapper/Mapper_045.c|src/NESCore/mapper/Mapper_044.c|src/NESCore/mapper/Mapper_043.c|src/NESCore/mapper/Mapper_042.c|src/NESCore/mapper/Mapper_041.c|src/NESCore/mapper/Mapper_040.c|src/NESCore/mapper/Mapper_034.c|src/NESCore/mapper/Mapper_033.c|src/NESCore/mapper/Mapper_032.c|src/NESCore/mapper/Mapper_026.c|src/NESCore/mapper/Mapper_025.c|src/NESCore/mapper/Mapper_024.c|src/NESCore/mapper/Mapper_023.c|src/NESCore/mapper/Mapper_022.c|src/NESCore/mapper/Mapper_021.c|src/NESCore/mapper/Mapper_019.c|src/NESCore/mapper/Mapper_018.c|src/NESCore/mapper/Mapper_017.c|src/NESCore/mapper/Mapper_016.c|src/NESCore/mapper/Mapper_015.c|src/NESCore/mapper/Mapper_013.c|src/NESCore/mapper/Mapper_011.c|src/NESCore/mapper/Mapper_010.c|src/NESCore/mapper/Mapper_009.c|src/NESCore/mapper/Mapper_008.c|src/NESCore/mapper/Mapper_007.c|src/NESCore/mapper/Mapper_006.c|src/NESCore/mapper/Mapper_005.c|src/NESCore/mapper/Mapper_004.c|src/NESCore/mapper/Mapper_003.c|src/NESCore/mapper/Mapper_002.c|src/NESCore/mapper/Mapper_001.c|src/NESCore/mapper/Mapper_000.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="nes_bootloader.xilinx.gnu.arm.exe.1824012645" name="Xilinx ARM Executable" projectType="xilinx.gnu.arm.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.exe.debug.1988645115;xilinx.gnu.arm.exe.debug.1988645115.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.exe.debug.1988645115;xilinx.gnu.arm.exe.debug.1988645115.;xilinx.gnu.arm.c.toolchain.compiler.debug.1365026227;xilinx.gnu.arm.c.compiler.input.2080369346">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.exe.release.308705646;xilinx.gnu.arm.exe.release.308705646.;xilinx.gnu.arm.c.toolchain.compiler.release.1758836594;xilinx.gnu.arm.c.compiler.input.2027704405">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.exe.release.308705646;xilinx.gnu.arm.exe.release.308705646.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
