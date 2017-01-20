@@ -28,6 +28,13 @@ INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on
    please see the device datasheet.
 
 ================================================================================
+Timing constraint: PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
+
+ 2 paths analyzed, 2 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
 Timing constraint: PATH "TS_axi4lite_0_reset_resync_path" TIG;
 
  2 paths analyzed, 2 endpoints analyzed, 0 failing endpoints
@@ -39,9 +46,9 @@ Timing constraint: TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH
 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 3754 paths analyzed, 1107 endpoints analyzed, 0 failing endpoints
+ 153999 paths analyzed, 21526 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   8.345ns.
+ Minimum period is   9.864ns.
 --------------------------------------------------------------------------------
 
 
@@ -59,20 +66,20 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 3756 paths, 0 nets, and 1936 connections
+Constraints cover 154003 paths, 0 nets, and 23468 connections
 
 Design statistics:
-   Minimum period:   8.345ns   (Maximum frequency: 119.832MHz)
+   Minimum period:   9.864ns   (Maximum frequency: 101.379MHz)
 
 
-Analysis completed Thu Jan 19 17:08:38 2017 
+Analysis completed Fri Jan 20 13:23:11 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 632 MB
+Peak Memory Usage: 686 MB
 
 
 

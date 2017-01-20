@@ -13,6 +13,28 @@
       <rect x="0" y="0" width="24" height="24" style="fill:#D0E6EF; stroke:#0084AB; stroke-width:1"/>
       <rect x="5.5" y="5" width="14" height="14" style="fill:#0084AB; stroke:none;"/>
     </g>
+    <g id="AXIS_BifLabel">
+      <rect x="0" y="0" rx="3" ry="3" width="32" height="16" style="fill:#0084AB; stroke:black; stroke-width:1"/>
+    </g>
+    <g id="AXIS_busconn_TARGET">
+      <circle cx="12" cy="12" r="12" style="fill:#D0E6EF; stroke:#0084AB; stroke-width:1"/>
+      <circle cx="12.5" cy="12" r="7" style="fill:#0084AB; stroke:none;"/>
+    </g>
+    <g id="AXIS_busconn_INITIATOR">
+      <rect x="0" y="0" width="24" height="24" style="fill:#D0E6EF; stroke:#0084AB; stroke-width:1"/>
+      <rect x="5.5" y="5" width="14" height="14" style="fill:#0084AB; stroke:none;"/>
+    </g>
+    <g id="USER_BifLabel">
+      <rect x="0" y="0" rx="3" ry="3" width="32" height="16" style="fill:#009999; stroke:black; stroke-width:1"/>
+    </g>
+    <g id="USER_busconn_TARGET">
+      <circle cx="12" cy="12" r="12" style="fill:#00CCCC; stroke:#009999; stroke-width:1"/>
+      <circle cx="12.5" cy="12" r="7" style="fill:#009999; stroke:none;"/>
+    </g>
+    <g id="USER_busconn_INITIATOR">
+      <rect x="0" y="0" width="24" height="24" style="fill:#00CCCC; stroke:#009999; stroke-width:1"/>
+      <rect x="5.5" y="5" width="14" height="14" style="fill:#009999; stroke:none;"/>
+    </g>
     <g id="KEY_BifLabel">
       <rect x="0" y="0" rx="3" ry="3" width="32" height="16" style="fill:#444444; stroke:black; stroke-width:1"/>
     </g>

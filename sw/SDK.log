@@ -40,3 +40,389 @@
 18:13:52.188 INFO  - Processor reset is completed for ps7_cortexa9_0 
 18:15:16.499 INFO  - Processor reset is completed for ps7_cortexa9_0 
 18:44:31.775 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:08:31.506 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:08:31.516 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:08:36.940 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:08:36.950 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:08:42.323 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:08:42.333 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:08:47.713 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:08:47.713 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:08:53.130 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:08:53.140 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:08:58.510 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:08:58.510 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:03.880 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:03.880 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:09.282 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:09.282 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:14.660 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:14.660 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:20.061 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:20.061 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:25.452 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:25.455 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:30.878 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:30.878 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:36.269 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:36.279 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:41.699 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:41.699 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:47.082 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:47.082 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:52.467 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:52.469 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:09:57.864 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:09:57.866 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:03.269 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:03.279 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:08.819 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:08.819 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:14.228 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:14.228 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:19.708 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:19.708 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:25.115 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:25.115 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:30.525 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:30.525 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:35.936 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:35.939 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:41.370 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:41.380 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:46.766 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:46.766 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:52.159 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:52.159 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:10:57.572 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:10:57.572 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:03.008 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:03.008 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:08.458 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:08.458 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:13.868 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:13.878 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:19.280 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:19.280 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:24.674 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:24.684 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:30.070 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:30.080 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:35.500 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:35.500 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:40.948 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:40.948 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:46.388 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:46.388 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:51.820 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:51.820 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:11:57.264 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:11:57.264 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:02.714 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:02.714 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:08.134 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:08.134 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:13.558 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:13.568 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:18.979 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:18.979 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:24.479 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:24.489 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:29.884 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:29.894 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:35.354 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:35.354 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:40.768 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:40.768 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:46.187 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:46.187 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:51.582 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:51.582 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:12:56.993 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:12:56.993 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:02.453 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:02.453 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:07.823 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:07.833 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:13.207 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:13.217 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:18.646 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:18.646 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:24.079 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:24.089 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:29.633 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:29.633 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:35.063 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:35.063 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:40.463 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:40.473 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:45.886 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:45.896 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:51.288 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:51.288 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:13:56.723 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:13:56.733 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:02.173 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:02.173 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:07.585 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:07.585 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:12.966 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:12.966 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:18.366 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:18.366 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:23.768 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:23.778 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:29.172 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:29.182 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:34.742 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:34.742 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:40.202 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:40.212 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:45.605 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:45.605 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:51.075 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:51.075 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:14:56.478 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:14:56.478 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:01.892 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:01.902 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:07.342 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:07.342 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:12.782 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:12.786 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:18.315 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:18.325 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:23.717 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:23.717 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:29.142 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:29.142 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:34.542 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:34.542 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:39.942 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:39.942 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:45.324 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:45.334 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:50.742 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:50.752 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:15:56.136 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:15:56.146 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:01.551 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:01.561 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:06.986 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:06.996 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:12.417 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:12.427 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:17.854 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:17.854 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:23.313 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:23.316 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:28.756 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:28.766 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:34.192 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:34.192 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:39.652 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:39.655 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:45.078 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:45.088 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:50.535 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:50.535 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:16:55.945 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:16:55.955 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:01.381 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:01.391 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:06.861 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:06.861 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:12.293 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:12.303 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:17.723 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:17.733 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:23.145 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:23.145 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:28.586 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:28.596 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:34.042 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:34.042 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:39.492 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:39.502 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:44.934 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:44.934 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:50.407 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:50.407 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:17:55.818 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:17:55.818 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:01.245 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:01.245 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:06.681 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:06.691 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:12.171 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:12.181 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:17.582 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:17.582 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:22.963 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:22.963 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:28.358 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:28.368 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:33.750 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:33.760 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:39.220 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:39.230 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:44.650 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:44.650 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:50.041 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:50.041 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:18:55.443 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:18:55.443 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:00.864 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:00.874 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:06.284 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:06.284 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:11.724 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:11.724 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:17.184 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:17.184 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:22.602 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:22.602 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:27.992 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:27.992 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:33.405 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:33.415 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:38.810 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:38.810 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:44.194 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:44.204 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:49.607 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:49.617 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:19:55.001 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:19:55.011 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:00.491 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:00.491 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:05.889 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:05.899 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:11.339 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:11.349 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:16.759 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:16.769 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:22.160 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:22.170 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:27.561 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:27.571 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:33.013 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:33.013 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:38.439 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:38.439 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:43.822 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:43.822 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:49.272 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:49.272 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:20:54.720 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:20:54.720 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:00.120 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:00.130 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:05.543 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:05.553 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:10.954 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:10.964 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:16.414 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:16.424 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:21.834 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:21.844 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:27.250 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:27.260 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:32.660 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:32.660 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:38.059 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:38.069 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:43.519 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:43.529 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:48.930 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:48.940 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:54.351 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:54.351 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:21:59.753 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:21:59.763 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:05.186 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:05.196 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:10.603 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:10.613 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:16.022 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:16.022 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:21.422 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:21.422 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:26.843 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:26.843 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:32.248 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:32.248 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:37.628 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:37.638 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:43.027 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:43.027 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:48.398 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:48.408 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:53.801 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:53.801 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:22:59.202 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:22:59.202 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:04.600 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:04.610 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:10.022 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:10.022 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:15.450 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:15.450 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:20.900 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:20.900 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:26.325 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:26.325 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:31.722 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:31.722 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:37.133 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:37.133 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:42.563 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:42.573 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:48.023 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:48.023 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:53.470 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:53.480 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:23:58.921 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:23:58.921 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:04.396 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:04.396 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:09.846 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:09.846 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:15.256 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:15.256 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:20.637 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:20.637 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:26.027 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:26.027 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:31.408 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:31.418 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:36.808 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:36.808 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:42.218 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:42.229 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:47.599 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:47.599 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:53.010 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:53.010 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:24:58.540 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:24:58.550 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:25:03.985 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:25:03.985 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:25:09.419 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:25:09.429 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:25:14.815 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:25:14.818 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
+13:25:19.164 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+13:25:21.320 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+13:25:21.960 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+13:25:22.610 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+13:25:23.370 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+13:25:23.660 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+13:25:24.040 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+13:25:25.250 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+13:25:25.510 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:25:27.341 INFO  - Updating hardware inferred compiler options for hello_world. 
+13:25:28.101 INFO  - Updating hardware inferred compiler options for vga_test. 
+13:25:28.111 INFO  - Clearing existing target manager status. 
+13:25:30.391 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+13:38:15.527 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

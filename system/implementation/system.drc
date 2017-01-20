@@ -1,8 +1,27 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Thu Jan 19 17:08:48 2017
+Fri Jan 20 13:23:22 2017
 
 drc -z system.ncd system.pcf
 
-DRC detected 0 errors and 0 warnings.
+WARNING:PhysDesignRules:367 - The signal
+   <axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slo
+   t[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_ins
+   t/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/
+   grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slo
+   t[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_ins
+   t/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfif
+   o.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <axi_vdma_0/axi_vdma_0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GE
+   N_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/S6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_
+   LATER.I_SYNC_FIFO_BRAM/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
