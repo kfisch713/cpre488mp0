@@ -1,0 +1,42 @@
+17:09:54.964 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+17:27:01.920 INFO  - FPGA configured successfully with bitstream "//my.files.iastate.edu/Users/kfisch13/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+17:28:08.476 INFO  - FPGA configured successfully with bitstream "//my.files.iastate.edu/Users/kfisch13/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+17:33:41.494 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:33:45.582 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+17:34:20.892 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:34:20.992 INFO  - PS initialization will be done as it is not done before. 
+17:34:20.992 INFO  - Running PS initialization.... 
+17:34:21.482 INFO  - ps7_init is completed. 
+17:34:21.582 INFO  - ps7_post_config is completed. 
+17:34:21.692 INFO  - PS Initialization is complete. 
+17:35:13.097 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:36:04.584 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:45:52.706 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:55:17.458 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:55:22.323 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:56:24.149 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:57:29.110 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:57:51.935 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:57:56.380 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:58:29.181 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:59:57.907 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:00:01.183 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:01:04.130 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:01:39.681 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:01:42.198 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:02:16.295 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:02:20.100 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:04:04.260 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:06:05.966 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:06:08.225 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:08:35.600 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:08:37.016 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:09:08.907 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:09:10.737 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:10:57.904 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:10:59.423 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:13:15.952 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:13:17.987 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:13:52.188 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:15:16.499 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:44:31.775 INFO  - Processor reset is completed for ps7_cortexa9_0 
