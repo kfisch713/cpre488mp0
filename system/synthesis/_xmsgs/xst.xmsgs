@@ -1763,10 +1763,10 @@
 <msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system.vhd</arg>&quot; line <arg fmt="%s" index="2">2925</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">v_axi4s_vid_out_0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">axi4lite_0_S_ARLEN&lt;7:4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system.vhd</arg>&quot; line <arg fmt="%s" index="2">2620</arg>: Output port &lt;<arg fmt="%s" index="3">axi_vdma_tstvec</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">axi_vdma_0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">axi4lite_0_S_AWLEN&lt;7:4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system.vhd</arg>&quot; line <arg fmt="%s" index="2">2620</arg>: Output port &lt;<arg fmt="%s" index="3">m_axi_sg_arvalid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">axi_vdma_0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Full license for component &lt;v_tc&gt; allows you to use this component. This license does not give you access to source code implementing this component.
@@ -1786,10 +1786,10 @@ The license for this core was generated for zambreno on 01/28/2015It is the resp
 <msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">system_processing_system7_0_wrapper</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_SRSTB</arg>&gt;; this signal is connected to multiple drivers.
 </msg>
 
-<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">system_processing_system7_0_wrapper</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_CLK</arg>&gt;; this signal is connected to multiple drivers.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system.vhd</arg>&quot; line <arg fmt="%s" index="2">2620</arg>: Output port &lt;<arg fmt="%s" index="3">mm2s_prmry_reset_out_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">axi_vdma_0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">system_processing_system7_0_wrapper</arg>&gt; on signal &lt;<arg fmt="%s" index="2">PS_PORB</arg>&gt;; this signal is connected to multiple drivers.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system.vhd</arg>&quot; line <arg fmt="%s" index="2">2620</arg>: Output port &lt;<arg fmt="%s" index="3">s2mm_prmry_reset_out_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">axi_vdma_0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">axi4lite_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1&gt; </arg>

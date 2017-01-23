@@ -32,7 +32,10 @@ entity system is
     processing_system7_0_DDR_DQS : inout std_logic_vector(3 downto 0);
     processing_system7_0_DDR_DQS_n : inout std_logic_vector(3 downto 0);
     processing_system7_0_DDR_VRN : inout std_logic;
-    processing_system7_0_DDR_VRP : inout std_logic
+    processing_system7_0_DDR_VRP : inout std_logic;
+    VGAData : out std_logic_vector(11 downto 0);
+    HSync : out std_logic;
+    VSync : out std_logic
   );
 end system;
 
@@ -1579,6 +1582,8 @@ begin
   pgassign1(2 downto 2) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(1 downto 1) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(0 downto 0) <= processing_system7_0_FCLK_CLK0(0 to 0);
+  pgassign2(1 downto 1) <= processing_system7_0_FCLK_CLK0(0 to 0);
+  pgassign2(0 downto 0) <= processing_system7_0_FCLK_CLK0(0 to 0);
   net_gnd0 <= '0';
   net_gnd1(0 to 0) <= B"0";
   net_gnd12(11 downto 0) <= B"000000000000";

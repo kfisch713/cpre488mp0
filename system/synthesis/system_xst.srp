@@ -1,6 +1,6 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -63,7 +63,7 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system.vhd" into library work
+Parsing VHDL file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system.vhd" into library work
 Parsing entity <system>.
 Parsing architecture <STRUCTURE> of entity <system>.
 
@@ -81,7 +81,7 @@ WARNING:HDLCompiler:634 - "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488
 =========================================================================
 
 Synthesizing Unit <system>.
-    Related source file is "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system.vhd".
+    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system.vhd".
     Set property "BOX_TYPE = user_black_box" for instance <axi4lite_0>.
     Set property "BOX_TYPE = user_black_box" for instance <SWs_8Bits>.
     Set property "BOX_TYPE = user_black_box" for instance <LEDs_8Bits>.
@@ -676,6 +676,8 @@ INFO:Xst:3210 - "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system
 INFO:Xst:3210 - "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system.vhd" line 2925: Output port <empty> of the instance <v_axi4s_vid_out_0> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <axi4lite_0_S_ARLEN<7:4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <axi4lite_0_S_AWLEN<7:4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <axi_interconnect_1_S_WDATA<127:96>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <axi_interconnect_1_S_WSTRB<15:12>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <system> synthesized.
@@ -866,7 +868,7 @@ Primitive and Black Box Usage:
 #      SRLC32E                     : 30
 # Clock Buffers                    : 1
 #      BUFG                        : 1
-# IO Buffers                       : 24
+# IO Buffers                       : 38
 #      IBUF                        : 3
 #      IOBUF                       : 13
 #      OBUF                        : 8
@@ -897,8 +899,8 @@ Slice Logic Distribution:
    Number of unique control sets:       196
 
 IO Utilization: 
- Number of IOs:                         151
- Number of bonded IOBs:                  24  out of    200    12%  
+ Number of IOs:                         165
+ Number of bonded IOBs:                  38  out of    200    19%  
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                2  out of    140     1%  

@@ -1,9 +1,9 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> 
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_processing_system7_0_wrapper_xst.prj"
-Verilog Include Directory          : {"U:\Desktop\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"U:\Documents\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z020clg484-1
@@ -74,7 +74,7 @@ Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores
 Parsing module <processing_system7>.
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/trace_buffer.v" into library processing_system7_v4_03_a
 Parsing module <trace_buffer>.
-Analyzing Verilog file "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" into library work
+Analyzing Verilog file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" into library work
 Parsing module <system_processing_system7_0_wrapper>.
 
 =========================================================================
@@ -101,14 +101,14 @@ WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pco
 WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/processing_system7.v" Line 1045: Net <FTMD_TRACEIN_DATA_i[31]> does not have a driver.
 WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/processing_system7.v" Line 1046: Net <FTMD_TRACEIN_VALID_i> does not have a driver.
 WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/processing_system7.v" Line 1047: Net <FTMD_TRACEIN_ATID_i[3]> does not have a driver.
-WARNING:HDLCompiler:189 - "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" Line 2017: Size mismatch in connection of port <IRQ_F2P>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" Line 2017: Size mismatch in connection of port <IRQ_F2P>. Formal port size is 16-bit while actual signal size is 1-bit.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system_processing_system7_0_wrapper>.
-    Related source file is "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v".
+    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v".
     Summary:
 	no macro.
 Unit <system_processing_system7_0_wrapper> synthesized.

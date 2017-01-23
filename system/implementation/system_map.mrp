@@ -61,10 +61,10 @@ Slice Logic Distribution:
   over-mapped for a non-BRAM resource or if placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        21 out of     200   10%
-    Number of LOCed IOBs:                       21 out of      21  100%
+  Number of bonded IOBs:                        35 out of     200   17%
+    Number of LOCed IOBs:                       35 out of      35  100%
   Number of bonded IOPAD:                      130 out of     130  100%
-    IOB Flip Flops:                              5
+    IOB Flip Flops:                             17
 
 Specific Feature Utilization:
   Number of RAMB36E1/FIFO36E1s:                  0 out of     140    0%
@@ -77,8 +77,8 @@ Specific Feature Utilization:
   Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     200    0%
   Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     200    0%
   Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0
-  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        5 out of     200    2%
-    Number used as OLOGICE2s:                    5
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:       17 out of     200    8%
+    Number used as OLOGICE2s:                   17
     Number used as OLOGICE3s:                    0
     Number used as OSERDESE2s:                   0
   Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      16    0%
@@ -28357,6 +28357,7 @@ Section 6 - IOB Properties
 | BTNs_5Bits_TRI_IO<2>               | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW | OFF          |          |          |
 | BTNs_5Bits_TRI_IO<3>               | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW | OFF          |          |          |
 | BTNs_5Bits_TRI_IO<4>               | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW | OFF          |          |          |
+| HSync                              | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | LEDs_8Bits_TRI_IO<0>               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | LEDs_8Bits_TRI_IO<1>               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | LEDs_8Bits_TRI_IO<2>               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
@@ -28373,6 +28374,19 @@ Section 6 - IOB Properties
 | SWs_8Bits_TRI_IO<5>                | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | SWs_8Bits_TRI_IO<6>                | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | SWs_8Bits_TRI_IO<7>                | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| VGAData<0>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<1>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<2>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<3>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<4>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<5>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<6>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<7>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<8>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<9>                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<10>                        | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VGAData<11>                        | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF          |          |          |
+| VSync                              | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | processing_system7_0_DDR_Addr<0>   | IOPAD            | OUTPUT    | SSTL15               |       |          | SLOW |              |          |          |
 | processing_system7_0_DDR_Addr<1>   | IOPAD            | OUTPUT    | SSTL15               |       |          | SLOW |              |          |          |
 | processing_system7_0_DDR_Addr<2>   | IOPAD            | OUTPUT    | SSTL15               |       |          | SLOW |              |          |          |

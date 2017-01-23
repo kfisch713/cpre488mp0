@@ -5,16 +5,16 @@ xflow.exe -wd implementation -p xc7z020clg484-1 -implement xflow.opt system.ngc
 PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
 with local file <C:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
 
-Using Flow File: U:/Desktop/cpre488mp0/system/implementation/fpga.flw 
+Using Flow File: U:/Documents/cpre488mp0/system/implementation/fpga.flw 
 Using Option File(s): 
- U:/Desktop/cpre488mp0/system/implementation/xflow.opt 
+ U:/Documents/cpre488mp0/system/implementation/xflow.opt 
 
 Creating Script File ... 
 
 #----------------------------------------------#
 # Starting program ngdbuild
 # ngdbuild -p xc7z020clg484-1 -nt timestamp -bm system.bmm
-"U:/Desktop/cpre488mp0/system/implementation/system.ngc" -uc system.ucf
+"U:/Documents/cpre488mp0/system/implementation/system.ngc" -uc system.ucf
 system.ngd 
 #----------------------------------------------#
 Release 14.7 - ngdbuild P.20131013 (nt64)
@@ -24,14 +24,24 @@ with local file <C:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
 
 Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -p
 xc7z020clg484-1 -nt timestamp -bm system.bmm
-U:/Desktop/cpre488mp0/system/implementation/system.ngc -uc system.ucf system.ngd
+U:/Documents/cpre488mp0/system/implementation/system.ngc -uc system.ucf
+system.ngd
 
-Reading NGO file "U:/Desktop/cpre488mp0/system/implementation/system.ngc" ...
+Reading NGO file "U:/Documents/cpre488mp0/system/implementation/system.ngc" ...
 Loading design module
-"U:/Desktop/cpre488mp0/system/implementation/system_processing_system7_0_wrapper
+"U:/Documents/cpre488mp0/system/implementation/system_processing_system7_0_wrapp
+er.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper
 .ngc"...
 Loading design module
-"U:/Desktop/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ngc"...
+"U:/Documents/cpre488mp0/system/implementation/system_sws_8bits_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_leds_8bits_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_btns_5bits_wrapper.ngc"...
 Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper.n
 gc"...
@@ -40,7 +50,7 @@ Loading design module
 Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_sws_8bits_wrapper.ngc"...
 Loading design module
-"U:/Desktop/cpre488mp0/system/implementation/system_leds_8bits_wrapper.ngc"...
+"U:/Documents/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ngc"...
 Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_btns_5bits_wrapper.ngc"...
 Loading design module
@@ -49,11 +59,11 @@ Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_v_axi4s_vid_out_0_wrapper.ng
 c"...
 Applying constraints in
-"U:/Desktop/cpre488mp0/system/implementation/system_processing_system7_0_wrapper
-.ncf" to module "processing_system7_0"...
+"U:/Documents/cpre488mp0/system/implementation/system_processing_system7_0_wrapp
+er.ncf" to module "processing_system7_0"...
 Checking Constraint Associations...
 Applying constraints in
-"U:/Desktop/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ncf" to
+"U:/Documents/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ncf" to
 module "axi4lite_0"...
 Checking Constraint Associations...
 Applying constraints in
@@ -472,10 +482,10 @@ Slice Logic Distribution:
   over-mapped for a non-BRAM resource or if placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        21 out of     200   10%
-    Number of LOCed IOBs:                       21 out of      21  100%
+  Number of bonded IOBs:                        35 out of     200   17%
+    Number of LOCed IOBs:                       35 out of      35  100%
   Number of bonded IOPAD:                      130 out of     130  100%
-    IOB Flip Flops:                              5
+    IOB Flip Flops:                             17
 
 Specific Feature Utilization:
   Number of RAMB36E1/FIFO36E1s:                  0 out of     140    0%
@@ -488,8 +498,8 @@ Specific Feature Utilization:
   Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     200    0%
   Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     200    0%
   Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0
-  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        5 out of     200    2%
-    Number used as OLOGICE2s:                    5
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:       17 out of     200    8%
+    Number used as OLOGICE2s:                   17
     Number used as OLOGICE3s:                    0
     Number used as OSERDESE2s:                   0
   Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      16    0%
@@ -566,13 +576,13 @@ Device speed data version:  "PRODUCTION 1.08 2013-10-13".
 Device Utilization Summary:
 
    Number of BUFGs                           1 out of 32      3%
-   Number of External IOB33s                21 out of 200    10%
-      Number of LOCed IOB33s                21 out of 21    100%
+   Number of External IOB33s                35 out of 200    17%
+      Number of LOCed IOB33s                35 out of 35    100%
 
    Number of External IOPADs               130 out of 130   100%
       Number of LOCed IOPADs               127 out of 130    97%
 
-   Number of OLOGICE2s                       5 out of 200     2%
+   Number of OLOGICE2s                      17 out of 200     8%
    Number of PS7s                            1 out of 1     100%
    Number of RAMB18E1s                       2 out of 280     1%
    Number of Slices                        732 out of 13300   5%

@@ -92,10 +92,10 @@ The license for this core was generated for zambreno on 01/28/2015It is the resp
 <msg type="warning" file="EDK" num="0" delta="new" > data pathways.
 </msg>
 
-<msg type="info" file="EDK" num="4211" delta="new" >The following instances are synthesized with <arg fmt="%s" index="1">XST</arg>. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using <arg fmt="%s" index="2">XST</arg> synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+<msg type="info" file="EDK" num="4211" delta="old" >The following instances are synthesized with <arg fmt="%s" index="1">XST</arg>. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using <arg fmt="%s" index="2">XST</arg> synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
 </msg>
 
-<msg type="info" file="EDK" num="3509" delta="new" >NCF files should not be modified as they will be regenerated.
+<msg type="info" file="EDK" num="3509" delta="old" >NCF files should not be modified as they will be regenerated.
 If any constraint needs to be overridden, this should be done by modifying the data/<arg fmt="%s" index="1">system</arg>.ucf file.
 </msg>
 
