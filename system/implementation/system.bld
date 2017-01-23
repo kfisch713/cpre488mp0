@@ -12,11 +12,21 @@ Loading design module
 Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ngc"...
 Loading design module
+"U:/Desktop/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper.n
+gc"...
+Loading design module
+"U:/Desktop/cpre488mp0/system/implementation/system_axi_vdma_0_wrapper.ngc"...
+Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_sws_8bits_wrapper.ngc"...
 Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_leds_8bits_wrapper.ngc"...
 Loading design module
 "U:/Desktop/cpre488mp0/system/implementation/system_btns_5bits_wrapper.ngc"...
+Loading design module
+"U:/Desktop/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ngc"...
+Loading design module
+"U:/Desktop/cpre488mp0/system/implementation/system_v_axi4s_vid_out_0_wrapper.ng
+c"...
 Applying constraints in
 "U:/Desktop/cpre488mp0/system/implementation/system_processing_system7_0_wrapper
 .ncf" to module "processing_system7_0"...
@@ -24,6 +34,18 @@ Checking Constraint Associations...
 Applying constraints in
 "U:/Desktop/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ncf" to
 module "axi4lite_0"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Desktop/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper.n
+cf" to module "axi_interconnect_1"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Desktop/cpre488mp0/system/implementation/system_axi_vdma_0_wrapper.ncf" to
+module "axi_vdma_0"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Desktop/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ncf" to
+module "v_tc_0"...
 Checking Constraint Associations...
 Gathering constraint information from source properties...
 Done.
@@ -38,8 +60,52 @@ INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
    symbol will be ignored.
 
 Annotating constraints to design from ucf file "system.ucf" ...
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
 Resolving constraint associations...
 Checking Constraint Associations...
+WARNING:ConstraintSystem:135 - Constraint <INST
+   /system/EXPANDED/system/axi_interconnect_1/axi_interconnect_1\/si_converter_b
+   ank\/gen_conv_slot[0].clock_conv_inst\/interconnect_aresetn_resync<2>_inv1_IN
+   V_0 TNM = FFS:axi_interconnect_1_reset...>: No instances of type FFS were
+   found under block
+   "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clo
+   ck_conv_inst/interconnect_aresetn_resync<2>_inv1_INV_0" (type=INV).
+
 WARNING:ConstraintSystem:135 - Constraint <INST
    /system/EXPANDED/system/axi4lite_0/axi4lite_0\/si_converter_bank\/gen_conv_sl
    ot[0].clock_conv_inst\/interconnect_aresetn_resync<2>_inv1_INV_0 TNM =
@@ -62,6 +128,14 @@ WARNING:ConstraintSystem - A target design object for the Locate constraint
 WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi4lite_0_reset_source = FFS
    PADS CPUS;>: CPUS "*" does not match any design objects.
 
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   axi_interconnect_1_reset_source = FFS PADS CPUS;>: CPUS "*" does not match
+   any design objects.
+
+WARNING:ConstraintSystem:194 - The TNM 'axi_interconnect_1_reset_resync', does
+   not directly or indirectly drive any flip-flops, latches and/or RAMs and is
+   not actively used by any referencing constraint.
+
 WARNING:ConstraintSystem:194 - The TNM 'axi4lite_0_reset_resync', does not
    directly or indirectly drive any flip-flops, latches and/or RAMs and is not
    actively used by any referencing constraint.
@@ -74,6 +148,7 @@ WARNING::53 - File 'system.bmm' is empty or has no BMM content.
 
 
 Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N154' has no driver
 WARNING:NgdBuild:452 - logical net 'N155' has no driver
 WARNING:NgdBuild:452 - logical net 'N156' has no driver
 WARNING:NgdBuild:452 - logical net 'N157' has no driver
@@ -199,7 +274,6 @@ WARNING:NgdBuild:452 - logical net 'N276' has no driver
 WARNING:NgdBuild:452 - logical net 'N277' has no driver
 WARNING:NgdBuild:452 - logical net 'N278' has no driver
 WARNING:NgdBuild:452 - logical net 'N279' has no driver
-WARNING:NgdBuild:452 - logical net 'N280' has no driver
 
 Partition Implementation Status
 -------------------------------
@@ -210,12 +284,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings: 132
+  Number of warnings: 135
 
-Total memory usage is 253336 kilobytes
+Total memory usage is 323400 kilobytes
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  12 sec
-Total CPU time to NGDBUILD completion:   11 sec
+Total REAL time to NGDBUILD completion:  25 sec
+Total CPU time to NGDBUILD completion:   22 sec
 
 Writing NGDBUILD log file "system.bld"...

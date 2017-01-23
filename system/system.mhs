@@ -147,7 +147,7 @@ BEGIN processing_system7
  PARAMETER C_FCLK_CLK2_FREQ = 50000000
  PARAMETER C_FCLK_CLK3_FREQ = 50000000
  PARAMETER C_USE_S_AXI_HP0 = 1
- PARAMETER C_INTERCONNECT_S_AXI_HP0_MASTERS = axi_vdma_0.M_AXI_MM2S & axi_vdma_0.M_AXI_S2MM
+ PARAMETER C_INTERCONNECT_S_AXI_HP0_MASTERS = axi_vdma_0.M_AXI_MM2S
  BUS_INTERFACE M_AXI_GP0 = axi4lite_0
  BUS_INTERFACE S_AXI_HP0 = axi_interconnect_1
  PORT MIO = processing_system7_0_MIO
@@ -182,12 +182,15 @@ BEGIN axi_vdma
  PARAMETER HW_VER = 5.04.a
  PARAMETER C_BASEADDR = 0x43000000
  PARAMETER C_HIGHADDR = 0x4300ffff
+ PARAMETER C_INCLUDE_S2MM = 0
+ PARAMETER C_M_AXIS_MM2S_TDATA_WIDTH = 24
  BUS_INTERFACE S_AXI_LITE = axi4lite_0
  BUS_INTERFACE M_AXI_MM2S = axi_interconnect_1
- BUS_INTERFACE M_AXI_S2MM = axi_interconnect_1
+ BUS_INTERFACE M_AXIS_MM2S = axi_vdma_0_M_AXIS_MM2S
  PORT s_axi_lite_aclk = processing_system7_0_FCLK_CLK0
  PORT m_axi_mm2s_aclk = processing_system7_0_FCLK_CLK0
  PORT m_axi_s2mm_aclk = processing_system7_0_FCLK_CLK0
+ PORT m_axis_mm2s_aclk = processing_system7_0_FCLK_CLK0
 END
 
 BEGIN axi_interconnect
@@ -204,11 +207,15 @@ BEGIN v_tc
  PARAMETER C_BASEADDR = 0x76800000
  PARAMETER C_HIGHADDR = 0x7680ffff
  BUS_INTERFACE S_AXI = axi4lite_0
+ BUS_INTERFACE VTIMING_OUT = v_tc_0_VTIMING_OUT
  PORT s_axi_aclk = processing_system7_0_FCLK_CLK0
 END
 
 BEGIN v_axi4s_vid_out
  PARAMETER INSTANCE = v_axi4s_vid_out_0
  PARAMETER HW_VER = 2.01.a
+ BUS_INTERFACE S_AXIS_VIDEO = axi_vdma_0_M_AXIS_MM2S
+ BUS_INTERFACE VTIMING_IN = v_tc_0_VTIMING_OUT
+ PORT video_out_clk = processing_system7_0_FCLK_CLK0
 END
 

@@ -40,3 +40,19 @@
 18:13:52.188 INFO  - Processor reset is completed for ps7_cortexa9_0 
 18:15:16.499 INFO  - Processor reset is completed for ps7_cortexa9_0 
 18:44:31.775 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:51:53.191 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+12:51:55.529 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+12:51:56.219 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+12:51:56.810 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+12:51:57.420 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+12:51:57.670 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+12:51:57.820 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+12:51:58.080 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+12:51:58.250 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:52:00.660 INFO  - Updating hardware inferred compiler options for hello_world. 
+12:52:00.670 INFO  - Clearing existing target manager status. 
+12:52:02.923 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+13:20:11.698 INFO  - Project general_bsp was a BSP project. Please update references. 
+13:20:11.708 ERROR - SDK has detected that project general_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+13:38:24.441 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

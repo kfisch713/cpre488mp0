@@ -1,0 +1,736 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_v_axi4s_vid_out_0_wrapper_xst.prj"
+Verilog Include Directory          : {"U:\Desktop\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z020clg484-1
+Output File Name                   : "../implementation/system_v_axi4s_vid_out_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_v_axi4s_vid_out_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2.v" into library v_axi4s_vid_out_v2_01_a
+Parsing module <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_coupler.v" into library v_axi4s_vid_out_v2_01_a
+Parsing module <v_axi4s_vid_out_v2_01_a_out_coupler>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_vid_out_formatter.v" into library v_axi4s_vid_out_v2_01_a
+Parsing module <v_axi4s_vid_out_v2_01_a_vid_out_formatter>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_sync.v" into library v_axi4s_vid_out_v2_01_a
+Parsing module <v_axi4s_vid_out_v2_01_a_out_sync>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top.v" into library v_axi4s_vid_out_v2_01_a
+Parsing module <v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out.v" into library v_axi4s_vid_out_v2_01_a
+Parsing module <v_axi4s_vid_out>.
+Analyzing Verilog file "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_v_axi4s_vid_out_0_wrapper.v" into library work
+Parsing module <system_v_axi4s_vid_out_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_v_axi4s_vid_out_0_wrapper>.
+
+Elaborating module <v_axi4s_vid_out(C_S_AXIS_VIDEO_DATA_WIDTH=8,C_S_AXIS_VIDEO_FORMAT=2,VID_OUT_DATA_WIDTH=24,C_S_AXIS_VIDEO_TDATA_WIDTH=24,RAM_ADDR_BITS=10,HYSTERESIS_LEVEL=12,FILL_GUARDBAND=2,VTG_MASTER_SLAVE=0)>.
+
+Elaborating module <v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top(C_S_AXIS_VIDEO_DATA_WIDTH=8,C_S_AXIS_VIDEO_FORMAT=2,VID_OUT_DATA_WIDTH=24,C_S_AXIS_VIDEO_TDATA_WIDTH=24,RAM_ADDR_BITS=10,HYSTERESIS_LEVEL=12,FILL_GUARDBAND=2,VTG_MASTER_SLAVE=0)>.
+
+Elaborating module <v_axi4s_vid_out_v2_01_a_out_coupler(DATA_WIDTH=24,RAM_ADDR_BITS=10,FILL_GUARDBAND=2)>.
+
+Elaborating module <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2(RAM_WIDTH=26,RAM_ADDR_BITS=10)>.
+WARNING:HDLCompiler:413 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2.v" Line 206: Result of 13-bit expression is truncated to fit in 12-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2.v" Line 267: Result of 13-bit expression is truncated to fit in 12-bit target.
+
+Elaborating module <v_axi4s_vid_out_v2_01_a_out_sync(RAM_ADDR_BITS=10,HYSTERESIS_LEVEL=12,VTG_MASTER_SLAVE=0)>.
+WARNING:HDLCompiler:1127 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_sync.v" Line 173: Assignment to hysteresis_met ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_sync.v" Line 174: Assignment to half_full ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_sync.v" Line 223: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:1127 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_sync.v" Line 385: Assignment to initialize ignored, since the identifier is never used
+
+Elaborating module <v_axi4s_vid_out_v2_01_a_vid_out_formatter(DATA_WIDTH=24)>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_v_axi4s_vid_out_0_wrapper>.
+    Related source file is "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_v_axi4s_vid_out_0_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_v_axi4s_vid_out_0_wrapper> synthesized.
+
+Synthesizing Unit <v_axi4s_vid_out>.
+    Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out.v".
+        C_S_AXIS_VIDEO_DATA_WIDTH = 8
+        C_S_AXIS_VIDEO_FORMAT = 2
+        VID_OUT_DATA_WIDTH = 24
+        C_S_AXIS_VIDEO_TDATA_WIDTH = 24
+        RAM_ADDR_BITS = 10
+        HYSTERESIS_LEVEL = 12
+        FILL_GUARDBAND = 2
+        VTG_MASTER_SLAVE = 0
+    Summary:
+	no macro.
+Unit <v_axi4s_vid_out> synthesized.
+
+Synthesizing Unit <v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top>.
+    Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top.v".
+        C_S_AXIS_VIDEO_DATA_WIDTH = 8
+        C_S_AXIS_VIDEO_FORMAT = 2
+        VID_OUT_DATA_WIDTH = 24
+        C_S_AXIS_VIDEO_TDATA_WIDTH = 24
+        RAM_ADDR_BITS = 10
+        HYSTERESIS_LEVEL = 12
+        FILL_GUARDBAND = 2
+        VTG_MASTER_SLAVE = 0
+INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top.v" line 120: Output port <level_wr> of the instance <out_coupler_i> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <v_axi4s_vid_out_v2_01_a_axi4s_vid_out_top> synthesized.
+
+Synthesizing Unit <v_axi4s_vid_out_v2_01_a_out_coupler>.
+    Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_coupler.v".
+        DATA_WIDTH = 24
+        RAM_ADDR_BITS = 10
+        FILL_GUARDBAND = 2
+WARNING:Xst:647 - Input <locked> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <wr_en>.
+    Found 26-bit register for signal <fifo_wr_data>.
+    Found 1-bit register for signal <ready>.
+    Found 10-bit comparator lessequal for signal <n0007> created at line 150
+    Summary:
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <v_axi4s_vid_out_v2_01_a_out_coupler> synthesized.
+
+Synthesizing Unit <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2>.
+    Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2.v".
+        RAM_WIDTH = 26
+        RAM_ADDR_BITS = 10
+    Set property "ASYNC_REG = TRUE" for signal <rst_wr_1>.
+    Set property "ASYNC_REG = TRUE" for signal <rst_wr_2>.
+    Set property "ASYNC_REG = TRUE" for signal <rst_rd_1>.
+    Set property "ASYNC_REG = TRUE" for signal <rst_rd_2>.
+    Set property "ASYNC_REG = TRUE" for signal <req_wr_dom_1>.
+    Set property "ASYNC_REG = TRUE" for signal <req_wr_dom_2>.
+    Set property "ASYNC_REG = TRUE" for signal <req_wr_dom_3>.
+    Set property "ASYNC_REG = TRUE" for signal <ack_rd_dom_1>.
+    Set property "ASYNC_REG = TRUE" for signal <ack_rd_dom_2>.
+    Set property "ASYNC_REG = TRUE" for signal <ack_rd_dom_3>.
+    Set property "ASYNC_REG = TRUE" for signal <req_rd_dom_1>.
+    Set property "ASYNC_REG = TRUE" for signal <req_rd_dom_2>.
+    Set property "ASYNC_REG = TRUE" for signal <req_rd_dom_3>.
+    Set property "ASYNC_REG = TRUE" for signal <ack_wr_dom_1>.
+    Set property "ASYNC_REG = TRUE" for signal <ack_wr_dom_2>.
+    Set property "ASYNC_REG = TRUE" for signal <ack_wr_dom_3>.
+    Found 1024x26-bit dual-port RAM <Mram_fifo_ram> for signal <fifo_ram>.
+    Found 1-bit register for signal <rst_wr_2>.
+    Found 12-bit register for signal <wr_ptr>.
+    Found 12-bit register for signal <wr_ptr_sample>.
+    Found 12-bit register for signal <rd_ptr_wr_dom>.
+    Found 1-bit register for signal <req_wr_dom_1>.
+    Found 1-bit register for signal <req_wr_dom_2>.
+    Found 1-bit register for signal <req_wr_dom_3>.
+    Found 1-bit register for signal <ack_wr_dom_1>.
+    Found 1-bit register for signal <ack_wr_dom_2>.
+    Found 1-bit register for signal <ack_wr_dom_3>.
+    Found 10-bit register for signal <ptr_diff_wr_dom<9:0>>.
+    Found 1-bit register for signal <full>.
+    Found 1-bit register for signal <wr_error>.
+    Found 1-bit register for signal <rst_rd_1>.
+    Found 1-bit register for signal <rst_rd_2>.
+    Found 12-bit register for signal <rd_ptr>.
+    Found 12-bit register for signal <rd_ptr_sample>.
+    Found 12-bit register for signal <wr_ptr_rd_dom>.
+    Found 1-bit register for signal <req_rd_dom_1>.
+    Found 1-bit register for signal <req_rd_dom_2>.
+    Found 1-bit register for signal <req_rd_dom_3>.
+    Found 1-bit register for signal <ack_rd_dom_1>.
+    Found 1-bit register for signal <ack_rd_dom_2>.
+    Found 1-bit register for signal <ack_rd_dom_3>.
+    Found 10-bit register for signal <ptr_diff_rd_dom<9:0>>.
+    Found 1-bit register for signal <empty>.
+    Found 1-bit register for signal <rd_error>.
+    Found 26-bit register for signal <dout>.
+    Found 1-bit register for signal <ram_out_rd_error>.
+    Found 1-bit register for signal <rst_wr_1>.
+    Found 12-bit subtractor for signal <ptr_diff_wr_dom_comb> created at line 147.
+    Found 12-bit subtractor for signal <ptr_diff_rd_dom_comb> created at line 152.
+    Found 12-bit adder for signal <wr_ptr[11]_GND_5_o_add_11_OUT> created at line 206.
+    Found 12-bit adder for signal <rd_ptr[11]_GND_5_o_add_26_OUT> created at line 267.
+    Found 12-bit comparator lessequal for signal <_n0155> created at line 290
+INFO:Xst:2774 - HDL ADVISOR - ASYNC_REG property attached to signal rst_wr_1 may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal wr_to_rd_ack_GND_5_o_MUX_30_o may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal wr_to_rd_req_GND_5_o_MUX_67_o may hinder XST clustering optimizations.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred 139 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2> synthesized.
+
+Synthesizing Unit <v_axi4s_vid_out_v2_01_a_out_sync>.
+    Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_out_sync.v".
+        RAM_ADDR_BITS = 10
+        HYSTERESIS_LEVEL = 12
+        VTG_MASTER_SLAVE = 0
+WARNING:Xst:647 - Input <empty> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <wr_error> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <hsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <vsync_1>.
+    Found 1-bit register for signal <fifo_sof_1>.
+    Found 1-bit register for signal <fifo_sof_2>.
+    Found 1-bit register for signal <fifo_eol_1>.
+    Found 1-bit register for signal <fifo_eol_2>.
+    Found 1-bit register for signal <fifo_eol_2_rising>.
+    Found 1-bit register for signal <de_2>.
+    Found 1-bit register for signal <vsync_2>.
+    Found 1-bit register for signal <vtg_eol_2>.
+    Found 1-bit register for signal <vtg_sof_2>.
+    Found 1-bit register for signal <de_rising_1>.
+    Found 1-bit register for signal <vert_bp>.
+    Found 1-bit register for signal <read_en>.
+    Found 10-bit register for signal <hyster_count>.
+    Found 1-bit register for signal <read_ok>.
+    Found 1-bit register for signal <force_read>.
+    Found 1-bit register for signal <clock_en>.
+    Found 1-bit register for signal <fifo_rst>.
+    Found 1-bit register for signal <locked>.
+    Found 1-bit register for signal <count_reset>.
+    Found 5-bit register for signal <state>.
+    Found 1-bit register for signal <de_1>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 54                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 6                                              |
+    | Clock              | video_out_clk (rising_edge)                    |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit adder for signal <hyster_count[9]_GND_6_o_add_7_OUT> created at line 223.
+    Found 10-bit comparator greater for signal <n0009> created at line 172
+    Found 10-bit comparator greater for signal <GND_6_o_fifo_level[9]_LessThan_6_o> created at line 209
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   1 Finite State Machine(s).
+Unit <v_axi4s_vid_out_v2_01_a_out_sync> synthesized.
+
+Synthesizing Unit <v_axi4s_vid_out_v2_01_a_vid_out_formatter>.
+    Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/v_axi4s_vid_out_v2_01_a/hdl/verilog/v_axi4s_vid_out_v2_01_a_vid_out_formatter.v".
+        DATA_WIDTH = 24
+    Found 1-bit register for signal <vblank_rising>.
+    Found 1-bit register for signal <first_full_frame>.
+    Found 1-bit register for signal <in_de_mux>.
+    Found 1-bit register for signal <in_vsync_mux>.
+    Found 1-bit register for signal <in_hsync_mux>.
+    Found 1-bit register for signal <in_vblank_mux>.
+    Found 1-bit register for signal <in_hblank_mux>.
+    Found 24-bit register for signal <in_data_mux>.
+    Found 1-bit register for signal <odf_vblank_1>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <v_axi4s_vid_out_v2_01_a_vid_out_formatter> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 1024x26-bit dual-port RAM                             : 1
+# Adders/Subtractors                                   : 5
+ 10-bit adder                                          : 1
+ 12-bit adder                                          : 2
+ 12-bit subtractor                                     : 2
+# Registers                                            : 63
+ 1-bit register                                        : 51
+ 10-bit register                                       : 3
+ 12-bit register                                       : 6
+ 24-bit register                                       : 1
+ 26-bit register                                       : 2
+# Comparators                                          : 4
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 1
+ 12-bit comparator lessequal                           : 1
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2>.
+The following registers are absorbed into counter <wr_ptr>: 1 register on signal <wr_ptr>.
+The following registers are absorbed into counter <rd_ptr>: 1 register on signal <rd_ptr>.
+INFO:Xst:3226 - The RAM <Mram_fifo_ram> will be implemented as a BLOCK RAM, absorbing the following register(s): <dout>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1024-word x 26-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <wr_clk>        | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <wr_ptr<9:0>>   |          |
+    |     diA            | connected to signal <din>           |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 1024-word x 26-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <rd_clk>        | rise     |
+    |     enB            | connected to signal <rd_en_0>       | high     |
+    |     addrB          | connected to signal <rd_ptr<9:0>>   |          |
+    |     doB            | connected to signal <dout>          |          |
+    |     dorstB         | connected to signal <rst_rd_2>      | high     |
+    | reset value        | 00000000000000000000000000                     |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <v_axi4s_vid_out_v2_01_a_out_sync>.
+The following registers are absorbed into counter <hyster_count>: 1 register on signal <hyster_count>.
+Unit <v_axi4s_vid_out_v2_01_a_out_sync> synthesized (advanced).
+WARNING:Xst:2677 - Node <rd_ptr_sample_11> of sequential type is unconnected in block <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2>.
+WARNING:Xst:2677 - Node <rd_ptr_wr_dom_11> of sequential type is unconnected in block <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 1024x26-bit dual-port block RAM                       : 1
+# Adders/Subtractors                                   : 2
+ 11-bit subtractor                                     : 1
+ 12-bit subtractor                                     : 1
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 12-bit up counter                                     : 2
+# Registers                                            : 167
+ Flip-Flops                                            : 167
+# Comparators                                          : 4
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 1
+ 12-bit comparator lessequal                           : 1
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/FSM_0> on signal <state[1:4]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00000 | 0000
+ 00001 | 0001
+ 00010 | 0011
+ 00011 | 0010
+ 01001 | 0110
+ 00100 | 0111
+ 01000 | 0101
+ 00101 | 0100
+ 00110 | 1100
+ 01010 | 1101
+-------------------
+
+Optimizing unit <system_v_axi4s_vid_out_0_wrapper> ...
+
+Optimizing unit <v_axi4s_vid_out_v2_01_a_out_coupler> ...
+
+Optimizing unit <v_axi4s_vid_out_v2_01_a_bridge_async_fifo_2> ...
+
+Optimizing unit <v_axi4s_vid_out_v2_01_a_out_sync> ...
+
+Optimizing unit <v_axi4s_vid_out_v2_01_a_vid_out_formatter> ...
+WARNING:Xst:2677 - Node <v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/empty> of sequential type is unconnected in block <system_v_axi4s_vid_out_0_wrapper>.
+WARNING:Xst:2677 - Node <v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_1> of sequential type is unconnected in block <system_v_axi4s_vid_out_0_wrapper>.
+WARNING:Xst:2677 - Node <v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_0> of sequential type is unconnected in block <system_v_axi4s_vid_out_0_wrapper>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_v_axi4s_vid_out_0_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <system_v_axi4s_vid_out_0_wrapper> :
+	Found 2-bit shift register for signal <v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_sof_2>.
+Unit <system_v_axi4s_vid_out_0_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 200
+ Flip-Flops                                            : 200
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_v_axi4s_vid_out_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 270
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 31
+#      LUT2                        : 48
+#      LUT3                        : 22
+#      LUT4                        : 16
+#      LUT5                        : 13
+#      LUT6                        : 25
+#      MUXCY                       : 52
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 56
+# FlipFlops/Latches                : 201
+#      FD                          : 37
+#      FDE                         : 3
+#      FDR                         : 41
+#      FDRE                        : 119
+#      FDSE                        : 1
+# RAMS                             : 1
+#      RAMB36E1                    : 1
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             201  out of  106400     0%  
+ Number of Slice LUTs:                  160  out of  53200     0%  
+    Number used as Logic:               159  out of  53200     0%  
+    Number used as Memory:                1  out of  17400     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    267
+   Number with an unused Flip Flop:      66  out of    267    24%  
+   Number with an unused LUT:           107  out of    267    40%  
+   Number of fully used LUT-FF pairs:    94  out of    267    35%  
+   Number of unique control sets:        16
+
+IO Utilization: 
+ Number of IOs:                          72
+ Number of bonded IOBs:                   0  out of    200     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    140     0%  
+    Number using Block RAM only:          1
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                    | Load  |
+-----------------------------------+------------------------------------------------------------------------------------------+-------+
+aclk                               | NONE(v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_25)                | 84    |
+video_out_clk                      | NONE(v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_11)| 120   |
+-----------------------------------+------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.811ns (Maximum Frequency: 355.745MHz)
+   Minimum input arrival time before clock: 1.119ns
+   Maximum output required time after clock: 0.282ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'aclk'
+  Clock period: 2.717ns (frequency: 368.053MHz)
+  Total number of paths / destination ports: 862 / 152
+-------------------------------------------------------------------------
+Delay:               2.717ns (Levels of Logic = 13)
+  Source:            v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_0 (FF)
+  Destination:       v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_0 (FF)
+  Source Clock:      aclk rising
+  Destination Clock: aclk rising
+
+  Data Path: v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_0 to v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.282   0.485  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_0 (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_0)
+     LUT2:I0->O            1   0.053   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_lut<0> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_lut<0>)
+     MUXCY:S->O            1   0.291   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<0> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<1> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<2> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<3> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<4> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<5> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<6> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<7> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<7>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<8> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<8>)
+     MUXCY:CI->O           0   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<9> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_cy<9>)
+     XORCY:CI->O           3   0.320   0.413  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_wr_dom_comb_Madd_xor<10> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_comb<10>)
+     INV:I->O             12   0.067   0.471  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/_n0175_inv1_cepot_INV_0 (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/_n0175_inv1_cepot)
+     FDRE:CE                   0.200          v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_1
+    ----------------------------------------
+    Total                      2.717ns (1.348ns logic, 1.369ns route)
+                                       (49.6% logic, 50.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'video_out_clk'
+  Clock period: 2.811ns (frequency: 355.745MHz)
+  Total number of paths / destination ports: 3972 / 220
+-------------------------------------------------------------------------
+Delay:               2.811ns (Levels of Logic = 11)
+  Source:            v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_0 (FF)
+  Destination:       v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_11 (FF)
+  Source Clock:      video_out_clk rising
+  Destination Clock: video_out_clk rising
+
+  Data Path: v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_0 to v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.282   0.485  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_0 (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_0)
+     LUT2:I0->O            1   0.053   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_lut<0> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_lut<0>)
+     MUXCY:S->O            1   0.291   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<0> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<1> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<2> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<3> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<4> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<5> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<6> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_cy<6>)
+     XORCY:CI->O          13   0.320   0.682  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Msub_ptr_diff_rd_dom_comb_xor<7> (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_comb<7>)
+     LUT3:I0->O            2   0.053   0.491  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_10_dpot_SW0 (N42)
+     LUT6:I4->O            1   0.053   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_10_dpot (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_10_dpot)
+     FDRE:D                    0.011          v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_10
+    ----------------------------------------
+    Total                      2.811ns (1.153ns logic, 1.658ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'aclk'
+  Total number of paths / destination ports: 97 / 94
+-------------------------------------------------------------------------
+Offset:              0.877ns (Levels of Logic = 2)
+  Source:            aclken (PAD)
+  Destination:       v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_0 (FF)
+  Destination Clock: aclk rising
+
+  Data Path: aclken to v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I0->O           12   0.053   0.674  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/_n0175_inv1_rstpot (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/_n0175_inv1_rstpot)
+     LUT3:I0->O            1   0.053   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_1_dpot (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_1_dpot)
+     FDRE:D                    0.011          v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_1
+    ----------------------------------------
+    Total                      0.877ns (0.203ns logic, 0.674ns route)
+                                       (23.1% logic, 76.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'video_out_clk'
+  Total number of paths / destination ports: 29 / 23
+-------------------------------------------------------------------------
+Offset:              1.119ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/force_read (FF)
+  Destination Clock: video_out_clk rising
+
+  Data Path: rst to v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/force_read
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT6:I0->O            5   0.053   0.662  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd2-In3 (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd2-In)
+     LUT4:I0->O            1   0.053   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state__n0187<1>1 (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/next_state[4]_GND_6_o_Mux_44_o)
+     FD:D                      0.011          v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/force_read
+    ----------------------------------------
+    Total                      1.119ns (0.457ns logic, 0.662ns route)
+                                       (40.8% logic, 59.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'video_out_clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.282ns (Levels of Logic = 0)
+  Source:            v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_23 (FF)
+  Destination:       video_data<23> (PAD)
+  Source Clock:      video_out_clk rising
+
+  Data Path: v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_23 to video_data<23>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             0   0.282   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_23 (v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_23)
+    ----------------------------------------
+    Total                      0.282ns (0.282ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'aclk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              0.282ns (Levels of Logic = 0)
+  Source:            v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/ready (FF)
+  Destination:       s_axis_video_tready (PAD)
+  Source Clock:      aclk rising
+
+  Data Path: v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/ready to s_axis_video_tready
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.282   0.000  v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/ready (v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/ready)
+    ----------------------------------------
+    Total                      0.282ns (0.282ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock aclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aclk           |    2.717|         |         |         |
+video_out_clk  |    0.773|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock video_out_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aclk           |    0.765|         |         |         |
+video_out_clk  |    2.811|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.69 secs
+ 
+--> 
+
+Total memory usage is 498248 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+
