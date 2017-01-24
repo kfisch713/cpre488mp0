@@ -60,6 +60,14 @@ INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
    overriding PARAMETER C_BASEFAMILY value to zynq -
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
    06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: v_axi4s_vid_out, INSTANCE:v_axi4s_vid_out_0 - tcl is
+   overriding PARAMETER VID_OUT_DATA_WIDTH value to 12 -
+   C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\v_axi4s_vid_out_v2_0
+   1_a\data\v_axi4s_vid_out_v2_1_0.mpd line 79 
+INFO:EDK:4130 - IPNAME: v_axi4s_vid_out, INSTANCE:v_axi4s_vid_out_0 - tcl is
+   overriding PARAMETER C_S_AXIS_VIDEO_TDATA_WIDTH value to 16 -
+   C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\v_axi4s_vid_out_v2_0
+   1_a\data\v_axi4s_vid_out_v2_1_0.mpd line 80 
 
 Computing clock values...
 INFO:EDK:1432 - Frequency for Top-Level Input Clock
@@ -112,7 +120,7 @@ WARNING:EDK:4181 - PORT: active_chroma_out, CONNECTOR:
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\v_tc_v5_01_a\data\v_
    tc_v2_1_0.mpd line 205 
 WARNING:EDK:4181 - PORT: fsync_out, CONNECTOR: v_tc_0_fsync_out_0 - floating
-   connection - U:\Desktop\cpre488mp0\system\system.mhs line 224 
+   connection - U:\Desktop\cpre488mp0\system\system.mhs line 231 
 
 Performing Clock DRCs...
 
@@ -171,18 +179,13 @@ INFO: Generating core-level timing constraints for interconnect asynchronous
 clock conversions in v_tc_0.
 INFO: Generating core-level timing constraints for video asynchronous clock
 conversions in v_tc_0.
-WARNING:EDK -  ****************************************************************
-WARNING:EDK -  Cannot determine frequency of clk or aclk for v_tc_0; generating 
-WARNING:EDK -  2 NS DATAPATHONLY constraint for asynchronous clock-converter 
-WARNING:EDK -  data pathways.
-
 
 Modify defaults ...
 
 Creating stub ...
 
 Processing licensed instances ...
-IPNAME:v_tc INSTANCE:v_tc_0 - U:\Desktop\cpre488mp0\system\system.mhs line 207 -
+IPNAME:v_tc INSTANCE:v_tc_0 - U:\Desktop\cpre488mp0\system\system.mhs line 208 -
 processing license
 Completion time: 4.00 seconds
 
@@ -191,13 +194,28 @@ Creating hardware output directories ...
 Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
+IPNAME:axi_interconnect INSTANCE:axi4lite_0 -
+U:\Desktop\cpre488mp0\system\system.mhs line 43 - Copying cache implementation
+netlist
+IPNAME:axi_gpio INSTANCE:sws_8bits - U:\Desktop\cpre488mp0\system\system.mhs
+line 51 - Copying cache implementation netlist
+IPNAME:axi_gpio INSTANCE:leds_8bits - U:\Desktop\cpre488mp0\system\system.mhs
+line 65 - Copying cache implementation netlist
+IPNAME:axi_gpio INSTANCE:btns_5bits - U:\Desktop\cpre488mp0\system\system.mhs
+line 79 - Copying cache implementation netlist
+IPNAME:processing_system7 INSTANCE:processing_system7_0 -
+U:\Desktop\cpre488mp0\system\system.mhs line 93 - Copying cache implementation
+netlist
+IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
+U:\Desktop\cpre488mp0\system\system.mhs line 200 - Copying cache implementation
+netlist
 
 Elaborating instances ...
 
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Constructing platform-level connectivity ...
 Completion time: 0.00 seconds
@@ -213,36 +231,20 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:axi4lite_0 - U:\Desktop\cpre488mp0\system\system.mhs line 43 - Running
-XST synthesis
-INSTANCE:sws_8bits - U:\Desktop\cpre488mp0\system\system.mhs line 51 - Running
-XST synthesis
-INSTANCE:leds_8bits - U:\Desktop\cpre488mp0\system\system.mhs line 65 - Running
-XST synthesis
-INSTANCE:btns_5bits - U:\Desktop\cpre488mp0\system\system.mhs line 79 - Running
-XST synthesis
-INSTANCE:processing_system7_0 - U:\Desktop\cpre488mp0\system\system.mhs line 93
-- Running XST synthesis
 INSTANCE:axi_vdma_0 - U:\Desktop\cpre488mp0\system\system.mhs line 183 - Running
 XST synthesis
-INSTANCE:axi_interconnect_1 - U:\Desktop\cpre488mp0\system\system.mhs line 199 -
-Running XST synthesis
-INSTANCE:v_tc_0 - U:\Desktop\cpre488mp0\system\system.mhs line 207 - Running XST
+INSTANCE:v_tc_0 - U:\Desktop\cpre488mp0\system\system.mhs line 208 - Running XST
 synthesis
-INSTANCE:v_axi4s_vid_out_0 - U:\Desktop\cpre488mp0\system\system.mhs line 227 -
+INSTANCE:v_axi4s_vid_out_0 - U:\Desktop\cpre488mp0\system\system.mhs line 235 -
 Running XST synthesis
 
 Running NGCBUILD ...
-IPNAME:system_axi4lite_0_wrapper INSTANCE:axi4lite_0 -
-U:\Desktop\cpre488mp0\system\system.mhs line 43 - Running NGCBUILD
 IPNAME:system_axi_vdma_0_wrapper INSTANCE:axi_vdma_0 -
 U:\Desktop\cpre488mp0\system\system.mhs line 183 - Running NGCBUILD
-IPNAME:system_axi_interconnect_1_wrapper INSTANCE:axi_interconnect_1 -
-U:\Desktop\cpre488mp0\system\system.mhs line 199 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 610.00 seconds
+Total run time: 310.00 seconds

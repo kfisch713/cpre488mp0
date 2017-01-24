@@ -1073,8 +1073,8 @@ architecture STRUCTURE of system is
       m_axi_mm2s_rvalid : in std_logic;
       m_axi_mm2s_rready : out std_logic;
       mm2s_prmry_reset_out_n : out std_logic;
-      m_axis_mm2s_tdata : out std_logic_vector(23 downto 0);
-      m_axis_mm2s_tkeep : out std_logic_vector(2 downto 0);
+      m_axis_mm2s_tdata : out std_logic_vector(15 downto 0);
+      m_axis_mm2s_tkeep : out std_logic_vector(1 downto 0);
       m_axis_mm2s_tvalid : out std_logic;
       m_axis_mm2s_tready : in std_logic;
       m_axis_mm2s_tlast : out std_logic;
@@ -1383,7 +1383,7 @@ architecture STRUCTURE of system is
       rst : in std_logic;
       aresetn : in std_logic;
       aclken : in std_logic;
-      s_axis_video_tdata : in std_logic_vector(23 downto 0);
+      s_axis_video_tdata : in std_logic_vector(15 downto 0);
       s_axis_video_tvalid : in std_logic;
       s_axis_video_tready : out std_logic;
       s_axis_video_tuser : in std_logic;
@@ -1394,7 +1394,7 @@ architecture STRUCTURE of system is
       video_hsync : out std_logic;
       video_vblank : out std_logic;
       video_hblank : out std_logic;
-      video_data : out std_logic_vector(23 downto 0);
+      video_data : out std_logic_vector(11 downto 0);
       vtg_vsync : in std_logic;
       vtg_hsync : in std_logic;
       vtg_vblank : in std_logic;
@@ -1532,7 +1532,7 @@ architecture STRUCTURE of system is
   signal axi_interconnect_1_S_RREADY : std_logic_vector(0 to 0);
   signal axi_interconnect_1_S_RRESP : std_logic_vector(1 downto 0);
   signal axi_interconnect_1_S_RVALID : std_logic_vector(0 to 0);
-  signal axi_vdma_0_M_AXIS_MM2S_TDATA : std_logic_vector(23 downto 0);
+  signal axi_vdma_0_M_AXIS_MM2S_TDATA : std_logic_vector(15 downto 0);
   signal axi_vdma_0_M_AXIS_MM2S_TLAST : std_logic;
   signal axi_vdma_0_M_AXIS_MM2S_TREADY : std_logic;
   signal axi_vdma_0_M_AXIS_MM2S_TUSER : std_logic_vector(0 to 0);
@@ -2907,7 +2907,7 @@ begin
       s_axi_rready => axi4lite_0_M_RREADY(4),
       irq => open,
       intc_if => open,
-      clk => net_gnd0,
+      clk => pgassign1(4),
       resetn => net_vcc0,
       clken => net_vcc0,
       det_clken => net_vcc0,
@@ -2930,7 +2930,7 @@ begin
 
   v_axi4s_vid_out_0 : system_v_axi4s_vid_out_0_wrapper
     port map (
-      aclk => net_gnd0,
+      aclk => pgassign1(4),
       rst => net_gnd0,
       aresetn => net_vcc0,
       aclken => net_vcc0,

@@ -36,7 +36,7 @@ module system_v_axi4s_vid_out_0_wrapper
   input rst;
   input aresetn;
   input aclken;
-  input [23:0] s_axis_video_tdata;
+  input [15:0] s_axis_video_tdata;
   input s_axis_video_tvalid;
   output s_axis_video_tready;
   input s_axis_video_tuser;
@@ -47,7 +47,7 @@ module system_v_axi4s_vid_out_0_wrapper
   output video_hsync;
   output video_vblank;
   output video_hblank;
-  output [23:0] video_data;
+  output [11:0] video_data;
   input vtg_vsync;
   input vtg_hsync;
   input vtg_vblank;
@@ -61,14 +61,14 @@ module system_v_axi4s_vid_out_0_wrapper
 
   v_axi4s_vid_out
     #(
-      .C_S_AXIS_VIDEO_DATA_WIDTH ( 8 ),
-      .C_S_AXIS_VIDEO_FORMAT ( 2 ),
-      .VID_OUT_DATA_WIDTH ( 24 ),
-      .C_S_AXIS_VIDEO_TDATA_WIDTH ( 24 ),
+      .C_S_AXIS_VIDEO_DATA_WIDTH ( 12 ),
+      .C_S_AXIS_VIDEO_FORMAT ( 13 ),
+      .VID_OUT_DATA_WIDTH ( 12 ),
+      .C_S_AXIS_VIDEO_TDATA_WIDTH ( 16 ),
       .RAM_ADDR_BITS ( 10 ),
       .HYSTERESIS_LEVEL ( 12 ),
       .FILL_GUARDBAND ( 2 ),
-      .VTG_MASTER_SLAVE ( 0 )
+      .VTG_MASTER_SLAVE ( 1 )
     )
     v_axi4s_vid_out_0 (
       .aclk ( aclk ),

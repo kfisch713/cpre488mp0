@@ -3,8 +3,8 @@
 	<name>vga_test</name>
 	<comment></comment>
 	<projects>
+		<project>system_bsp2</project>
 		<project>system_bsp</project>
-		<project>general_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

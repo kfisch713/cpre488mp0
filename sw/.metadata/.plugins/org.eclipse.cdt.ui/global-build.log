@@ -1,540 +1,11 @@
-13:37:10 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:19:22: fatal error: platform.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:37:42 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:39:6: error: conflicting types for 'print'
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:47:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:49:5: warning: passing argument 1 of 'XGpioPs_ReadPin' from incompatible pointer type [enabled by default]
-In file included from ../src/helloworld.c:37:0:
-../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:210:5: note: expected 'struct XGpioPs *' but argument is of type 'volatile char *'
-../src/helloworld.c:54:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:54:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:56:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-../src/helloworld.c:49:9: warning: unused variable 'value' [-Wunused-variable]
-make: *** [src/helloworld.o] Error 1
-18:41:51 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:39:6: error: conflicting types for 'print'
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:58:33: error: 'BTNs' undeclared (first use in this function)
-../src/helloworld.c:58:33: note: each undeclared identifier is reported only once for each function it appears in
-../src/helloworld.c:64:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:66:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-../src/helloworld.c:58:9: warning: unused variable 'value' [-Wunused-variable]
-make: *** [src/helloworld.o] Error 1
-18:42:09 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:39:6: error: conflicting types for 'print'
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:64:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:66:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-../src/helloworld.c:58:9: warning: unused variable 'value' [-Wunused-variable]
-make: *** [src/helloworld.o] Error 1
-18:44:10 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:39:6: error: conflicting types for 'print'
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:62:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:62:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xil_printf.h:9:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xil_io.h:74,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops_hw.h:72,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xgpiops.h:114,
-                 from ../src/helloworld.c:37:
-c:\xilinx\14.7\ise_ds\edk\gnu\arm\nt\bin\../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/include/string.h:24:8: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-make: *** [src/helloworld.o] Error 1
-18:44:26 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:62:6: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
-../src/helloworld.c:62:6: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
-../src/helloworld.c:62:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:62:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-'Finished building: ../src/helloworld.c'
+14:39:46 **** Clean-only build of configuration Debug for project vga_test ****
+make clean 
+rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
 ' '
-'Building target: hello_world.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: hello_world.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  62520	   2264	  29852	  94636	  171ac	hello_world.elf
-'Finished building: hello_world.elf.size'
-' '
-18:44:28 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-12:51:57 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-12:51:57 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-12:51:57 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-12:51:58 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-12:51:59 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-12:52:02 **** Clean-only build of project system_bsp ****
+14:39:46 **** Clean-only build of project system_bsp ****
 make -k clean 
 rm -rf ps7_cortexa9_0
-12:52:14 **** Clean-only build of configuration Debug for project hello_world ****
-make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  hello_world.elf.size  hello_world.elf
-' '
-12:52:15 **** Build of project system_bsp ****
-make -k all 
-libgen -hw ../system_hw_platform/system.xml\
-	       \
-	       -pe ps7_cortexa9_0 \
-	       -log libgen.log \
-	       system.mss
-libgen
-Xilinx EDK 14.7 Build EDK_P.20131013
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
-
-Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
--log libgen.log system.mss 
-
-
-Staging source files.
-Running DRCs.
-Running generate.
-Running post_generate.
-Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-
-Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-"Compiling common"
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
-"Compiling standalone"
-"Compiling gpio"
-"Compiling devcfg"
-"Compiling dmaps"
-"Compiling emacps"
-"Compiling gpiops"
-"Compiling qspips"
-"Compiling scugic"
-"Compiling scutimer"
-"Compiling scuwdt"
-"Compiling ttcps"
-"Compiling uartps"
-"Compiling usbps"
-"Compiling xadcps"
-"Compiling cpu_cortexa9"
-Running execs_generate.
-'Finished building libraries'
-12:53:22 **** Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:62:6: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
-../src/helloworld.c:62:6: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
-../src/helloworld.c:62:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:62:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: hello_world.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: hello_world.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  62520	   2264	  29852	  94636	  171ac	hello_world.elf
-'Finished building: hello_world.elf.size'
-' '
-12:53:24 **** Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-12:56:50 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:00:38 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:02:19 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:02:29 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:02:41 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:05:16 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-13:05:30 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:05:39 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-13:12:58 **** Build of project general_bsp ****
-make -k all 
-libgen -hw ../system_hw_platform/system.xml\
-	       \
-	       -pe ps7_cortexa9_0 \
-	       -log libgen.log \
-	       system.mss
-libgen
-Xilinx EDK 14.7 Build EDK_P.20131013
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
-
-Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
--log libgen.log system.mss 
-
-
-Staging source files.
-Running DRCs.
-Running generate.
-Running post_generate.
-Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-
-Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-"Compiling common"
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
-"Compiling standalone"
-"Compiling gpio"
-"Compiling devcfg"
-"Compiling dmaps"
-"Compiling emacps"
-"Compiling gpiops"
-"Compiling qspips"
-"Compiling scugic"
-"Compiling scutimer"
-"Compiling scuwdt"
-"Compiling ttcps"
-"Compiling uartps"
-"Compiling usbps"
-"Compiling xadcps"
-"Compiling cpu_cortexa9"
-Running execs_generate.
-'Finished building libraries'
-13:14:41 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-13:14:41 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../general_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:15:26 **** Build of project standalone_bsp_0 ****
-make -k all 
-libgen -hw ../system_hw_platform/system.xml\
-	       \
-	       -pe ps7_cortexa9_1 \
-	       -log libgen.log \
-	       system.mss
-libgen
-Xilinx EDK 14.7 Build EDK_P.20131013
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
-
-Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_1
--log libgen.log system.mss 
-
-
-Staging source files.
-Running DRCs.
-Running generate.
-Running post_generate.
-Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-
-Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-"Compiling common"
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
-"Compiling standalone"
-"Compiling gpio"
-"Compiling devcfg"
-"Compiling dmaps"
-"Compiling emacps"
-"Compiling gpiops"
-"Compiling qspips"
-"Compiling scugic"
-"Compiling scutimer"
-"Compiling scuwdt"
-"Compiling ttcps"
-"Compiling uartps"
-"Compiling usbps"
-"Compiling xadcps"
-"Compiling cpu_cortexa9"
-Running execs_generate.
-'Finished building libraries'
-13:20:22 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../general_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:19:25: fatal error: xparameters.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-13:20:33 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-13:20:33 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-20:30:06 **** Clean-only build of project system_bsp ****
-make -k clean 
-rm -rf ps7_cortexa9_0
-20:30:16 **** Build of project system_bsp ****
-make -k all 
-libgen -hw ../system_hw_platform/system.xml\
-	       \
-	       -pe ps7_cortexa9_0 \
-	       -log libgen.log \
-	       system.mss
-libgen
-Xilinx EDK 14.7 Build EDK_P.20131013
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
-
-Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
--log libgen.log system.mss 
-
-
-Staging source files.
-Running DRCs.
-Running generate.
-Running post_generate.
-Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-
-Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-"Compiling common"
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
-"Compiling standalone"
-"Compiling gpio"
-"Compiling devcfg"
-"Compiling dmaps"
-"Compiling emacps"
-"Compiling gpiops"
-"Compiling qspips"
-"Compiling scugic"
-"Compiling scutimer"
-"Compiling scuwdt"
-"Compiling ttcps"
-"Compiling uartps"
-"Compiling usbps"
-"Compiling xadcps"
-"Compiling video timing controller"
-"Compiling cpu_cortexa9"
-Running execs_generate.
-'Finished building libraries'
-20:31:24 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  62520	   2264	  29852	  94636	  171ac	hello_world.elf
-'Finished building: hello_world.elf.size'
-' '
-20:31:25 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-20:31:25 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:21:22: fatal error: xaxivdma.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-20:31:27 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-20:31:27 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:21:22: fatal error: xaxivdma.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
-20:33:08 **** Clean-only build of project system_bsp ****
-make -k clean 
-rm -rf ps7_cortexa9_0
-20:33:17 **** Build of project system_bsp ****
+14:39:58 **** Build of project system_bsp ****
 make -k all 
 libgen -hw ../system_hw_platform/system.xml\
 	       \
@@ -581,327 +52,10 @@ arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 "Compiling cpu_cortexa9"
 Running execs_generate.
 'Finished building libraries'
-20:34:24 **** Auto Build of configuration Debug for project hello_world ****
+14:41:22 **** Auto Build of configuration Debug for project hello_world ****
 make all 
 make: Nothing to be done for `all'.
-20:34:24 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30548	   1104	 644196	 675848	  a5008	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-20:35:34 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-20:35:35 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-20:37:19 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-20:37:19 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-20:38:13 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-20:38:14 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-21:04:55 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-21:04:56 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-21:06:45 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xvtc.h:238,
-                 from ../src/vga_test.c:20:
-../../system_bsp/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:07:18 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-21:07:19 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-21:08:55 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xvtc.h:238,
-                 from ../src/vga_test.c:20:
-../../system_bsp/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:11:29 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-21:12:11 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-21:12:12 **** Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xvtc.h:238,
-                 from ../src/vga_test.c:20:
-../../system_bsp/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:13:25 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-21:13:26 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-21:13:54 **** Incremental Build of configuration Debug for project hello_world ****
-make all 
-make: Nothing to be done for `all'.
-21:13:55 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-make: Nothing to be done for `all'.
-21:15:42 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
-In file included from ../../system_bsp/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
-                 from ../../system_bsp/ps7_cortexa9_0/include/xvtc.h:238,
-                 from ../src/vga_test.c:20:
-../../system_bsp/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:16:14 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:19:46 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-21:19:46 **** Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:21:04 **** Clean-only build of project system_bsp ****
-make -k clean 
-rm -rf ps7_cortexa9_0
-21:21:14 **** Build of project system_bsp ****
-make -k all 
-libgen -hw ../system_hw_platform/system.xml\
-	       \
-	       -pe ps7_cortexa9_0 \
-	       -log libgen.log \
-	       system.mss
-libgen
-Xilinx EDK 14.7 Build EDK_P.20131013
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
-
-Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
--log libgen.log system.mss 
-
-
-Staging source files.
-Running DRCs.
-Running DRC for XilIsf library... 
-
-
-
-MFS DRC ...
-
-Running generate.
-MFS generate ...
-
-Running post_generate.
-WARN: Improper Flash Interface from BSP Settings!!!! Defaulting on 'ps7_qspi'
-interface
-
-Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-
-Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
-"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
-"EXTRA_COMPILER_FLAGS=-g"'.
-"Compiling common"
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
-"Compiling standalone"
-"Compiling XilIsf Library"
-"Creating archive libxilisf.a"
-"Compiling axivdma"
-"Compiling gpio"
-"Compiling devcfg"
-"Compiling dmaps"
-"Compiling emacps"
-"Compiling gpiops"
-"Compiling qspips"
-"Compiling scugic"
-"Compiling scutimer"
-"Compiling scuwdt"
-"Compiling ttcps"
-"Compiling uartps"
-"Compiling usbps"
-"Compiling xadcps"
-"Compiling video timing controller"
-"Compiling cpu_cortexa9"
-Running execs_generate.
-'Finished building libraries'
-21:22:27 **** Clean-only build of configuration Debug for project hello_world ****
-make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  hello_world.elf.size  hello_world.elf
-' '
-21:22:28 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:62:6: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
-../src/helloworld.c:62:6: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
-../src/helloworld.c:62:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:62:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: hello_world.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
-'Finished building target: hello_world.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  62520	   2264	  29852	  94636	  171ac	hello_world.elf
-'Finished building: hello_world.elf.size'
-' '
-21:22:29 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-21:22:29 **** Auto Build of configuration Debug for project vga_test ****
+14:41:23 **** Build of configuration Debug for project vga_test ****
 make all 
 'Building file: ../src/vga_test.c'
 'Invoking: ARM gcc compiler'
@@ -913,18 +67,49 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_c
 'Building target: vga_test.elf'
 'Invoking: ARM gcc linker'
 arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
-'Finished building target: vga_test.elf'
+c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
+collect2.exe: error: ld returned 1 exit status
+make: *** [vga_test.elf] Error 1
+14:41:38 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
+collect2.exe: error: ld returned 1 exit status
+make: *** [vga_test.elf] Error 1
+14:43:49 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+14:43:50 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
+collect2.exe: error: ld returned 1 exit status
+make: *** [vga_test.elf] Error 1
+14:46:31 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+'Building file: ../src/vga_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+../src/vga_test.c: In function 'main':
+../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
+In file included from ../../system_bsp/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
+                 from ../../system_bsp/ps7_cortexa9_0/include/xvtc.h:238,
+                 from ../src/vga_test.c:20:
+../../system_bsp/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
+'Finished building: ../src/vga_test.c'
 ' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  30556	   1104	 644196	 675856	  a5010	vga_test.elf
-'Finished building: vga_test.elf.size'
-' '
-21:24:07 **** Clean-only build of project system_bsp ****
-make -k clean 
-rm -rf ps7_cortexa9_0
-21:24:17 **** Build of project system_bsp ****
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
+collect2.exe: error: ld returned 1 exit status
+make: *** [vga_test.elf] Error 1
+14:49:46 **** Build of project system_bsp2 ****
 make -k all 
 libgen -hw ../system_hw_platform/system.xml\
 	       \
@@ -971,59 +156,27 @@ arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 "Compiling cpu_cortexa9"
 Running execs_generate.
 'Finished building libraries'
-21:25:27 **** Clean-only build of configuration Debug for project hello_world ****
-make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  hello_world.elf.size  hello_world.elf
-' '
-21:25:27 **** Auto Build of configuration Debug for project hello_world ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:45:27: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:46:26: warning: initialization makes pointer from integer without a cast [enabled by default]
-../src/helloworld.c:62:6: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
-../src/helloworld.c:62:6: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
-../src/helloworld.c:62:6: warning: passing argument 1 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'void *' but argument is of type 'volatile char *'
-../src/helloworld.c:62:6: warning: passing argument 2 of 'memcpy' discards 'volatile' qualifier from pointer target type [enabled by default]
-../src/helloworld.c:62:6: note: expected 'const void *' but argument is of type 'volatile char *'
-../src/helloworld.c:64:23: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: hello_world.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: hello_world.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  62520	   2264	  29852	  94636	  171ac	hello_world.elf
-'Finished building: hello_world.elf.size'
-' '
-21:25:28 **** Clean-only build of configuration Debug for project vga_test ****
+14:51:22 **** Clean-only build of configuration Debug for project vga_test ****
 make clean 
 rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
 ' '
-21:25:28 **** Auto Build of configuration Debug for project vga_test ****
+14:51:22 **** Auto Build of configuration Debug for project vga_test ****
 make all 
 'Building file: ../src/vga_test.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp2/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
 ../src/vga_test.c: In function 'main':
 ../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
+In file included from ../../system_bsp2/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
+                 from ../../system_bsp2/ps7_cortexa9_0/include/xvtc.h:238,
+                 from ../src/vga_test.c:20:
+../../system_bsp2/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
 'Finished building: ../src/vga_test.c'
 ' '
 'Building target: vga_test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp2/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: vga_test.elf'
 ' '
 'Invoking: ARM Print Size'
@@ -1032,14 +185,22 @@ arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
   30556	   1104	 644196	 675856	  a5010	vga_test.elf
 'Finished building: vga_test.elf.size'
 ' '
-21:27:19 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-21:27:19 **** Clean-only build of project system_bsp ****
-make -k clean 
-rm -rf ps7_cortexa9_0
-21:27:28 **** Build of project system_bsp ****
+14:51:36 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+14:51:37 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+15:42:44 **** Auto Build of project system_bsp2 ****
+make -k all 
+'Finished building libraries'
+15:42:45 **** Auto Build of project system_bsp2 ****
+make -k all 
+'Finished building libraries'
+15:42:45 **** Auto Build of project system_bsp2 ****
+make -k all 
+'Finished building libraries'
+15:42:47 **** Auto Build of project system_bsp2 ****
 make -k all 
 libgen -hw ../system_hw_platform/system.xml\
 	       \
@@ -1086,21 +247,80 @@ arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 "Compiling cpu_cortexa9"
 Running execs_generate.
 'Finished building libraries'
-21:28:37 **** Auto Build of configuration Debug for project hello_world ****
+15:44:19 **** Auto Build of configuration Debug for project vga_test ****
 make all 
 make: Nothing to be done for `all'.
-21:28:37 **** Build of configuration Debug for project vga_test ****
+15:44:21 **** Clean-only build of project system_bsp2 ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+15:44:32 **** Clean-only build of configuration Debug for project vga_test ****
+make clean 
+rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
+' '
+15:44:32 **** Build of project system_bsp2 ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling axivdma"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling gpiops"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling ttcps"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling xadcps"
+"Compiling video timing controller"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+15:45:51 **** Build of configuration Debug for project vga_test ****
 make all 
 'Building file: ../src/vga_test.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp2/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
 ../src/vga_test.c: In function 'main':
 ../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+../src/vga_test.c:64:5: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
+In file included from ../../system_bsp2/ps7_cortexa9_0/include/xvtc_hw.h:158:0,
+                 from ../../system_bsp2/ps7_cortexa9_0/include/xvtc.h:238,
+                 from ../src/vga_test.c:20:
+../../system_bsp2/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u16 (*)[640]'
 'Finished building: ../src/vga_test.c'
 ' '
 'Building target: vga_test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp2/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: vga_test.elf'
 ' '
 'Invoking: ARM Print Size'
@@ -1109,61 +329,15 @@ arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
   30556	   1104	 644196	 675856	  a5010	vga_test.elf
 'Finished building: vga_test.elf.size'
 ' '
-21:31:58 **** Incremental Build of configuration Debug for project hello_world ****
+15:46:36 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
 make: Nothing to be done for `all'.
-21:31:59 **** Clean-only build of configuration Debug for project vga_test ****
-make clean 
-rm -rf  ./src/vga_test.o  ./src/vga_test.d  vga_test.elf.size  vga_test.elf
-' '
-21:31:59 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c: In function 'main':
-../src/vga_test.c:56:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
-'Finished building: ../src/vga_test.c'
-' '
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
-collect2.exe: error: ld returned 1 exit status
-make: *** [vga_test.elf] Error 1
-21:49:31 **** Incremental Build of configuration Debug for project hello_world ****
+15:46:36 **** Incremental Build of configuration Debug for project vga_test ****
 make all 
 make: Nothing to be done for `all'.
-21:49:32 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
-collect2.exe: error: ld returned 1 exit status
-make: *** [vga_test.elf] Error 1
-21:49:56 **** Incremental Build of configuration Debug for project hello_world ****
+15:51:31 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
 make: Nothing to be done for `all'.
-21:49:57 **** Incremental Build of configuration Debug for project vga_test ****
-make all 
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
-collect2.exe: error: ld returned 1 exit status
-make: *** [vga_test.elf] Error 1
-21:50:38 **** Auto Build of project system_bsp ****
-make -k all 
-'Finished building libraries'
-21:50:38 **** Auto Build of configuration Debug for project hello_world ****
+15:51:32 **** Incremental Build of configuration Debug for project vga_test ****
 make all 
 make: Nothing to be done for `all'.
-21:50:39 **** Auto Build of configuration Debug for project vga_test ****
-make all 
-'Building target: vga_test.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
-collect2.exe: error: ld returned 1 exit status
-make: *** [vga_test.elf] Error 1

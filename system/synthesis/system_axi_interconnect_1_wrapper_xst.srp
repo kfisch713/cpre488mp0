@@ -3028,12 +3028,12 @@ axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/S_AXI_ACLK
 =========================================================================
 
 
-Total REAL time to Xst completion: 218.00 secs
-Total CPU time to Xst completion: 217.35 secs
+Total REAL time to Xst completion: 212.00 secs
+Total CPU time to Xst completion: 211.94 secs
  
 --> 
 
-Total memory usage is 527624 kilobytes
+Total memory usage is 525576 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  346 (   0 filtered)

@@ -463,9 +463,9 @@ Primitive and Black Box Usage:
 #      XORCY                       : 56
 # FlipFlops/Latches                : 1480
 #      FD                          : 295
-#      FDR                         : 805
+#      FDR                         : 811
 #      FDRE                        : 272
-#      FDS                         : 95
+#      FDS                         : 89
 #      FDSE                        : 13
 
 Device utilization summary:
@@ -693,11 +693,11 @@ s_axi_aclk     |    1.839|         |         |         |
 
 
 Total REAL time to Xst completion: 35.00 secs
-Total CPU time to Xst completion: 34.95 secs
+Total CPU time to Xst completion: 35.59 secs
  
 --> 
 
-Total memory usage is 635072 kilobytes
+Total memory usage is 634368 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   57 (   0 filtered)

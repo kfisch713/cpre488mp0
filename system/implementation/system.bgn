@@ -7,7 +7,7 @@ C:\Xilinx\14.7\ISE_DS\ISE\;C:\Xilinx\14.7\ISE_DS\EDK.
    "system" is an NCD, version 3.2, device xc7z020, package clg484, speed -1
 Opened constraints file system.pcf.
 
-Mon Jan 23 21:47:20 2017
+Tue Jan 24 15:41:13 2017
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -w system.ncd 
 

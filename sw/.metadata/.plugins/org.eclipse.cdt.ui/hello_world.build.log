@@ -1,6 +1,6 @@
-21:50:38 **** Auto Build of configuration Debug for project hello_world ****
+15:51:31 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
 make: Nothing to be done for `all'.
 
-21:50:39 Build Finished (took 180ms)
+15:51:31 Build Finished (took 180ms)
 

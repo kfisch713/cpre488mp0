@@ -62,8 +62,8 @@ entity system_axi_vdma_0_wrapper is
     m_axi_mm2s_rvalid : in std_logic;
     m_axi_mm2s_rready : out std_logic;
     mm2s_prmry_reset_out_n : out std_logic;
-    m_axis_mm2s_tdata : out std_logic_vector(23 downto 0);
-    m_axis_mm2s_tkeep : out std_logic_vector(2 downto 0);
+    m_axis_mm2s_tdata : out std_logic_vector(15 downto 0);
+    m_axis_mm2s_tkeep : out std_logic_vector(1 downto 0);
     m_axis_mm2s_tvalid : out std_logic;
     m_axis_mm2s_tready : in std_logic;
     m_axis_mm2s_tlast : out std_logic;
@@ -282,12 +282,12 @@ begin
       C_ENABLE_VIDPRMTR_READS => 1,
       C_INCLUDE_MM2S => 1,
       C_M_AXI_MM2S_DATA_WIDTH => 32,
-      C_M_AXIS_MM2S_TDATA_WIDTH => 24,
+      C_M_AXIS_MM2S_TDATA_WIDTH => 16,
       C_INCLUDE_MM2S_DRE => 0,
       C_INCLUDE_MM2S_SF => 1,
       C_MM2S_SOF_ENABLE => 1,
       C_MM2S_MAX_BURST_LENGTH => 16,
-      C_MM2S_GENLOCK_MODE => 1,
+      C_MM2S_GENLOCK_MODE => 0,
       C_MM2S_GENLOCK_NUM_MASTERS => 1,
       C_MM2S_GENLOCK_REPEAT_EN => 0,
       C_MM2S_LINEBUFFER_DEPTH => 128,

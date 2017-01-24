@@ -126,3 +126,58 @@ Unknown Error Occured
 	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
 
 21:52:05.038 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:33:20.119 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+14:33:22.975 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+14:33:23.867 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+14:33:24.533 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+14:33:24.653 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+14:33:24.733 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+14:33:24.957 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+14:33:25.017 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+14:33:25.315 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:33:26.436 INFO  - Clearing existing target manager status. 
+14:33:28.707 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:34:13.982 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+14:34:50.658 ERROR - Unable to determine the referenced BSP for application project vga_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+14:43:52.744 ERROR - Unable to determine the referenced BSP for application project vga_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+14:46:34.299 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:46:38.765 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+14:51:41.229 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+14:51:41.329 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:51:41.439 INFO  - PS initialization will be done as it is not done before. 
+14:51:41.439 INFO  - Running PS initialization.... 
+14:51:41.559 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+15:32:44.276 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:42:40.548 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+15:42:42.832 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+15:42:43.655 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+15:42:44.311 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+15:42:45.209 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+15:42:45.475 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+15:42:45.625 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+15:42:46.687 INFO  - Copied contents of \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+15:42:46.857 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:44:18.834 INFO  - Updating hardware inferred compiler options for vga_test. 
+15:44:18.834 INFO  - Clearing existing target manager status. 
+15:44:21.036 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:46:23.737 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+15:46:39.533 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+15:46:39.643 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:46:39.753 INFO  - PS initialization will be done as it is not done before. 
+15:46:39.753 INFO  - Running PS initialization.... 
+15:46:39.873 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+15:51:35.012 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:51:35.122 INFO  - PS initialization will be done as it is not done before. 
+15:51:35.122 INFO  - Running PS initialization.... 
+15:51:35.582 INFO  - ps7_init is completed. 
+15:51:35.682 INFO  - ps7_post_config is completed. 
+15:51:35.792 INFO  - PS Initialization is complete. 
+15:57:12.929 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
