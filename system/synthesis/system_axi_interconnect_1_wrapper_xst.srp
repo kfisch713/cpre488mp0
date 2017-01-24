@@ -3,7 +3,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> 
@@ -3028,8 +3028,8 @@ axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/S_AXI_ACLK
 =========================================================================
 
 
-Total REAL time to Xst completion: 235.00 secs
-Total CPU time to Xst completion: 234.20 secs
+Total REAL time to Xst completion: 218.00 secs
+Total CPU time to Xst completion: 217.35 secs
  
 --> 
 

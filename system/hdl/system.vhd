@@ -1582,11 +1582,12 @@ begin
   pgassign1(2 downto 2) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(1 downto 1) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(0 downto 0) <= processing_system7_0_FCLK_CLK0(0 to 0);
-  pgassign2(1 downto 1) <= processing_system7_0_FCLK_CLK0(0 to 0);
-  pgassign2(0 downto 0) <= processing_system7_0_FCLK_CLK0(0 to 0);
   net_gnd0 <= '0';
+  HSync <= net_gnd0;
+  VSync <= net_gnd0;
   net_gnd1(0 to 0) <= B"0";
   net_gnd12(11 downto 0) <= B"000000000000";
+  VGAData <= net_gnd12;
   net_gnd2(1 downto 0) <= B"00";
   net_gnd3(2 downto 0) <= B"000";
   net_gnd32(31 downto 0) <= B"00000000000000000000000000000000";

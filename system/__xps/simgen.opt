@@ -1,1 +1,1 @@
- -p zynq -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X U:/Documents/cpre488mp0/system/
+ -p zynq -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X U:/Desktop/cpre488mp0/system/

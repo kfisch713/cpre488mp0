@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 TABLE OF CONTENTS
@@ -463,9 +463,9 @@ Primitive and Black Box Usage:
 #      XORCY                       : 56
 # FlipFlops/Latches                : 1480
 #      FD                          : 295
-#      FDR                         : 786
+#      FDR                         : 805
 #      FDRE                        : 272
-#      FDS                         : 114
+#      FDS                         : 95
 #      FDSE                        : 13
 
 Device utilization summary:
@@ -692,8 +692,8 @@ s_axi_aclk     |    1.839|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 37.00 secs
-Total CPU time to Xst completion: 37.11 secs
+Total REAL time to Xst completion: 35.00 secs
+Total CPU time to Xst completion: 34.95 secs
  
 --> 
 

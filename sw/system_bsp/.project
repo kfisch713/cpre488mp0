@@ -3,7 +3,6 @@
 	<name>system_bsp</name>
 	<comment></comment>
 	<projects>
-		<project>system_hw_platform</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

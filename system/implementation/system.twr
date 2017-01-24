@@ -48,7 +48,7 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  65627 paths analyzed, 10000 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   9.199ns.
+ Minimum period is   8.319ns.
 --------------------------------------------------------------------------------
 
 
@@ -66,20 +66,20 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 65631 paths, 0 nets, and 11432 connections
+Constraints cover 65631 paths, 0 nets, and 11492 connections
 
 Design statistics:
-   Minimum period:   9.199ns   (Maximum frequency: 108.707MHz)
+   Minimum period:   8.319ns   (Maximum frequency: 120.207MHz)
 
 
-Analysis completed Mon Jan 23 12:50:45 2017 
+Analysis completed Mon Jan 23 21:47:10 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 654 MB
+Peak Memory Usage: 653 MB
 
 
 

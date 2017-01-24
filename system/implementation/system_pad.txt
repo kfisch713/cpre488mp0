@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon Jan 23 12:50:26 2017
+Mon Jan 23 21:46:50 2017
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -62,8 +62,8 @@ Pinout by Pin Number:
 |AA18      |                                    |IOB33S   |IO_L12N_T1_MRCC_33     |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
 |AA19      |VSync                               |IOB33    |IO_L11N_T1_SRCC_33     |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |AA20      |                                    |         |VCCO_33                |         |                 |33            |          |         |           |         |3.30     |          |           |                |
-|AA21      |VGAData<7>                          |IOB33    |IO_L8P_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|AA22      |VGAData<5>                          |IOB33    |IO_L7P_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
+|AA21      |VGAData<7>                          |IOB33    |IO_L8P_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|AA22      |VGAData<5>                          |IOB33    |IO_L7P_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |AB1       |                                    |IOB33S   |IO_L15N_T2_DQS_13      |UNUSED   |                 |13            |          |         |           |         |         |          |           |                |
 |AB2       |                                    |IOB33M   |IO_L15P_T2_DQS_13      |UNUSED   |                 |13            |          |         |           |         |         |          |           |                |
 |AB3       |                                    |         |VCCO_13                |         |                 |13            |          |         |           |         |any******|          |           |                |
@@ -82,10 +82,10 @@ Pinout by Pin Number:
 |AB16      |                                    |IOB33S   |IO_L18N_T2_33          |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
 |AB17      |                                    |IOB33S   |IO_L17N_T2_33          |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
 |AB18      |                                    |         |GND                    |         |                 |              |          |         |           |         |         |          |           |                |
-|AB19      |VGAData<11>                         |IOB33    |IO_L10P_T1_33          |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|AB20      |VGAData<10>                         |IOB33    |IO_L10N_T1_33          |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|AB21      |VGAData<6>                          |IOB33    |IO_L8N_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|AB22      |VGAData<4>                          |IOB33    |IO_L7N_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
+|AB19      |VGAData<11>                         |IOB33    |IO_L10P_T1_33          |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|AB20      |VGAData<10>                         |IOB33    |IO_L10N_T1_33          |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|AB21      |VGAData<6>                          |IOB33    |IO_L8N_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|AB22      |VGAData<4>                          |IOB33    |IO_L7N_T1_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |B1        |processing_system7_0_DDR_DM<0>      |IOPAD    |PS_DDR_DM0_502         |         |SSTL15_T_DCI     |              |          |         |           |         |         |LOCATED   |NO         |                |
 |B2        |processing_system7_0_DDR_DQ<2>      |IOPAD    |PS_DDR_DQ2_502         |         |SSTL15_T_DCI     |              |          |         |           |         |         |LOCATED   |NO         |                |
 |B3        |                                    |         |VCCO_MIO0_500          |         |                 |              |          |         |           |         |any******|          |           |                |
@@ -435,7 +435,7 @@ Pinout by Pin Number:
 |U17       |                                    |IOB33M   |IO_L16P_T2_33          |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
 |U18       |                                    |         |VCCO_33                |         |                 |33            |          |         |           |         |3.30     |          |           |                |
 |U19       |LEDs_8Bits_TRI_IO<6>                |IOB33    |IO_0_33                |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
-|U20       |VGAData<1>                          |IOB33    |IO_L5P_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
+|U20       |VGAData<1>                          |IOB33    |IO_L5P_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |U21       |LEDs_8Bits_TRI_IO<3>                |IOB33    |IO_L1N_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |U22       |LEDs_8Bits_TRI_IO<2>                |IOB33    |IO_L2N_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |V1        |                                    |         |VCCO_DDR_502           |         |                 |              |          |         |           |         |any******|          |           |                |
@@ -455,9 +455,9 @@ Pinout by Pin Number:
 |V15       |                                    |IOB33S   |IO_L19N_T3_VREF_33     |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
 |V16       |                                    |         |GND                    |         |                 |              |          |         |           |         |         |          |           |                |
 |V17       |                                    |IOB33S   |IO_L16N_T2_33          |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
-|V18       |VGAData<3>                          |IOB33    |IO_L6P_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|V19       |VGAData<2>                          |IOB33    |IO_L6N_T0_VREF_33      |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|V20       |VGAData<0>                          |IOB33    |IO_L5N_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
+|V18       |VGAData<3>                          |IOB33    |IO_L6P_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|V19       |VGAData<2>                          |IOB33    |IO_L6N_T0_VREF_33      |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|V20       |VGAData<0>                          |IOB33    |IO_L5N_T0_33           |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |V21       |                                    |         |VCCO_33                |         |                 |33            |          |         |           |         |3.30     |          |           |                |
 |V22       |LEDs_8Bits_TRI_IO<4>                |IOB33    |IO_L3P_T0_DQS_33       |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |W1        |processing_system7_0_DDR_DQ<28>     |IOPAD    |PS_DDR_DQ28_502        |         |SSTL15_T_DCI     |              |          |         |           |         |         |LOCATED   |NO         |                |
@@ -501,8 +501,8 @@ Pinout by Pin Number:
 |Y17       |                                    |         |VCCO_33                |         |                 |33            |          |         |           |         |3.30     |          |           |                |
 |Y18       |                                    |IOB33M   |IO_L12P_T1_MRCC_33     |UNUSED   |                 |33            |          |         |           |         |         |          |           |                |
 |Y19       |HSync                               |IOB33    |IO_L11P_T1_SRCC_33     |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
-|Y20       |VGAData<9>                          |IOB33    |IO_L9P_T1_DQS_33       |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
-|Y21       |VGAData<8>                          |IOB33    |IO_L9N_T1_DQS_33       |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |YES        |NONE            |
+|Y20       |VGAData<9>                          |IOB33    |IO_L9P_T1_DQS_33       |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|Y21       |VGAData<8>                          |IOB33    |IO_L9N_T1_DQS_33       |OUTPUT   |LVCMOS33         |33            |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |Y22       |                                    |         |GND                    |         |                 |              |          |         |           |         |         |          |           |                |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 

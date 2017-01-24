@@ -1,11 +1,11 @@
-13:20:33 **** Auto Build of configuration Debug for project vga_test ****
+21:50:39 **** Auto Build of configuration Debug for project vga_test ****
 make all 
-'Building file: ../src/vga_test.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
-../src/vga_test.c:20:18: fatal error: xvtc.h: No such file or directory
-compilation terminated.
-make: *** [src/vga_test.o] Error 1
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxilisf
+collect2.exe: error: ld returned 1 exit status
+make: *** [vga_test.elf] Error 1
 
-13:20:34 Build Finished (took 230ms)
+21:50:39 Build Finished (took 500ms)
 

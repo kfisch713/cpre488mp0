@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon Jan 23 12:49:50 2017
+// Written by: Map P.20131013 on Mon Jan 23 21:46:16 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -4065,81 +4065,207 @@ TIMEGRP clk_fpga_0 = BEL
         "SWs_8Bits/SWs_8Bits/ip2bus_data_i_D1_31" BEL
         "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/s_axi_reset_out_n_i"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].clock_conv_inst/s_axi_reset_out_n_i"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_61"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_60"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_59"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_58"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_57"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_xferAck_Reg" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/iGPIO_xferAck" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_0" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_1" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_2" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_3" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_4" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_5" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_6" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_OE_7" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_0" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_1" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_2" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_3" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_4" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_5" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_6" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_Out_7" BEL
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_56"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL "SWs_8Bits/SWs_8Bits/ip2bus_wrack_i_D1" BEL
+        "SWs_8Bits/SWs_8Bits/ip2bus_rdack_i_D1" BEL
+        "SWs_8Bits/SWs_8Bits/bus2ip_reset" BEL
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_55"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_54"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_53"
+        "SWs_8Bits/SWs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_31" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_29" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_28" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_30" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_27" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_26" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_24" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/GPIO_DBus_i_25" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_0" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_0" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_1" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_1" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_2" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_2" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_3" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_3" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_4" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_4" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_5" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_5" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_6" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_6" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_7" BEL
+        "SWs_8Bits/SWs_8Bits/gpio_core_1/gpio_Data_In_7" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_24" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_25" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_26" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_27" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_28" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_29" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_30" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_data_i_D1_31" BEL
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_52"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_51"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_50"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_49"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_48"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_47"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_46"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_45"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_44"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_43"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_xferAck_Reg" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/iGPIO_xferAck" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_0" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_1" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_2" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_3" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_4" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_5" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_6" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_OE_7" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_0" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_1" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_2" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_3" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_4" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_5" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_6" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_Out_7" BEL
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_42"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL "LEDs_8Bits/LEDs_8Bits/ip2bus_wrack_i_D1" BEL
+        "LEDs_8Bits/LEDs_8Bits/ip2bus_rdack_i_D1" BEL
+        "LEDs_8Bits/LEDs_8Bits/bus2ip_reset" BEL
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_41"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_40"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_39"
+        "LEDs_8Bits/LEDs_8Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_31" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_29" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_28" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_30" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_27" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_26" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_24" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/GPIO_DBus_i_25" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_0" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_0" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_1" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_1" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_2" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_2" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_3" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_3" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_4" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_4" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_5" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_5" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_6" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_6" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/Mshreg_gpio_Data_In_7" BEL
+        "LEDs_8Bits/LEDs_8Bits/gpio_core_1/gpio_Data_In_7" BEL
+        "BTNs_5Bits/BTNs_5Bits/ip2bus_data_i_D1_27" BEL
+        "BTNs_5Bits/BTNs_5Bits/ip2bus_data_i_D1_28" BEL
+        "BTNs_5Bits/BTNs_5Bits/ip2bus_data_i_D1_29" BEL
+        "BTNs_5Bits/BTNs_5Bits/ip2bus_data_i_D1_30" BEL
+        "BTNs_5Bits/BTNs_5Bits/ip2bus_data_i_D1_31" BEL
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_38"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_37"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_36"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_35"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_34"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_33"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_32"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_xferAck_Reg" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/iGPIO_xferAck" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_OE_0" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_OE_1" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_OE_2" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_OE_3" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_OE_4" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_Out_0" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_Out_1" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_Out_2" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_Out_3" BEL
+        "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_Out_4" BEL
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_31"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL "BTNs_5Bits/BTNs_5Bits/ip2bus_wrack_i_D1" BEL
+        "BTNs_5Bits/BTNs_5Bits/ip2bus_rdack_i_D1" BEL
+        "BTNs_5Bits/BTNs_5Bits/bus2ip_reset" BEL
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_30"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_29"
+        "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
         BEL
         "BTNs_5Bits/BTNs_5Bits/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
         BEL "BTNs_5Bits/BTNs_5Bits/gpio_core_1/GPIO_DBus_i_31" BEL
@@ -4232,7 +4358,7 @@ TIMEGRP clk_fpga_0 = BEL
 TIMEGRP axi4lite_0_reset_resync = BEL
         "axi4lite_0/axi4lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
         BEL
-        "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[1].gen_upsizer.upsizer_inst/si_register_slice_inst/aw_pipe/storage_data1_27"
+        "axi4lite_0/axi4lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
         BEL
         "axi4lite_0/axi4lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0";
 TIMEGRP axi_interconnect_1_reset_resync = BEL

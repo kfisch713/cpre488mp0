@@ -56,3 +56,73 @@
 13:20:11.708 ERROR - SDK has detected that project general_bsp has been deleted (or renamed).
 If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
 13:38:24.441 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:26:41.098 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+20:30:06.438 INFO  - Settings changed on project system_bsp. Triggering a rebuild... 
+20:30:16.571 INFO  - Refreshed build settings on project hello_world 
+20:30:16.591 INFO  - Refreshed build settings on project vga_test 
+20:33:08.280 INFO  - Settings changed on project system_bsp. Triggering a rebuild... 
+20:33:17.227 INFO  - Refreshed build settings on project hello_world 
+20:33:17.247 INFO  - Refreshed build settings on project vga_test 
+20:38:10.239 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+20:38:15.994 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:38:16.094 INFO  - PS initialization will be done as it is not done before. 
+20:38:16.094 INFO  - Running PS initialization.... 
+20:38:16.554 INFO  - ps7_init is completed. 
+20:38:16.654 INFO  - ps7_post_config is completed. 
+20:38:16.764 INFO  - PS Initialization is complete. 
+21:04:56.773 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:05:14.233 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Unable to Stop Processor. System could be in unknown state.
+Please reset the system
+Unknown Error Occured
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+21:05:52.773 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:07:04.875 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:07:22.008 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:07:22.118 INFO  - PS initialization will be done as it is not done before. 
+21:07:22.118 INFO  - Running PS initialization.... 
+21:07:22.578 INFO  - ps7_init is completed. 
+21:07:22.678 INFO  - ps7_post_config is completed. 
+21:07:22.778 INFO  - PS Initialization is complete. 
+21:08:47.439 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:09:20.685 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:09:30.580 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:13:47.923 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:13:56.751 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:13:56.851 INFO  - PS initialization will be done as it is not done before. 
+21:13:56.851 INFO  - Running PS initialization.... 
+21:13:57.301 INFO  - ps7_init is completed. 
+21:13:57.401 INFO  - ps7_post_config is completed. 
+21:13:57.511 INFO  - PS Initialization is complete. 
+21:21:04.111 INFO  - Settings changed on project system_bsp. Triggering a rebuild... 
+21:21:14.636 INFO  - Refreshed build settings on project hello_world 
+21:21:14.686 INFO  - Refreshed build settings on project vga_test 
+21:24:07.780 INFO  - Settings changed on project system_bsp. Triggering a rebuild... 
+21:24:17.599 INFO  - Refreshed build settings on project hello_world 
+21:24:17.630 INFO  - Refreshed build settings on project vga_test 
+21:30:52.653 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+21:30:52.666 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:31:12.901 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+21:31:50.128 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:32:02.308 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+21:33:14.257 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:48:48.513 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+21:49:12.521 INFO  - FPGA configured successfully with bitstream "U:/Desktop/cpre488mp0/sw/system_hw_platform/system.bit" 
+21:49:35.336 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+21:49:59.559 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+21:52:05.038 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
