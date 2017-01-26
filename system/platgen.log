@@ -23,7 +23,7 @@ WARNING:EDK - INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable
    qualify for Xilinx software updates or new releases.
 
 
-Parse U:/Desktop/cpre488mp0/system/system.mhs ...
+Parse U:/Documents/cpre488mp0/system/system.mhs ...
 
 Read MPD definitions ...
 
@@ -102,15 +102,10 @@ IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 - 1 master(s) : 1
 slave(s) 
 
 Checking port drivers...
-WARNING:EDK:4180 - PORT: VGAData, CONNECTOR: v_axi4s_vid_out_0_video_data - No
-   driver found. Port will be driven to GND -
-   U:\Desktop\cpre488mp0\system\system.mhs line 38 
-WARNING:EDK:4180 - PORT: HSync, CONNECTOR: v_axi4s_vid_out_0_video_hsync - No
-   driver found. Port will be driven to GND -
-   U:\Desktop\cpre488mp0\system\system.mhs line 39 
-WARNING:EDK:4180 - PORT: VSync, CONNECTOR: v_axi4s_vid_out_0_video_vsync - No
-   driver found. Port will be driven to GND -
-   U:\Desktop\cpre488mp0\system\system.mhs line 40 
+WARNING:EDK:4181 - PORT: FCLK_CLK3, CONNECTOR: processing_system7_0_FCLK_CLK3 -
+   floating connection - U:\Documents\cpre488mp0\system\system.mhs line 182 
+WARNING:EDK:4181 - PORT: FCLK_CLK1, CONNECTOR: processing_system7_0_FCLK_CLK1 -
+   floating connection - U:\Documents\cpre488mp0\system\system.mhs line 181 
 WARNING:EDK:4181 - PORT: m_axis_mm2s_tkeep, CONNECTOR:
    axi_vdma_0_M_AXIS_MM2S_TKEEP - floating connection -
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_vdma_v5_04_a\dat
@@ -120,7 +115,7 @@ WARNING:EDK:4181 - PORT: active_chroma_out, CONNECTOR:
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\v_tc_v5_01_a\data\v_
    tc_v2_1_0.mpd line 205 
 WARNING:EDK:4181 - PORT: fsync_out, CONNECTOR: v_tc_0_fsync_out_0 - floating
-   connection - U:\Desktop\cpre488mp0\system\system.mhs line 231 
+   connection - U:\Documents\cpre488mp0\system\system.mhs line 234 
 
 Performing Clock DRCs...
 
@@ -137,10 +132,6 @@ INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
    is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE -
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
    4_03_a\data\processing_system7_v2_1_0.mpd line 351 
-INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
-   is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE -
-   C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
-   4_03_a\data\processing_system7_v2_1_0.mpd line 352 
 INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
    is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE -
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
@@ -185,8 +176,8 @@ Modify defaults ...
 Creating stub ...
 
 Processing licensed instances ...
-IPNAME:v_tc INSTANCE:v_tc_0 - U:\Desktop\cpre488mp0\system\system.mhs line 208 -
-processing license
+IPNAME:v_tc INSTANCE:v_tc_0 - U:\Documents\cpre488mp0\system\system.mhs line 211
+- processing license
 Completion time: 4.00 seconds
 
 Creating hardware output directories ...
@@ -195,20 +186,24 @@ Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
 IPNAME:axi_interconnect INSTANCE:axi4lite_0 -
-U:\Desktop\cpre488mp0\system\system.mhs line 43 - Copying cache implementation
+U:\Documents\cpre488mp0\system\system.mhs line 43 - Copying cache implementation
 netlist
-IPNAME:axi_gpio INSTANCE:sws_8bits - U:\Desktop\cpre488mp0\system\system.mhs
+IPNAME:axi_gpio INSTANCE:sws_8bits - U:\Documents\cpre488mp0\system\system.mhs
 line 51 - Copying cache implementation netlist
-IPNAME:axi_gpio INSTANCE:leds_8bits - U:\Desktop\cpre488mp0\system\system.mhs
+IPNAME:axi_gpio INSTANCE:leds_8bits - U:\Documents\cpre488mp0\system\system.mhs
 line 65 - Copying cache implementation netlist
-IPNAME:axi_gpio INSTANCE:btns_5bits - U:\Desktop\cpre488mp0\system\system.mhs
+IPNAME:axi_gpio INSTANCE:btns_5bits - U:\Documents\cpre488mp0\system\system.mhs
 line 79 - Copying cache implementation netlist
-IPNAME:processing_system7 INSTANCE:processing_system7_0 -
-U:\Desktop\cpre488mp0\system\system.mhs line 93 - Copying cache implementation
-netlist
+IPNAME:axi_vdma INSTANCE:axi_vdma_0 - U:\Documents\cpre488mp0\system\system.mhs
+line 186 - Copying cache implementation netlist
 IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
-U:\Desktop\cpre488mp0\system\system.mhs line 200 - Copying cache implementation
-netlist
+U:\Documents\cpre488mp0\system\system.mhs line 203 - Copying cache
+implementation netlist
+IPNAME:v_tc INSTANCE:v_tc_0 - U:\Documents\cpre488mp0\system\system.mhs line 211
+- Copying cache implementation netlist
+IPNAME:v_axi4s_vid_out INSTANCE:v_axi4s_vid_out_0 -
+U:\Documents\cpre488mp0\system\system.mhs line 241 - Copying cache
+implementation netlist
 
 Elaborating instances ...
 
@@ -231,20 +226,14 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:axi_vdma_0 - U:\Desktop\cpre488mp0\system\system.mhs line 183 - Running
-XST synthesis
-INSTANCE:v_tc_0 - U:\Desktop\cpre488mp0\system\system.mhs line 208 - Running XST
-synthesis
-INSTANCE:v_axi4s_vid_out_0 - U:\Desktop\cpre488mp0\system\system.mhs line 235 -
-Running XST synthesis
+INSTANCE:processing_system7_0 - U:\Documents\cpre488mp0\system\system.mhs line
+93 - Running XST synthesis
 
 Running NGCBUILD ...
-IPNAME:system_axi_vdma_0_wrapper INSTANCE:axi_vdma_0 -
-U:\Desktop\cpre488mp0\system\system.mhs line 183 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 310.00 seconds
+Total run time: 31.00 seconds

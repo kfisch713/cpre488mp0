@@ -1,6 +1,6 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_processing_system7_0_wrapper_xst.prj"
-Verilog Include Directory          : {"U:\Desktop\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"U:\Documents\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z020clg484-1
@@ -74,7 +74,7 @@ Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores
 Parsing module <processing_system7>.
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/trace_buffer.v" into library processing_system7_v4_03_a
 Parsing module <trace_buffer>.
-Analyzing Verilog file "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" into library work
+Analyzing Verilog file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" into library work
 Parsing module <system_processing_system7_0_wrapper>.
 
 =========================================================================
@@ -83,7 +83,7 @@ Parsing module <system_processing_system7_0_wrapper>.
 
 Elaborating module <system_processing_system7_0_wrapper>.
 
-Elaborating module <processing_system7(C_EN_EMIO_ENET0=0,C_EN_EMIO_ENET1=0,C_EN_EMIO_TRACE=0,C_INCLUDE_TRACE_BUFFER=0,C_TRACE_BUFFER_FIFO_SIZE=128,USE_TRACE_DATA_EDGE_DETECTOR=0,C_TRACE_BUFFER_CLOCK_DELAY=12,C_EMIO_GPIO_WIDTH=64,C_INCLUDE_ACP_TRANS_CHECK=0,C_USE_DEFAULT_ACP_USER_VAL=0,C_S_AXI_ACP_ARUSER_VAL=31,C_S_AXI_ACP_AWUSER_VAL=31,C_DQ_WIDTH=32,C_DQS_WIDTH=4,C_DM_WIDTH=4,C_MIO_PRIMITIVE=54,C_PACKAGE_NAME="clg484",C_PS7_SI_REV="PRODUCTION",C_M_AXI_GP0_ID_WIDTH=12,C_M_AXI_GP0_ENABLE_STATIC_REMAP=0,C_M_AXI_GP1_ID_WIDTH=12,C_M_AXI_GP1_ENABLE_STATIC_REMAP=0,C_S_AXI_GP0_ID_WIDTH=6,C_S_AXI_GP1_ID_WIDTH=6,C_S_AXI_ACP_ID_WIDTH=3,C_S_AXI_HP0_ID_WIDTH=1,C_S_AXI_HP0_DATA_WIDTH=64,C_S_AXI_HP1_ID_WIDTH=6,C_S_AXI_HP1_DATA_WIDTH=64,C_S_AXI_HP2_ID_WIDTH=6,C_S_AXI_HP2_DATA_WIDTH=64,C_S_AXI_HP3_ID_WIDTH=6,C_S_AXI_HP3_DATA_WIDTH=64,C_M_AXI_GP0_THREAD_ID_WIDTH=12,C_M_AXI_GP1_THREAD_ID_WIDTH=12,C_NUM_F2P_INTR_INPUTS=1,C_FCLK_CLK0_BUF="TRUE",C_FCLK_CLK1_BUF="FALSE",C_FCLK_CLK2_BUF="FALSE",C_FCLK_CLK3_BUF="FALSE")>.
+Elaborating module <processing_system7(C_EN_EMIO_ENET0=0,C_EN_EMIO_ENET1=0,C_EN_EMIO_TRACE=0,C_INCLUDE_TRACE_BUFFER=0,C_TRACE_BUFFER_FIFO_SIZE=128,USE_TRACE_DATA_EDGE_DETECTOR=0,C_TRACE_BUFFER_CLOCK_DELAY=12,C_EMIO_GPIO_WIDTH=64,C_INCLUDE_ACP_TRANS_CHECK=0,C_USE_DEFAULT_ACP_USER_VAL=0,C_S_AXI_ACP_ARUSER_VAL=31,C_S_AXI_ACP_AWUSER_VAL=31,C_DQ_WIDTH=32,C_DQS_WIDTH=4,C_DM_WIDTH=4,C_MIO_PRIMITIVE=54,C_PACKAGE_NAME="clg484",C_PS7_SI_REV="PRODUCTION",C_M_AXI_GP0_ID_WIDTH=12,C_M_AXI_GP0_ENABLE_STATIC_REMAP=0,C_M_AXI_GP1_ID_WIDTH=12,C_M_AXI_GP1_ENABLE_STATIC_REMAP=0,C_S_AXI_GP0_ID_WIDTH=6,C_S_AXI_GP1_ID_WIDTH=6,C_S_AXI_ACP_ID_WIDTH=3,C_S_AXI_HP0_ID_WIDTH=1,C_S_AXI_HP0_DATA_WIDTH=64,C_S_AXI_HP1_ID_WIDTH=6,C_S_AXI_HP1_DATA_WIDTH=64,C_S_AXI_HP2_ID_WIDTH=6,C_S_AXI_HP2_DATA_WIDTH=64,C_S_AXI_HP3_ID_WIDTH=6,C_S_AXI_HP3_DATA_WIDTH=64,C_M_AXI_GP0_THREAD_ID_WIDTH=12,C_M_AXI_GP1_THREAD_ID_WIDTH=12,C_NUM_F2P_INTR_INPUTS=1,C_FCLK_CLK0_BUF="TRUE",C_FCLK_CLK1_BUF="FALSE",C_FCLK_CLK2_BUF="TRUE",C_FCLK_CLK3_BUF="FALSE")>.
 
 Elaborating module <BUFG>.
 
@@ -101,14 +101,14 @@ WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pco
 WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/processing_system7.v" Line 1045: Net <FTMD_TRACEIN_DATA_i[31]> does not have a driver.
 WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/processing_system7.v" Line 1046: Net <FTMD_TRACEIN_VALID_i> does not have a driver.
 WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7_v4_03_a/hdl/verilog/processing_system7.v" Line 1047: Net <FTMD_TRACEIN_ATID_i[3]> does not have a driver.
-WARNING:HDLCompiler:189 - "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" Line 2017: Size mismatch in connection of port <IRQ_F2P>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v" Line 2017: Size mismatch in connection of port <IRQ_F2P>. Formal port size is 16-bit while actual signal size is 1-bit.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system_processing_system7_0_wrapper>.
-    Related source file is "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v".
+    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_processing_system7_0_wrapper.v".
     Summary:
 	no macro.
 Unit <system_processing_system7_0_wrapper> synthesized.
@@ -139,7 +139,7 @@ Synthesizing Unit <processing_system7>.
         C_NUM_F2P_INTR_INPUTS = 1
         C_FCLK_CLK0_BUF = "TRUE"
         C_FCLK_CLK1_BUF = "FALSE"
-        C_FCLK_CLK2_BUF = "FALSE"
+        C_FCLK_CLK2_BUF = "TRUE"
         C_FCLK_CLK3_BUF = "FALSE"
         C_EMIO_GPIO_WIDTH = 64
         C_INCLUDE_TRACE_BUFFER = 0
@@ -277,8 +277,8 @@ Primitive and Black Box Usage:
 # BELS                             : 90
 #      GND                         : 1
 #      INV                         : 89
-# Clock Buffers                    : 1
-#      BUFG                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
 # Others                           : 1
 #      PS7                         : 1
 
@@ -304,7 +304,7 @@ IO Utilization:
  Number of bonded IOBs:                   0  out of    200     0%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
 
 ---------------------------
 Partition Resource Summary:
@@ -345,7 +345,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 3176 / 3176
+  Total number of paths / destination ports: 3175 / 3175
 -------------------------------------------------------------------------
 Delay:               0.466ns (Levels of Logic = 1)
   Source:            processing_system7_0/PS7_i:EMIOGPIOTN63 (PAD)
@@ -369,12 +369,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.78 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.22 secs
  
 --> 
 
-Total memory usage is 506184 kilobytes
+Total memory usage is 506376 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   63 (   0 filtered)

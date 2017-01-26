@@ -35,9 +35,9 @@
  PORT processing_system7_0_DDR_DQS_n = processing_system7_0_DDR_DQS_n, DIR = IO, VEC = [3:0]
  PORT processing_system7_0_DDR_VRN = processing_system7_0_DDR_VRN, DIR = IO
  PORT processing_system7_0_DDR_VRP = processing_system7_0_DDR_VRP, DIR = IO
- PORT VGAData = v_axi4s_vid_out_0_video_data, DIR = O, VEC = [11:0]
- PORT HSync = v_axi4s_vid_out_0_video_hsync, DIR = O
- PORT VSync = v_axi4s_vid_out_0_video_vsync, DIR = O
+ PORT VGAData = v_axi4s_vid_out_0_video_data_0, DIR = O, VEC = [11:0]
+ PORT HSync = v_axi4s_vid_out_0_video_hsync_0, DIR = O
+ PORT VSync = v_axi4s_vid_out_0_video_vsync_0, DIR = O
 
 
 BEGIN axi_interconnect
@@ -147,7 +147,7 @@ BEGIN processing_system7
  PARAMETER C_EN_GPIO = 1
  PARAMETER C_FCLK_CLK0_FREQ = 100000000
  PARAMETER C_FCLK_CLK1_FREQ = 142857132
- PARAMETER C_FCLK_CLK2_FREQ = 50000000
+ PARAMETER C_FCLK_CLK2_FREQ = 25000000
  PARAMETER C_FCLK_CLK3_FREQ = 50000000
  PARAMETER C_USE_S_AXI_HP0 = 1
  PARAMETER C_INTERCONNECT_S_AXI_HP0_MASTERS = axi_vdma_0.M_AXI_MM2S
@@ -178,13 +178,16 @@ BEGIN processing_system7
  PORT FCLK_RESET0_N = processing_system7_0_FCLK_RESET0_N_0
  PORT M_AXI_GP0_ACLK = processing_system7_0_FCLK_CLK0
  PORT S_AXI_HP0_ACLK = processing_system7_0_FCLK_CLK0
+ PORT FCLK_CLK1 = processing_system7_0_FCLK_CLK1
+ PORT FCLK_CLK3 = processing_system7_0_FCLK_CLK3
+ PORT FCLK_CLK2 = processing_system7_0_FCLK_CLK2
 END
 
 BEGIN axi_vdma
  PARAMETER INSTANCE = axi_vdma_0
  PARAMETER HW_VER = 5.04.a
  PARAMETER C_BASEADDR = 0x43000000
- PARAMETER C_HIGHADDR = 0x4300ffff
+ PARAMETER C_HIGHADDR = 0x43000FFF
  PARAMETER C_INCLUDE_S2MM = 0
  PARAMETER C_M_AXIS_MM2S_TDATA_WIDTH = 16
  PARAMETER C_MM2S_GENLOCK_MODE = 0
@@ -209,7 +212,7 @@ BEGIN v_tc
  PARAMETER INSTANCE = v_tc_0
  PARAMETER HW_VER = 5.01.a
  PARAMETER C_BASEADDR = 0x76800000
- PARAMETER C_HIGHADDR = 0x7680ffff
+ PARAMETER C_HIGHADDR = 0x76800FFF
  PARAMETER C_GEN_HACTIVE_SIZE = 640
  PARAMETER C_GEN_HFRAME_SIZE = 800
  PARAMETER C_GEN_HSYNC_START = 656
@@ -229,7 +232,10 @@ BEGIN v_tc
  BUS_INTERFACE VTIMING_OUT = v_tc_0_VTIMING_OUT
  PORT s_axi_aclk = processing_system7_0_FCLK_CLK0
  PORT fsync_out = v_tc_0_fsync_out_0
- PORT clk = processing_system7_0_FCLK_CLK0
+ PORT clk = processing_system7_0_FCLK_CLK2
+ PORT clken = net_vcc
+ PORT gen_clken = net_vcc
+ PORT s_axi_aclken = net_vcc
 END
 
 BEGIN v_axi4s_vid_out
@@ -240,7 +246,11 @@ BEGIN v_axi4s_vid_out
  PARAMETER C_S_AXIS_VIDEO_FORMAT = 13
  BUS_INTERFACE S_AXIS_VIDEO = axi_vdma_0_M_AXIS_MM2S
  BUS_INTERFACE VTIMING_IN = v_tc_0_VTIMING_OUT
- PORT video_out_clk = processing_system7_0_FCLK_CLK0
  PORT aclk = processing_system7_0_FCLK_CLK0
+ PORT aclken = net_vcc
+ PORT video_out_clk = processing_system7_0_FCLK_CLK2
+ PORT video_data = v_axi4s_vid_out_0_video_data_0
+ PORT video_vsync = v_axi4s_vid_out_0_video_vsync_0
+ PORT video_hsync = v_axi4s_vid_out_0_video_hsync_0
 END
 

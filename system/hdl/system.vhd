@@ -1554,7 +1554,11 @@ architecture STRUCTURE of system is
   signal pgassign1 : std_logic_vector(4 downto 0);
   signal processing_system7_0_DDR_WEB : std_logic;
   signal processing_system7_0_FCLK_CLK0 : std_logic_vector(0 to 0);
+  signal processing_system7_0_FCLK_CLK2 : std_logic;
   signal processing_system7_0_FCLK_RESET0_N_0 : std_logic;
+  signal v_axi4s_vid_out_0_video_data_0 : std_logic_vector(11 downto 0);
+  signal v_axi4s_vid_out_0_video_hsync_0 : std_logic;
+  signal v_axi4s_vid_out_0_video_vsync_0 : std_logic;
   signal v_tc_0_VTIMING_OUT_active_video : std_logic;
   signal v_tc_0_VTIMING_OUT_hblank : std_logic;
   signal v_tc_0_VTIMING_OUT_hsync : std_logic;
@@ -1577,17 +1581,17 @@ begin
   -- Internal assignments
 
   processing_system7_0_DDR_WEB_pin <= processing_system7_0_DDR_WEB;
+  VGAData <= v_axi4s_vid_out_0_video_data_0;
+  HSync <= v_axi4s_vid_out_0_video_hsync_0;
+  VSync <= v_axi4s_vid_out_0_video_vsync_0;
   pgassign1(4 downto 4) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(3 downto 3) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(2 downto 2) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(1 downto 1) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(0 downto 0) <= processing_system7_0_FCLK_CLK0(0 to 0);
   net_gnd0 <= '0';
-  HSync <= net_gnd0;
-  VSync <= net_gnd0;
   net_gnd1(0 to 0) <= B"0";
   net_gnd12(11 downto 0) <= B"000000000000";
-  VGAData <= net_gnd12;
   net_gnd2(1 downto 0) <= B"00";
   net_gnd3(2 downto 0) <= B"000";
   net_gnd32(31 downto 0) <= B"00000000000000000000000000000000";
@@ -2501,7 +2505,7 @@ begin
       FTMT_P2F_TRIG => open,
       FTMT_P2F_DEBUG => open,
       FCLK_CLK3 => open,
-      FCLK_CLK2 => open,
+      FCLK_CLK2 => processing_system7_0_FCLK_CLK2,
       FCLK_CLK1 => open,
       FCLK_CLK0 => processing_system7_0_FCLK_CLK0(0),
       FCLK_CLKTRIG3_N => net_gnd0,
@@ -2907,7 +2911,7 @@ begin
       s_axi_rready => axi4lite_0_M_RREADY(4),
       irq => open,
       intc_if => open,
-      clk => pgassign1(4),
+      clk => processing_system7_0_FCLK_CLK2,
       resetn => net_vcc0,
       clken => net_vcc0,
       det_clken => net_vcc0,
@@ -2939,13 +2943,13 @@ begin
       s_axis_video_tready => axi_vdma_0_M_AXIS_MM2S_TREADY,
       s_axis_video_tuser => axi_vdma_0_M_AXIS_MM2S_TUSER(0),
       s_axis_video_tlast => axi_vdma_0_M_AXIS_MM2S_TLAST,
-      video_out_clk => pgassign1(4),
+      video_out_clk => processing_system7_0_FCLK_CLK2,
       video_de => open,
-      video_vsync => open,
-      video_hsync => open,
+      video_vsync => v_axi4s_vid_out_0_video_vsync_0,
+      video_hsync => v_axi4s_vid_out_0_video_hsync_0,
       video_vblank => open,
       video_hblank => open,
-      video_data => open,
+      video_data => v_axi4s_vid_out_0_video_data_0,
       vtg_vsync => v_tc_0_VTIMING_OUT_vsync,
       vtg_hsync => v_tc_0_VTIMING_OUT_hsync,
       vtg_vblank => v_tc_0_VTIMING_OUT_vblank,

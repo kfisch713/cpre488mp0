@@ -1,7 +1,7 @@
 
-<EDKSYSTEM EDKVERSION="14.7" EDWVERSION="1.2" TIMESTAMP="Tue Jan 24 15:42:17 2017">
+<EDKSYSTEM EDKVERSION="14.7" EDWVERSION="1.2" TIMESTAMP="Thu Jan 26 01:23:12 2017">
 
-  <SYSTEMINFO ARCH="zynq" DEVICE="xc7z020" PACKAGE="clg484" PART="xc7z020clg484-1" SOURCE="//my.files.iastate.edu/users/kfisch13/Desktop/cpre488mp0/system/system.xmp" SPEEDGRADE="-1"/>
+  <SYSTEMINFO ARCH="zynq" DEVICE="xc7z020" PACKAGE="clg484" PART="xc7z020clg484-1" SOURCE="//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/system.xmp" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
     <PORT DIR="IO" ENDIAN="LITTLE" LEFT="7" LSB="0" MHS_INDEX="0" MSB="7" NAME="SWs_8Bits_TRI_IO" RIGHT="0" SIGNAME="SWs_8Bits_TRI_IO">
@@ -82,14 +82,20 @@
     <PORT DIR="IO" MHS_INDEX="23" NAME="processing_system7_0_DDR_VRP" SIGNAME="processing_system7_0_DDR_VRP">
       <CONNECTIONS/>
     </PORT>
-    <PORT DIR="O" ENDIAN="LITTLE" LEFT="11" LSB="0" MHS_INDEX="24" MSB="11" NAME="VGAData" RIGHT="0" SIGNAME="v_axi4s_vid_out_0_video_data">
-      <CONNECTIONS/>
+    <PORT DIR="O" ENDIAN="LITTLE" LEFT="11" LSB="0" MHS_INDEX="24" MSB="11" NAME="VGAData" RIGHT="0" SIGNAME="v_axi4s_vid_out_0_video_data_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="video_data"/>
+      </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" MHS_INDEX="25" NAME="HSync" SIGNAME="v_axi4s_vid_out_0_video_hsync">
-      <CONNECTIONS/>
+    <PORT DIR="O" MHS_INDEX="25" NAME="HSync" SIGNAME="v_axi4s_vid_out_0_video_hsync_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="video_hsync"/>
+      </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" MHS_INDEX="26" NAME="VSync" SIGNAME="v_axi4s_vid_out_0_video_vsync">
-      <CONNECTIONS/>
+    <PORT DIR="O" MHS_INDEX="26" NAME="VSync" SIGNAME="v_axi4s_vid_out_0_video_vsync_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="video_vsync"/>
+      </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
 
@@ -3070,15 +3076,29 @@
         <PORT DIR="O" IS_INSTANTIATED="TRUE" MHS_INDEX="1" MPD_INDEX="40" NAME="fsync_out" SIGNAME="v_tc_0_fsync_out_0" VECFORMULA="[C_NUM_FSYNCS-1:0]">
           <CONNECTIONS/>
         </PORT>
-        <PORT BUS="VTIMING_IN:XSVI_IN:VTIMING_OUT:XSVI_OUT" CLKFREQUENCY="100000000" DEF_SIGNAME="__BUS__" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="2" MPD_INDEX="22" NAME="clk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT BUS="VTIMING_IN:XSVI_IN:VTIMING_OUT:XSVI_OUT" CLKFREQUENCY="25000000" DEF_SIGNAME="__BUS__" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="2" MPD_INDEX="22" NAME="clk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK2">
           <CONNECTIONS/>
+        </PORT>
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="3" MPD_INDEX="24" NAME="clken" SIGNAME="net_vcc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="net_vcc"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="4" MPD_INDEX="26" NAME="gen_clken" SIGNAME="net_vcc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="net_vcc"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="5" MPD_INDEX="2" NAME="s_axi_aclken" SIGNAME="net_vcc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="net_vcc"/>
+          </CONNECTIONS>
         </PORT>
         <PORT BUS="S_AXI" DEF_SIGNAME="axi4lite_0_M_aresetn" DIR="I" MPD_INDEX="1" NAME="s_axi_aresetn" SIGIS="RST" SIGNAME="axi4lite_0_M_aresetn">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi4lite_0" PORT="M_AXI_ARESET_OUT_N"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" MPD_INDEX="2" NAME="s_axi_aclken" SIGNAME="__NOC__"/>
         <PORT BUS="S_AXI" DEF_SIGNAME="axi4lite_0_M_awaddr" DIR="I" ENDIAN="LITTLE" LEFT="8" LSB="0" MPD_INDEX="3" MSB="8" NAME="s_axi_awaddr" RIGHT="0" SIGNAME="axi4lite_0_M_awaddr" VECFORMULA="[(C_S_AXI_ADDR_WIDTH-1):0]">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi4lite_0" PORT="M_AXI_AWADDR"/>
@@ -3167,9 +3187,7 @@
         <PORT DIR="O" MPD_INDEX="20" NAME="irq" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT" SIGNAME="__NOC__"/>
         <PORT DIR="O" ENDIAN="LITTLE" IS_VALID="FALSE" LEFT="31" LSB="0" MPD_INDEX="21" MSB="31" NAME="intc_if" RIGHT="0" SIGNAME="__NOC__" VECFORMULA="[31:0]"/>
         <PORT DIR="I" MPD_INDEX="23" NAME="resetn" SIGIS="RST" SIGNAME="__NOC__"/>
-        <PORT DIR="I" MPD_INDEX="24" NAME="clken" SIGNAME="__NOC__"/>
         <PORT DIR="I" IS_VALID="FALSE" MPD_INDEX="25" NAME="det_clken" SIGNAME="__NOC__"/>
-        <PORT DIR="I" MPD_INDEX="26" NAME="gen_clken" SIGNAME="__NOC__"/>
         <PORT DIR="I" MPD_INDEX="27" NAME="fsync_in" SIGNAME="__NOC__"/>
         <PORT BUS="VTIMING_IN:XSVI_IN" DEF_SIGNAME="__BUS__" DIR="I" IS_VALID="FALSE" MPD_INDEX="28" NAME="vblank_in" SIGNAME="__NOC__"/>
         <PORT BUS="VTIMING_IN:XSVI_IN" DEF_SIGNAME="__BUS__" DIR="I" IS_VALID="FALSE" MPD_INDEX="29" NAME="vsync_in" SIGNAME="__NOC__"/>
@@ -3320,15 +3338,34 @@
         </PARAMETER>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="0" MPD_INDEX="9" NAME="video_out_clk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT BUS="S_AXIS_VIDEO" CLKFREQUENCY="100000000" DEF_SIGNAME="__BUS__" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="0" MPD_INDEX="0" NAME="aclk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS/>
         </PORT>
-        <PORT BUS="S_AXIS_VIDEO" CLKFREQUENCY="100000000" DEF_SIGNAME="__BUS__" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="1" MPD_INDEX="0" NAME="aclk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="1" MPD_INDEX="3" NAME="aclken" SIGNAME="net_vcc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="net_vcc"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="25000000" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="2" MPD_INDEX="9" NAME="video_out_clk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK2">
           <CONNECTIONS/>
+        </PORT>
+        <PORT DIR="O" ENDIAN="LITTLE" IS_INSTANTIATED="TRUE" LEFT="11" LSB="0" MHS_INDEX="3" MPD_INDEX="15" MSB="11" NAME="video_data" RIGHT="0" SIGNAME="v_axi4s_vid_out_0_video_data_0" VECFORMULA="[(VID_OUT_DATA_WIDTH-1):0]">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External Ports" PORT="VGAData"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" IS_INSTANTIATED="TRUE" MHS_INDEX="4" MPD_INDEX="11" NAME="video_vsync" SIGNAME="v_axi4s_vid_out_0_video_vsync_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External Ports" PORT="VSync"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" IS_INSTANTIATED="TRUE" MHS_INDEX="5" MPD_INDEX="12" NAME="video_hsync" SIGNAME="v_axi4s_vid_out_0_video_hsync_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External Ports" PORT="HSync"/>
+          </CONNECTIONS>
         </PORT>
         <PORT DIR="I" MPD_INDEX="1" NAME="rst" SIGNAME="__NOC__"/>
         <PORT DIR="I" MPD_INDEX="2" NAME="aresetn" SIGIS="RST" SIGNAME="__NOC__"/>
-        <PORT DIR="I" MPD_INDEX="3" NAME="aclken" SIGNAME="__NOC__"/>
         <PORT BUS="S_AXIS_VIDEO" DEF_SIGNAME="axi_vdma_0_M_AXIS_MM2S_tdata" DIR="I" ENDIAN="LITTLE" LEFT="15" LSB="0" MPD_INDEX="4" MSB="15" NAME="s_axis_video_tdata" RIGHT="0" SIGNAME="axi_vdma_0_M_AXIS_MM2S_tdata" VECFORMULA="[(C_S_AXIS_VIDEO_TDATA_WIDTH-1):0]">
           <CONNECTIONS>
             <CONNECTION BUSINTERFACE="[M_AXIS_MM2S]" INSTANCE="axi_vdma_0" PORT="m_axis_mm2s_tdata"/>
@@ -3355,11 +3392,8 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" MPD_INDEX="10" NAME="video_de" SIGNAME="__NOC__"/>
-        <PORT DIR="O" MPD_INDEX="11" NAME="video_vsync" SIGNAME="__NOC__"/>
-        <PORT DIR="O" MPD_INDEX="12" NAME="video_hsync" SIGNAME="__NOC__"/>
         <PORT DIR="O" MPD_INDEX="13" NAME="video_vblank" SIGNAME="__NOC__"/>
         <PORT DIR="O" MPD_INDEX="14" NAME="video_hblank" SIGNAME="__NOC__"/>
-        <PORT DIR="O" ENDIAN="LITTLE" LEFT="11" LSB="0" MPD_INDEX="15" MSB="11" NAME="video_data" RIGHT="0" SIGNAME="__NOC__" VECFORMULA="[(VID_OUT_DATA_WIDTH-1):0]"/>
         <PORT BUS="VTIMING_IN" DEF_SIGNAME="v_tc_0_VTIMING_OUT_vsync" DIR="I" MPD_INDEX="16" NAME="vtg_vsync" SIGNAME="v_tc_0_VTIMING_OUT_vsync">
           <CONNECTIONS>
             <CONNECTION BUSINTERFACE="[VTIMING_OUT]" INSTANCE="v_tc_0" PORT="vsync_out"/>

@@ -17,9 +17,9 @@
     <SET ID="SWs_8Bits" IS_EXPANDED="TRUE"/>
     <SET ID="LEDs_8Bits" IS_EXPANDED="TRUE"/>
     <SET ID="BTNs_5Bits" IS_EXPANDED="TRUE"/>
+    <SET ID="processing_system7_0" IS_EXPANDED="TRUE"/>
     <SET ID="axi_vdma_0" IS_EXPANDED="TRUE"/>
     <SET ID="v_tc_0" IS_EXPANDED="TRUE"/>
-    <SET ID="v_axi4s_vid_out_0" IS_EXPANDED="TRUE"/>
     <STATUS>
       <SELECTIONS/>
     </STATUS>
@@ -28,11 +28,11 @@
       <VARIABLE ID="SWs_8Bits" IS_EXPANDED="TRUE" ROW_INDEX="5"/>
       <VARIABLE ID="LEDs_8Bits" IS_EXPANDED="TRUE" ROW_INDEX="4"/>
       <VARIABLE ID="BTNs_5Bits" IS_EXPANDED="TRUE" ROW_INDEX="3"/>
-      <VARIABLE ID="processing_system7_0" ROW_INDEX="2"/>
+      <VARIABLE ID="processing_system7_0" IS_EXPANDED="TRUE" ROW_INDEX="2"/>
       <VARIABLE ID="axi_vdma_0" IS_EXPANDED="TRUE" ROW_INDEX="6"/>
       <VARIABLE ID="axi_interconnect_1" ROW_INDEX="1"/>
       <VARIABLE ID="v_tc_0" IS_EXPANDED="TRUE" ROW_INDEX="8"/>
-      <VARIABLE ID="v_axi4s_vid_out_0" IS_EXPANDED="TRUE" ROW_INDEX="7"/>
+      <VARIABLE ID="v_axi4s_vid_out_0" ROW_INDEX="7"/>
     </SEQUENCES>
   </SET>
 
@@ -78,7 +78,7 @@
   </SET>
 
   <SET CLASS="PROJECT" DISPLAYMODE="TREE" VIEW_ID="PORT">
-    <HEADERS HSCROLL="0" VSCROLL="1022">
+    <HEADERS HSCROLL="0" VSCROLL="551">
       <VARIABLE COL_INDEX="0" COL_WIDTH="345" IS_VISIBLE="TRUE" VIEWDISP="Name" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="1" COL_WIDTH="305" IS_VISIBLE="TRUE" VIEWDISP="Connected Port" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="2" IS_VISIBLE="FALSE" VIEWDISP="Net" VIEWTYPE="HEADER"/>
@@ -95,10 +95,7 @@
     </HEADERS>
     <SPLITTERS COLLAPSIBLE="1" HANDLEWIDTH="4" MARKER="255" ORIENTATION="1" RESIZE="1" SIZES="62,630,200" VERSION="0"/>
     <SET ID="ExternalPorts" IS_EXPANDED="TRUE"/>
-    <SET ID="axi_vdma_0" IS_EXPANDED="TRUE">
-      <SET ID="S_AXI_LITE" IS_EXPANDED="TRUE"/>
-    </SET>
-    <SET ID="v_axi4s_vid_out_0" IS_EXPANDED="TRUE"/>
+    <SET ID="axi_vdma_0" IS_EXPANDED="TRUE"/>
     <STATUS>
       <SELECTIONS>
         <VARIABLE ID="v_tc_0"/>
@@ -114,7 +111,7 @@
       <VARIABLE ID="axi_vdma_0" IS_EXPANDED="TRUE" ROW_INDEX="7"/>
       <VARIABLE ID="axi_interconnect_1" ROW_INDEX="2"/>
       <VARIABLE ID="v_tc_0" ROW_INDEX="9"/>
-      <VARIABLE ID="v_axi4s_vid_out_0" IS_EXPANDED="TRUE" ROW_INDEX="8"/>
+      <VARIABLE ID="v_axi4s_vid_out_0" ROW_INDEX="8"/>
     </SEQUENCES>
   </SET>
 

@@ -2,7 +2,7 @@
 ##
 ##  Xilinx, Inc. 2006            www.xilinx.com
 ############################################################################
-##  File name :       U:/Desktop/cpre488mp0/system/implementation/processing_system7_0_wrapper/processing_system7_0_wrapper.ucf
+##  File name :       U:/Documents/cpre488mp0/system/implementation/processing_system7_0_wrapper/processing_system7_0_wrapper.ucf
 ##
 ##  Details :     Constraints file
 ##                    FPGA family:       zynq
@@ -20,6 +20,9 @@
 ############################################################################
 NET FCLK_CLK0 TNM_NET = clk_fpga_0;
 TIMESPEC TS_clk_fpga_0 = PERIOD clk_fpga_0 100000 kHz;
+
+NET FCLK_CLK2 TNM_NET = clk_fpga_2;
+TIMESPEC TS_clk_fpga_2 = PERIOD clk_fpga_2 25000 kHz;
 
 
 

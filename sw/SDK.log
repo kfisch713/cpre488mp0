@@ -181,3 +181,104 @@ invalid command name "ps7_init"
 15:51:35.682 INFO  - ps7_post_config is completed. 
 15:51:35.792 INFO  - PS Initialization is complete. 
 15:57:12.929 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:29:45.657 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+00:29:47.864 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+00:29:48.574 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+00:29:49.175 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+00:31:20.658 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+00:31:20.678 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+00:31:20.838 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+00:31:21.086 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+00:31:21.278 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:31:23.699 INFO  - Updating hardware inferred compiler options for vga_test. 
+00:31:23.709 INFO  - Clearing existing target manager status. 
+00:31:25.952 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+01:22:41.514 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+01:24:10.692 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+01:24:12.959 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+01:24:13.770 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+01:24:14.397 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+01:24:15.212 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+01:24:15.469 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+01:24:15.669 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+01:24:16.810 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+01:24:16.970 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+01:24:18.803 INFO  - Updating hardware inferred compiler options for vga_test. 
+01:24:18.823 INFO  - Clearing existing target manager status. 
+01:25:43.443 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+01:25:43.552 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:25:43.654 INFO  - PS initialization will be done as it is not done before. 
+01:25:43.654 INFO  - Running PS initialization.... 
+01:25:43.764 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+01:28:20.802 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:28:20.802 INFO  - PS initialization will be done as it is not done before. 
+01:28:20.802 INFO  - Running PS initialization.... 
+01:28:21.249 INFO  - ps7_init is completed. 
+01:28:21.351 INFO  - ps7_post_config is completed. 
+01:28:21.451 INFO  - PS Initialization is complete. 
+01:30:08.250 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+01:30:40.505 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:30:40.615 INFO  - PS initialization will be done as it is not done before. 
+01:30:40.615 INFO  - Running PS initialization.... 
+01:30:41.065 INFO  - ps7_init is completed. 
+01:30:41.165 INFO  - ps7_post_config is completed. 
+01:30:41.275 INFO  - PS Initialization is complete. 
+01:41:51.741 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+01:41:51.755 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+01:43:58.097 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+01:45:30.015 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:45:35.003 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:46:10.508 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:47:25.419 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:49:41.633 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:50:49.633 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+02:00:53.873 INFO  - Project system_bsp2 was a BSP project. Please update references. 
+02:00:53.873 ERROR - SDK has detected that project system_bsp2 has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+02:01:35.219 ERROR - Unable to determine the referenced BSP for application project vga_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+02:02:00.194 ERROR - Unable to determine the referenced BSP for application project hello_world. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+02:04:02.006 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
