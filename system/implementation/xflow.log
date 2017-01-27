@@ -309,7 +309,7 @@ NGDBUILD Design Results Summary:
   Number of warnings: 135
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  24 sec
+Total REAL time to NGDBUILD completion:  25 sec
 Total CPU time to NGDBUILD completion:   21 sec
 
 Writing NGDBUILD log file "system.bld"...
@@ -364,54 +364,54 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 25 secs 
-Total CPU  time at the beginning of Placer: 21 secs 
+Total REAL time at the beginning of Placer: 27 secs 
+Total CPU  time at the beginning of Placer: 22 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:4f69c15e) REAL time: 27 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:c4897347) REAL time: 29 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:4f69c15e) REAL time: 27 secs 
+Phase 2.7  Design Feasibility Check (Checksum:c4897347) REAL time: 29 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:4f69c15e) REAL time: 27 secs 
+Phase 3.31  Local Placement Optimization (Checksum:c4897347) REAL time: 29 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:868f5fb4) REAL time: 32 secs 
+(Checksum:959ddc39) REAL time: 34 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:868f5fb4) REAL time: 32 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:959ddc39) REAL time: 34 secs 
 
 Phase 6.3  Local Placement Optimization
-Phase 6.3  Local Placement Optimization (Checksum:868f5fb4) REAL time: 32 secs 
+Phase 6.3  Local Placement Optimization (Checksum:959ddc39) REAL time: 35 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:868f5fb4) REAL time: 32 secs 
+Phase 7.5  Local Placement Optimization (Checksum:959ddc39) REAL time: 35 secs 
 
 Phase 8.8  Global Placement
 ........................................
-...
-...................................................................................................................
-............................................................................................................................................................................................................
-..........................................................................................................................................................................................
-Phase 8.8  Global Placement (Checksum:8695adb5) REAL time: 1 mins 31 secs 
+......
+.........................................................................................................................................
+.............................................................................................................................................................................................
+...................................................................................................................................................
+Phase 8.8  Global Placement (Checksum:a0ef8376) REAL time: 1 mins 33 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:8695adb5) REAL time: 1 mins 31 secs 
+Phase 9.5  Local Placement Optimization (Checksum:a0ef8376) REAL time: 1 mins 33 secs 
 
 Phase 10.18  Placement Optimization
-Phase 10.18  Placement Optimization (Checksum:b5ea7a6c) REAL time: 1 mins 37 secs 
+Phase 10.18  Placement Optimization (Checksum:1dd407f) REAL time: 1 mins 39 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:b5ea7a6c) REAL time: 1 mins 37 secs 
+Phase 11.5  Local Placement Optimization (Checksum:1dd407f) REAL time: 1 mins 39 secs 
 
 Phase 12.34  Placement Validation
-Phase 12.34  Placement Validation (Checksum:b5ea7a6c) REAL time: 1 mins 37 secs 
+Phase 12.34  Placement Validation (Checksum:1dd407f) REAL time: 1 mins 39 secs 
 
-Total REAL time to Placer completion: 1 mins 38 secs 
-Total CPU  time to Placer completion: 1 mins 32 secs 
+Total REAL time to Placer completion: 1 mins 40 secs 
+Total CPU  time to Placer completion: 1 mins 33 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -419,16 +419,16 @@ Design Summary:
 Number of errors:      0
 Number of warnings:    8
 Slice Logic Utilization:
-  Number of Slice Registers:                 3,555 out of 106,400    3%
-    Number used as Flip Flops:               3,550
+  Number of Slice Registers:                 3,554 out of 106,400    3%
+    Number used as Flip Flops:               3,549
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                5
-  Number of Slice LUTs:                      3,733 out of  53,200    7%
-    Number used as logic:                    3,477 out of  53,200    6%
-      Number using O6 output only:           2,909
-      Number using O5 output only:              60
-      Number using O5 and O6:                  508
+  Number of Slice LUTs:                      3,710 out of  53,200    6%
+    Number used as logic:                    3,471 out of  53,200    6%
+      Number using O6 output only:           2,889
+      Number using O5 output only:              61
+      Number using O5 and O6:                  521
       Number used as ROM:                        0
     Number used as Memory:                     172 out of  17,400    1%
       Number used as Dual Port RAM:             10
@@ -440,20 +440,20 @@ Slice Logic Utilization:
         Number using O6 output only:           162
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     84
-      Number with same-slice register load:     66
+    Number used exclusively as route-thrus:     67
+      Number with same-slice register load:     48
       Number with same-slice carry load:        17
-      Number with other load:                    1
+      Number with other load:                    2
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,711 out of  13,300   12%
-  Number of LUT Flip Flop pairs used:        4,735
-    Number with an unused Flip Flop:         1,395 out of   4,735   29%
-    Number with an unused LUT:               1,002 out of   4,735   21%
-    Number of fully used LUT-FF pairs:       2,338 out of   4,735   49%
+  Number of occupied Slices:                 1,749 out of  13,300   13%
+  Number of LUT Flip Flop pairs used:        4,761
+    Number with an unused Flip Flop:         1,406 out of   4,761   29%
+    Number with an unused LUT:               1,051 out of   4,761   22%
+    Number of fully used LUT-FF pairs:       2,304 out of   4,761   48%
     Number of unique control sets:             160
     Number of slice register sites lost
-      to control set restrictions:             616 out of 106,400    1%
+      to control set restrictions:             609 out of 106,400    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -464,8 +464,8 @@ Slice Logic Distribution:
   over-mapped for a non-BRAM resource or if placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        35 out of     200   17%
-    Number of LOCed IOBs:                       35 out of      35  100%
+  Number of bonded IOBs:                        37 out of     200   18%
+    Number of LOCed IOBs:                       37 out of      37  100%
   Number of bonded IOPAD:                      130 out of     130  100%
     IOB Flip Flops:                             19
 
@@ -506,10 +506,10 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                3.89
+Average Fanout of Non-Clock Nets:                3.88
 
-Peak Memory Usage:  945 MB
-Total REAL time to MAP completion:  1 mins 41 secs 
+Peak Memory Usage:  943 MB
+Total REAL time to MAP completion:  1 mins 43 secs 
 Total CPU time to MAP completion:   1 mins 36 secs 
 
 Mapping completed.
@@ -558,8 +558,8 @@ Device speed data version:  "PRODUCTION 1.08 2013-10-13".
 Device Utilization Summary:
 
    Number of BUFGs                           2 out of 32      6%
-   Number of External IOB33s                35 out of 200    17%
-      Number of LOCed IOB33s                35 out of 35    100%
+   Number of External IOB33s                37 out of 200    18%
+      Number of LOCed IOB33s                37 out of 37    100%
 
    Number of External IOPADs               130 out of 130   100%
       Number of LOCed IOPADs               127 out of 130    97%
@@ -567,14 +567,14 @@ Device Utilization Summary:
    Number of OLOGICE2s                      19 out of 200     9%
    Number of PS7s                            1 out of 1     100%
    Number of RAMB18E1s                       3 out of 280     1%
-   Number of Slices                       1711 out of 13300  12%
-   Number of Slice Registers              3555 out of 106400  3%
-      Number used as Flip Flops           3555
+   Number of Slices                       1749 out of 13300  13%
+   Number of Slice Registers              3554 out of 106400  3%
+      Number used as Flip Flops           3554
       Number used as Latches                 0
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                   3733 out of 53200   7%
-   Number of Slice LUT-Flip Flop pairs    4605 out of 53200   8%
+   Number of Slice LUTS                   3710 out of 53200   6%
+   Number of Slice LUT-Flip Flop pairs    4624 out of 53200   8%
 
 
 Overall effort level (-ol):   High 
@@ -582,8 +582,8 @@ Router effort level (-rl):    High
 
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 14 secs 
-Finished initial Timing Analysis.  REAL time: 14 secs 
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 13 secs 
 
 WARNING:Par:288 - The signal
    axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRIT
@@ -596,27 +596,27 @@ WARNING:Par:288 - The signal
 Starting Router
 
 
-Phase  1  : 24155 unrouted;      REAL time: 15 secs 
+Phase  1  : 24151 unrouted;      REAL time: 14 secs 
 
-Phase  2  : 19841 unrouted;      REAL time: 15 secs 
+Phase  2  : 19816 unrouted;      REAL time: 14 secs 
 
-Phase  3  : 6778 unrouted;      REAL time: 20 secs 
+Phase  3  : 6659 unrouted;      REAL time: 20 secs 
 
-Phase  4  : 6778 unrouted; (Setup:0, Hold:32657, Component Switching Limit:0)     REAL time: 23 secs 
+Phase  4  : 6659 unrouted; (Setup:0, Hold:26917, Component Switching Limit:0)     REAL time: 22 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 30 secs 
-Total REAL time to Router completion: 30 secs 
-Total CPU time to Router completion: 29 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 28 secs 
+Total REAL time to Router completion: 28 secs 
+Total CPU time to Router completion: 28 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -635,10 +635,10 @@ Generating Clock Report
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
 |processing_system7_0 |              |      |      |            |             |
-|          _FCLK_CLK2 |BUFGCTRL_X0Y30| No   |  412 |  0.273     |  1.901      |
+|          _FCLK_CLK2 |BUFGCTRL_X0Y30| No   |  419 |  0.279     |  1.901      |
 +---------------------+--------------+------+------+------------+-------------+
 |processing_system7_0 |              |      |      |            |             |
-|          _FCLK_CLK0 |BUFGCTRL_X0Y31| No   |  823 |  0.359     |  1.978      |
+|          _FCLK_CLK0 |BUFGCTRL_X0Y31| No   |  836 |  0.356     |  1.978      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -658,26 +658,26 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     0.415ns|     9.585ns|       0|           0
-  0" 100 MHz HIGH 50%                       | HOLD        |     0.003ns|            |       0|           0
+  TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     1.020ns|     8.980ns|       0|           0
+  0" 100 MHz HIGH 50%                       | HOLD        |     0.024ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_v_tc_0_async_clock_conv = MAXDELAY FRO | SETUP       |     8.115ns|     1.885ns|       0|           0
-  M TIMEGRP "FFS" TO TIMEGRP         "v_tc_ | HOLD        |     0.301ns|            |       0|           0
+  TS_v_tc_0_async_clock_conv = MAXDELAY FRO | SETUP       |     7.754ns|     2.246ns|       0|           0
+  M TIMEGRP "FFS" TO TIMEGRP         "v_tc_ | HOLD        |     0.374ns|            |       0|           0
   0_async_clock_conv_FFDEST" 10 ns DATAPATH |             |            |            |        |            
   ONLY                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_v_tc_0_vid_async_clock_conv = MAXDELAY | SETUP       |     8.345ns|     1.655ns|       0|           0
-   FROM TIMEGRP "FFS" TO TIMEGRP         "v | HOLD        |     0.186ns|            |       0|           0
-  _tc_0_vid_async_clock_conv_FFDEST" 10 ns  |             |            |            |        |            
+  TS_clk_fpga_2 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |    25.745ns|    14.255ns|       0|           0
+  2" 25 MHz HIGH 50%                        | HOLD        |     0.007ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_v_tc_0_vid_async_clock_conv = MAXDELAY | SETUP       |    38.122ns|     1.878ns|       0|           0
+   FROM TIMEGRP "FFS" TO TIMEGRP         "v | HOLD        |     0.182ns|            |       0|           0
+  _tc_0_vid_async_clock_conv_FFDEST" 40 ns  |             |            |            |        |            
   DATAPATHONLY                              |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_clk_fpga_2 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |    25.998ns|    14.002ns|       0|           0
-  2" 25 MHz HIGH 50%                        | HOLD        |     0.013ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TS_axi_interconnect_1_reset_resync_ | SETUP       |         N/A|     1.055ns|     N/A|           0
+  PATH "TS_axi_interconnect_1_reset_resync_ | SETUP       |         N/A|     1.118ns|     N/A|           0
   path" TIG                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_axi4lite_0_reset_resync_path" TI | SETUP       |         N/A|     1.118ns|     N/A|           0
+  PATH "TS_axi4lite_0_reset_resync_path" TI | SETUP       |         N/A|     1.092ns|     N/A|           0
   G                                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
 
@@ -697,9 +697,9 @@ All signals are completely routed.
 WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
 Total REAL time to PAR completion: 46 secs 
-Total CPU time to PAR completion: 31 secs 
+Total CPU time to PAR completion: 30 secs 
 
-Peak Memory Usage:  811 MB
+Peak Memory Usage:  813 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
@@ -759,14 +759,14 @@ Timing summary:
 
 Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
 
-Constraints cover 89611 paths, 0 nets, and 21003 connections
+Constraints cover 83404 paths, 0 nets, and 20996 connections
 
 Design statistics:
-   Minimum period:  14.002ns (Maximum frequency:  71.418MHz)
-   Maximum path delay from/to any node:   1.885ns
+   Minimum period:  14.255ns (Maximum frequency:  70.151MHz)
+   Maximum path delay from/to any node:   2.246ns
 
 
-Analysis completed Thu Jan 26 01:43:08 2017
+Analysis completed Thu Jan 26 17:00:10 2017
 --------------------------------------------------------------------------------
 
 Generating Report ...

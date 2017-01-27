@@ -6,8 +6,8 @@ xc7z020clg484-1 -intstyle silent -i -sd .. system_axi4lite_0_wrapper.ngc
 ../system_axi4lite_0_wrapper
 
 Reading NGO file
-"U:/Desktop/cpre488mp0/system/implementation/axi4lite_0_wrapper/system_axi4lite_
-0_wrapper.ngc" ...
+"U:/Documents/cpre488mp0/system/implementation/axi4lite_0_wrapper/system_axi4lit
+e_0_wrapper.ngc" ...
 
 Partition Implementation Status
 -------------------------------
@@ -20,7 +20,7 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 228140 kilobytes
+Total memory usage is 227884 kilobytes
 
 Writing NGC file "../system_axi4lite_0_wrapper.ngc" ...
 Total REAL time to NGCBUILD completion:  4 sec

@@ -35,7 +35,9 @@ entity system is
     processing_system7_0_DDR_VRP : inout std_logic;
     VGAData : out std_logic_vector(11 downto 0);
     HSync : out std_logic;
-    VSync : out std_logic
+    VSync : out std_logic;
+    vsync_test : out std_logic;
+    hsync_test : out std_logic
   );
 end system;
 
@@ -1446,6 +1448,7 @@ architecture STRUCTURE of system is
   signal axi4lite_0_S_ARADDR : std_logic_vector(31 downto 0);
   signal axi4lite_0_S_ARBURST : std_logic_vector(1 downto 0);
   signal axi4lite_0_S_ARCACHE : std_logic_vector(3 downto 0);
+  signal axi4lite_0_S_ARESETN : std_logic_vector(0 to 0);
   signal axi4lite_0_S_ARID : std_logic_vector(11 downto 0);
   signal axi4lite_0_S_ARLEN : std_logic_vector(7 downto 0);
   signal axi4lite_0_S_ARLOCK : std_logic_vector(1 downto 0);
@@ -1559,11 +1562,13 @@ architecture STRUCTURE of system is
   signal v_axi4s_vid_out_0_video_data_0 : std_logic_vector(11 downto 0);
   signal v_axi4s_vid_out_0_video_hsync_0 : std_logic;
   signal v_axi4s_vid_out_0_video_vsync_0 : std_logic;
+  signal v_axi4s_vid_out_0_vtg_ce : std_logic;
   signal v_tc_0_VTIMING_OUT_active_video : std_logic;
   signal v_tc_0_VTIMING_OUT_hblank : std_logic;
   signal v_tc_0_VTIMING_OUT_hsync : std_logic;
   signal v_tc_0_VTIMING_OUT_vblank : std_logic;
   signal v_tc_0_VTIMING_OUT_vsync : std_logic;
+  signal v_tc_0_fsync_out : std_logic_vector(0 to 0);
 
   attribute BOX_TYPE : STRING;
   attribute BOX_TYPE of system_axi4lite_0_wrapper : component is "user_black_box";
@@ -1584,6 +1589,8 @@ begin
   VGAData <= v_axi4s_vid_out_0_video_data_0;
   HSync <= v_axi4s_vid_out_0_video_hsync_0;
   VSync <= v_axi4s_vid_out_0_video_vsync_0;
+  vsync_test <= v_tc_0_VTIMING_OUT_vsync;
+  hsync_test <= v_tc_0_VTIMING_OUT_hsync;
   pgassign1(4 downto 4) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(3 downto 3) <= processing_system7_0_FCLK_CLK0(0 to 0);
   pgassign1(2 downto 2) <= processing_system7_0_FCLK_CLK0(0 to 0);
@@ -1608,7 +1615,7 @@ begin
     port map (
       INTERCONNECT_ACLK => pgassign1(4),
       INTERCONNECT_ARESETN => processing_system7_0_FCLK_RESET0_N_0,
-      S_AXI_ARESET_OUT_N => open,
+      S_AXI_ARESET_OUT_N => axi4lite_0_S_ARESETN(0 to 0),
       M_AXI_ARESET_OUT_N => axi4lite_0_M_ARESETN,
       IRQ => open,
       S_AXI_ACLK => pgassign1(4 downto 4),
@@ -2660,7 +2667,7 @@ begin
       s_axis_s2mm_tready => open,
       s_axis_s2mm_tlast => net_gnd0,
       s_axis_s2mm_tuser => net_gnd1(0 to 0),
-      mm2s_fsync => net_gnd0,
+      mm2s_fsync => v_tc_0_fsync_out(0),
       mm2s_frame_ptr_in => net_gnd6,
       mm2s_frame_ptr_out => open,
       mm2s_fsync_out => open,
@@ -2915,7 +2922,7 @@ begin
       resetn => net_vcc0,
       clken => net_vcc0,
       det_clken => net_vcc0,
-      gen_clken => net_vcc0,
+      gen_clken => v_axi4s_vid_out_0_vtg_ce,
       fsync_in => net_gnd0,
       vblank_in => net_gnd0,
       vsync_in => net_gnd0,
@@ -2929,14 +2936,14 @@ begin
       hsync_out => v_tc_0_VTIMING_OUT_hsync,
       active_video_out => v_tc_0_VTIMING_OUT_active_video,
       active_chroma_out => open,
-      fsync_out => open
+      fsync_out => v_tc_0_fsync_out(0 to 0)
     );
 
   v_axi4s_vid_out_0 : system_v_axi4s_vid_out_0_wrapper
     port map (
       aclk => pgassign1(4),
       rst => net_gnd0,
-      aresetn => net_vcc0,
+      aresetn => axi4lite_0_S_ARESETN(0),
       aclken => net_vcc0,
       s_axis_video_tdata => axi_vdma_0_M_AXIS_MM2S_TDATA,
       s_axis_video_tvalid => axi_vdma_0_M_AXIS_MM2S_TVALID,
@@ -2955,7 +2962,7 @@ begin
       vtg_vblank => v_tc_0_VTIMING_OUT_vblank,
       vtg_hblank => v_tc_0_VTIMING_OUT_hblank,
       vtg_act_vid => v_tc_0_VTIMING_OUT_active_video,
-      vtg_ce => open,
+      vtg_ce => v_axi4s_vid_out_0_vtg_ce,
       vtg_fsync => open,
       locked => open,
       wr_error => open,

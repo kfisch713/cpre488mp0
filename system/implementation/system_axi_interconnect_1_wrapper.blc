@@ -6,8 +6,8 @@ xc7z020clg484-1 -intstyle silent -i -sd .. system_axi_interconnect_1_wrapper.ngc
 ../system_axi_interconnect_1_wrapper
 
 Reading NGO file
-"U:/Desktop/cpre488mp0/system/implementation/axi_interconnect_1_wrapper/system_a
-xi_interconnect_1_wrapper.ngc" ...
+"U:/Documents/cpre488mp0/system/implementation/axi_interconnect_1_wrapper/system
+_axi_interconnect_1_wrapper.ngc" ...
 Loading design module
 "../system_axi_interconnect_1_wrapper_fifo_generator_v9_1_1.ngc"...
 Loading design module
@@ -24,7 +24,7 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 230060 kilobytes
+Total memory usage is 230188 kilobytes
 
 Writing NGC file "../system_axi_interconnect_1_wrapper.ngc" ...
 Total REAL time to NGCBUILD completion:  4 sec

@@ -4,15 +4,18 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/platform.c \
 ../src/vga_test.c 
 
 LD_SRCS += \
 ../src/lscript.ld 
 
 OBJS += \
+./src/platform.o \
 ./src/vga_test.o 
 
 C_DEPS += \
+./src/platform.d \
 ./src/vga_test.d 
 
 

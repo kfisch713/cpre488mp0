@@ -282,3 +282,190 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 02:01:35.219 ERROR - Unable to determine the referenced BSP for application project vga_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
 02:02:00.194 ERROR - Unable to determine the referenced BSP for application project hello_world. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
 02:04:02.006 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:19:14.160 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+14:19:17.140 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+14:19:18.200 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+14:19:18.940 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+14:19:20.515 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+14:19:20.545 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+14:19:20.705 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+14:19:20.735 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+14:19:21.045 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:21:14.397 INFO  - Updating hardware inferred compiler options for vga_test. 
+14:21:14.967 INFO  - Clearing existing target manager status. 
+14:21:17.311 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:52:07.171 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    ERROR:Cse - A reference voltage has not been detected on the ribbon cable interface to the target system ( pin 2 ).  Check that power is applied to the target system and that the ribbon cable is properly seated at both ends.  The status LED on Platform Cable USB will be GREEN if target voltage is in the proper range and applied to the correct pin.
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+14:52:50.845 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:52:50.945 INFO  - PS initialization will be done as it is not done before. 
+14:52:50.945 INFO  - Running PS initialization.... 
+14:52:51.391 INFO  - ps7_init is completed. 
+14:52:51.501 INFO  - ps7_post_config is completed. 
+14:52:51.609 INFO  - PS Initialization is complete. 
+15:04:34.749 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:07:56.017 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:08:01.001 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:10:09.876 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    ERROR:Cse - A reference voltage has not been detected on the ribbon cable interface to the target system ( pin 2 ).  Check that power is applied to the target system and that the ribbon cable is properly seated at both ends.  The status LED on Platform Cable USB will be GREEN if target voltage is in the proper range and applied to the correct pin.
+
+    ERROR:Cse - A reference voltage has not been detected on the ribbon cable interface to the target system ( pin 2 ).  Check that power is applied to the target system and that the ribbon cable is properly seated at both ends.  The status LED on Platform Cable USB will be GREEN if target voltage is in the proper range and applied to the correct pin.
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+15:10:22.142 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:10:22.242 INFO  - PS initialization will be done as it is not done before. 
+15:10:22.242 INFO  - Running PS initialization.... 
+15:10:22.691 INFO  - ps7_init is completed. 
+15:10:22.795 INFO  - ps7_post_config is completed. 
+15:10:22.905 INFO  - PS Initialization is complete. 
+15:11:08.830 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:11:20.011 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:11:26.006 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:12:28.104 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+15:13:01.867 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+15:13:11.179 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:13:11.289 INFO  - PS initialization will be done as it is not done before. 
+15:13:11.289 INFO  - Running PS initialization.... 
+15:13:11.729 INFO  - ps7_init is completed. 
+15:13:11.829 INFO  - ps7_post_config is completed. 
+15:13:11.939 INFO  - PS Initialization is complete. 
+15:20:44.353 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:22:41.995 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:27:10.521 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+15:29:01.703 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:30:45.218 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+15:47:18.142 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+15:49:31.637 ERROR - SDK has detected that project system_hw_platform has been deleted (or renamed).
+This project was referenced by a BSP project, which will now fail to compile properly.
+
+We recommend that you create a new BSP project pointing to a valid hardware project. Alternatively, you can fix the project references in the BSP, and update the path to the hardware specification file in 'libgen.options', and in ELF check options in dependant applications. 
+15:51:24.212 ERROR - SDK has detected that project system_hw_platform has been deleted (or renamed).
+This project was referenced by a BSP project, which will now fail to compile properly.
+
+We recommend that you create a new BSP project pointing to a valid hardware project. Alternatively, you can fix the project references in the BSP, and update the path to the hardware specification file in 'libgen.options', and in ELF check options in dependant applications. 
+15:51:48.492 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+15:51:50.662 ERROR - Unexpected exception while copying file \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit: org.eclipse.core.internal.resources.ResourceException: Resource '/system_hw_platform/system.bit' already exists. 
+15:51:50.802 ERROR - Unexpected exception while copying file \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c: org.eclipse.core.internal.resources.ResourceException: Resource '/system_hw_platform/ps7_init.c' already exists. 
+15:51:50.822 ERROR - Unexpected exception while copying file \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h: org.eclipse.core.internal.resources.ResourceException: Resource '/system_hw_platform/ps7_init.h' already exists. 
+15:51:50.872 WARN  - Unexpected exception while copying file \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html: org.eclipse.core.internal.resources.ResourceException: Resource '/system_hw_platform/ps7_init.html' already exists. 
+15:51:50.932 ERROR - Unexpected exception while copying file \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl: org.eclipse.core.internal.resources.ResourceException: Resource '/system_hw_platform/ps7_init.tcl' already exists. 
+15:56:22.216 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+15:58:52.249 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+15:59:39.571 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:59:39.571 INFO  - PS initialization will be done as it is not done before. 
+15:59:39.571 INFO  - Running PS initialization.... 
+15:59:40.039 INFO  - ps7_init is completed. 
+15:59:40.139 INFO  - ps7_post_config is completed. 
+15:59:40.249 INFO  - PS Initialization is complete. 
+16:00:13.366 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:26:34.484 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:32:12.356 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+16:32:15.077 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+16:32:15.837 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+16:32:16.587 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+16:32:18.715 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+16:32:18.735 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+16:32:19.335 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+16:32:19.595 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+16:32:19.795 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:32:21.761 INFO  - Updating hardware inferred compiler options for vga_test. 
+16:32:21.765 INFO  - Clearing existing target manager status. 
+16:34:35.751 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+16:34:51.888 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:34:51.988 INFO  - PS initialization will be done as it is not done before. 
+16:34:51.988 INFO  - Running PS initialization.... 
+16:34:52.458 INFO  - ps7_init is completed. 
+16:34:52.568 INFO  - ps7_post_config is completed. 
+16:34:52.678 INFO  - PS Initialization is complete. 
+16:50:54.987 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:01:08.901 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+17:01:10.224 INFO  - The hardware specification for project 'system_hw_platform' is different from \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+17:01:11.460 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+17:01:12.178 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+17:02:56.173 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+17:02:57.371 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+17:02:57.541 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+17:02:57.601 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+17:02:57.788 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:04:37.645 INFO  - Updating hardware inferred compiler options for vga_test. 
+17:04:37.665 INFO  - Clearing existing target manager status. 
+17:05:07.127 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+17:05:33.396 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:05:33.497 INFO  - PS initialization will be done as it is not done before. 
+17:05:33.497 INFO  - Running PS initialization.... 
+17:05:33.967 INFO  - ps7_init is completed. 
+17:05:34.077 INFO  - ps7_post_config is completed. 
+17:05:34.187 INFO  - PS Initialization is complete. 
+17:19:53.188 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:20:28.959 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:20:51.857 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:21:28.827 ERROR - Port COM1 is already in use. 
+17:21:29.237 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:22:53.575 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:24:56.521 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:25:35.683 ERROR - Port COM5 is already in use. 
+17:25:36.093 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:26:38.918 ERROR - Port COM5 is already in use. 
+17:26:39.318 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:28:09.292 ERROR - Port COM5 is already in use. 
+17:28:09.584 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:28:35.156 ERROR - Port COM5 is already in use. 
+17:28:35.486 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:29:21.371 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+17:30:17.268 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+17:30:59.453 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+17:35:57.190 ERROR - Port COM5 is already in use. 
+17:35:57.580 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:36:33.647 ERROR - Port COM5 is already in use. 
+17:36:34.037 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:36:55.528 ERROR - Port COM5 is already in use. 
+17:36:55.918 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:37:55.508 ERROR - Port COM5 is already in use. 
+17:37:55.898 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:38:47.507 ERROR - Port COM5 is already in use. 
+17:38:47.816 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:40:39.755 ERROR - Port COM5 is already in use. 
+17:40:40.065 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:41:19.493 ERROR - Port COM5 is already in use. 
+17:41:19.893 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:41:40.582 ERROR - Port COM5 is already in use. 
+17:41:40.980 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:48:13.101 ERROR - Port COM5 is already in use. 
+17:48:13.491 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:59:42.794 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-CO2041-14::  Thu Jan 26 01:42:04 2017
+CO2041-14::  Thu Jan 26 16:59:05 2017
 
 par -w -ol high system_map.ncd system.ncd system.pcf 
 
@@ -36,8 +36,8 @@ Device speed data version:  "PRODUCTION 1.08 2013-10-13".
 Device Utilization Summary:
 
    Number of BUFGs                           2 out of 32      6%
-   Number of External IOB33s                35 out of 200    17%
-      Number of LOCed IOB33s                35 out of 35    100%
+   Number of External IOB33s                37 out of 200    18%
+      Number of LOCed IOB33s                37 out of 37    100%
 
    Number of External IOPADs               130 out of 130   100%
       Number of LOCed IOPADs               127 out of 130    97%
@@ -45,14 +45,14 @@ Device Utilization Summary:
    Number of OLOGICE2s                      19 out of 200     9%
    Number of PS7s                            1 out of 1     100%
    Number of RAMB18E1s                       3 out of 280     1%
-   Number of Slices                       1711 out of 13300  12%
-   Number of Slice Registers              3555 out of 106400  3%
-      Number used as Flip Flops           3555
+   Number of Slices                       1749 out of 13300  13%
+   Number of Slice Registers              3554 out of 106400  3%
+      Number used as Flip Flops           3554
       Number used as Latches                 0
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                   3733 out of 53200   7%
-   Number of Slice LUT-Flip Flop pairs    4605 out of 53200   8%
+   Number of Slice LUTS                   3710 out of 53200   6%
+   Number of Slice LUT-Flip Flop pairs    4624 out of 53200   8%
 
 
 Overall effort level (-ol):   High 
@@ -60,8 +60,8 @@ Router effort level (-rl):    High
 
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 14 secs 
-Finished initial Timing Analysis.  REAL time: 14 secs 
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 13 secs 
 
 WARNING:Par:288 - The signal
    axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRIT
@@ -74,27 +74,27 @@ WARNING:Par:288 - The signal
 Starting Router
 
 
-Phase  1  : 24155 unrouted;      REAL time: 15 secs 
+Phase  1  : 24151 unrouted;      REAL time: 14 secs 
 
-Phase  2  : 19841 unrouted;      REAL time: 15 secs 
+Phase  2  : 19816 unrouted;      REAL time: 14 secs 
 
-Phase  3  : 6778 unrouted;      REAL time: 20 secs 
+Phase  3  : 6659 unrouted;      REAL time: 20 secs 
 
-Phase  4  : 6778 unrouted; (Setup:0, Hold:32657, Component Switching Limit:0)     REAL time: 23 secs 
+Phase  4  : 6659 unrouted; (Setup:0, Hold:26917, Component Switching Limit:0)     REAL time: 22 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:26469, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:23165, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 30 secs 
-Total REAL time to Router completion: 30 secs 
-Total CPU time to Router completion: 29 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 28 secs 
+Total REAL time to Router completion: 28 secs 
+Total CPU time to Router completion: 28 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -113,10 +113,10 @@ Generating Clock Report
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
 |processing_system7_0 |              |      |      |            |             |
-|          _FCLK_CLK2 |BUFGCTRL_X0Y30| No   |  412 |  0.273     |  1.901      |
+|          _FCLK_CLK2 |BUFGCTRL_X0Y30| No   |  419 |  0.279     |  1.901      |
 +---------------------+--------------+------+------+------------+-------------+
 |processing_system7_0 |              |      |      |            |             |
-|          _FCLK_CLK0 |BUFGCTRL_X0Y31| No   |  823 |  0.359     |  1.978      |
+|          _FCLK_CLK0 |BUFGCTRL_X0Y31| No   |  836 |  0.356     |  1.978      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -136,26 +136,26 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     0.415ns|     9.585ns|       0|           0
-  0" 100 MHz HIGH 50%                       | HOLD        |     0.003ns|            |       0|           0
+  TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     1.020ns|     8.980ns|       0|           0
+  0" 100 MHz HIGH 50%                       | HOLD        |     0.024ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_v_tc_0_async_clock_conv = MAXDELAY FRO | SETUP       |     8.115ns|     1.885ns|       0|           0
-  M TIMEGRP "FFS" TO TIMEGRP         "v_tc_ | HOLD        |     0.301ns|            |       0|           0
+  TS_v_tc_0_async_clock_conv = MAXDELAY FRO | SETUP       |     7.754ns|     2.246ns|       0|           0
+  M TIMEGRP "FFS" TO TIMEGRP         "v_tc_ | HOLD        |     0.374ns|            |       0|           0
   0_async_clock_conv_FFDEST" 10 ns DATAPATH |             |            |            |        |            
   ONLY                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_v_tc_0_vid_async_clock_conv = MAXDELAY | SETUP       |     8.345ns|     1.655ns|       0|           0
-   FROM TIMEGRP "FFS" TO TIMEGRP         "v | HOLD        |     0.186ns|            |       0|           0
-  _tc_0_vid_async_clock_conv_FFDEST" 10 ns  |             |            |            |        |            
+  TS_clk_fpga_2 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |    25.745ns|    14.255ns|       0|           0
+  2" 25 MHz HIGH 50%                        | HOLD        |     0.007ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_v_tc_0_vid_async_clock_conv = MAXDELAY | SETUP       |    38.122ns|     1.878ns|       0|           0
+   FROM TIMEGRP "FFS" TO TIMEGRP         "v | HOLD        |     0.182ns|            |       0|           0
+  _tc_0_vid_async_clock_conv_FFDEST" 40 ns  |             |            |            |        |            
   DATAPATHONLY                              |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_clk_fpga_2 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |    25.998ns|    14.002ns|       0|           0
-  2" 25 MHz HIGH 50%                        | HOLD        |     0.013ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TS_axi_interconnect_1_reset_resync_ | SETUP       |         N/A|     1.055ns|     N/A|           0
+  PATH "TS_axi_interconnect_1_reset_resync_ | SETUP       |         N/A|     1.118ns|     N/A|           0
   path" TIG                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_axi4lite_0_reset_resync_path" TI | SETUP       |         N/A|     1.118ns|     N/A|           0
+  PATH "TS_axi4lite_0_reset_resync_path" TI | SETUP       |         N/A|     1.092ns|     N/A|           0
   G                                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
 
@@ -175,9 +175,9 @@ All signals are completely routed.
 WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
 Total REAL time to PAR completion: 46 secs 
-Total CPU time to PAR completion: 31 secs 
+Total CPU time to PAR completion: 30 secs 
 
-Peak Memory Usage:  811 MB
+Peak Memory Usage:  813 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

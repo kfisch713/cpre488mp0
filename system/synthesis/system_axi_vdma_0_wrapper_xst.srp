@@ -1,10 +1,10 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_axi_vdma_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_vdma_v5_04_a\hdl\verilog\" "U:\Desktop\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_vdma_v5_04_a\hdl\verilog\" "U:\Documents\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z020clg484-1
@@ -1199,7 +1199,7 @@ Parsing architecture <implementation> of entity <axi_vdma_s2mm_axis_dwidth_conve
 Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" into library axi_vdma_v5_04_a
 Parsing entity <axi_vdma>.
 Parsing architecture <implementation> of entity <axi_vdma>.
-Parsing VHDL file "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_axi_vdma_0_wrapper.vhd" into library work
+Parsing VHDL file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_axi_vdma_0_wrapper.vhd" into library work
 Parsing entity <system_axi_vdma_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_axi_vdma_0_wrapper>.
 
@@ -1228,13 +1228,13 @@ WARNING:HDLCompiler:1127 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pc
 Elaborating entity <axi_vdma_reg_module> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
 
 Elaborating entity <axi_vdma_register> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
+WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_register.vhd" Line 347: Net <s2mm_fsize_more_or_sof_late_bit> does not have a driver.
 
 Elaborating entity <axi_vdma_regdirect> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
 
 Elaborating entity <axi_vdma_reg_mux> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
 
 Elaborating entity <axi_vdma_mngr> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
-WARNING:HDLCompiler:1127 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mngr.vhd" Line 670: Assignment to late_idle ignored, since the identifier is never used
 
 Elaborating entity <axi_vdma_sm> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
 INFO:HDLCompiler:679 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_sm.vhd" Line 571. Case statement is complete. others clause is never selected
@@ -1260,10 +1260,10 @@ Elaborating entity <axi_vdma_vid_cdc> (architecture <implementation>) with gener
 Elaborating entity <axi_vdma_sof_gen> (architecture <implementation>) from library <axi_vdma_v5_04_a>.
 
 Elaborating entity <axi_vdma_mm2s_linebuf> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
-WARNING:HDLCompiler:321 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mm2s_linebuf.vhd" Line 1459: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mm2s_linebuf.vhd" Line 494: Comparison between arrays of unequal length always returns FALSE.
 
 Elaborating entity <axi_vdma_sfifo> (architecture <xilinx>) with generics from library <axi_vdma_v5_04_a>.
-WARNING:HDLCompiler:321 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mm2s_linebuf.vhd" Line 1688: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mm2s_linebuf.vhd" Line 753: Comparison between arrays of unequal length always returns FALSE.
 
 Elaborating entity <axi_vdma_skid_buf> (architecture <implementation>) with generics from library <axi_vdma_v5_04_a>.
 WARNING:HDLCompiler:1127 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" Line 3947: Assignment to s2mm_cmdsts_idle ignored, since the identifier is never used
@@ -1360,7 +1360,7 @@ WARNING:HDLCompiler:634 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pco
 =========================================================================
 
 Synthesizing Unit <system_axi_vdma_0_wrapper>.
-    Related source file is "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_axi_vdma_0_wrapper.vhd".
+    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_axi_vdma_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_axi_vdma_0_wrapper> synthesized.
@@ -1374,7 +1374,7 @@ Synthesizing Unit <axi_vdma>.
         C_ENABLE_VIDPRMTR_READS = 1
         C_DYNAMIC_RESOLUTION = 1
         C_NUM_FSTORES = 3
-        C_USE_FSYNC = 1
+        C_USE_FSYNC = 0
         C_FLUSH_ON_FSYNC = 1
         C_INCLUDE_INTERNAL_GENLOCK = 1
         C_INCLUDE_SG = 0
@@ -1447,6 +1447,7 @@ INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vd
 INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <crnt_vsize_d2_out> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <mm2s_axis_linebuf_reset_out> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <mm2s_vsize_cntr_clr_flag> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <MM2S_DROP_RESIDUAL_OF_FSIZE_ERR_FRAME_S> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <dm_halt_reg_out> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <stop_reg_out> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma.vhd" line 2490: Output port <mm2s_all_lines_xfred_s> of the instance <GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I> is unconnected or connected to loadless signal.
@@ -1483,7 +1484,6 @@ WARNING:Xst:2935 - Signal 's_axis_s2mm_tvalid_signal', unconnected in block 'axi
     Found 1-bit register for signal <mm2s_fsync_d1>.
     Summary:
 	inferred   4 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
 Unit <axi_vdma> synthesized.
 
 Synthesizing Unit <axi_vdma_rst_module>.
@@ -1645,7 +1645,7 @@ Synthesizing Unit <axi_vdma_reg_module>.
         C_TOTAL_NUM_REGISTER = 62
         C_INCLUDE_SG = 0
         C_CHANNEL_IS_MM2S = 1
-        C_ENABLE_FLUSH_ON_FSYNC = 1
+        C_ENABLE_FLUSH_ON_FSYNC = 0
         C_ENABLE_VIDPRMTR_READS = 1
         C_DYNAMIC_RESOLUTION = 1
         C_NUM_FSTORES = 3
@@ -1670,7 +1670,7 @@ Synthesizing Unit <axi_vdma_register>.
         C_LINEBUFFER_THRESH = 4
         C_INCLUDE_SG = 0
         C_GENLOCK_MODE = 0
-        C_ENABLE_FLUSH_ON_FSYNC = 1
+        C_ENABLE_FLUSH_ON_FSYNC = 0
         C_S_AXI_LITE_DATA_WIDTH = 32
         C_M_AXI_SG_ADDR_WIDTH = 32
 WARNING:Xst:647 - Input <axi2ip_wrce<5:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1679,8 +1679,10 @@ WARNING:Xst:647 - Input <frmstr_err_addr> is never used. This port will be prese
 WARNING:Xst:647 - Input <new_curdesc> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <idle_set> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <idle_clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <s2mm_fsize_more_or_sof_late> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <update_curdesc> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <update_frmstore> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2935 - Signal 's2mm_fsize_more_or_sof_late_bit', unconnected in block 'axi_vdma_register', is tied to its initial value (0).
     Found 1-bit register for signal <dmacr_i<30>>.
     Found 1-bit register for signal <dmacr_i<29>>.
     Found 1-bit register for signal <dmacr_i<28>>.
@@ -1717,7 +1719,6 @@ WARNING:Xst:647 - Input <update_frmstore> is never used. This port will be prese
     Found 1-bit register for signal <halted>.
     Found 1-bit register for signal <dma_interr>.
     Found 1-bit register for signal <fsize_err>.
-    Found 1-bit register for signal <s2mm_fsize_more_or_sof_late_bit>.
     Found 1-bit register for signal <lsize_err>.
     Found 1-bit register for signal <lsize_more_err>.
     Found 1-bit register for signal <dma_slverr>.
@@ -1734,7 +1735,7 @@ WARNING:Xst:647 - Input <update_frmstore> is never used. This port will be prese
     Found 8-bit comparator not equal for signal <n0034> created at line 417
     Found 8-bit comparator not equal for signal <n0074> created at line 472
     Summary:
-	inferred  75 D-type flip-flop(s).
+	inferred  74 D-type flip-flop(s).
 	inferred   2 Comparator(s).
 	inferred   2 Multiplexer(s).
 Unit <axi_vdma_register> synthesized.
@@ -1818,8 +1819,8 @@ Synthesizing Unit <axi_vdma_mngr>.
         C_PRMRY_IS_ACLK_ASYNC = 0
         C_PRMY_CMDFIFO_DEPTH = 4
         C_INCLUDE_SF = 1
-        C_USE_FSYNC = 1
-        C_ENABLE_FLUSH_ON_FSYNC = 1
+        C_USE_FSYNC = 0
+        C_ENABLE_FLUSH_ON_FSYNC = 0
         C_NUM_FSTORES = 3
         C_GENLOCK_MODE = 0
         C_GENLOCK_NUM_MASTERS = 1
@@ -1861,9 +1862,9 @@ INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vd
     Found 1-bit register for signal <err_d1>.
     Found 1-bit register for signal <tstvect_err>.
     Found 1-bit register for signal <initial_frame>.
-    Found 5-bit adder for signal <frame_number_i[4]_GND_24_o_add_13_OUT> created at line 1241.
+    Found 5-bit adder for signal <frame_number_i[4]_GND_24_o_add_10_OUT> created at line 1241.
     Found 6-bit subtractor for signal <num_fstore_minus1_cmb> created at line 564.
-    Found 5-bit comparator equal for signal <num_fstore_minus1[4]_frame_number_i[4]_equal_13_o> created at line 1806
+    Found 5-bit comparator equal for signal <num_fstore_minus1[4]_frame_number_i[4]_equal_10_o> created at line 1806
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  31 D-type flip-flop(s).
@@ -1874,8 +1875,8 @@ Unit <axi_vdma_mngr> synthesized.
 Synthesizing Unit <axi_vdma_sm>.
     Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_sm.vhd".
         C_INCLUDE_SF = 1
-        C_USE_FSYNC = 1
-        C_ENABLE_FLUSH_ON_FSYNC = 1
+        C_USE_FSYNC = 0
+        C_ENABLE_FLUSH_ON_FSYNC = 0
         C_M_AXI_ADDR_WIDTH = 32
         C_EXTEND_DM_COMMAND = 0
         C_PRMY_CMDFIFO_DEPTH = 4
@@ -1888,11 +1889,13 @@ WARNING:Xst:647 - Input <scndry_aclk> is never used. This port will be preserved
 WARNING:Xst:647 - Input <scndry_resetn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <packet_sof> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <mm2s_fsize_mismatch_err_s> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mm2s_fsize_mismatch_err_m> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <all_lasts_rcvd> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s2mm_strm_all_lines_rcvd> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <drop_fsync_d_pulse_gen_fsize_less_err> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s2mm_fsync_core> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s2mm_fsync_out_m> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mm2s_fsync_out_m> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:653 - Signal <s2mm_fsize_mismatch_err_s> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 1-bit register for signal <frame_sync_d2>.
     Found 1-bit register for signal <frame_sync_d3>.
@@ -1905,17 +1908,17 @@ WARNING:Xst:653 - Signal <s2mm_fsize_mismatch_err_s> is used but never assigned.
     Found 1-bit register for signal <cmnd_wr_i>.
     Found 72-bit register for signal <cmnd_data>.
     Found 8-bit register for signal <cmnds_queued>.
-    Found 1-bit register for signal <GEN_FSIZE_MISMATCH.GEN_MM2S_MISMATCH_FLUSH_SOF.mm2s_fsync_out_m_d1>.
-    Found 1-bit register for signal <fsize_mismatch_err_flag_int_d1>.
+    Found 1-bit register for signal <all_lines_xfred_d1>.
+    Found 1-bit register for signal <xfred_started>.
     Found 1-bit register for signal <frame_sync_d1>.
     Found finite state machine <FSM_0> for signal <dmacntrl_cs>.
     -----------------------------------------------------------------------
     | States             | 6                                              |
-    | Transitions        | 18                                             |
-    | Inputs             | 10                                             |
+    | Transitions        | 17                                             |
+    | Inputs             | 9                                              |
     | Outputs            | 3                                              |
     | Clock              | prmry_aclk (rising_edge)                       |
-    | Reset              | prmry_resetn_INV_233_o (positive)              |
+    | Reset              | prmry_resetn_INV_222_o (positive)              |
     | Reset type         | synchronous                                    |
     | Reset State        | idle                                           |
     | Power Up State     | idle                                           |
@@ -1939,7 +1942,7 @@ Synthesizing Unit <axi_vdma_cmdsts_if>.
         C_DM_STATUS_WIDTH = 8
         C_INCLUDE_MM2S = 1
         C_INCLUDE_S2MM = 0
-        C_ENABLE_FLUSH_ON_FSYNC = 1
+        C_ENABLE_FLUSH_ON_FSYNC = 0
 WARNING:Xst:647 - Input <crnt_hsize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <m_axis_sts_tkeep> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <stop> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2061,23 +2064,25 @@ Unit <axi_vdma_greycoder> synthesized.
 
 Synthesizing Unit <axi_vdma_fsync_gen>.
     Related source file is "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_fsync_gen.vhd".
-        C_USE_FSYNC = 1
-        ENABLE_FLUSH_ON_MM2S_FSYNC = 1
+        C_USE_FSYNC = 0
+        ENABLE_FLUSH_ON_MM2S_FSYNC = 0
         ENABLE_FLUSH_ON_S2MM_FSYNC = 0
         C_INCLUDE_S2MM = 0
         C_INCLUDE_MM2S = 1
         C_SOF_ENABLE = 1
 WARNING:Xst:647 - Input <fsync_src_select> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <run_stop> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <all_idle> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <fsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <tuser_fsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <othrchnl_fsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 1-bit register for signal <GEN_FSYNC_MODE_MM2S_SOF.frame_sync_aligned>.
+    Found 1-bit register for signal <GEN_FREE_RUN_MODE.all_idle_d2>.
+    Found 1-bit register for signal <GEN_FREE_RUN_MODE.frame_sync_i>.
+    Found 1-bit register for signal <GEN_FREE_RUN_MODE.mask_fsync_out_i>.
+    Found 1-bit register for signal <GEN_FREE_RUN_MODE.frame_sync_aligned>.
     Found 1-bit register for signal <frame_sync_out>.
     Found 1-bit register for signal <prmtr_update>.
-    Found 1-bit register for signal <GEN_FSYNC_MODE_MM2S_SOF.mask_fsync_out_i>.
+    Found 1-bit register for signal <GEN_FREE_RUN_MODE.all_idle_d1>.
     Summary:
-	inferred   4 D-type flip-flop(s).
+	inferred   7 D-type flip-flop(s).
 Unit <axi_vdma_fsync_gen> synthesized.
 
 Synthesizing Unit <axi_vdma_vid_cdc>.
@@ -2119,19 +2124,25 @@ Synthesizing Unit <axi_vdma_mm2s_linebuf>.
         C_LINEBUFFER_DEPTH = 128
         C_LINEBUFFER_AE_THRESH = 4
         C_PRMRY_IS_ACLK_ASYNC = 0
-        ENABLE_FLUSH_ON_FSYNC = 1
+        ENABLE_FLUSH_ON_FSYNC = 0
         C_FAMILY = "zynq"
+WARNING:Xst:647 - Input <fsync_src_select> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <linebuf_threshold<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <linebuf_threshold<16:9>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s_axis_tkeep> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s2mm_axis_resetn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s_axis_s2mm_aclk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <s2mm_fsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <run_stop> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <cmdsts_idle> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <mm2s_fsize_mismatch_err_flag> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dwidth_fifo_pipe_empty> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <mm2s_all_lines_xfred_s_dwidth> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mm2s_linebuf.vhd" line 1810: Output port <M_STRB> of the instance <GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vdma_v5_04_a/hdl/vhdl/axi_vdma_mm2s_linebuf.vhd" line 875: Output port <M_STRB> of the instance <GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <mm2s_fsize_mismatch_err_m> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mm2s_vsize_cntr_clr_flag> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <fsync_out_m> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mm2s_all_lines_xfred_s> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 1-bit register for signal <fifo_almost_empty_reg>.
     Found 1-bit register for signal <fifo_almost_empty_d1>.
     Found 1-bit register for signal <sf_threshold_met>.
@@ -2139,27 +2150,20 @@ INFO:Xst:3210 - "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_vd
     Found 1-bit register for signal <m_axis_tvalid_d1>.
     Found 1-bit register for signal <m_axis_tready_d1>.
     Found 13-bit register for signal <vsize_counter>.
-    Found 1-bit register for signal <all_lines_xfred_no_dwidth>.
+    Found 1-bit register for signal <all_lines_xfred>.
     Found 1-bit register for signal <frame_sync_d1>.
     Found 13-bit register for signal <dm_vsize_counter>.
     Found 1-bit register for signal <dm_xfred_all_lines>.
     Found 1-bit register for signal <m_skid_reset>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.fsize_mismatch_err_int_s>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.fsize_mismatch_err_flag_s>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.fsync_out_d1>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.fsize_mismatch_err_flag_vsize_cntr_clr>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.fsize_err_to_dm_halt_flag>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.delay_fsync_fsize_err_till_dm_halt_cmplt_flag_s>.
-    Found 1-bit register for signal <GEN_LINEBUF_FLUSH_SOF.delay_fsync_fsize_err_till_dm_halt_cmplt_s_d1>.
     Found 1-bit register for signal <sof_flag>.
-    Found 13-bit subtractor for signal <GND_76_o_GND_76_o_sub_16_OUT<12:0>> created at line 1308.
-    Found 13-bit subtractor for signal <GND_76_o_GND_76_o_sub_24_OUT<12:0>> created at line 1308.
-    Found 7-bit comparator lessequal for signal <n0029> created at line 1716
+    Found 13-bit subtractor for signal <GND_76_o_GND_76_o_sub_15_OUT<12:0>> created at line 1308.
+    Found 13-bit subtractor for signal <GND_76_o_GND_76_o_sub_23_OUT<12:0>> created at line 1308.
+    Found 7-bit comparator lessequal for signal <n0031> created at line 781
     Summary:
 	inferred   2 Adder/Subtractor(s).
-	inferred  44 D-type flip-flop(s).
+	inferred  37 D-type flip-flop(s).
 	inferred   1 Comparator(s).
-	inferred   5 Multiplexer(s).
+	inferred   4 Multiplexer(s).
 Unit <axi_vdma_mm2s_linebuf> synthesized.
 
 Synthesizing Unit <axi_vdma_sfifo>.
@@ -3343,8 +3347,8 @@ Macro Statistics
  8-bit adder                                           : 1
  8-bit addsub                                          : 1
  8-bit subtractor                                      : 2
-# Registers                                            : 356
- 1-bit register                                        : 274
+# Registers                                            : 351
+ 1-bit register                                        : 269
  13-bit register                                       : 5
  16-bit register                                       : 14
  17-bit register                                       : 1
@@ -3369,8 +3373,8 @@ Macro Statistics
  7-bit comparator lessequal                            : 1
  8-bit comparator equal                                : 1
  8-bit comparator not equal                            : 2
-# Multiplexers                                         : 143
- 1-bit 2-to-1 multiplexer                              : 96
+# Multiplexers                                         : 140
+ 1-bit 2-to-1 multiplexer                              : 93
  13-bit 2-to-1 multiplexer                             : 5
  16-bit 2-to-1 multiplexer                             : 7
  2-bit 2-to-1 multiplexer                              : 1
@@ -3540,8 +3544,8 @@ Macro Statistics
 # Accumulators                                         : 2
  16-bit down loadable accumulator                      : 1
  32-bit up loadable accumulator                        : 1
-# Registers                                            : 1147
- Flip-Flops                                            : 1147
+# Registers                                            : 1142
+ Flip-Flops                                            : 1142
 # Comparators                                          : 17
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 1
@@ -3553,8 +3557,8 @@ Macro Statistics
  7-bit comparator lessequal                            : 1
  8-bit comparator equal                                : 1
  8-bit comparator not equal                            : 2
-# Multiplexers                                         : 183
- 1-bit 2-to-1 multiplexer                              : 147
+# Multiplexers                                         : 180
+ 1-bit 2-to-1 multiplexer                              : 144
  13-bit 2-to-1 multiplexer                             : 4
  16-bit 2-to-1 multiplexer                             : 4
  2-bit 2-to-1 multiplexer                              : 1
@@ -3580,13 +3584,12 @@ WARNING:Xst:1293 - FF/Latch <sig_xfer_len_reg_4> has a constant value of 0 in bl
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <sig_xfer_len_reg_5> has a constant value of 0 in block <axi_datamover_pcc>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <sig_xfer_len_reg_6> has a constant value of 0 in block <axi_datamover_pcc>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <sig_xfer_len_reg_7> has a constant value of 0 in block <axi_datamover_pcc>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <dmacr_i_10> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_15> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_11> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_7> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <dmacr_i_15> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_9> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_11> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_10> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_8> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <s2mm_fsize_more_or_sof_late_bit> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dmacr_i_7> has a constant value of 0 in block <axi_vdma_register>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <cmnd_data_16> (without init value) has a constant value of 0 in block <axi_vdma_sm>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cmnd_data_17> (without init value) has a constant value of 0 in block <axi_vdma_sm>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cmnd_data_18> (without init value) has a constant value of 0 in block <axi_vdma_sm>. This FF/Latch will be trimmed during the optimization process.
@@ -3762,14 +3765,21 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/s_axis_cmd_tdata_29> (without init value) has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/s_axis_cmd_tdata_66> (without init value) has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/s_axis_cmd_tdata_67> (without init value) has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/flag_to_repeat_after_fsize_less_err> has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/fsize_err> has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/lsize_err> has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/lsize_more_err> has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <axi_vdma_0/I_AXI_DMA_INTRPT/ch1_irqthresh_decr_mask_sig> has a constant value of 0 in block <system_axi_vdma_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_RST_MODULE/mm2s_hrd_resetn_d1_cdc_tig> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_RST_MODULE/s2mm_hrd_resetn_d1_cdc_tig> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_RST_MODULE/mm2s_hrd_resetn> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_RST_MODULE/s2mm_hrd_resetn> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
+WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_VID_CDC_I/s_fsync_d1> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
+WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_VID_CDC_I/s_fsync_d2> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/s2mm_fsync_d2> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
+WARNING:Xst:2677 - Node <axi_vdma_0/mm2s_fsync_d2> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/s2mm_fsync_d1> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
+WARNING:Xst:2677 - Node <axi_vdma_0/mm2s_fsync_d1> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured_8> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/overflow_i> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/underflow_i> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
@@ -3805,8 +3815,6 @@ WARNING:Xst:2677 - Node <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_
 WARNING:Xst:2677 - Node <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/underflow_i> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/OMIT_DRE_CNTL.I_DRE_CNTL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/underflow_i> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/OMIT_DRE_CNTL.I_DRE_CNTL_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/overflow_i> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
-WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/regdir_idle_i> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
-WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/run_stop_d1> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_4> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_3> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_2> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
@@ -3821,14 +3829,14 @@ WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/t
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/tag_1> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/tag_0> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/done> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
-WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_STS_MNGR/all_idle> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
 WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_STS_MNGR/ftch_idle_d1> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
-WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_strb_reg_out_0> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
-WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_strb_skid_reg_0> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
-INFO:Xst:2261 - The FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/tstvect_fsync_d1> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following 2 FFs/Latches, which will be removed : <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_SM/frame_sync_d1> <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_FSYNC_I/GEN_FSYNC_MODE_MM2S_SOF.frame_sync_aligned> 
+WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_strb_reg_out_0> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
+WARNING:Xst:2677 - Node <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_strb_skid_reg_0> of sequential type is unconnected in block <system_axi_vdma_0_wrapper>.
+INFO:Xst:2261 - The FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/tstvect_fsync_d1> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following 2 FFs/Latches, which will be removed : <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_SM/frame_sync_d1> <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_FSYNC_I/GEN_FREE_RUN_MODE.frame_sync_aligned> 
 INFO:Xst:2261 - The FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/tstvect_fsync_d2> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_SM/frame_sync_d2> 
 INFO:Xst:2261 - The FF/Latch <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_reg> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following 5 FFs/Latches, which will be removed : <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_reg> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_reg> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_mmap_reset_reg> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_reg> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/OMIT_DRE_CNTL.I_DRE_CNTL_FIFO/sig_init_reg> 
 INFO:Xst:2261 - The FF/Latch <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_init_done> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_init_done> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_init_done> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_init_done> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/OMIT_DRE_CNTL.I_DRE_CNTL_FIFO/sig_init_done> 
+INFO:Xst:2261 - The FF/Latch <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/run_stop_d1> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_STS_MNGR/halted_clr> 
 INFO:Xst:2261 - The FF/Latch <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO/sig_inhibit_rdy_n> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/sig_inhibit_rdy_n> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/sig_inhibit_rdy_n> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO/sig_inhibit_rdy_n> <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/OMIT_DRE_CNTL.I_DRE_CNTL_FIFO/sig_inhibit_rdy_n> 
 INFO:Xst:2261 - The FF/Latch <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_0> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_finish_addr_offset_ireg2_0> 
 INFO:Xst:2261 - The FF/Latch <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_adjusted_addr_incr_ireg2_1> in Unit <system_axi_vdma_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_finish_addr_offset_ireg2_1> 
@@ -3842,16 +3850,16 @@ INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> in Unit <axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
 FlipFlop axi_vdma_0/I_RST_MODULE/GEN_RESET_FOR_MM2S.RESET_I/halt_i has been replicated 1 time(s)
 FlipFlop axi_vdma_0/I_RST_MODULE/GEN_RESET_FOR_MM2S.RESET_I/prmry_resetn_i has been replicated 1 time(s)
 
@@ -3865,8 +3873,8 @@ Unit <system_axi_vdma_0_wrapper> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1092
- Flip-Flops                                            : 1092
+# Registers                                            : 1083
+ Flip-Flops                                            : 1083
 
 =========================================================================
 
@@ -3889,26 +3897,26 @@ Top Level Output File Name         : system_axi_vdma_0_wrapper.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1474
+# BELS                             : 1459
 #      GND                         : 5
 #      INV                         : 47
 #      LUT1                        : 19
-#      LUT2                        : 165
-#      LUT3                        : 190
-#      LUT4                        : 197
-#      LUT5                        : 192
-#      LUT6                        : 324
+#      LUT2                        : 162
+#      LUT3                        : 224
+#      LUT4                        : 174
+#      LUT5                        : 175
+#      LUT6                        : 318
 #      MUXCY                       : 145
 #      MUXCY_L                     : 15
 #      MUXF7                       : 2
 #      VCC                         : 1
 #      XORCY                       : 172
-# FlipFlops/Latches                : 1183
-#      FD                          : 85
+# FlipFlops/Latches                : 1174
+#      FD                          : 79
 #      FDE                         : 4
-#      FDR                         : 118
+#      FDR                         : 114
 #      FDRE                        : 933
-#      FDS                         : 30
+#      FDS                         : 31
 #      FDSE                        : 13
 # RAMS                             : 2
 #      RAMB18E1                    : 2
@@ -3922,18 +3930,18 @@ Selected Device : 7z020clg484-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1183  out of  106400     1%  
- Number of Slice LUTs:                 1306  out of  53200     2%  
-    Number used as Logic:              1134  out of  53200     2%  
+ Number of Slice Registers:            1174  out of  106400     1%  
+ Number of Slice LUTs:                 1291  out of  53200     2%  
+    Number used as Logic:              1119  out of  53200     2%  
     Number used as Memory:              172  out of  17400     0%  
        Number used as SRL:              172
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1625
-   Number with an unused Flip Flop:     442  out of   1625    27%  
-   Number with an unused LUT:           319  out of   1625    19%  
-   Number of fully used LUT-FF pairs:   864  out of   1625    53%  
-   Number of unique control sets:        72
+ Number of LUT Flip Flop pairs used:   1610
+   Number with an unused Flip Flop:     436  out of   1610    27%  
+   Number with an unused LUT:           319  out of   1610    19%  
+   Number of fully used LUT-FF pairs:   855  out of   1610    53%  
+   Number of unique control sets:        71
 
 IO Utilization: 
  Number of IOs:                         546
@@ -3964,9 +3972,9 @@ Clock Information:
 -----------------------------------+--------------------------------------------------------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                                                                  | Load  |
 -----------------------------------+--------------------------------------------------------------------------------------------------------+-------+
-m_axis_mm2s_aclk                   | NONE(axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_SOF_I/s_valid_d1)                                               | 76    |
 s_axi_lite_aclk                    | NONE(axi_vdma_0/I_RST_MODULE/hrd_resetn_i)                                                             | 29    |
-m_axi_mm2s_aclk                    | NONE(axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RESET/sig_cmd_stat_rst_int_reg_n)| 1252  |
+m_axi_mm2s_aclk                    | NONE(axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RESET/sig_cmd_stat_rst_int_reg_n)| 1254  |
+m_axis_mm2s_aclk                   | NONE(axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_12)                                  | 65    |
 -----------------------------------+--------------------------------------------------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -3978,7 +3986,7 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 3.503ns (Maximum Frequency: 285.470MHz)
+   Minimum period: 3.518ns (Maximum Frequency: 284.252MHz)
    Minimum input arrival time before clock: 2.309ns
    Maximum output required time after clock: 3.367ns
    Maximum combinational path delay: No path found
@@ -3988,54 +3996,30 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'm_axis_mm2s_aclk'
-  Clock period: 2.763ns (frequency: 361.925MHz)
-  Total number of paths / destination ports: 780 / 154
--------------------------------------------------------------------------
-Delay:               2.763ns (Levels of Logic = 3)
-  Source:            axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2 (FF)
-  Destination:       axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_12 (FF)
-  Source Clock:      m_axis_mm2s_aclk rising
-  Destination Clock: m_axis_mm2s_aclk rising
-
-  Data Path: axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2 to axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_12
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDRE:C->Q             3   0.282   0.739  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2)
-     LUT5:I0->O            1   0.053   0.485  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0241_inv12 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0241_inv12)
-     LUT4:I2->O            2   0.053   0.419  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0241_inv13 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0241_inv1)
-     LUT5:I4->O           13   0.053   0.479  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0241_inv2 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0241_inv)
-     FDRE:CE                   0.200          axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_0
-    ----------------------------------------
-    Total                      2.763ns (0.641ns logic, 2.122ns route)
-                                       (23.2% logic, 76.8% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'm_axi_mm2s_aclk'
-  Clock period: 3.503ns (frequency: 285.470MHz)
-  Total number of paths / destination ports: 34648 / 3307
+  Clock period: 3.518ns (frequency: 284.252MHz)
+  Total number of paths / destination ports: 29630 / 3312
 -------------------------------------------------------------------------
-Delay:               3.503ns (Levels of Logic = 6)
-  Source:            axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_dqual_reg_full (FF)
-  Destination:       axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i (FF)
+Delay:               3.518ns (Levels of Logic = 6)
+  Source:            axi_vdma_0/I_RST_MODULE/GEN_RESET_FOR_MM2S.RESET_I/halt_i_1 (FF)
+  Destination:       axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/count_3 (FF)
   Source Clock:      m_axi_mm2s_aclk rising
   Destination Clock: m_axi_mm2s_aclk rising
 
-  Data Path: axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_dqual_reg_full to axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i
+  Data Path: axi_vdma_0/I_RST_MODULE/GEN_RESET_FOR_MM2S.RESET_I/halt_i_1 to axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/count_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.282   0.739  axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_dqual_reg_full (axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_dqual_reg_full)
-     LUT5:I0->O            6   0.053   0.446  axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_advance_pipe11 (axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/sig_advance_pipe1)
-     LUT5:I4->O            4   0.053   0.745  axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/sig_good_sin_strm_dbeat1 (axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/sig_good_sin_strm_dbeat)
-     begin scope: 'axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM:WR_EN'
-     LUT5:I0->O            1   0.053   0.602  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/Mmux_ram_full_comb_GND_229_o_MUX_25_o13 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/Mmux_ram_full_comb_GND_229_o_MUX_25_o12)
-     LUT6:I3->O            1   0.053   0.413  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/Mmux_ram_full_comb_GND_229_o_MUX_25_o14 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/Mmux_ram_full_comb_GND_229_o_MUX_25_o13)
-     LUT6:I5->O            2   0.053   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/Mmux_ram_full_comb_GND_229_o_MUX_25_o111 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_comb_GND_229_o_MUX_25_o)
-     FD:D                      0.011          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i
+     FD:C->Q               1   0.282   0.635  axi_vdma_0/I_RST_MODULE/GEN_RESET_FOR_MM2S.RESET_I/halt_i_1 (axi_vdma_0/I_RST_MODULE/GEN_RESET_FOR_MM2S.RESET_I/halt_i_1)
+     LUT4:I0->O            7   0.053   0.453  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/s_axis_tready_i1 (axi_vdma_0/linebuf2dm_mm2s_tready)
+     LUT5:I4->O           16   0.053   0.823  axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/sig_pop_data_fifo1 (axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/sig_pop_data_fifo)
+     begin scope: 'axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM:RD_EN'
+     LUT5:I0->O            3   0.053   0.616  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/Mcount_count_lut<1>1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/Mcount_count_lut<1>)
+     LUT6:I3->O            4   0.053   0.433  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/Mcount_count_cy<5>11_SW0 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/Mcount_count_cy<2>)
+     LUT6:I5->O            1   0.053   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/Mcount_count_xor<3>11 (Result<3>)
+     FDRE:D                    0.011          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gdc.dc/dc/count_3
     ----------------------------------------
-    Total                      3.503ns (0.558ns logic, 2.945ns route)
+    Total                      3.518ns (0.558ns logic, 2.960ns route)
                                        (15.9% logic, 84.1% route)
 
 =========================================================================
@@ -4061,10 +4045,34 @@ Delay:               1.682ns (Levels of Logic = 1)
                                        (40.1% logic, 59.9% route)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'm_axis_mm2s_aclk'
+  Clock period: 2.763ns (frequency: 361.925MHz)
+  Total number of paths / destination ports: 685 / 131
+-------------------------------------------------------------------------
+Delay:               2.763ns (Levels of Logic = 3)
+  Source:            axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2 (FF)
+  Destination:       axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_12 (FF)
+  Source Clock:      m_axis_mm2s_aclk rising
+  Destination Clock: m_axis_mm2s_aclk rising
+
+  Data Path: axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2 to axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.282   0.739  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_2)
+     LUT5:I0->O            1   0.053   0.485  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0186_inv12 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0186_inv12)
+     LUT4:I2->O            2   0.053   0.419  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0186_inv13 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0186_inv1)
+     LUT5:I4->O           13   0.053   0.479  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0186_inv2 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/_n0186_inv)
+     FDRE:CE                   0.200          axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/vsize_counter_0
+    ----------------------------------------
+    Total                      2.763ns (0.641ns logic, 2.122ns route)
+                                       (23.2% logic, 76.8% route)
+
+=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 's_axi_lite_aclk'
   Total number of paths / destination ports: 22 / 22
 -------------------------------------------------------------------------
-Offset:              0.390ns (Levels of Logic = 1)
+Offset:              0.300ns (Levels of Logic = 1)
   Source:            s_axi_lite_rready (PAD)
   Destination:       axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/read_has_started_i (FF)
   Destination Clock: s_axi_lite_aclk rising
@@ -4073,34 +4081,15 @@ Offset:              0.390ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT6:I1->O            1   0.053   0.000  axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/read_has_started_i_rstpot (axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/read_has_started_i_rstpot)
+     LUT6:I2->O            1   0.053   0.000  axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/read_has_started_i_rstpot (axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/read_has_started_i_rstpot)
      FD:D                      0.011          axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/read_has_started_i
     ----------------------------------------
-    Total                      0.390ns (0.390ns logic, 0.000ns route)
+    Total                      0.300ns (0.300ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'm_axis_mm2s_aclk'
-  Total number of paths / destination ports: 25 / 25
--------------------------------------------------------------------------
-Offset:              1.000ns (Levels of Logic = 1)
-  Source:            m_axis_mm2s_tready (PAD)
-  Destination:       axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_user_reg_out_0 (FF)
-  Destination Clock: m_axis_mm2s_aclk rising
-
-  Data Path: m_axis_mm2s_tready to axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_user_reg_out_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LUT4:I0->O           18   0.053   0.511  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_data_reg_out_en1 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_data_reg_out_en)
-     FDRE:CE                   0.200          axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_last_reg_out
-    ----------------------------------------
-    Total                      1.000ns (0.489ns logic, 0.511ns route)
-                                       (48.9% logic, 51.1% route)
-
-=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'm_axi_mm2s_aclk'
-  Total number of paths / destination ports: 494 / 375
+  Total number of paths / destination ports: 492 / 373
 -------------------------------------------------------------------------
 Offset:              2.309ns (Levels of Logic = 5)
   Source:            m_axi_mm2s_rvalid (PAD)
@@ -4122,8 +4111,27 @@ Offset:              2.309ns (Levels of Logic = 5)
                                        (23.8% logic, 76.2% route)
 
 =========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'm_axis_mm2s_aclk'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              0.850ns (Levels of Logic = 1)
+  Source:            m_axis_mm2s_tready (PAD)
+  Destination:       axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_user_reg_out_0 (FF)
+  Destination Clock: m_axis_mm2s_aclk rising
+
+  Data Path: m_axis_mm2s_tready to axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_user_reg_out_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I0->O           18   0.053   0.511  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_data_reg_out_en1 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_data_reg_out_en)
+     FDRE:CE                   0.200          axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_last_reg_out
+    ----------------------------------------
+    Total                      0.850ns (0.339ns logic, 0.511ns route)
+                                       (39.9% logic, 60.1% route)
+
+=========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 's_axi_lite_aclk'
-  Total number of paths / destination ports: 1069 / 37
+  Total number of paths / destination ports: 1068 / 37
 -------------------------------------------------------------------------
 Offset:              3.367ns (Levels of Logic = 4)
   Source:            axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured_5 (FF)
@@ -4145,7 +4153,7 @@ Offset:              3.367ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'm_axi_mm2s_aclk'
-  Total number of paths / destination ports: 314 / 102
+  Total number of paths / destination ports: 309 / 101
 -------------------------------------------------------------------------
 Offset:              2.686ns (Levels of Logic = 4)
   Source:            axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/linebuf_threshold_i_3 (FF)
@@ -4167,24 +4175,22 @@ Offset:              2.686ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'm_axis_mm2s_aclk'
-  Total number of paths / destination ports: 34 / 22
+  Total number of paths / destination ports: 26 / 22
 -------------------------------------------------------------------------
-Offset:              2.158ns (Levels of Logic = 3)
-  Source:            axi_vdma_0/mm2s_fsync_d2 (FF)
-  Destination:       m_axis_mm2s_tvalid (PAD)
+Offset:              0.970ns (Levels of Logic = 1)
+  Source:            axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_m_valid_out (FF)
+  Destination:       mm2s_buffer_almost_empty (PAD)
   Source Clock:      m_axis_mm2s_aclk rising
 
-  Data Path: axi_vdma_0/mm2s_fsync_d2 to m_axis_mm2s_tvalid
+  Data Path: axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_m_valid_out to mm2s_buffer_almost_empty
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.282   0.635  axi_vdma_0/mm2s_fsync_d2 (axi_vdma_0/mm2s_fsync_d2)
-     LUT5:I1->O            4   0.053   0.655  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/mm2s_fsync_core11 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_FLUSH_SOF.mm2s_fsync_int)
-     LUT6:I2->O            3   0.053   0.427  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/mm2s_fsync_core2 (axi_vdma_0/mm2s_fsync_core)
-     LUT4:I3->O            0   0.053   0.000  axi_vdma_0/Mmux_m_axis_mm2s_tvalid_i211 (m_axis_mm2s_tvalid)
+     FD:C->Q               6   0.282   0.635  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_m_valid_out (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.I_MSTR_SKID/sig_m_valid_out)
+     LUT3:I0->O            0   0.053   0.000  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/mm2s_fifo_almost_empty1 (mm2s_buffer_almost_empty)
     ----------------------------------------
-    Total                      2.158ns (0.441ns logic, 1.717ns route)
-                                       (20.4% logic, 79.6% route)
+    Total                      0.970ns (0.335ns logic, 0.635ns route)
+                                       (34.5% logic, 65.5% route)
 
 =========================================================================
 
@@ -4196,8 +4202,8 @@ Clock to Setup on destination clock m_axi_mm2s_aclk
                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------+---------+---------+---------+---------+
-m_axi_mm2s_aclk |    3.503|         |         |         |
-m_axis_mm2s_aclk|    3.691|         |         |         |
+m_axi_mm2s_aclk |    3.518|         |         |         |
+m_axis_mm2s_aclk|    3.510|         |         |         |
 s_axi_lite_aclk |    3.695|         |         |         |
 ----------------+---------+---------+---------+---------+
 
@@ -4221,14 +4227,14 @@ s_axi_lite_aclk|    1.682|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 240.00 secs
-Total CPU time to Xst completion: 240.13 secs
+Total REAL time to Xst completion: 251.00 secs
+Total CPU time to Xst completion: 250.38 secs
  
 --> 
 
-Total memory usage is 542600 kilobytes
+Total memory usage is 541996 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  400 (   0 filtered)
-Number of infos    :  531 (   0 filtered)
+Number of warnings :  412 (   0 filtered)
+Number of infos    :  533 (   0 filtered)
 

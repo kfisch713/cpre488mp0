@@ -15,7 +15,8 @@ src/vga_test.d: ../src/vga_test.c \
  ../../system_bsp2/ps7_cortexa9_0/include/xaxivdma.h \
  ../../system_bsp2/ps7_cortexa9_0/include/xaxivdma_hw.h \
  ../../system_bsp2/ps7_cortexa9_0/include/xaxivdma_i.h \
- ../../system_bsp2/ps7_cortexa9_0/include/xdebug.h
+ ../../system_bsp2/ps7_cortexa9_0/include/xdebug.h ../src/platform.h \
+ ../src/platform_config.h
 
 ../../system_bsp2/ps7_cortexa9_0/include/xparameters.h:
 
@@ -50,3 +51,7 @@ src/vga_test.d: ../src/vga_test.c \
 ../../system_bsp2/ps7_cortexa9_0/include/xaxivdma_i.h:
 
 ../../system_bsp2/ps7_cortexa9_0/include/xdebug.h:
+
+../src/platform.h:
+
+../src/platform_config.h:

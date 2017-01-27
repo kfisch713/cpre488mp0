@@ -1,6 +1,6 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to U:\Desktop\cpre488mp0\system\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_axi_interconnect_1_wrapper_xst.prj"
-Verilog Include Directory          : {"U:\Desktop\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"U:\Documents\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z020clg484-1
@@ -183,7 +183,7 @@ Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores
 Parsing module <ict106_w_upsizer>.
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v1_06_a/hdl/verilog/axi_interconnect.v" into library axi_interconnect_v1_06_a
 Parsing module <axi_interconnect>.
-Analyzing Verilog file "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_axi_interconnect_1_wrapper.v" into library work
+Analyzing Verilog file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_axi_interconnect_1_wrapper.v" into library work
 Parsing module <system_axi_interconnect_1_wrapper>.
 
 =========================================================================
@@ -406,7 +406,7 @@ Elaborating module
 =========================================================================
 
 Synthesizing Unit <system_axi_interconnect_1_wrapper>.
-    Related source file is "\\my.files.iastate.edu\users\kfisch13\Desktop\cpre488mp0\system\hdl\system_axi_interconnect_1_wrapper.v".
+    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_axi_interconnect_1_wrapper.v".
     Summary:
 	no macro.
 Unit <system_axi_interconnect_1_wrapper> synthesized.
@@ -3028,12 +3028,12 @@ axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/S_AXI_ACLK
 =========================================================================
 
 
-Total REAL time to Xst completion: 212.00 secs
-Total CPU time to Xst completion: 211.94 secs
+Total REAL time to Xst completion: 220.00 secs
+Total CPU time to Xst completion: 219.81 secs
  
 --> 
 
-Total memory usage is 525576 kilobytes
+Total memory usage is 509896 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  346 (   0 filtered)

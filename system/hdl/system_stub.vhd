@@ -35,7 +35,9 @@ entity system_stub is
     processing_system7_0_DDR_VRP : inout std_logic;
     VGAData : out std_logic_vector(11 downto 0);
     HSync : out std_logic;
-    VSync : out std_logic
+    VSync : out std_logic;
+    vsync_test : out std_logic;
+    hsync_test : out std_logic
   );
 end system_stub;
 
@@ -69,7 +71,9 @@ architecture STRUCTURE of system_stub is
       processing_system7_0_DDR_VRP : inout std_logic;
       VGAData : out std_logic_vector(11 downto 0);
       HSync : out std_logic;
-      VSync : out std_logic
+      VSync : out std_logic;
+      vsync_test : out std_logic;
+      hsync_test : out std_logic
     );
   end component;
 
@@ -106,7 +110,9 @@ begin
       processing_system7_0_DDR_VRP => processing_system7_0_DDR_VRP,
       VGAData => VGAData,
       HSync => HSync,
-      VSync => VSync
+      VSync => VSync,
+      vsync_test => vsync_test,
+      hsync_test => hsync_test
     );
 
 end architecture STRUCTURE;
