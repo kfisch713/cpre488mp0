@@ -1,16 +1,16 @@
 src/platform.d: ../src/platform.c \
- ../../system_bsp2/ps7_cortexa9_0/include/xparameters.h \
- ../../system_bsp2/ps7_cortexa9_0/include/xparameters_ps.h \
- ../../system_bsp2/ps7_cortexa9_0/include/xil_cache.h \
- ../../system_bsp2/ps7_cortexa9_0/include/xil_types.h \
+ ../../standalone_bsp_0/ps7_cortexa9_0/include/xparameters.h \
+ ../../standalone_bsp_0/ps7_cortexa9_0/include/xparameters_ps.h \
+ ../../standalone_bsp_0/ps7_cortexa9_0/include/xil_cache.h \
+ ../../standalone_bsp_0/ps7_cortexa9_0/include/xil_types.h \
  ../src/platform_config.h
 
-../../system_bsp2/ps7_cortexa9_0/include/xparameters.h:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xparameters.h:
 
-../../system_bsp2/ps7_cortexa9_0/include/xparameters_ps.h:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xparameters_ps.h:
 
-../../system_bsp2/ps7_cortexa9_0/include/xil_cache.h:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xil_cache.h:
 
-../../system_bsp2/ps7_cortexa9_0/include/xil_types.h:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xil_types.h:
 
 ../src/platform_config.h:

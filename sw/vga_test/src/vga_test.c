@@ -74,12 +74,15 @@ int main() {
     XAxiVdma_WriteReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_MM2S_ADDR_OFFSET + XAXIVDMA_HSIZE_OFFSET, MM2S_HSIZE);  // 1280 bytes, VDMA MM2S HSIZE
     XAxiVdma_WriteReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_MM2S_ADDR_OFFSET + XAXIVDMA_VSIZE_OFFSET, MM2S_VSIZE);  // 480 lines, VDMA MM2S VSIZE  (Note: Starts VDMA transaction
 
-    printf("%x\r\n", XAxiVdma_ReadReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_SR_OFFSET));
-//    print(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_HI_FRMBUF_OFFSET);
-//    print(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_FRMSTORE_OFFSET);
-//    print(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_MM2S_ADDR_OFFSET + XAXIVDMA_START_ADDR_OFFSET);
-//    print(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_MM2S_ADDR_OFFSET + XAXIVDMA_STRD_FRMDLY_OFFSET);
-
+    int new_val = 0;
+    int old_val = 0;
+    while(1) {
+    	new_val = XAxiVdma_ReadReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_SR_OFFSET);
+    	if(new_val != old_val) {
+    		printf("%x\r\n", new_val);
+    	}
+    	old_val = new_val;
+    }
     print("Hello, Other Kyle\r\n");
 
 

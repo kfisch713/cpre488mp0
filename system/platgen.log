@@ -195,6 +195,8 @@ line 81 - Copying cache implementation netlist
 IPNAME:processing_system7 INSTANCE:processing_system7_0 -
 U:\Documents\cpre488mp0\system\system.mhs line 95 - Copying cache implementation
 netlist
+IPNAME:axi_vdma INSTANCE:axi_vdma_0 - U:\Documents\cpre488mp0\system\system.mhs
+line 188 - Copying cache implementation netlist
 IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
 U:\Documents\cpre488mp0\system\system.mhs line 207 - Copying cache
 implementation netlist
@@ -209,7 +211,7 @@ Elaborating instances ...
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Constructing platform-level connectivity ...
 Completion time: 0.00 seconds
@@ -225,16 +227,12 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:axi_vdma_0 - U:\Documents\cpre488mp0\system\system.mhs line 188 -
-Running XST synthesis
 
 Running NGCBUILD ...
-IPNAME:system_axi_vdma_0_wrapper INSTANCE:axi_vdma_0 -
-U:\Documents\cpre488mp0\system\system.mhs line 188 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 285.00 seconds
+Total run time: 24.00 seconds

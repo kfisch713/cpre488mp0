@@ -3,6 +3,7 @@
 	<name>vga_test</name>
 	<comment></comment>
 	<projects>
+		<project>standalone_bsp_0</project>
 		<project>system_bsp2</project>
 		<project>system_bsp</project>
 	</projects>

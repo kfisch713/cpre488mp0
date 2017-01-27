@@ -1,6 +1,6 @@
-18:55:00 **** Incremental Build of configuration Debug for project cyclone_checker ****
+13:35:28 **** Incremental Build of configuration Debug for project cyclone_checker ****
 make all 
 make: Nothing to be done for `all'.
 
-18:55:00 Build Finished (took 176ms)
+13:35:28 Build Finished (took 190ms)
 

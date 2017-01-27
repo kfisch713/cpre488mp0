@@ -1,11 +1,11 @@
-U:\Documents\cpre488mp0\system\implementation\system.ngc 1485477900
-U:/Documents/cpre488mp0/system/implementation/system_processing_system7_0_wrapper.ngc 1485477614
-U:/Documents/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ngc 1485477614
-U:/Documents/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper.ngc 1485477614
-U:/Documents/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ngc 1485477615
-U:/Documents/cpre488mp0/system/implementation/system_v_axi4s_vid_out_0_wrapper.ngc 1485477615
-U:/Documents/cpre488mp0/system/implementation/system_axi_vdma_0_wrapper.ngc 1485477879
-U:/Documents/cpre488mp0/system/implementation/system_sws_8bits_wrapper.ngc 1485477614
-U:/Documents/cpre488mp0/system/implementation/system_leds_8bits_wrapper.ngc 1485477614
-U:/Documents/cpre488mp0/system/implementation/system_btns_5bits_wrapper.ngc 1485477614
+U:\Documents\cpre488mp0\system\implementation\system.ngc 1485543551
+U:/Documents/cpre488mp0/system/implementation/system_processing_system7_0_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_v_axi4s_vid_out_0_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_axi_vdma_0_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_sws_8bits_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_leds_8bits_wrapper.ngc 1485543527
+U:/Documents/cpre488mp0/system/implementation/system_btns_5bits_wrapper.ngc 1485543527
 OK
