@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> 
 TABLE OF CONTENTS
@@ -823,31 +823,31 @@ Top Level Output File Name         : system.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 5017
+# BELS                             : 5075
 #      GND                         : 17
-#      INV                         : 199
+#      INV                         : 198
 #      LUT1                        : 72
-#      LUT2                        : 391
-#      LUT3                        : 471
-#      LUT4                        : 824
-#      LUT5                        : 720
-#      LUT6                        : 1440
+#      LUT2                        : 390
+#      LUT3                        : 476
+#      LUT4                        : 828
+#      LUT5                        : 748
+#      LUT6                        : 1453
 #      LUT6_2                      : 11
-#      MUXCY                       : 364
+#      MUXCY                       : 368
 #      MUXCY_L                     : 15
-#      MUXF7                       : 124
+#      MUXF7                       : 125
 #      MUXF8                       : 24
 #      VCC                         : 9
-#      XORCY                       : 336
-# FlipFlops/Latches                : 3821
+#      XORCY                       : 341
+# FlipFlops/Latches                : 3859
 #      FD                          : 519
 #      FDC                         : 33
 #      FDCE                        : 54
 #      FDE                         : 359
 #      FDP                         : 39
-#      FDR                         : 1055
-#      FDRE                        : 1590
-#      FDS                         : 122
+#      FDR                         : 1074
+#      FDRE                        : 1611
+#      FDS                         : 120
 #      FDSE                        : 50
 # RAMS                             : 6
 #      RAM32M                      : 2
@@ -874,19 +874,19 @@ Selected Device : 7z020clg484-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            3821  out of  106400     3%  
- Number of Slice LUTs:                 4362  out of  53200     8%  
-    Number used as Logic:              4128  out of  53200     7%  
+ Number of Slice Registers:            3859  out of  106400     3%  
+ Number of Slice LUTs:                 4410  out of  53200     8%  
+    Number used as Logic:              4176  out of  53200     7%  
     Number used as Memory:              234  out of  17400     1%  
        Number used as RAM:               10
        Number used as SRL:              224
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   7100
-   Number with an unused Flip Flop:    3279  out of   7100    46%  
-   Number with an unused LUT:          2738  out of   7100    38%  
-   Number of fully used LUT-FF pairs:  1083  out of   7100    15%  
-   Number of unique control sets:       184
+ Number of LUT Flip Flop pairs used:   7169
+   Number with an unused Flip Flop:    3310  out of   7169    46%  
+   Number with an unused LUT:          2759  out of   7169    38%  
+   Number of fully used LUT-FF pairs:  1100  out of   7169    15%  
+   Number of unique control sets:       185
 
 IO Utilization: 
  Number of IOs:                         167
@@ -918,7 +918,7 @@ Clock Information:
 ----------------------------------------------------------------+------------------------+-------+
 Clock Signal                                                    | Clock buffer(FF name)  | Load  |
 ----------------------------------------------------------------+------------------------+-------+
-processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>| BUFG                   | 2677  |
+processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>| BUFG                   | 2715  |
 processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<2>| BUFG                   | 1375  |
 ----------------------------------------------------------------+------------------------+-------+
 
@@ -938,7 +938,7 @@ Speed Grade: -1
 
    Minimum period: 4.203ns (Maximum Frequency: 237.925MHz)
    Minimum input arrival time before clock: 2.316ns
-   Maximum output required time after clock: 4.635ns
+   Maximum output required time after clock: 4.665ns
    Maximum combinational path delay: 0.989ns
 
 Timing Details:
@@ -948,7 +948,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
   Clock period: 4.203ns (frequency: 237.925MHz)
-  Total number of paths / destination ports: 59598 / 6434
+  Total number of paths / destination ports: 60135 / 6514
 -------------------------------------------------------------------------
 Delay:               4.203ns (Levels of Logic = 8)
   Source:            SWs_8Bits/SWs_8Bits/ip2bus_rdack_i_D1 (FF)
@@ -1004,7 +1004,7 @@ Delay:               3.566ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
-  Total number of paths / destination ports: 1165 / 832
+  Total number of paths / destination ports: 1176 / 843
 -------------------------------------------------------------------------
 Offset:              2.316ns (Levels of Logic = 4)
   Source:            processing_system7_0/processing_system7_0/PS7_i:MAXIGP0RREADY (PAD)
@@ -1028,9 +1028,9 @@ Offset:              2.316ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
-  Total number of paths / destination ports: 2054 / 154
+  Total number of paths / destination ports: 2137 / 154
 -------------------------------------------------------------------------
-Offset:              4.635ns (Levels of Logic = 8)
+Offset:              4.665ns (Levels of Logic = 8)
   Source:            axi_vdma_0/axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured_5 (FF)
   Destination:       processing_system7_0/processing_system7_0/PS7_i:MAXIGP0RDATA30 (PAD)
   Source Clock:      processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
@@ -1039,8 +1039,8 @@ Offset:              4.635ns (Levels of Logic = 8)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            17   0.282   0.741  axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured_5 (axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured<5>)
-     LUT4:I0->O           25   0.053   0.786  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/LITE_READ_MUX_I/GND_21_o_read_addr[7]_equal_10_o<7>11 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/LITE_READ_MUX_I/GND_21_o_read_addr[7]_equal_10_o<7>1)
+     FDRE:C->Q            22   0.282   0.771  axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured_5 (axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured<5>)
+     LUT4:I0->O           26   0.053   0.786  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/LITE_READ_MUX_I/GND_21_o_read_addr[7]_equal_10_o<7>11 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/LITE_READ_MUX_I/GND_21_o_read_addr[7]_equal_10_o<7>1)
      LUT4:I0->O           22   0.053   0.861  axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/LITE_READ_MUX_I/GND_21_o_read_addr[7]_equal_3_o<7>11 (axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/LITE_READ_MUX_I/GND_21_o_read_addr[7]_equal_3_o<7>1)
      LUT6:I1->O            1   0.053   0.485  axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/Mmux_ip2axi_rddata_captured93 (axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/Mmux_ip2axi_rddata_captured92)
      LUT5:I3->O            1   0.053   0.602  axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/Mmux_ip2axi_rddata_captured95 (s_axi_lite_rdata<17>)
@@ -1052,8 +1052,8 @@ Offset:              4.635ns (Levels of Logic = 8)
      begin scope: 'processing_system7_0:M_AXI_GP0_RDATA<17>'
     PS7:MAXIGP0RDATA17         0.000          processing_system7_0/PS7_i
     ----------------------------------------
-    Total                      4.635ns (0.761ns logic, 3.874ns route)
-                                       (16.4% logic, 83.6% route)
+    Total                      4.665ns (0.761ns logic, 3.904ns route)
+                                       (16.3% logic, 83.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<2>'
@@ -1126,11 +1126,11 @@ processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<2>|    3.566|     
 
 
 Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 20.43 secs
+Total CPU time to Xst completion: 20.06 secs
  
 --> 
 
-Total memory usage is 621328 kilobytes
+Total memory usage is 622032 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    8 (   0 filtered)

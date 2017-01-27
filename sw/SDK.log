@@ -469,3 +469,23 @@ We recommend that you create a new BSP project pointing to a valid hardware proj
 17:48:13.101 ERROR - Port COM5 is already in use. 
 17:48:13.491 INFO  - Processor reset is completed for ps7_cortexa9_0 
 17:59:42.794 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:39:46.861 INFO  - Project system_hw_platform's source hardware specification located at \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:39:55.998 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+18:39:56.628 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+18:39:57.128 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+18:39:57.328 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+18:39:57.478 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+18:39:57.718 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+18:39:58.058 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:39:59.768 INFO  - Updating hardware inferred compiler options for cyclone_checker. 
+18:40:00.529 INFO  - Updating hardware inferred compiler options for vga_test. 
+18:40:00.548 INFO  - Clearing existing target manager status. 
+18:40:02.835 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:50:24.559 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+18:50:50.575 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:51:25.333 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:54:41.149 ERROR - Unable to determine the referenced BSP for application project hello_world. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+18:55:04.001 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:55:04.101 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:00:01.480 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

@@ -34,7 +34,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  34 paths analyzed, 34 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   2.246ns.
+ Maximum delay is   2.258ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -44,7 +44,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  42 paths analyzed, 42 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   1.878ns.
+ Maximum delay is   1.925ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -67,7 +67,7 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  23132 paths analyzed, 6105 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  14.255ns.
+ Minimum period is  13.309ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -75,9 +75,9 @@ Timing constraint: TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH
 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 60192 paths analyzed, 10189 endpoints analyzed, 0 failing endpoints
+ 60830 paths analyzed, 10372 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   8.980ns.
+ Minimum period is   8.644ns.
 --------------------------------------------------------------------------------
 
 
@@ -95,14 +95,14 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 83404 paths, 0 nets, and 20996 connections
+Constraints cover 84042 paths, 0 nets, and 21273 connections
 
 Design statistics:
-   Minimum period:  14.255ns   (Maximum frequency:  70.151MHz)
-   Maximum path delay from/to any node:   2.246ns
+   Minimum period:  13.309ns   (Maximum frequency:  75.137MHz)
+   Maximum path delay from/to any node:   2.258ns
 
 
-Analysis completed Thu Jan 26 17:00:10 2017 
+Analysis completed Thu Jan 26 18:48:25 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:

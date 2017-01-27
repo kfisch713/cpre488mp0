@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Thu Jan 26 16:58:59 2017
+// Written by: Map P.20131013 on Thu Jan 26 18:47:13 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -3068,13 +3068,25 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_5"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_12"
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_3"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_13"
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_7"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_8"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_6"
         BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_10"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_11"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_9"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_13"
+        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_14"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/dmacr_i_12"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/I_DMA_REGISTER/err_d1"
         BEL
@@ -3181,6 +3193,16 @@ TIMEGRP clk_fpga_0 = BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_vsize_1"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_vsize_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_0"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/run_stop_d1"
         BEL
@@ -3376,18 +3398,6 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_0"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/mstrfrm_tstsync_d1"
-        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_4"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_3"
@@ -3397,6 +3407,70 @@ TIMEGRP clk_fpga_0 = BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_1"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/slv_frame_ref_out_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/slv_frame_ref_out_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/slv_frame_ref_out_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/slv_frame_ref_out_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/slv_frame_ref_out_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/mstr_reverse_order_d1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/binary_frame_ptr_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/binary_frame_ptr_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/binary_frame_ptr_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/binary_frame_ptr_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/binary_frame_ptr_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/valid_frame_sync"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/tstvect_fsync_d2"
         BEL
@@ -3605,6 +3679,16 @@ TIMEGRP clk_fpga_0 = BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_1"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_0"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_15"
         BEL
@@ -4245,7 +4329,7 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/tstvect_fsync"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/MASTER_MODE_FRAME_CNT.valid_frame_sync_d1"
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.valid_frame_sync_d1"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_SM/dmacntrl_cs_FSM_FFd2"
         BEL

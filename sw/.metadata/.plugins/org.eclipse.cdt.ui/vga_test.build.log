@@ -1,6 +1,6 @@
-17:48:10 **** Incremental Build of configuration Debug for project vga_test ****
+18:55:01 **** Incremental Build of configuration Debug for project vga_test ****
 make all 
 make: Nothing to be done for `all'.
 
-17:48:10 Build Finished (took 170ms)
+18:55:01 Build Finished (took 173ms)
 

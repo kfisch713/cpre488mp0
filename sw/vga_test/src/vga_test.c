@@ -66,7 +66,6 @@ int main() {
 	#define MM2S_HSIZE				 1280
 	#define MM2S_VSIZE				 480
 
-
     XAxiVdma_WriteReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_CR_OFFSET,  MM2S_DMACR_CIRCULAR_PARK | MM2S_DMACR_START );  // Circular Mode and Start bits set, VDMA MM2S Control
     XAxiVdma_WriteReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_HI_FRMBUF_OFFSET, 0);  // VDMA MM2S Reg_Index
     XAxiVdma_WriteReg(XPAR_AXI_VDMA_0_BASEADDR, XAXIVDMA_FRMSTORE_OFFSET, 1);  // VDMA MM2S Number FRM_Stores

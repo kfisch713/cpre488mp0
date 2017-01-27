@@ -1,5 +1,5 @@
 
-<EDKSYSTEM EDKVERSION="14.7" EDWVERSION="1.2" TIMESTAMP="Thu Jan 26 15:29:42 2017">
+<EDKSYSTEM EDKVERSION="14.7" EDWVERSION="1.2" TIMESTAMP="Thu Jan 26 18:32:17 2017">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="xc7z020" PACKAGE="clg484" PART="xc7z020clg484-1" SOURCE="//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/system.xmp" SPEEDGRADE="-1"/>
 
@@ -4439,7 +4439,7 @@
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="17" NAME="C_INCLUDE_MM2S_SF" TYPE="INTEGER" VALUE="1"/>
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="18" NAME="C_MM2S_SOF_ENABLE" TYPE="INTEGER" VALUE="1"/>
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="19" NAME="C_MM2S_MAX_BURST_LENGTH" TYPE="INTEGER" VALUE="16"/>
-        <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="USER" IS_INSTANTIATED="TRUE" MHS_INDEX="6" MPD_INDEX="20" NAME="C_MM2S_GENLOCK_MODE" TYPE="INTEGER" VALUE="0"/>
+        <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="USER" IS_INSTANTIATED="TRUE" MHS_INDEX="6" MPD_INDEX="20" NAME="C_MM2S_GENLOCK_MODE" TYPE="INTEGER" VALUE="1"/>
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="21" NAME="C_MM2S_GENLOCK_NUM_MASTERS" TYPE="INTEGER" VALUE="1"/>
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="22" NAME="C_MM2S_GENLOCK_REPEAT_EN" TYPE="INTEGER" VALUE="0"/>
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="23" NAME="C_MM2S_LINEBUFFER_DEPTH" TYPE="INTEGER" VALUE="128"/>
@@ -4511,6 +4511,11 @@
         <PORT CLKFREQUENCY="100000000" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="3" MPD_INDEX="4" NAME="m_axis_mm2s_aclk" SIGIS="CLK" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="4" MPD_INDEX="79" NAME="mm2s_fsync" SIGNAME="v_tc_0_fsync_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="v_tc_0" PORT="fsync_out"/>
           </CONNECTIONS>
         </PORT>
         <PORT BUS="M_AXI_SG" DEF_SIGNAME="__BUS__" DIR="I" MPD_INDEX="1" NAME="m_axi_sg_aclk" SIGIS="CLK" SIGNAME="__NOC__"/>
@@ -4736,11 +4741,6 @@
         <PORT BUS="S_AXIS_S2MM" DEF_SIGNAME="__BUS__" DIR="O" MPD_INDEX="76" NAME="s_axis_s2mm_tready" SIGNAME="__NOC__"/>
         <PORT BUS="S_AXIS_S2MM" DEF_SIGNAME="__BUS__" DIR="I" MPD_INDEX="77" NAME="s_axis_s2mm_tlast" SIGNAME="__NOC__"/>
         <PORT BUS="S_AXIS_S2MM" DEF_SIGNAME="__BUS__" DIR="I" MPD_INDEX="78" NAME="s_axis_s2mm_tuser" SIGNAME="__NOC__" VECFORMULA="[C_S_AXIS_S2MM_TUSER_BITS-1:0]"/>
-        <PORT DIR="I" IS_INSTANTIATED="TRUE" MPD_INDEX="79" NAME="mm2s_fsync" SIGNAME="v_tc_0_fsync_out">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="v_tc_0" PORT="fsync_out"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="I" ENDIAN="LITTLE" LEFT="5" LSB="0" MPD_INDEX="80" MSB="5" NAME="mm2s_frame_ptr_in" RIGHT="0" SIGNAME="__NOC__" VECFORMULA="[(C_MM2S_GENLOCK_NUM_MASTERS*6)-1:0]">
           <CONNECTIONS/>
         </PORT>
@@ -5833,6 +5833,11 @@
             <CONNECTION INSTANCE="net_vcc"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="6" MPD_INDEX="23" NAME="resetn" SIGIS="RST" SIGNAME="net_vcc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="net_vcc"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT BUS="S_AXI" DEF_SIGNAME="axi4lite_0_M_aresetn" DIR="I" MPD_INDEX="1" NAME="s_axi_aresetn" SIGIS="RST" SIGNAME="axi4lite_0_M_aresetn">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi4lite_0" PORT="M_AXI_ARESET_OUT_N"/>
@@ -5928,11 +5933,6 @@
         </PORT>
         <PORT DIR="O" ENDIAN="LITTLE" IS_VALID="FALSE" LEFT="31" LSB="0" MPD_INDEX="21" MSB="31" NAME="intc_if" RIGHT="0" SIGNAME="__NOC__" VECFORMULA="[31:0]">
           <CONNECTIONS/>
-        </PORT>
-        <PORT DIR="I" IS_INSTANTIATED="TRUE" MPD_INDEX="23" NAME="resetn" SIGIS="RST" SIGNAME="net_vcc">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="net_vcc"/>
-          </CONNECTIONS>
         </PORT>
         <PORT DIR="I" IS_VALID="FALSE" MPD_INDEX="25" NAME="det_clken" SIGNAME="__NOC__">
           <CONNECTIONS/>
@@ -6103,12 +6103,17 @@
             <CONNECTION INSTANCE="External Ports" PORT="HSync"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" IS_INSTANTIATED="TRUE" MPD_INDEX="1" NAME="rst" SIGNAME="net_gnd">
+        <PORT DIR="O" IS_INSTANTIATED="TRUE" MHS_INDEX="6" MPD_INDEX="21" NAME="vtg_ce" SIGNAME="v_axi4s_vid_out_0_vtg_ce">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="v_tc_0" PORT="gen_clken"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="7" MPD_INDEX="1" NAME="rst" SIGNAME="net_gnd">
           <CONNECTIONS>
             <CONNECTION INSTANCE="net_gnd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" IS_INSTANTIATED="TRUE" MPD_INDEX="2" NAME="aresetn" SIGIS="RST" SIGNAME="axi4lite_0_S_ARESETN">
+        <PORT DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="8" MPD_INDEX="2" NAME="aresetn" SIGIS="RST" SIGNAME="axi4lite_0_S_ARESETN">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi4lite_0" PORT="S_AXI_ARESET_OUT_N"/>
           </CONNECTIONS>
@@ -6170,11 +6175,6 @@
         <PORT BUS="VTIMING_IN" DEF_SIGNAME="v_tc_0_VTIMING_OUT_active_video" DIR="I" MPD_INDEX="20" NAME="vtg_act_vid" SIGNAME="v_tc_0_VTIMING_OUT_active_video">
           <CONNECTIONS>
             <CONNECTION BUSINTERFACE="[VTIMING_OUT]" INSTANCE="v_tc_0" PORT="active_video_out"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" IS_INSTANTIATED="TRUE" MPD_INDEX="21" NAME="vtg_ce" SIGNAME="v_axi4s_vid_out_0_vtg_ce">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="v_tc_0" PORT="gen_clken"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" MPD_INDEX="22" NAME="vtg_fsync" SIGNAME="__NOC__">

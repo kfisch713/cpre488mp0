@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>hello_world</name>
-	<comment>system_bsp - ps7_cortexa9_0</comment>
+	<comment></comment>
 	<projects>
+		<project>system_bsp2</project>
 		<project>system_bsp</project>
 	</projects>
 	<buildSpec>
