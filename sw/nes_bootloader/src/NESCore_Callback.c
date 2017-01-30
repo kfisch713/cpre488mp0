@@ -29,29 +29,30 @@ void NESCore_Callback_OutputFrame(word *WorkFrame) {
 	extern uint16_t NesPalette3[];
 	uint32_t i, j;
 	uint16_t *ptr = (uint16_t *)FBUFFER_BASEADDR;
+	uint32_t location = 0, location2;
+	uint32_t NES_i, NES_j;
+	NES_i = 0;
+	NES_j = 0;
 
 
 	for (i = 0 ; i < NES_DISP_HEIGHT; i++) {
+		NES_j = 1;
 
-		for (j = 0; j < NES_DISP_WIDTH; j++) {
+		for (j = 1; j < NES_DISP_WIDTH; j++) {
 
-			uint32_t location, location2;
-			location = NES_DISP_WIDTH * i + 2*j;
-			location2 = NES_DISP_WIDTH * i + 2*j + 1;
+			location = (640*NES_i) + NES_j;
+			location2 = (640*(NES_i+1)) + NES_j;
+
+			NES_j = NES_j + 1;
+
 			ptr[location] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			//ptr[location+1] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
 			ptr[location2] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			//ptr[location2+1] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
 
-
-			/*location = (i + i) * 480 + (j + j) ;
-
-			// Grab a temporary pixel using the color palette lookup table.
-			ptr[location] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
-			ptr[location+1] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
-			ptr[location + (480)] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
-			ptr[location + (480) + 1] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
-			*/
 		}
-
+		//location = i*NES_DISP_WIDTH;
+		NES_i = NES_i + 2;
 	}
   
 	// Flush the cache since VDMA does not play nicely with the cache
@@ -65,8 +66,46 @@ void NESCore_Callback_OutputFrame(word *WorkFrame) {
 // values, presumably using the buttons and switches on your ZedBoard.
 void NESCore_Callback_InputPadState(dword *pdwPad1, dword *pdwPad2) {
     volatile char *SWs = XPAR_SWS_8BITS_BASEADDR;
+    volatile char *BTNs = XPAR_GPIO_0_BASEADDR;
+    volatile char *LEDs = XPAR_LEDS_8BITS_BASEADDR;
+
+
 	// Currently hard-coded so that player 1 is pressing A and B, and player 2 is pressing nothing.
-	*pdwPad1 = *SWs;
+
+    //up
+    if(*BTNs & 0b00010000){
+    	*pdwPad1 = NCTL_UP;
+    }
+    //right
+    if(*BTNs & 0b00001000){
+		*pdwPad1 = NCTL_RIGHT;
+	}
+    //left
+    if(*BTNs & 0b00000100){
+		*pdwPad1 = NCTL_LEFT;
+	}
+    //down
+    if(*BTNs & 0b00000010){
+		*pdwPad1 = NCTL_DOWN;
+	}
+    //A button
+	if(*SWs & 0b00000010){
+		*pdwPad1 = NCTL_A;
+	}
+    //B button
+    if(*SWs & 0b00000001){
+    	*pdwPad1 = NCTL_B;
+	}
+    //Start button
+    if(*SWs & 0b10000000){
+    	*pdwPad1 = NCTL_START;
+	}
+    //Select button
+    if(*SWs & 0b01000000){
+    	*pdwPad1 = NCTL_SELECT;
+	}
+
+
 	*pdwPad2 = 0;
 
 	return;
