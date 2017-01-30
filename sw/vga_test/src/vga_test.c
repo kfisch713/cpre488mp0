@@ -44,8 +44,10 @@ int main() {
     // Initialize Test image for VDMA transfer to VGA monitor
     for (i = 0; i < 480; i++) {
       for (j = 0; j < 640; j++) {
-
-        if (j < 213) {
+    	if (j == 0) {
+            test_image[i][j] = 0x0000; // black pixels
+    	}
+    	else if (j < 213) {
           test_image[i][j] = 0x000F; // red pixels
         }
         else if(j < 426 ) {
@@ -54,7 +56,6 @@ int main() {
         else {
           test_image[i][j] = 0x0F00; // blue pixels
         }
-
       }
     }
 

@@ -599,3 +599,1095 @@ arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
   69924	   2272	 644268	 716464	  aeeb0	vga_test.elf
 'Finished building: vga_test.elf.size'
 ' '
+11:49:59 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+11:50:01 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+11:50:02 **** Clean-only build of configuration Debug for project nes_bootloader ****
+make clean 
+rm -rf  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o  ./src/xilsd/ff.d ./src/xilsd/mmc.d ./src/xilsd/xilsd.d  ./src/NESCore/M6502.d ./src/NESCore/NESCore.d ./src/NESCore/NESCore_Mapper.d ./src/NESCore/NESCore_pAPU.d  ./src/NESCore_Callback.d ./src/bmp_misc.d ./src/nes_bootloader.d ./src/utils.d ./src/wav_misc.d  nes_bootloader.elf.size  nes_bootloader.elf
+' '
+11:50:02 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/xilsd/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xilsd/ff.d" -MT"src/xilsd/ff.d" -o "src/xilsd/ff.o" "../src/xilsd/ff.c"
+../src/xilsd/ff.c:87:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/xilsd/ff.o] Error 1
+11:50:03 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+11:51:38 **** Clean-only build of configuration Debug for project nes_bootloader ****
+make clean 
+rm -rf  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o  ./src/xilsd/ff.d ./src/xilsd/mmc.d ./src/xilsd/xilsd.d  ./src/NESCore/M6502.d ./src/NESCore/NESCore.d ./src/NESCore/NESCore_Mapper.d ./src/NESCore/NESCore_pAPU.d  ./src/NESCore_Callback.d ./src/bmp_misc.d ./src/nes_bootloader.d ./src/utils.d ./src/wav_misc.d  nes_bootloader.elf.size  nes_bootloader.elf
+' '
+11:51:38 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/xilsd/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xilsd/ff.d" -MT"src/xilsd/ff.d" -o "src/xilsd/ff.o" "../src/xilsd/ff.c"
+'Finished building: ../src/xilsd/ff.c'
+' '
+'Building file: ../src/xilsd/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xilsd/mmc.d" -MT"src/xilsd/mmc.d" -o "src/xilsd/mmc.o" "../src/xilsd/mmc.c"
+'Finished building: ../src/xilsd/mmc.c'
+' '
+'Building file: ../src/xilsd/xilsd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xilsd/xilsd.d" -MT"src/xilsd/xilsd.d" -o "src/xilsd/xilsd.o" "../src/xilsd/xilsd.c"
+'Finished building: ../src/xilsd/xilsd.c'
+' '
+'Building file: ../src/NESCore/M6502.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore/M6502.d" -MT"src/NESCore/M6502.d" -o "src/NESCore/M6502.o" "../src/NESCore/M6502.c"
+In file included from ../src/NESCore/M6502.c:18:0:
+../src/NESCore/M6502.c: In function 'Rd6502':
+../src/NESCore/M6502_rw.h:83:52: warning: 'wScratch' may be used uninitialized in this function [-Wuninitialized]
+'Finished building: ../src/NESCore/M6502.c'
+' '
+'Building file: ../src/NESCore/NESCore.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore/NESCore.d" -MT"src/NESCore/NESCore.d" -o "src/NESCore/NESCore.o" "../src/NESCore/NESCore.c"
+../src/NESCore/NESCore.c: In function 'NESCore_LoadROM':
+../src/NESCore/NESCore.c:73:9: warning: unused variable 'j' [-Wunused-variable]
+../src/NESCore/NESCore.c:73:6: warning: unused variable 'i' [-Wunused-variable]
+../src/NESCore/NESCore.c: In function 'NESCore_Init_GameGenie':
+../src/NESCore/NESCore.c:632:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+'Finished building: ../src/NESCore/NESCore.c'
+' '
+'Building file: ../src/NESCore/NESCore_Mapper.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore/NESCore_Mapper.d" -MT"src/NESCore/NESCore_Mapper.d" -o "src/NESCore/NESCore_Mapper.o" "../src/NESCore/NESCore_Mapper.c"
+'Finished building: ../src/NESCore/NESCore_Mapper.c'
+' '
+'Building file: ../src/NESCore/NESCore_pAPU.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore/NESCore_pAPU.d" -MT"src/NESCore/NESCore_pAPU.d" -o "src/NESCore/NESCore_pAPU.o" "../src/NESCore/NESCore_pAPU.c"
+In file included from ../src/NESCore/NESCore_pAPU.c:28:0:
+../src/NESCore/M6502_rw.h:188:13: warning: 'Wr6502' defined but not used [-Wunused-function]
+../src/NESCore/NESCore_pAPU.c: In function 'Rd6502':
+../src/NESCore/M6502_rw.h:83:52: warning: 'wScratch' may be used uninitialized in this function [-Wuninitialized]
+'Finished building: ../src/NESCore/NESCore_pAPU.c'
+' '
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:32:11: warning: variable 'tpixel' set but not used [-Wunused-but-set-variable]
+../src/NESCore_Callback.c:31:12: warning: unused variable 'ptr' [-Wunused-variable]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building file: ../src/bmp_misc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bmp_misc.d" -MT"src/bmp_misc.d" -o "src/bmp_misc.o" "../src/bmp_misc.c"
+'Finished building: ../src/bmp_misc.c'
+' '
+'Building file: ../src/nes_bootloader.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/nes_bootloader.d" -MT"src/nes_bootloader.d" -o "src/nes_bootloader.o" "../src/nes_bootloader.c"
+../src/nes_bootloader.c: In function 'nes_load':
+../src/nes_bootloader.c:53:2: warning: pointer targets in passing argument 2 of 'nes_strncpy' differ in signedness [-Wpointer-sign]
+In file included from ../src/nes_bootloader.h:29:0,
+                 from ../src/nes_bootloader.c:19:
+../src/utils.h:24:10: note: expected 'uint8_t *' but argument is of type 'char *'
+../src/nes_bootloader.c:55:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+../src/nes_bootloader.c:63:2: warning: pointer targets in passing argument 1 of 'NESCore_LoadROM' differ in signedness [-Wpointer-sign]
+In file included from ../src/nes_bootloader.c:20:0:
+../src/NESCore/NESCore.h:298:5: note: expected 'const char *' but argument is of type 'uint8_t *'
+../src/nes_bootloader.c: In function 'xil_init':
+../src/nes_bootloader.c:108:10: warning: unused variable 'Status' [-Wunused-variable]
+'Finished building: ../src/nes_bootloader.c'
+' '
+'Building file: ../src/utils.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/utils.d" -MT"src/utils.d" -o "src/utils.o" "../src/utils.c"
+'Finished building: ../src/utils.c'
+' '
+'Building file: ../src/wav_misc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/wav_misc.d" -MT"src/wav_misc.d" -o "src/wav_misc.o" "../src/wav_misc.c"
+'Finished building: ../src/wav_misc.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 509940	   4392	67852268	68366600	4133108	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+11:51:53 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+11:53:13 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+11:53:14 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+11:53:15 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+11:53:16 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+11:53:37 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/nes_bootloader.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/nes_bootloader.d" -MT"src/nes_bootloader.d" -o "src/nes_bootloader.o" "../src/nes_bootloader.c"
+../src/nes_bootloader.c: In function 'nes_load':
+../src/nes_bootloader.c:53:2: warning: pointer targets in passing argument 2 of 'nes_strncpy' differ in signedness [-Wpointer-sign]
+In file included from ../src/nes_bootloader.h:29:0,
+                 from ../src/nes_bootloader.c:19:
+../src/utils.h:24:10: note: expected 'uint8_t *' but argument is of type 'char *'
+../src/nes_bootloader.c:55:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+../src/nes_bootloader.c:63:2: warning: pointer targets in passing argument 1 of 'NESCore_LoadROM' differ in signedness [-Wpointer-sign]
+In file included from ../src/nes_bootloader.c:20:0:
+../src/NESCore/NESCore.h:298:5: note: expected 'const char *' but argument is of type 'uint8_t *'
+../src/nes_bootloader.c: In function 'xil_init':
+../src/nes_bootloader.c:168:6: error: 'test_image' undeclared (first use in this function)
+../src/nes_bootloader.c:168:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/nes_bootloader.c:108:10: warning: unused variable 'Status' [-Wunused-variable]
+make: *** [src/nes_bootloader.o] Error 1
+11:56:42 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/nes_bootloader.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/nes_bootloader.d" -MT"src/nes_bootloader.d" -o "src/nes_bootloader.o" "../src/nes_bootloader.c"
+../src/nes_bootloader.c: In function 'nes_load':
+../src/nes_bootloader.c:53:2: warning: pointer targets in passing argument 2 of 'nes_strncpy' differ in signedness [-Wpointer-sign]
+In file included from ../src/nes_bootloader.h:29:0,
+                 from ../src/nes_bootloader.c:19:
+../src/utils.h:24:10: note: expected 'uint8_t *' but argument is of type 'char *'
+../src/nes_bootloader.c:55:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+../src/nes_bootloader.c:63:2: warning: pointer targets in passing argument 1 of 'NESCore_LoadROM' differ in signedness [-Wpointer-sign]
+In file included from ../src/nes_bootloader.c:20:0:
+../src/NESCore/NESCore.h:298:5: note: expected 'const char *' but argument is of type 'uint8_t *'
+../src/nes_bootloader.c: In function 'xil_init':
+../src/nes_bootloader.c:108:10: warning: unused variable 'Status' [-Wunused-variable]
+'Finished building: ../src/nes_bootloader.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 509940	   4392	67852268	68366600	4133108	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:02:36 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:02:37 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:02:37 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:02:38 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:04:53 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+'Building file: ../src/vga_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+../src/vga_test.c: In function 'main':
+../src/vga_test.c:63:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+'Finished building: ../src/vga_test.c'
+' '
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/platform.o ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vga_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69996	   2272	 644268	 716536	  aeef8	vga_test.elf
+'Finished building: vga_test.elf.size'
+' '
+12:04:56 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:04:57 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:04:57 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:04:58 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:05:07 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:05:08 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:05:08 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:05:09 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:05:46 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:05:46 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:05:47 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:05:48 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:05:59 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:05:59 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:06:00 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:06:01 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:06:55 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:06:55 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:06:56 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:06:57 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:07:29 **** Clean-only build of configuration Debug for project vga_test ****
+make clean 
+rm -rf  ./src/platform.o ./src/vga_test.o  ./src/platform.d ./src/vga_test.d  vga_test.elf.size  vga_test.elf
+' '
+12:07:29 **** Build of configuration Debug for project vga_test ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/vga_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+../src/vga_test.c: In function 'main':
+../src/vga_test.c:63:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+'Finished building: ../src/vga_test.c'
+' '
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/platform.o ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vga_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69996	   2272	 644268	 716536	  aeef8	vga_test.elf
+'Finished building: vga_test.elf.size'
+' '
+12:07:36 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:07:37 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:07:37 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:07:38 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:09:09 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:09:09 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:09:10 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:09:11 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:09:24 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:09:25 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:09:26 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:09:26 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:09:35 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:09:36 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:09:36 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:09:37 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:10:07 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:10:07 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:10:08 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:10:09 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:10:25 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+'Building file: ../src/vga_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+../src/vga_test.c: In function 'main':
+../src/vga_test.c:62:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+'Finished building: ../src/vga_test.c'
+' '
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/platform.o ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vga_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69996	   2272	 644268	 716536	  aeef8	vga_test.elf
+'Finished building: vga_test.elf.size'
+' '
+12:12:23 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:12:24 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:12:25 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:12:26 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:15:10 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:39:4: error: 'FBUFFER' undeclared (first use in this function)
+../src/NESCore_Callback.c:39:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/NESCore_Callback.c:31:12: warning: unused variable 'ptr' [-Wunused-variable]
+make: *** [src/NESCore_Callback.o] Error 1
+12:15:20 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:39:20: error: subscripted value is neither array nor pointer nor vector
+../src/NESCore_Callback.c:31:12: warning: unused variable 'ptr' [-Wunused-variable]
+make: *** [src/NESCore_Callback.o] Error 1
+12:15:40 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 509980	   4392	67852268	68366640	4133130	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:18:32 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:56:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+../src/NESCore_Callback.c:59:2: error: invalid operands to binary * (have 'int' and 'dword *')
+make: *** [src/NESCore_Callback.o] Error 1
+12:18:39 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:56:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510004	   4392	67852268	68366664	4133148	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:20:30 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:55:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510004	   4392	67852268	68366664	4133148	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:20:39 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:20:40 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:20:40 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:20:41 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:22:08 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:55:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 509988	   4392	67852268	68366648	4133138	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:22:18 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:22:19 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:22:19 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:22:20 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:23:43 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:34:2: warning: statement with no effect [-Wunused-value]
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:55:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 509980	   4392	67852268	68366640	4133130	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:23:54 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:34:2: warning: statement with no effect [-Wunused-value]
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:56:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510068	   4392	67852268	68366728	4133188	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:24:13 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:56:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510084	   4392	67852268	68366744	4133198	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:24:18 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:24:19 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:24:19 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:24:20 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:27:03 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:56:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510084	   4392	67852268	68366744	4133198	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:27:23 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:27:24 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:27:25 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:27:26 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:30:05 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:58:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510268	   4392	67852268	68366928	4133250	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:30:09 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:30:10 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:30:10 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:30:11 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:31:37 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:57:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510268	   4392	67852268	68366928	4133250	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:31:44 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:57:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510268	   4392	67852268	68366928	4133250	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:34:28 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:34:29 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:34:29 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:34:30 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:35:36 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:35:37 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:35:37 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:35:38 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:36:17 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:62:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 509996	   4392	67852268	68366656	4133140	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:36:24 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:36:25 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:36:25 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:36:26 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:37:36 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:37:37 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:37:37 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:37:38 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:37:58 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:37:59 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:37:59 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:62:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510012	   4392	67852268	68366672	4133150	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:38:04 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:38:05 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:38:05 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:38:06 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:38:07 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:43:51 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:62:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510260	   4392	67852268	68366920	4133248	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:44:13 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:62:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510260	   4392	67852268	68366920	4133248	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:44:30 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:62:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510260	   4392	67852268	68366920	4133248	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:44:36 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:44:37 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:44:37 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:44:38 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:48:17 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510372	   4392	67852268	68367032	41332b8	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:48:21 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:48:22 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:48:22 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:48:23 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:49:22 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510372	   4392	67852268	68367032	41332b8	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:50:24 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:45:30: error: expected expression before ']' token
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+make: *** [src/NESCore_Callback.o] Error 1
+12:50:26 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510260	   4392	67852268	68366920	4133248	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:50:31 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:50:31 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:50:32 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:50:33 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:52:18 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510268	   4392	67852268	68366928	4133250	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:52:23 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:52:23 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:52:24 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:52:25 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:53:26 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_OutputFrame':
+../src/NESCore_Callback.c:39:32: error: expected ';' before ')' token
+../src/NESCore_Callback.c:39:32: error: expected statement before ')' token
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+make: *** [src/NESCore_Callback.o] Error 1
+12:54:04 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:61:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510260	   4392	67852268	68366920	4133248	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:54:08 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:54:09 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:54:10 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:54:11 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+12:58:25 **** Auto Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/NESCore_Callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/NESCore_Callback.d" -MT"src/NESCore_Callback.d" -o "src/NESCore_Callback.o" "../src/NESCore_Callback.c"
+../src/NESCore_Callback.c: In function 'NESCore_Callback_InputPadState':
+../src/NESCore_Callback.c:67:26: warning: initialization makes pointer from integer without a cast [enabled by default]
+'Finished building: ../src/NESCore_Callback.c'
+' '
+'Building target: nes_bootloader.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "nes_bootloader.elf"  ./src/xilsd/ff.o ./src/xilsd/mmc.o ./src/xilsd/xilsd.o  ./src/NESCore/M6502.o ./src/NESCore/NESCore.o ./src/NESCore/NESCore_Mapper.o ./src/NESCore/NESCore_pAPU.o  ./src/NESCore_Callback.o ./src/bmp_misc.o ./src/nes_bootloader.o ./src/utils.o ./src/wav_misc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nes_bootloader.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size nes_bootloader.elf  |tee "nes_bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 510108	   4392	67852268	68366768	41331b0	nes_bootloader.elf
+'Finished building: nes_bootloader.elf.size'
+' '
+12:58:30 **** Incremental Build of configuration Debug for project cyclone_checker ****
+make all 
+make: Nothing to be done for `all'.
+12:58:31 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for `all'.
+12:58:31 **** Incremental Build of configuration Debug for project nes_bootloader ****
+make all 
+make: Nothing to be done for `all'.
+12:58:33 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.

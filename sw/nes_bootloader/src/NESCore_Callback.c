@@ -29,16 +29,27 @@ void NESCore_Callback_OutputFrame(word *WorkFrame) {
 	extern uint16_t NesPalette3[];
 	uint32_t i, j;
 	uint16_t *ptr = (uint16_t *)FBUFFER_BASEADDR;
-	uint16_t tpixel;
 
 
 	for (i = 0 ; i < NES_DISP_HEIGHT; i++) {
 
 		for (j = 0; j < NES_DISP_WIDTH; j++) {
 
-			// Grab a temporary pixel using the color palette lookup table.
-			tpixel = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			uint32_t location, location2;
+			location = NES_DISP_WIDTH * i + 2*j;
+			location2 = NES_DISP_WIDTH * i + 2*j + 1;
+			ptr[location] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			ptr[location2] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
 
+
+			/*location = (i + i) * 480 + (j + j) ;
+
+			// Grab a temporary pixel using the color palette lookup table.
+			ptr[location] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			ptr[location+1] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			ptr[location + (480)] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			ptr[location + (480) + 1] = NesPalette3[WorkFrame[NES_DISP_WIDTH*i+j]];
+			*/
 		}
 
 	}
@@ -53,9 +64,9 @@ void NESCore_Callback_OutputFrame(word *WorkFrame) {
 // Main input callback. Overwite the passed-by references pad1 and pad2 
 // values, presumably using the buttons and switches on your ZedBoard.
 void NESCore_Callback_InputPadState(dword *pdwPad1, dword *pdwPad2) {
-
+    volatile char *SWs = XPAR_SWS_8BITS_BASEADDR;
 	// Currently hard-coded so that player 1 is pressing A and B, and player 2 is pressing nothing.
-	*pdwPad1 = NCTL_A | NCTL_B;
+	*pdwPad1 = *SWs;
 	*pdwPad2 = 0;
 
 	return;

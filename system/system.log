@@ -59,3 +59,41 @@ Xilinx Software Development Kit
 Xilinx EDK 14.7 Build EDK_P.20131013
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 Done!
+Writing filter settings....
+Done writing filter settings to:
+	\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\etc\system.filters
+Done writing Tab View settings to:
+	\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this component. This license does not give you access to source code implementing this component.
+
+The license for this core was generated for zambreno on 01/28/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this component. This license does not give you access to source code implementing this component.
+
+The license for this core was generated for zambreno on 01/28/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+
+
+********************************************************************************
+At Local date and time: Mon Jan 30 11:45:53 2017
+ make -f system.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Mon Jan 30 11:45:54 2017
+ xsdk.exe -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\etc\system.filters
+Done writing Tab View settings to:
+	\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\etc\system.gui

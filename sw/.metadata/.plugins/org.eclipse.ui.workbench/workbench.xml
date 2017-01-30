@@ -43,25 +43,25 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="nes_bootloader.c" partName="nes_bootloader.c" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/nes_bootloader.c" title="nes_bootloader.c" tooltip="nes_bootloader/src/nes_bootloader.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="vga_test.c" partName="vga_test.c" path="U:/Documents/cpre488mp0/sw/vga_test/src/vga_test.c" title="vga_test.c" tooltip="vga_test/src/vga_test.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vga_test/src/vga_test.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1269" selectionTopPixel="561"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="nes_bootloader.c" partName="nes_bootloader.c" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/nes_bootloader.c" title="nes_bootloader.c" tooltip="nes_bootloader/src/nes_bootloader.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nes_bootloader/src/nes_bootloader.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2056" selectionTopPixel="1122"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="2567" selectionTopPixel="1557"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore.c" partName="NESCore.c" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/NESCore/NESCore.c" title="NESCore.c" tooltip="nes_bootloader/src/NESCore/NESCore.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nes_bootloader/src/NESCore/NESCore.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="25232" selectionTopPixel="14331"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore_Callback.c" partName="NESCore_Callback.c" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/NESCore_Callback.c" title="NESCore_Callback.c" tooltip="nes_bootloader/src/NESCore_Callback.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore_Callback.c" partName="NESCore_Callback.c" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/NESCore_Callback.c" title="NESCore_Callback.c" tooltip="nes_bootloader/src/NESCore_Callback.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nes_bootloader/src/NESCore_Callback.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="805" selectionTopPixel="102"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1328" selectionTopPixel="204"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore.h" partName="NESCore.h" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/NESCore/NESCore.h" title="NESCore.h" tooltip="nes_bootloader/src/NESCore/NESCore.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nes_bootloader/src/NESCore/NESCore.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2477" selectionTopPixel="901"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore_Callback.h" partName="NESCore_Callback.h" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/NESCore/NESCore_Callback.h" title="NESCore_Callback.h" tooltip="nes_bootloader/src/NESCore/NESCore_Callback.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nes_bootloader/src/NESCore/NESCore_Callback.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1521" selectionTopPixel="408"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="nes_bootloader.h" partName="nes_bootloader.h" path="U:/Documents/cpre488mp0/sw/nes_bootloader/src/nes_bootloader.h" title="nes_bootloader.h" tooltip="nes_bootloader/src/nes_bootloader.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nes_bootloader/src/nes_bootloader.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1136" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" partName="helloworld.c" path="U:/Documents/cpre488mp0/sw/hello_world/src/helloworld.c" title="helloworld.c" tooltip="hello_world/src/helloworld.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/hello_world/src/helloworld.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1502" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -87,7 +87,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="559"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -198,7 +200,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.8603652" ratioLeft="801" ratioRight="130" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.78088075" ratioLeft="727" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -235,162 +237,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/helloworld.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/cyclone_checker/src/cyclone_checker.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/vga_test/src/vga_test.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/system_hw_platform/system.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/standalone_bsp_0/system.mss"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/nes_bootloader.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore/NESCore.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore/NESCore.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore/NESCore.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore_Callback.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore/NESCore.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/nes_bootloader.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/vga_test/src/vga_test.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/nes_bootloader.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore_Callback.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/nes_bootloader.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore_Callback.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/NESCore/NESCore_Callback.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/helloworld.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/nes_bootloader/src/nes_bootloader.h"/>
 </editors>
-<item historyLabel="cyclone_checker.c" index="1">
-<position/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="0" y="3179"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="26" y="0"/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="0" y="3179"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="1192" y="0"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="1225" y="0"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="1228" y="0"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="1275" y="0"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="1297" y="0"/>
-</item>
-<item historyLabel="cyclone_checker.c" index="1">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="854" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="1940" y="0"/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="854" y="0"/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="system.xml" index="3"/>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="system.mss" index="4"/>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="2760" y="0"/>
-</item>
-<item historyLabel="vga_test.c" index="2">
-<position info="not_deleted" x="1579" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2192" y="13"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="24725" y="13"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25059" y="12"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25132" y="11"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="1324" y="11"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="26852" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2192" y="13"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="1190" y="8"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2192" y="13"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25282" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2208" y="0"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25282" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2208" y="0"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25018" y="6"/>
-</item>
-<item historyLabel="NESCore.h" index="7">
-<position info="not_deleted" x="2477" y="0"/>
-</item>
-<item historyLabel="NESCore_Callback.c" index="8">
-<position info="not_deleted" x="805" y="0"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25018" y="6"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25226" y="13"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25840" y="13"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2208" y="0"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
+<item historyLabel="NESCore.c" index="1">
 <position info="not_deleted" x="25856" y="0"/>
 </item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2208" y="0"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25856" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2169" y="10"/>
-</item>
-<item historyLabel="nes_bootloader.h" index="9">
-<position info="not_deleted" x="1136" y="0"/>
-</item>
-<item historyLabel="NESCore.c" index="6">
-<position info="not_deleted" x="25856" y="0"/>
-</item>
-<item historyLabel="nes_bootloader.c" index="5">
+<item historyLabel="nes_bootloader.c" index="0">
 <position info="not_deleted" x="2192" y="13"/>
 </item>
-<item historyLabel="NESCore.c" index="6">
+<item historyLabel="NESCore.c" index="1">
 <position info="not_deleted" x="25232" y="0"/>
 </item>
-<item active="true" historyLabel="nes_bootloader.c" index="5">
-<position info="not_deleted" x="2192" y="13"/>
+<item historyLabel="nes_bootloader.c" index="0">
+<position info="not_deleted" x="2056" y="0"/>
+</item>
+<item historyLabel="NESCore.c" index="2">
+<position info="not_deleted" x="25232" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="3">
+<position info="not_deleted" x="805" y="0"/>
+</item>
+<item historyLabel="NESCore.h" index="4">
+<position info="not_deleted" x="2477" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.h" index="5">
+<position info="not_deleted" x="1136" y="0"/>
+</item>
+<item historyLabel="vga_test.c" index="6">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="894" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="3365" y="5"/>
+</item>
+<item historyLabel="vga_test.c" index="6">
+<position info="not_deleted" x="1590" y="1195"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="4947" y="0"/>
+</item>
+<item historyLabel="vga_test.c" index="6">
+<position info="not_deleted" x="1549" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="3878" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="8">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="3593" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="8">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="7">
+<position info="not_deleted" x="3593" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="8">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+<item historyLabel="vga_test.c" index="6">
+<position info="not_deleted" x="1549" y="0"/>
+</item>
+<item historyLabel="vga_test.c" index="6">
+<position info="not_deleted" x="1210" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="9">
+<position info="not_deleted" x="3593" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1674" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1673" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="9">
+<position info="not_deleted" x="3570" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1673" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="2452" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.h" index="11">
+<position info="not_deleted" x="1401" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="12">
+<position info="not_deleted" x="1579" y="51"/>
+</item>
+<item historyLabel="NESCore_Callback.h" index="11">
+<position info="not_deleted" x="1401" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="2452" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.h" index="11">
+<position info="not_deleted" x="1651" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="2452" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.h" index="11">
+<position info="not_deleted" x="1521" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="2452" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.h" index="11">
+<position info="not_deleted" x="1521" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="12">
+<position info="not_deleted" x="1502" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="2468" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="9">
+<position info="not_deleted" x="3570" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1934" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="9">
+<position info="not_deleted" x="2540" y="12"/>
+</item>
+<item historyLabel="nes_bootloader.h" index="13">
+<position info="not_deleted" x="2101" y="0"/>
+</item>
+<item historyLabel="nes_bootloader.c" index="9">
+<position info="not_deleted" x="2567" y="16"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1934" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1588" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position info="not_deleted" x="1882" y="0"/>
+</item>
+<item historyLabel="NESCore_Callback.c" index="10">
+<position/>
+</item>
+<item active="true" historyLabel="NESCore_Callback.c" index="10">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -412,29 +422,32 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="nes_bootloader.h" tooltip="nes_bootloader/src/nes_bootloader.h">
 <persistable path="/nes_bootloader/src/nes_bootloader.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore.h" tooltip="nes_bootloader/src/NESCore/NESCore.h">
-<persistable path="/nes_bootloader/src/NESCore/NESCore.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" tooltip="hello_world/src/helloworld.c">
+<persistable path="/hello_world/src/helloworld.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore_Callback.h" tooltip="nes_bootloader/src/NESCore/NESCore_Callback.h">
+<persistable path="/nes_bootloader/src/NESCore/NESCore_Callback.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore_Callback.c" tooltip="nes_bootloader/src/NESCore_Callback.c">
 <persistable path="/nes_bootloader/src/NESCore_Callback.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore.c" tooltip="nes_bootloader/src/NESCore/NESCore.c">
-<persistable path="/nes_bootloader/src/NESCore/NESCore.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="nes_bootloader.c" tooltip="nes_bootloader/src/nes_bootloader.c">
 <persistable path="/nes_bootloader/src/nes_bootloader.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga_test.c" tooltip="vga_test/src/vga_test.c">
+<persistable path="/vga_test/src/vga_test.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore.h" tooltip="nes_bootloader/src/NESCore/NESCore.h">
+<persistable path="/nes_bootloader/src/NESCore/NESCore.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NESCore.c" tooltip="nes_bootloader/src/NESCore/NESCore.c">
+<persistable path="/nes_bootloader/src/NESCore/NESCore.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="standalone_bsp_0/system.mss">
 <persistable path="/standalone_bsp_0/system.mss"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" tooltip="system_hw_platform/system.xml">
 <persistable path="/system_hw_platform/system.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" tooltip="hello_world/src/helloworld.c">
-<persistable path="/hello_world/src/helloworld.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga_test.c" tooltip="vga_test/src/vga_test.c">
-<persistable path="/vga_test/src/vga_test.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" tooltip="cyclone_checker/src/helloworld.c">
 <persistable path="/cyclone_checker/src/helloworld.c"/>
@@ -450,9 +463,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xaxivdma_i.h" tooltip="system_bsp2/ps7_cortexa9_0/include/xaxivdma_i.h">
 <persistable path="/system_bsp2/ps7_cortexa9_0/include/xaxivdma_i.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xaxivdma.h" tooltip="system_bsp2/ps7_cortexa9_0/include/xaxivdma.h">
-<persistable path="/system_bsp2/ps7_cortexa9_0/include/xaxivdma.h"/>
 </file>
 </mruList>
 </workbench>
