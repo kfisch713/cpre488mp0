@@ -503,3 +503,99 @@ make: Nothing to be done for `all'.
 13:35:29 **** Incremental Build of configuration Debug for project vga_test ****
 make all 
 make: Nothing to be done for `all'.
+11:01:38 **** Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/xilsd/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xilsd/ff.d" -MT"src/xilsd/ff.d" -o "src/xilsd/ff.o" "../src/xilsd/ff.c"
+../src/xilsd/ff.c:87:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/xilsd/ff.o] Error 1
+11:29:10 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+11:29:11 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+11:29:11 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+'Finished building libraries'
+11:29:15 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+11:29:29 **** Clean-only build of configuration Debug for project vga_test ****
+make clean 
+rm -rf  ./src/platform.o ./src/vga_test.o  ./src/platform.d ./src/vga_test.d  vga_test.elf.size  vga_test.elf
+' '
+11:29:29 **** Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling axivdma"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling gpiops"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling ttcps"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling xadcps"
+"Compiling video timing controller"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+11:30:42 **** Build of configuration Debug for project vga_test ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/vga_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/vga_test.d" -MT"src/vga_test.d" -o "src/vga_test.o" "../src/vga_test.c"
+../src/vga_test.c: In function 'main':
+../src/vga_test.c:61:5: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+'Finished building: ../src/vga_test.c'
+' '
+'Building target: vga_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "vga_test.elf"  ./src/platform.o ./src/vga_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vga_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size vga_test.elf  |tee "vga_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69924	   2272	 644268	 716464	  aeeb0	vga_test.elf
+'Finished building: vga_test.elf.size'
+' '

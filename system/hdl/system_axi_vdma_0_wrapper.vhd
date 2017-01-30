@@ -273,7 +273,7 @@ begin
       C_PRMRY_IS_ACLK_ASYNC => 0,
       C_M_AXI_SG_ADDR_WIDTH => 32,
       C_M_AXI_SG_DATA_WIDTH => 32,
-      C_NUM_FSTORES => 3,
+      C_NUM_FSTORES => 1,
       C_USE_FSYNC => 0,
       C_FLUSH_ON_FSYNC => 1,
       C_DYNAMIC_RESOLUTION => 1,

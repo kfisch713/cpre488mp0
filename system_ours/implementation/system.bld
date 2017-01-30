@@ -1,0 +1,296 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -p
+xc7z020clg484-1 -nt timestamp -bm system.bmm
+U:/Documents/cpre488mp0/system/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file "U:/Documents/cpre488mp0/system/implementation/system.ngc" ...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_processing_system7_0_wrapp
+er.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper
+.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_v_axi4s_vid_out_0_wrapper.
+ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_axi_vdma_0_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_sws_8bits_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_leds_8bits_wrapper.ngc"...
+Loading design module
+"U:/Documents/cpre488mp0/system/implementation/system_btns_5bits_wrapper.ngc"...
+Applying constraints in
+"U:/Documents/cpre488mp0/system/implementation/system_processing_system7_0_wrapp
+er.ncf" to module "processing_system7_0"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Documents/cpre488mp0/system/implementation/system_axi4lite_0_wrapper.ncf" to
+module "axi4lite_0"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Documents/cpre488mp0/system/implementation/system_axi_interconnect_1_wrapper
+.ncf" to module "axi_interconnect_1"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Documents/cpre488mp0/system/implementation/system_v_tc_0_wrapper.ncf" to
+module "v_tc_0"...
+Checking Constraint Associations...
+Applying constraints in
+"U:/Documents/cpre488mp0/system/implementation/system_axi_vdma_0_wrapper.ncf" to
+module "axi_vdma_0"...
+Checking Constraint Associations...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_PORB_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_CLK_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_SRSTB_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this
+   component. This license does not give you access to source code implementing
+   this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:135 - Constraint <INST
+   /system/EXPANDED/system/axi_interconnect_1/axi_interconnect_1\/si_converter_b
+   ank\/gen_conv_slot[0].clock_conv_inst\/interconnect_aresetn_resync<2>_inv1_IN
+   V_0 TNM = FFS:axi_interconnect_1_reset...>: No instances of type FFS were
+   found under block
+   "axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clo
+   ck_conv_inst/interconnect_aresetn_resync<2>_inv1_INV_0" (type=INV).
+
+WARNING:ConstraintSystem:135 - Constraint <INST
+   /system/EXPANDED/system/axi4lite_0/axi4lite_0\/si_converter_bank\/gen_conv_sl
+   ot[0].clock_conv_inst\/interconnect_aresetn_resync<2>_inv1_INV_0 TNM =
+   FFS:axi4lite_0_reset_resync>: No instances of type FFS were found under block
+   "axi4lite_0/axi4lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/int
+   erconnect_aresetn_resync<2>_inv1_INV_0" (type=INV).
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "processing_system7_0_PS_PORB_IBUF" LOC = B5>' could not be found and
+   so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "processing_system7_0_PS_CLK_IBUF" LOC = F7>' could not be found and so
+   the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "processing_system7_0_PS_SRSTB_IBUF" LOC = C9>' could not be found and
+   so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi4lite_0_reset_source = FFS
+   PADS CPUS;>: CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   axi_interconnect_1_reset_source = FFS PADS CPUS;>: CPUS "*" does not match
+   any design objects.
+
+WARNING:ConstraintSystem:194 - The TNM 'axi_interconnect_1_reset_resync', does
+   not directly or indirectly drive any flip-flops, latches and/or RAMs and is
+   not actively used by any referencing constraint.
+
+WARNING:ConstraintSystem:194 - The TNM 'axi4lite_0_reset_resync', does not
+   directly or indirectly drive any flip-flops, latches and/or RAMs and is not
+   actively used by any referencing constraint.
+
+Done...
+
+Processing BMM file "system.bmm" ...
+
+WARNING::53 - File 'system.bmm' is empty or has no BMM content.
+
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N154' has no driver
+WARNING:NgdBuild:452 - logical net 'N155' has no driver
+WARNING:NgdBuild:452 - logical net 'N156' has no driver
+WARNING:NgdBuild:452 - logical net 'N157' has no driver
+WARNING:NgdBuild:452 - logical net 'N158' has no driver
+WARNING:NgdBuild:452 - logical net 'N159' has no driver
+WARNING:NgdBuild:452 - logical net 'N160' has no driver
+WARNING:NgdBuild:452 - logical net 'N161' has no driver
+WARNING:NgdBuild:452 - logical net 'N162' has no driver
+WARNING:NgdBuild:452 - logical net 'N163' has no driver
+WARNING:NgdBuild:452 - logical net 'N164' has no driver
+WARNING:NgdBuild:452 - logical net 'N165' has no driver
+WARNING:NgdBuild:452 - logical net 'N166' has no driver
+WARNING:NgdBuild:452 - logical net 'N167' has no driver
+WARNING:NgdBuild:452 - logical net 'N168' has no driver
+WARNING:NgdBuild:452 - logical net 'N169' has no driver
+WARNING:NgdBuild:452 - logical net 'N170' has no driver
+WARNING:NgdBuild:452 - logical net 'N171' has no driver
+WARNING:NgdBuild:452 - logical net 'N172' has no driver
+WARNING:NgdBuild:452 - logical net 'N173' has no driver
+WARNING:NgdBuild:452 - logical net 'N174' has no driver
+WARNING:NgdBuild:452 - logical net 'N175' has no driver
+WARNING:NgdBuild:452 - logical net 'N176' has no driver
+WARNING:NgdBuild:452 - logical net 'N177' has no driver
+WARNING:NgdBuild:452 - logical net 'N178' has no driver
+WARNING:NgdBuild:452 - logical net 'N179' has no driver
+WARNING:NgdBuild:452 - logical net 'N180' has no driver
+WARNING:NgdBuild:452 - logical net 'N181' has no driver
+WARNING:NgdBuild:452 - logical net 'N182' has no driver
+WARNING:NgdBuild:452 - logical net 'N183' has no driver
+WARNING:NgdBuild:452 - logical net 'N184' has no driver
+WARNING:NgdBuild:452 - logical net 'N185' has no driver
+WARNING:NgdBuild:452 - logical net 'N186' has no driver
+WARNING:NgdBuild:452 - logical net 'N187' has no driver
+WARNING:NgdBuild:452 - logical net 'N188' has no driver
+WARNING:NgdBuild:452 - logical net 'N189' has no driver
+WARNING:NgdBuild:452 - logical net 'N190' has no driver
+WARNING:NgdBuild:452 - logical net 'N191' has no driver
+WARNING:NgdBuild:452 - logical net 'N192' has no driver
+WARNING:NgdBuild:452 - logical net 'N193' has no driver
+WARNING:NgdBuild:452 - logical net 'N194' has no driver
+WARNING:NgdBuild:452 - logical net 'N195' has no driver
+WARNING:NgdBuild:452 - logical net 'N196' has no driver
+WARNING:NgdBuild:452 - logical net 'N197' has no driver
+WARNING:NgdBuild:452 - logical net 'N198' has no driver
+WARNING:NgdBuild:452 - logical net 'N199' has no driver
+WARNING:NgdBuild:452 - logical net 'N200' has no driver
+WARNING:NgdBuild:452 - logical net 'N201' has no driver
+WARNING:NgdBuild:452 - logical net 'N202' has no driver
+WARNING:NgdBuild:452 - logical net 'N203' has no driver
+WARNING:NgdBuild:452 - logical net 'N204' has no driver
+WARNING:NgdBuild:452 - logical net 'N205' has no driver
+WARNING:NgdBuild:452 - logical net 'N206' has no driver
+WARNING:NgdBuild:452 - logical net 'N207' has no driver
+WARNING:NgdBuild:452 - logical net 'N208' has no driver
+WARNING:NgdBuild:452 - logical net 'N209' has no driver
+WARNING:NgdBuild:452 - logical net 'N210' has no driver
+WARNING:NgdBuild:452 - logical net 'N211' has no driver
+WARNING:NgdBuild:452 - logical net 'N212' has no driver
+WARNING:NgdBuild:452 - logical net 'N213' has no driver
+WARNING:NgdBuild:452 - logical net 'N214' has no driver
+WARNING:NgdBuild:452 - logical net 'N215' has no driver
+WARNING:NgdBuild:452 - logical net 'N216' has no driver
+WARNING:NgdBuild:452 - logical net 'N217' has no driver
+WARNING:NgdBuild:452 - logical net 'N218' has no driver
+WARNING:NgdBuild:452 - logical net 'N219' has no driver
+WARNING:NgdBuild:452 - logical net 'N220' has no driver
+WARNING:NgdBuild:452 - logical net 'N221' has no driver
+WARNING:NgdBuild:452 - logical net 'N222' has no driver
+WARNING:NgdBuild:452 - logical net 'N223' has no driver
+WARNING:NgdBuild:452 - logical net 'N224' has no driver
+WARNING:NgdBuild:452 - logical net 'N225' has no driver
+WARNING:NgdBuild:452 - logical net 'N226' has no driver
+WARNING:NgdBuild:452 - logical net 'N227' has no driver
+WARNING:NgdBuild:452 - logical net 'N228' has no driver
+WARNING:NgdBuild:452 - logical net 'N229' has no driver
+WARNING:NgdBuild:452 - logical net 'N230' has no driver
+WARNING:NgdBuild:452 - logical net 'N231' has no driver
+WARNING:NgdBuild:452 - logical net 'N232' has no driver
+WARNING:NgdBuild:452 - logical net 'N233' has no driver
+WARNING:NgdBuild:452 - logical net 'N234' has no driver
+WARNING:NgdBuild:452 - logical net 'N235' has no driver
+WARNING:NgdBuild:452 - logical net 'N236' has no driver
+WARNING:NgdBuild:452 - logical net 'N237' has no driver
+WARNING:NgdBuild:452 - logical net 'N238' has no driver
+WARNING:NgdBuild:452 - logical net 'N239' has no driver
+WARNING:NgdBuild:452 - logical net 'N240' has no driver
+WARNING:NgdBuild:452 - logical net 'N241' has no driver
+WARNING:NgdBuild:452 - logical net 'N242' has no driver
+WARNING:NgdBuild:452 - logical net 'N243' has no driver
+WARNING:NgdBuild:452 - logical net 'N244' has no driver
+WARNING:NgdBuild:452 - logical net 'N245' has no driver
+WARNING:NgdBuild:452 - logical net 'N246' has no driver
+WARNING:NgdBuild:452 - logical net 'N247' has no driver
+WARNING:NgdBuild:452 - logical net 'N248' has no driver
+WARNING:NgdBuild:452 - logical net 'N249' has no driver
+WARNING:NgdBuild:452 - logical net 'N250' has no driver
+WARNING:NgdBuild:452 - logical net 'N251' has no driver
+WARNING:NgdBuild:452 - logical net 'N252' has no driver
+WARNING:NgdBuild:452 - logical net 'N253' has no driver
+WARNING:NgdBuild:452 - logical net 'N254' has no driver
+WARNING:NgdBuild:452 - logical net 'N255' has no driver
+WARNING:NgdBuild:452 - logical net 'N256' has no driver
+WARNING:NgdBuild:452 - logical net 'N257' has no driver
+WARNING:NgdBuild:452 - logical net 'N258' has no driver
+WARNING:NgdBuild:452 - logical net 'N259' has no driver
+WARNING:NgdBuild:452 - logical net 'N260' has no driver
+WARNING:NgdBuild:452 - logical net 'N261' has no driver
+WARNING:NgdBuild:452 - logical net 'N262' has no driver
+WARNING:NgdBuild:452 - logical net 'N263' has no driver
+WARNING:NgdBuild:452 - logical net 'N264' has no driver
+WARNING:NgdBuild:452 - logical net 'N265' has no driver
+WARNING:NgdBuild:452 - logical net 'N266' has no driver
+WARNING:NgdBuild:452 - logical net 'N267' has no driver
+WARNING:NgdBuild:452 - logical net 'N268' has no driver
+WARNING:NgdBuild:452 - logical net 'N269' has no driver
+WARNING:NgdBuild:452 - logical net 'N270' has no driver
+WARNING:NgdBuild:452 - logical net 'N271' has no driver
+WARNING:NgdBuild:452 - logical net 'N272' has no driver
+WARNING:NgdBuild:452 - logical net 'N273' has no driver
+WARNING:NgdBuild:452 - logical net 'N274' has no driver
+WARNING:NgdBuild:452 - logical net 'N275' has no driver
+WARNING:NgdBuild:452 - logical net 'N276' has no driver
+WARNING:NgdBuild:452 - logical net 'N277' has no driver
+WARNING:NgdBuild:452 - logical net 'N278' has no driver
+WARNING:NgdBuild:452 - logical net 'N279' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 135
+
+Total memory usage is 318820 kilobytes
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  25 sec
+Total CPU time to NGDBUILD completion:   21 sec
+
+Writing NGDBUILD log file "system.bld"...

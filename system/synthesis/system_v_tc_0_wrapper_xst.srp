@@ -1,10 +1,10 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to U:\cpre488\MP-0\system\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_v_tc_0_wrapper_xst.prj"
-Verilog Include Directory          : {"U:\Documents\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"U:\cpre488\MP-0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z020clg484-1
@@ -240,46 +240,46 @@ Parsing architecture <imp> of entity <or_gate_f>.
 Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd" into library proc_common_v3_00_a
 Parsing entity <soft_reset>.
 Parsing architecture <implementation> of entity <soft_reset>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/address_decoder.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/address_decoder.vhd" into library v_tc_v5_01_a
 Parsing entity <address_decoder>.
 Parsing architecture <IMP> of entity <address_decoder>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/slave_attachment.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/slave_attachment.vhd" into library v_tc_v5_01_a
 Parsing entity <slave_attachment>.
 Parsing architecture <imp> of entity <slave_attachment>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/axi4s_control.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/axi4s_control.vhd" into library v_tc_v5_01_a
 Parsing entity <axi4s_control>.
 Parsing architecture <synth> of entity <axi4s_control>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/debug.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/debug.vhd" into library v_tc_v5_01_a
 Parsing entity <debug>.
 Parsing architecture <rtl> of entity <debug>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_ctrl_pkg.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_ctrl_pkg.vhd" into library v_tc_v5_01_a
 Parsing package <video_ctrl_pkg>.
 Parsing package body <video_ctrl_pkg>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/axi_lite_ipif.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/axi_lite_ipif.vhd" into library v_tc_v5_01_a
 Parsing entity <axi_lite_ipif>.
 Parsing architecture <imp> of entity <axi_lite_ipif>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_detector.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_detector.vhd" into library v_tc_v5_01_a
 Parsing entity <tc_detector>.
 Parsing architecture <rtl> of entity <tc_detector>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" into library v_tc_v5_01_a
 Parsing entity <tc_generator>.
 Parsing architecture <rtl> of entity <tc_generator>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" into library v_tc_v5_01_a
 Parsing entity <tc_top>.
 Parsing architecture <rtl> of entity <tc_top>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_clock_cross.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_clock_cross.vhd" into library v_tc_v5_01_a
 Parsing entity <video_clock_cross>.
 Parsing architecture <RTL> of entity <video_clock_cross>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_ctrl.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_ctrl.vhd" into library v_tc_v5_01_a
 Parsing package <hwt_pkg>.
 Parsing entity <hwt>.
 Parsing architecture <rtl> of entity <hwt>.
 Parsing entity <video_ctrl>.
 Parsing architecture <RTL> of entity <video_ctrl>.
-Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" into library v_tc_v5_01_a
+Parsing VHDL file "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" into library v_tc_v5_01_a
 Parsing entity <v_tc>.
 Parsing architecture <IMP> of entity <v_tc>.
-Parsing VHDL file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_v_tc_0_wrapper.vhd" into library work
+Parsing VHDL file "\\my.files.iastate.edu\users\rbuckley\cpre488\MP-0\system\hdl\system_v_tc_0_wrapper.vhd" into library work
 Parsing entity <system_v_tc_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_v_tc_0_wrapper>.
 
@@ -290,7 +290,7 @@ Parsing architecture <STRUCTURE> of entity <system_v_tc_0_wrapper>.
 Elaborating entity <system_v_tc_0_wrapper> (architecture <STRUCTURE>) from library <work>.
 
 Elaborating entity <v_tc> (architecture <IMP>) with generics from library <v_tc_v5_01_a>.
-WARNING:HDLCompiler:871 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 634: Using initial value ("00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000") for core_status_regs since it is never assigned
+WARNING:HDLCompiler:871 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 634: Using initial value ("00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000") for core_status_regs since it is never assigned
 
 Elaborating entity <video_ctrl> (architecture <RTL>) with generics from library <v_tc_v5_01_a>.
 
@@ -303,7 +303,7 @@ Elaborating entity <address_decoder> (architecture <IMP>) with generics from lib
 Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
 
 Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-INFO:HDLCompiler:679 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/slave_attachment.vhd" Line 458. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/slave_attachment.vhd" Line 458. Case statement is complete. others clause is never selected
 
 Elaborating entity <video_clock_cross> (architecture <RTL>) with generics from library <v_tc_v5_01_a>.
 
@@ -312,61 +312,61 @@ Elaborating entity <video_clock_cross> (architecture <RTL>) with generics from l
 Elaborating entity <tc_top> (architecture <rtl>) with generics from library <v_tc_v5_01_a>.
 
 Elaborating entity <tc_generator> (architecture <rtl>) with generics from library <v_tc_v5_01_a>.
-WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 300: Assignment to hblank_hold ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 301: Assignment to hsync_hold ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 837: Assignment to htotal_1_v ignored, since the identifier is never used
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 266: Net <v1total[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 267: Net <v1fp_start[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 268: Net <v1sync_start[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 269: Net <v1bp_start[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 270: Net <v1active_start[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 278: Net <v1fp_start_hori[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 279: Net <v1sync_start_hori[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 280: Net <v1bp_start_hori[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 281: Net <v1active_start_hori[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 285: Net <det_htotal_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 286: Net <det_hfp_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 287: Net <det_hsync_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 288: Net <det_hbp_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 289: Net <det_hactive_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 291: Net <det_v0total_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 292: Net <det_v0fp_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 293: Net <det_v0sync_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 294: Net <det_v0bp_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 295: Net <det_v0active_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 296: Net <det_v0chroma_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 298: Net <det_v1total_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 299: Net <det_v1fp_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 300: Net <det_v1sync_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 301: Net <det_v1bp_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 302: Net <det_v1active_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 303: Net <det_v1chroma_start_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 305: Net <det_v0fp_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 306: Net <det_v0sync_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 307: Net <det_v0bp_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 308: Net <det_v0active_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 310: Net <det_v1fp_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 311: Net <det_v1sync_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 312: Net <det_v1bp_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 313: Net <det_v1active_start_hori_int[11]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 315: Net <det_chroma_skip_int[1]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 330: Net <det_hsync_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 331: Net <det_vsync_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 332: Net <det_hblank_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 333: Net <det_vblank_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 334: Net <det_field_id_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 335: Net <det_active_video_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 336: Net <det_active_chroma_pol> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 338: Net <det_fsync> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 340: Net <hsync_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 341: Net <hblank_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 342: Net <vsync_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 343: Net <vblank_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 344: Net <field_id_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 345: Net <active_video_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 346: Net <active_chroma_lock_int> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 628: Net <genr_status_regs[0][31]> does not have a driver.
-WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 631: Net <time_status_regs[0][31]> does not have a driver.
+WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 300: Assignment to hblank_hold ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 301: Assignment to hsync_hold ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 837: Assignment to htotal_1_v ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 266: Net <v1total[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 267: Net <v1fp_start[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 268: Net <v1sync_start[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 269: Net <v1bp_start[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 270: Net <v1active_start[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 278: Net <v1fp_start_hori[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 279: Net <v1sync_start_hori[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 280: Net <v1bp_start_hori[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 281: Net <v1active_start_hori[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 285: Net <det_htotal_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 286: Net <det_hfp_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 287: Net <det_hsync_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 288: Net <det_hbp_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 289: Net <det_hactive_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 291: Net <det_v0total_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 292: Net <det_v0fp_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 293: Net <det_v0sync_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 294: Net <det_v0bp_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 295: Net <det_v0active_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 296: Net <det_v0chroma_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 298: Net <det_v1total_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 299: Net <det_v1fp_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 300: Net <det_v1sync_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 301: Net <det_v1bp_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 302: Net <det_v1active_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 303: Net <det_v1chroma_start_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 305: Net <det_v0fp_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 306: Net <det_v0sync_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 307: Net <det_v0bp_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 308: Net <det_v0active_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 310: Net <det_v1fp_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 311: Net <det_v1sync_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 312: Net <det_v1bp_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 313: Net <det_v1active_start_hori_int[9]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 315: Net <det_chroma_skip_int[1]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 330: Net <det_hsync_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 331: Net <det_vsync_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 332: Net <det_hblank_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 333: Net <det_vblank_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 334: Net <det_field_id_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 335: Net <det_active_video_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 336: Net <det_active_chroma_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 338: Net <det_fsync> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 340: Net <hsync_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 341: Net <hblank_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 342: Net <vsync_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 343: Net <vblank_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 344: Net <field_id_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 345: Net <active_video_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 346: Net <active_chroma_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 628: Net <genr_status_regs[0][31]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/rbuckley/cpre488/MP-0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 631: Net <time_status_regs[0][31]> does not have a driver.
 INFO:coreutil - Full license for component <v_tc> allows you to use this component. This license does not give you access to source code implementing this component.
 
    The license for this core was generated for zambreno on 01/28/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
@@ -383,8 +383,8 @@ INFO:coreutil - Full license for component <v_tc> allows you to use this compone
 =========================================================================
 
 Synthesizing Unit <system_v_tc_0_wrapper>.
-    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_v_tc_0_wrapper.vhd".
-INFO:Xst:3210 - "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_v_tc_0_wrapper.vhd" line 192: Output port <field_id_out> of the instance <v_tc_0> is unconnected or connected to loadless signal.
+    Related source file is "\\my.files.iastate.edu\users\rbuckley\cpre488\MP-0\system\hdl\system_v_tc_0_wrapper.vhd".
+INFO:Xst:3210 - "\\my.files.iastate.edu\users\rbuckley\cpre488\MP-0\system\hdl\system_v_tc_0_wrapper.vhd" line 192: Output port <field_id_out> of the instance <v_tc_0> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <system_v_tc_0_wrapper> synthesized.
@@ -447,26 +447,26 @@ Top Level Output File Name         : system_v_tc_0_wrapper.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1930
+# BELS                             : 1719
 #      GND                         : 1
-#      INV                         : 30
-#      LUT1                        : 31
-#      LUT2                        : 33
-#      LUT3                        : 55
-#      LUT4                        : 468
-#      LUT5                        : 315
-#      LUT6                        : 788
-#      MUXCY                       : 51
-#      MUXF7                       : 77
-#      MUXF8                       : 24
+#      INV                         : 10
+#      LUT1                        : 25
+#      LUT2                        : 29
+#      LUT3                        : 63
+#      LUT4                        : 409
+#      LUT5                        : 288
+#      LUT6                        : 763
+#      MUXCY                       : 25
+#      MUXF7                       : 57
+#      MUXF8                       : 20
 #      VCC                         : 1
-#      XORCY                       : 56
-# FlipFlops/Latches                : 1480
+#      XORCY                       : 28
+# FlipFlops/Latches                : 1357
 #      FD                          : 295
-#      FDR                         : 811
-#      FDRE                        : 272
+#      FDR                         : 718
+#      FDRE                        : 244
 #      FDS                         : 89
-#      FDSE                        : 13
+#      FDSE                        : 11
 
 Device utilization summary:
 ---------------------------
@@ -475,15 +475,15 @@ Selected Device : 7z020clg484-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1480  out of  106400     1%  
- Number of Slice LUTs:                 1720  out of  53200     3%  
-    Number used as Logic:              1720  out of  53200     3%  
+ Number of Slice Registers:            1357  out of  106400     1%  
+ Number of Slice LUTs:                 1587  out of  53200     2%  
+    Number used as Logic:              1587  out of  53200     2%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2460
-   Number with an unused Flip Flop:     980  out of   2460    39%  
-   Number with an unused LUT:           740  out of   2460    30%  
-   Number of fully used LUT-FF pairs:   740  out of   2460    30%  
+ Number of LUT Flip Flop pairs used:   2266
+   Number with an unused Flip Flop:     909  out of   2266    40%  
+   Number with an unused LUT:           679  out of   2266    29%  
+   Number of fully used LUT-FF pairs:   678  out of   2266    29%  
    Number of unique control sets:         0
 
 IO Utilization: 
@@ -513,7 +513,7 @@ Clock Information:
 -----------------------------------+----------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                  | Load  |
 -----------------------------------+----------------------------------------+-------+
-clk                                | NONE(v_tc_0/gen_v0chroma_start_0)      | 1279  |
+clk                                | NONE(v_tc_0/gen_v0chroma_start_0)      | 1156  |
 s_axi_aclk                         | NONE(v_tc_0/U_VIDEO_CTRL/proc_sync1_44)| 201   |
 -----------------------------------+----------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -526,8 +526,8 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 3.566ns (Maximum Frequency: 280.414MHz)
-   Minimum input arrival time before clock: 1.909ns
+   Minimum period: 3.609ns (Maximum Frequency: 277.059MHz)
+   Minimum input arrival time before clock: 2.493ns
    Maximum output required time after clock: 0.847ns
    Maximum combinational path delay: No path found
 
@@ -537,10 +537,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 3.566ns (frequency: 280.414MHz)
-  Total number of paths / destination ports: 19418 / 2410
+  Clock period: 3.609ns (frequency: 277.059MHz)
+  Total number of paths / destination ports: 19130 / 2162
 -------------------------------------------------------------------------
-Delay:               3.566ns (Levels of Logic = 6)
+Delay:               3.609ns (Levels of Logic = 5)
   Source:            sec_inst (FF)
   Destination:       sec_inst (FF)
   Source Clock:      clk rising
@@ -550,24 +550,23 @@ Delay:               3.566ns (Levels of Logic = 6)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     SEC:C->out          149   0.282   0.917  sec_inst (sec_net)
-     SEC:in->out           1   0.053   0.635  sec_inst (sec_net)
-     SEC:in->out           1   0.053   0.413  sec_inst (sec_net)
-     SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
-     SEC:in->out           1   0.217   0.413  sec_inst (sec_net)
+     SEC:C->out          159   0.282   0.919  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.602  sec_inst (sec_net)
+     SEC:in->out           2   0.053   0.405  sec_inst (sec_net)
+     SEC:in->out           1   0.280   0.485  sec_inst (sec_net)
      SEC:in->out           1   0.053   0.413  sec_inst (sec_net)
      SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
      SEC:in                    0.011          sec_inst
     ----------------------------------------
-    Total                      3.566ns (0.775ns logic, 2.791ns route)
+    Total                      3.609ns (0.785ns logic, 2.824ns route)
                                        (21.7% logic, 78.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 's_axi_aclk'
-  Clock period: 1.839ns (frequency: 543.774MHz)
+  Clock period: 1.806ns (frequency: 553.710MHz)
   Total number of paths / destination ports: 313 / 206
 -------------------------------------------------------------------------
-Delay:               1.839ns (Levels of Logic = 2)
+Delay:               1.806ns (Levels of Logic = 2)
   Source:            sec_inst (FF)
   Destination:       sec_inst (FF)
   Source Clock:      s_axi_aclk rising
@@ -578,18 +577,18 @@ Delay:               1.839ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      SEC:C->out           11   0.282   0.791  sec_inst (sec_net)
-     SEC:in->out           3   0.053   0.649  sec_inst (sec_net)
+     SEC:in->out           3   0.053   0.616  sec_inst (sec_net)
      SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
      SEC:in                    0.011          sec_inst
     ----------------------------------------
-    Total                      1.839ns (0.399ns logic, 1.440ns route)
-                                       (21.7% logic, 78.3% route)
+    Total                      1.806ns (0.399ns logic, 1.407ns route)
+                                       (22.1% logic, 77.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1756 / 1170
+  Total number of paths / destination ports: 1539 / 1043
 -------------------------------------------------------------------------
-Offset:              1.909ns (Levels of Logic = 4)
+Offset:              2.493ns (Levels of Logic = 6)
   Source:            clken (PAD)
   Destination:       sec_inst (FF)
   Destination Clock: clk rising
@@ -599,13 +598,15 @@ Offset:              1.909ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      begin scope: 'v_tc_0:clken'
-     SEC:in->out          32   0.053   0.788  sec_inst (sec_net)
-     SEC:in->out          24   0.053   0.748  sec_inst (sec_net)
+     SEC:in->out         154   0.053   0.664  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.413  sec_inst (sec_net)
+     SEC:in->out           2   0.053   0.641  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.413  sec_inst (sec_net)
      SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
      SEC:in                    0.011          sec_inst
     ----------------------------------------
-    Total                      1.909ns (0.373ns logic, 1.536ns route)
-                                       (19.5% logic, 80.5% route)
+    Total                      2.493ns (0.362ns logic, 2.131ns route)
+                                       (14.5% logic, 85.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 's_axi_aclk'
@@ -676,7 +677,7 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.566|         |         |         |
+clk            |    3.609|         |         |         |
 s_axi_aclk     |    0.692|         |         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -685,19 +686,19 @@ Clock to Setup on destination clock s_axi_aclk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    0.698|         |         |         |
-s_axi_aclk     |    1.839|         |         |         |
+clk            |    0.719|         |         |         |
+s_axi_aclk     |    1.806|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 35.00 secs
-Total CPU time to Xst completion: 35.46 secs
+Total REAL time to Xst completion: 36.00 secs
+Total CPU time to Xst completion: 35.82 secs
  
 --> 
 
-Total memory usage is 635328 kilobytes
+Total memory usage is 633536 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   57 (   0 filtered)

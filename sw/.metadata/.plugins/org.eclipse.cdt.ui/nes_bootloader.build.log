@@ -1,0 +1,11 @@
+11:01:38 **** Build of configuration Debug for project nes_bootloader ****
+make all 
+'Building file: ../src/xilsd/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"../src/NESCore/" -I"../src/" -I"../src/xilsd/" -I"../../xilsd/" -I"../../src/NESCore/" -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xilsd/ff.d" -MT"src/xilsd/ff.d" -o "src/xilsd/ff.o" "../src/xilsd/ff.c"
+../src/xilsd/ff.c:87:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/xilsd/ff.o] Error 1
+
+11:01:38 Build Finished (took 400ms)
+

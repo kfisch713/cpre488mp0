@@ -34,7 +34,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  34 paths analyzed, 34 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   2.258ns.
+ Maximum delay is   1.968ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -44,7 +44,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  42 paths analyzed, 42 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   1.925ns.
+ Maximum delay is   1.747ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -62,22 +62,22 @@ Timing constraint: PATH "TS_axi4lite_0_reset_resync_path" TIG;
 --------------------------------------------------------------------------------
 
 ================================================================================
-Timing constraint: TS_clk_fpga_2 = PERIOD TIMEGRP "clk_fpga_2" 25 MHz HIGH 50%;
-For more information, see Period Analysis in the Timing Closure User Guide (UG612).
-
- 23132 paths analyzed, 6105 endpoints analyzed, 0 failing endpoints
- 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  13.309ns.
---------------------------------------------------------------------------------
-
-================================================================================
 Timing constraint: TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 
 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 60830 paths analyzed, 10372 endpoints analyzed, 0 failing endpoints
+ 59369 paths analyzed, 10550 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   8.644ns.
+ Minimum period is   9.066ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk_fpga_3 = PERIOD TIMEGRP "clk_fpga_3" 25 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 22848 paths analyzed, 5551 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  11.808ns.
 --------------------------------------------------------------------------------
 
 
@@ -95,14 +95,14 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 84042 paths, 0 nets, and 21273 connections
+Constraints cover 82297 paths, 0 nets, and 20453 connections
 
 Design statistics:
-   Minimum period:  13.309ns   (Maximum frequency:  75.137MHz)
-   Maximum path delay from/to any node:   2.258ns
+   Minimum period:  11.808ns   (Maximum frequency:  84.688MHz)
+   Maximum path delay from/to any node:   1.968ns
 
 
-Analysis completed Fri Jan 27 13:05:03 2017 
+Analysis completed Sun Jan 29 12:20:44 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:

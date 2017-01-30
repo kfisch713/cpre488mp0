@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Jan 27 13:01:15 2017
+// Written by: Map P.20131013 on Sun Jan 29 12:19:40 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -51,15 +51,26 @@ COMP "SWs_8Bits_TRI_IO<1>" LOCATE = SITE "G22" LEVEL 1;
 COMP "SWs_8Bits_TRI_IO<2>" LOCATE = SITE "H22" LEVEL 1;
 COMP "SWs_8Bits_TRI_IO<3>" LOCATE = SITE "F21" LEVEL 1;
 COMP "SWs_8Bits_TRI_IO<4>" LOCATE = SITE "H19" LEVEL 1;
+COMP "JB<0>" LOCATE = SITE "W12" LEVEL 1;
+COMP "JB<1>" LOCATE = SITE "W11" LEVEL 1;
+COMP "JB<2>" LOCATE = SITE "V10" LEVEL 1;
+COMP "JB<3>" LOCATE = SITE "W8" LEVEL 1;
 COMP "processing_system7_0_DDR_RAS_n" LOCATE = SITE "R5" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_vsync_pin" LOCATE = SITE "Y19" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<0>" LOCATE = SITE "V20" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<1>" LOCATE = SITE "U20" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<2>" LOCATE = SITE "V19" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<3>" LOCATE = SITE "V18" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<4>" LOCATE = SITE "AB22" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<5>" LOCATE = SITE "AA22" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<6>" LOCATE = SITE "AB21" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<7>" LOCATE = SITE "AA21" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<8>" LOCATE = SITE "Y21" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<9>" LOCATE = SITE "Y20" LEVEL 1;
 COMP "processing_system7_0_DDR_BankAddr<1>" LOCATE = SITE "L6" LEVEL 1;
 COMP "processing_system7_0_DDR_BankAddr<2>" LOCATE = SITE "M6" LEVEL 1;
 COMP "processing_system7_0_DDR_BankAddr<0>" LOCATE = SITE "L7" LEVEL 1;
-COMP "VSync" LOCATE = SITE "AA19" LEVEL 1;
 COMP "processing_system7_0_DDR_Clk" LOCATE = SITE "N4" LEVEL 1;
-COMP "hsync_test" LOCATE = SITE "AA11" LEVEL 1;
-COMP "VGAData<10>" LOCATE = SITE "AB20" LEVEL 1;
-COMP "VGAData<11>" LOCATE = SITE "AB19" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<0>" LOCATE = SITE "D1" LEVEL 1;
 COMP "LEDs_8Bits_TRI_IO<7>" LOCATE = SITE "U14" LEVEL 1;
 COMP "LEDs_8Bits_TRI_IO<6>" LOCATE = SITE "U19" LEVEL 1;
@@ -74,6 +85,7 @@ COMP "LEDs_8Bits_TRI_IO<1>" LOCATE = SITE "T21" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<1>" LOCATE = SITE "C3" LEVEL 1;
 COMP "LEDs_8Bits_TRI_IO<0>" LOCATE = SITE "T22" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<8>" LOCATE = SITE "G2" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_hsync_pin" LOCATE = SITE "AA19" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<7>" LOCATE = SITE "F1" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<6>" LOCATE = SITE "F2" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<5>" LOCATE = SITE "E1" LEVEL 1;
@@ -108,24 +120,12 @@ COMP "processing_system7_0_DDR_DQ<17>" LOCATE = SITE "T3" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<16>" LOCATE = SITE "M1" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<15>" LOCATE = SITE "K3" LEVEL 1;
 COMP "processing_system7_0_DDR_DQ<19>" LOCATE = SITE "T1" LEVEL 1;
-COMP "HSync" LOCATE = SITE "Y19" LEVEL 1;
 COMP "processing_system7_0_DDR_Addr<13>" LOCATE = SITE "F4" LEVEL 1;
 COMP "processing_system7_0_DDR_Addr<14>" LOCATE = SITE "G4" LEVEL 1;
 COMP "processing_system7_0_DDR_Addr<11>" LOCATE = SITE "G5" LEVEL 1;
 COMP "processing_system7_0_DDR_CKE" LOCATE = SITE "V3" LEVEL 1;
 COMP "processing_system7_0_DDR_Addr<12>" LOCATE = SITE "H4" LEVEL 1;
 COMP "processing_system7_0_DDR_Addr<10>" LOCATE = SITE "J3" LEVEL 1;
-COMP "VGAData<2>" LOCATE = SITE "V19" LEVEL 1;
-COMP "VGAData<1>" LOCATE = SITE "U20" LEVEL 1;
-COMP "VGAData<4>" LOCATE = SITE "AB22" LEVEL 1;
-COMP "VGAData<3>" LOCATE = SITE "V18" LEVEL 1;
-COMP "VGAData<0>" LOCATE = SITE "V20" LEVEL 1;
-COMP "VGAData<9>" LOCATE = SITE "Y20" LEVEL 1;
-COMP "VGAData<6>" LOCATE = SITE "AB21" LEVEL 1;
-COMP "VGAData<5>" LOCATE = SITE "AA22" LEVEL 1;
-COMP "VGAData<8>" LOCATE = SITE "Y21" LEVEL 1;
-COMP "VGAData<7>" LOCATE = SITE "AA21" LEVEL 1;
-COMP "vsync_test" LOCATE = SITE "Y11" LEVEL 1;
 COMP "processing_system7_0_MIO<26>" LOCATE = SITE "A13" LEVEL 1;
 COMP "processing_system7_0_MIO<25>" LOCATE = SITE "F12" LEVEL 1;
 COMP "processing_system7_0_MIO<28>" LOCATE = SITE "A12" LEVEL 1;
@@ -135,7 +135,9 @@ COMP "processing_system7_0_MIO<20>" LOCATE = SITE "A8" LEVEL 1;
 COMP "processing_system7_0_MIO<22>" LOCATE = SITE "A14" LEVEL 1;
 COMP "processing_system7_0_MIO<21>" LOCATE = SITE "F11" LEVEL 1;
 COMP "processing_system7_0_MIO<24>" LOCATE = SITE "B7" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<11>" LOCATE = SITE "AB19" LEVEL 1;
 COMP "processing_system7_0_MIO<23>" LOCATE = SITE "E11" LEVEL 1;
+COMP "v_axi4s_vid_out_0_video_data_pin<10>" LOCATE = SITE "AB20" LEVEL 1;
 COMP "processing_system7_0_MIO<16>" LOCATE = SITE "D6" LEVEL 1;
 COMP "processing_system7_0_MIO<15>" LOCATE = SITE "E6" LEVEL 1;
 COMP "processing_system7_0_MIO<18>" LOCATE = SITE "A7" LEVEL 1;
@@ -169,7 +171,7 @@ COMP "processing_system7_0_MIO<34>" LOCATE = SITE "B12" LEVEL 1;
 COMP "processing_system7_0_MIO<33>" LOCATE = SITE "G13" LEVEL 1;
 PIN processing_system7_0/processing_system7_0/PS7_i_pins<358> = BEL
         "processing_system7_0/processing_system7_0/PS7_i" PINNAME MAXIGP0ACLK;
-PIN processing_system7_0/processing_system7_0/PS7_i_pins<1219> = BEL
+PIN processing_system7_0/processing_system7_0/PS7_i_pins<1211> = BEL
         "processing_system7_0/processing_system7_0/PS7_i" PINNAME SAXIHP0ACLK;
 PIN
         v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Mram_fifo_ram_pins<32>
@@ -197,6 +199,8 @@ PIN
         "axi_vdma_0/axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/V6.I_SYNC_FIFOGEN_FIFO/V6_S6_AND_LATER.I_SYNC_FIFO_BRAM/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.WIDE_PRIM18.ram"
         PINNAME CLKBWRCLK;
 TIMEGRP clk_fpga_0 = BEL
+        "axi4lite_0/axi4lite_0/mi_register_slice_bank/gen_reg_slot[5].register_slice_inst/reset"
+        BEL
         "axi4lite_0/axi4lite_0/mi_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset"
         BEL
         "axi4lite_0/axi4lite_0/mi_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset"
@@ -231,6 +235,8 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[4].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
         BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[5].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
         "axi4lite_0/axi4lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_out_n_i"
         BEL
         "axi4lite_0/axi4lite_0/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/m_axi_reset_out_n_i"
@@ -241,11 +247,15 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi4lite_0/axi4lite_0/mi_converter_bank/gen_conv_slot[4].clock_conv_inst/m_axi_reset_out_n_i"
         BEL
+        "axi4lite_0/axi4lite_0/mi_converter_bank/gen_conv_slot[5].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_2"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_1"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0"
+        BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_6"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_5"
         BEL
@@ -308,14 +318,6 @@ TIMEGRP clk_fpga_0 = BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_29"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_28"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_27"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_26"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_25"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_24"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_20"
         BEL
@@ -407,6 +409,12 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[4].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
         BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[5].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[5].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[5].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i"
@@ -417,15 +425,15 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/read_cs_0"
         BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1"
+        BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_0"
+        BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_1"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_0"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_0"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1"
         BEL
@@ -1632,6 +1640,146 @@ TIMEGRP clk_fpga_0 = BEL
         "axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_0"
         BEL
         "axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_13"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_12"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_11"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_11"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/full"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_11"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_wr_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_wr_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_wr_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_wr_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_wr_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_wr_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_wr_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_wr_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/ready"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/wr_en"
         BEL "v_tc_0/v_tc_0/U_VIDEO_CTRL/proc_sync1_44" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/proc_sync1_43" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/proc_sync1_42" BEL
@@ -1674,8 +1822,8 @@ TIMEGRP clk_fpga_0 = BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/proc_sync1_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/proc_sync1_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/proc_sync1_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/write_ack_d1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/read_ack_d1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/write_ack_d1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_Error" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
         BEL
@@ -1980,146 +2128,7 @@ TIMEGRP clk_fpga_0 = BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst"
         BEL "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_WrAck" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdAck" BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_13"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_12"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_11"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/fifo_wr_data_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_11"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_wr_dom_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/full"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_wr_dom_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_11"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_sample_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_wr_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_wr_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_wr_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_wr_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_wr_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_wr_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_wr_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_wr_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/ready"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/wr_en"
-        BEL "axi_vdma_0/axi_vdma_0/I_RST_MODULE/hrd_resetn_i" BEL
+        "axi_vdma_0/axi_vdma_0/I_RST_MODULE/hrd_resetn_i" BEL
         "axi_vdma_0/axi_vdma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RESET/sig_cmd_stat_rst_int_reg_n"
         BEL
         "axi_vdma_0/axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/arready_out_i"
@@ -3136,6 +3145,16 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_strid_0"
         BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_0"
+        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_hsize_15"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_hsize_14"
@@ -3194,81 +3213,7 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_vsize_0"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_frmdly_0"
-        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/run_stop_d1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_31"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_30"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_29"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_28"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_27"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_26"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_25"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_24"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_23"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_22"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_21"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_20"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_19"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_18"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_17"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_16"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_15"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_14"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_13"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_12"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_11"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_10"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_9"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_8"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_7"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_6"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_5"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address2_i_0"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address1_i_31"
         BEL
@@ -3334,110 +3279,6 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address1_i_0"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_31"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_30"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_29"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_28"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_27"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_26"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_25"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_24"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_23"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_22"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_21"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_20"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_19"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_18"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_17"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_16"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_15"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_14"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_13"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_12"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_11"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_10"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_9"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_8"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_7"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_6"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_5"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_REGISTER_MODULE_I/GEN_REG_DIRECT_MODE.REGDIRECT_I/reg_module_start_address3_i_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_grtr_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/SLAVE_MODE_FRAME_CNT.reg_frame_number_lesr_0"
-        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_4"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/genlock_pair_frame_3"
@@ -3458,7 +3299,27 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/slv_frame_ref_out_0"
         BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/chnl_current_frame_0"
+        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/mstr_reverse_order_d1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/frame_number_i_0"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_GENLOCK_I/binary_frame_ptr_4"
         BEL
@@ -3487,70 +3348,6 @@ TIMEGRP clk_fpga_0 = BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/num_fstore_minus1_0"
         BEL "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/stop" BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/tstvect_fsync_d1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_31"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_30"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_29"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_28"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_27"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_26"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_25"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_24"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_23"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_22"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_21"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_20"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_19"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_18"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_17"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_16"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_15"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_14"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_13"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_12"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_11"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_10"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_9"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_8"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_7"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_6"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_5"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_1_0"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_0_31"
         BEL
@@ -3616,112 +3413,6 @@ TIMEGRP clk_fpga_0 = BEL
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_0_0"
         BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_31"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_30"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_29"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_28"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_27"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_26"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_25"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_24"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_23"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_22"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_21"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_20"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_19"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_18"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_17"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_16"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_15"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_14"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_13"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_12"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_11"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_10"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_9"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_8"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_7"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_6"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_5"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/start_address_vid_2_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/frmdly_vid_0"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_15"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_14"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_13"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_12"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_11"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_10"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_9"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_8"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_7"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_6"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_5"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_4"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_3"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_2"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_1"
-        BEL
-        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_0"
-        BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/hsize_vid_15"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/hsize_vid_14"
@@ -3779,6 +3470,38 @@ TIMEGRP clk_fpga_0 = BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/vsize_vid_1"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/vsize_vid_0"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_15"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_14"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_13"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_12"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_11"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_10"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_9"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_8"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_7"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_6"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_5"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_4"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_3"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_2"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_1"
+        BEL
+        "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/VIDEO_REG_I/GEN_REGISTER_DIRECT.GEN_REGDIRECT_DRES.VIDREGISTER_I/stride_vid_0"
         BEL
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.I_MM2S_DMA_MNGR/I_CMDSTS/s_axis_cmd_tdata_65"
         BEL
@@ -4788,13 +4511,263 @@ TIMEGRP clk_fpga_0 = BEL
         "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_In_3" BEL
         "BTNs_5Bits/BTNs_5Bits/gpio_core_1/Mshreg_gpio_Data_In_4" BEL
         "BTNs_5Bits/BTNs_5Bits/gpio_core_1/gpio_Data_In_4" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_0" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_1" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_2" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_3" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_4" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_5" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_6" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_7" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_8" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_9" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_10" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_11" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_12" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_13" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_14" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_15" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_16" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_17" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_18" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_19" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_20" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_21" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_22" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_23" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_24" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_25" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_26" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_27" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_28" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_29" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_30" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_data_i_D1_31" BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_31"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_30"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_29"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_28"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_27"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_26"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_25"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_24"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_23"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_22"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_21"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_20"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_19"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_18"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_17"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_16"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_15"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_14"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_13"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_12"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_11"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_10"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_9"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_8"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0"
+        BEL "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_0" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_1" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_2" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_3" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_4" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_5" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_6" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_7" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_8" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_9" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_10" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_11" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_12" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_13" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_14" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_15" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_16" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_17" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_18" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_19" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_20" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_21" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_22" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_23" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_24" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_25" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_26" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_27" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_28" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_29" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_30" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/GPIO_DBus_i_31" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_xferAck_Reg" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/iGPIO_xferAck" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_0" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_1" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_2" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_3" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_4" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_5" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_6" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_7" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_8" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_9" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_10" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_11" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_12" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_13" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_14" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_15" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_16" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_17" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_18" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_19" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_20" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_21" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_22" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_23" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_24" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_25" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_26" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_27" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_28" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_29" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_30" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_OE_31" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_Out_0" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_Out_1" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_Out_2" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_Out_3" BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL "axi_gpio_0/axi_gpio_0/ip2bus_wrack_i_D1" BEL
+        "axi_gpio_0/axi_gpio_0/ip2bus_rdack_i_D1" BEL
+        "axi_gpio_0/axi_gpio_0/bus2ip_reset" BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL
+        "axi_gpio_0/axi_gpio_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0_1"
+        BEL "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_0" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_0" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_1" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_1" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_2" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_2" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_3" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_3" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_4" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_4" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_5" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_5" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_6" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_6" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_7" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_7" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_8" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_8" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_9" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_9" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_10" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_10" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_11" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_11" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_12" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_12" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_13" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_13" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_14" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_14" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_15" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_15" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_16" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_16" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_17" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_17" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_18" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_18" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_19" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_19" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_20" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_20" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_21" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_21" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_22" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_22" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_23" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_23" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_24" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_24" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_25" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_25" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_26" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_26" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_27" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_27" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_28" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_28" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_29" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_29" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_30" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_30" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/Mshreg_gpio_Data_In_31" BEL
+        "axi_gpio_0/axi_gpio_0/gpio_core_1/gpio_Data_In_31" BEL
         "axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM/SP"
         BEL
         "axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM/DP"
         PIN "processing_system7_0/processing_system7_0/PS7_i_pins<358>" PIN
-        "processing_system7_0/processing_system7_0/PS7_i_pins<1219>" PIN
+        "processing_system7_0/processing_system7_0/PS7_i_pins<1211>" PIN
         "processing_system7_0/processing_system7_0/PS7_i_pins<358>" PIN
-        "processing_system7_0/processing_system7_0/PS7_i_pins<1219>" PIN
+        "processing_system7_0/processing_system7_0/PS7_i_pins<1211>" PIN
         "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Mram_fifo_ram_pins<32>"
         PIN
         "axi_vdma_0/axi_vdma_0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.V6.I_LINEBUFFER_FIFO/fg91_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.WIDE_PRIM18.ram_pins<32>"
@@ -4849,7 +4822,191 @@ PIN
         = BEL
         "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Mram_fifo_ram"
         PINNAME CLKBWRCLK;
-TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
+TIMEGRP clk_fpga_3 = BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_11"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_11"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_rd_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_rd_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_rd_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_rd_dom_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_rd_dom_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_rd_dom_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_rd_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_rd_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/locked"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/force_read"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_rst"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/read_ok"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_eol_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_eol_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vsync_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/de_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/read_en"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/de_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vsync_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_eol_2_rising"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_hsync_mux"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_vsync_mux"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/vblank_rising"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_11"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_10"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_9"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_8"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_7"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_6"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_5"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_4"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_3"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_0"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/odf_vblank_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ram_out_rd_error"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_error"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vtg_sof_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/de_rising_1"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vtg_eol_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vert_bp"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/first_full_frame"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/Mshreg_fifo_sof_2"
+        BEL
+        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_sof_2"
+        BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdData_31" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdData_30" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdData_29" BEL
@@ -4882,8 +5039,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdData_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdData_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/ipif_RdData_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_23" BEL
@@ -4894,8 +5049,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_7" BEL
@@ -4906,8 +5059,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_25_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_23" BEL
@@ -4918,8 +5069,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_7" BEL
@@ -4930,8 +5079,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_24_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_23" BEL
@@ -4942,8 +5089,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_7" BEL
@@ -4954,8 +5099,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_23_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_23" BEL
@@ -4966,8 +5109,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_7" BEL
@@ -4978,8 +5119,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_22_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_7" BEL
@@ -4990,8 +5129,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_21_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_7" BEL
@@ -5002,13 +5139,7 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_20_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_18_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_23" BEL
@@ -5019,8 +5150,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_7" BEL
@@ -5031,8 +5160,10 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_16_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs2_int_19_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_23" BEL
@@ -5043,8 +5174,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs2_int_0_7" BEL
@@ -5063,32 +5192,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_1_13" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_1_12" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_1_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_28" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_12" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_24_28" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_24_27" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_24_26" BEL
@@ -5115,58 +5218,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_24_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_24_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_24_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_28" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_12" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_28" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_12" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_23_28" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_23_27" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_23_26" BEL
@@ -5193,6 +5244,58 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_23_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_23_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_23_0" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_28" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_27" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_12" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_11" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_10" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_25_0" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_28" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_27" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_12" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_11" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_10" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_21_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_20_28" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_20_27" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_20_26" BEL
@@ -5219,6 +5322,32 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_20_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_20_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_20_0" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_28" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_27" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_12" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_11" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_10" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_22_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_19_5" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_19_4" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_19_3" BEL
@@ -5258,8 +5387,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_16_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_16_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_16_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_23" BEL
@@ -5270,8 +5397,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_7" BEL
@@ -5282,8 +5407,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_15_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_23" BEL
@@ -5294,8 +5417,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_7" BEL
@@ -5306,8 +5427,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_14_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_23" BEL
@@ -5318,8 +5437,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_7" BEL
@@ -5330,80 +5447,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_13_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_23" BEL
@@ -5414,8 +5457,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_7" BEL
@@ -5426,8 +5467,66 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_11_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_10_0" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_12_0" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_9_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_23" BEL
@@ -5438,8 +5537,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_7" BEL
@@ -5450,8 +5547,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_8_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_23" BEL
@@ -5462,8 +5557,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_7" BEL
@@ -5474,8 +5567,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_7_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_23" BEL
@@ -5486,8 +5577,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_7" BEL
@@ -5498,32 +5587,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_6_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_23" BEL
@@ -5534,8 +5597,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_7" BEL
@@ -5546,8 +5607,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_4_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_23" BEL
@@ -5558,8 +5617,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_7" BEL
@@ -5570,8 +5627,26 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_3_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_5_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_23" BEL
@@ -5582,8 +5657,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_7" BEL
@@ -5594,8 +5667,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_2_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_23" BEL
@@ -5606,8 +5677,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_7" BEL
@@ -5618,8 +5687,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_1_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_26" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_25" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_24" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_23" BEL
@@ -5630,8 +5697,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_18" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_17" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_10" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_9" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/core_control_regs_int_0_7" BEL
@@ -5668,32 +5733,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_28_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_28_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_28_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_28" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_12" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_8" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_7" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_6" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_5" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_4" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_3" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_2" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_1" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_26_28" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_26_27" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_26_26" BEL
@@ -5720,28 +5759,32 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_26_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_26_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_26_0" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_31" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_30" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_29" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_28" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_27" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_26" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_25" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_24" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_23" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_22" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_21" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_20" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_19" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_18" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_17" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_16" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_13" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_12" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_11" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_10" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_9" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_28" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_27" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_12" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_11" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_10" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_8" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_7" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_6" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_5" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_4" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_3" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_2" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_1" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/time_control_regs_int_27_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_31" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_30" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_26" BEL
@@ -5767,6 +5810,28 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_2" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_1" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_0" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_31" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_30" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_29" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_28" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_27" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_26" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_25" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_24" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_23" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_22" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_21" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_20" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_19" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_18" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_17" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_16" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_13" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_12" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_11" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_10" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_9" BEL
+        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_3_8" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/intr_stat_16" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/intr_stat_13" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/intr_stat_12" BEL
@@ -6042,8 +6107,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/generate_en_d_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/generate_en_d_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/generate_en_d_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_7" BEL
@@ -6054,8 +6117,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v_count_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/h_count_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/h_count_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/h_count_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/h_count_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/h_count_7" BEL
@@ -6068,8 +6129,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/h_count_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/vblank" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/vsync" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_1_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_1_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_1_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_1_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_1_7" BEL
@@ -6083,8 +6142,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hsync" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/param_cfg_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/active_video" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_7" BEL
@@ -6095,8 +6152,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_7" BEL
@@ -6107,10 +6162,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0total_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0active_start_hori_11"
-        BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0active_start_hori_10"
-        BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0active_start_hori_9"
         BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0active_start_hori_8"
@@ -6130,8 +6181,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0active_start_hori_1"
         BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0active_start_hori_0"
-        BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_11"
-        BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_10"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_9"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_8"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_7"
@@ -6142,10 +6191,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_2"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_1"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_hori_0"
-        BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_hori_11"
-        BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_hori_10"
         BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_hori_9"
         BEL
@@ -6166,8 +6211,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_hori_1"
         BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_hori_0"
-        BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_11"
-        BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_10"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_9"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_8"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_7"
@@ -6178,8 +6221,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_2"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_1"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0fp_start_hori_0"
-        BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_11"
-        BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_10"
         BEL "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_7" BEL
@@ -6190,8 +6231,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0sync_start_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_7" BEL
@@ -6202,8 +6241,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/v0bp_start_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_7" BEL
@@ -6214,8 +6251,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hbp_start_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_7" BEL
@@ -6226,8 +6261,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_1" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hfp_start_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_111" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_7" BEL
@@ -6238,8 +6271,6 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_2" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_11" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/htotal_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hsync_start_11" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hsync_start_10" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hsync_start_9" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hsync_start_8" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/hsync_start_7" BEL
@@ -6260,192 +6291,7 @@ TIMEGRP clk_fpga_2 = BEL "v_tc_0/v_tc_0/gen_v0chroma_start_0" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/line_end_v" BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/read_ack" BEL
         "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/fsync_out_0" BEL
-        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/last_line" BEL
-        "v_tc_0/v_tc_0/U_VIDEO_CTRL/genr_control_regs_int_0_1_1" BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_11"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ptr_diff_rd_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_11"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/wr_ptr_rd_dom_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_ptr_sample_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_rd_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_rd_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ack_rd_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_rd_dom_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_rd_dom_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/req_rd_dom_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_rd_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rst_rd_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/state_FSM_FFd3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/locked"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/force_read"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_rst"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/read_ok"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_eol_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_eol_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vsync_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/de_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/read_en"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/de_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vsync_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_eol_2_rising"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_hsync_mux"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_vsync_mux"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/vblank_rising"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_11"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_10"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_9"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_8"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_7"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_6"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_5"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_4"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_3"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/in_data_mux_0"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/odf_vblank_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/ram_out_rd_error"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/rd_error"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vtg_sof_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/de_rising_1"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vtg_eol_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/vert_bp"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/vid_out_formatter_i/first_full_frame"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/Mshreg_fifo_sof_2"
-        BEL
-        "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_sync_i/fifo_sof_2"
-        PIN
+        "v_tc_0/v_tc_0/U_TC_TOP/GEN_GENERATOR.U_TC_GEN/last_line" PIN
         "v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Mram_fifo_ram_pins<33>";
 TIMEGRP v_tc_0_async_clock_conv_FFDEST = BEL
         "v_tc_0/v_tc_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.SYNC2PROCCLK_I/data_sync_0_33"
@@ -6613,7 +6459,7 @@ PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
 PATH TS_axi4lite_0_reset_resync_path = FROM TIMEGRP "axi4lite_0_reset_source"
         TO TIMEGRP "axi4lite_0_reset_resync";
 PATH "TS_axi4lite_0_reset_resync_path" TIG;
-TS_clk_fpga_2 = PERIOD TIMEGRP "clk_fpga_2" 25 MHz HIGH 50%;
 TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 50%;
+TS_clk_fpga_3 = PERIOD TIMEGRP "clk_fpga_3" 25 MHz HIGH 50%;
 SCHEMATIC END;
 

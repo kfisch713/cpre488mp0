@@ -543,3 +543,16 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 13:35:30.550 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
 13:35:33.099 INFO  - Processor reset is completed for ps7_cortexa9_0 
 13:42:38.157 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:28:54.677 INFO  - Project system_hw_platform's source hardware specification located at \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+11:29:09.907 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml into \system_hw_platform\system.xml. 
+11:29:10.507 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.bit into \system_hw_platform\system.bit. 
+11:29:11.067 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.c into \system_hw_platform\ps7_init.c. 
+11:29:11.107 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.h into \system_hw_platform\ps7_init.h. 
+11:29:11.297 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.html into \system_hw_platform\ps7_init.html. 
+11:29:11.554 INFO  - Copied contents of \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\ps7_init.tcl into \system_hw_platform\ps7_init.tcl. 
+11:29:11.714 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:29:13.644 INFO  - Updating hardware inferred compiler options for vga_test. 
+11:29:13.644 INFO  - Clearing existing target manager status. 
+11:29:15.957 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+11:39:35.553 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

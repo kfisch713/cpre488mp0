@@ -1,0 +1,705 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to U:\Documents\cpre488mp0\system\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_v_tc_0_wrapper_xst.prj"
+Verilog Include Directory          : {"U:\Documents\cpre488mp0\system\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z020clg484-1
+Output File Name                   : "../implementation/system_v_tc_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_v_tc_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" into library proc_common_v3_00_a
+Parsing package <family>.
+Parsing package body <family>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" into library proc_common_v3_00_a
+Parsing package <family_support>.
+Parsing package body <family_support>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/coregen_comp_defs.vhd" into library proc_common_v3_00_a
+Parsing package <coregen_comp_defs>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/common_types_pkg.vhd" into library proc_common_v3_00_a
+Parsing package <Common_Types>.
+Parsing package body <Common_Types>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" into library proc_common_v3_00_a
+Parsing package <proc_common_pkg>.
+Parsing package body <proc_common_pkg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/conv_funs_pkg.vhd" into library proc_common_v3_00_a
+Parsing package <conv_funs_pkg>.
+Parsing package body <conv_funs_pkg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" into library proc_common_v3_00_a
+Parsing package <ipif_pkg>.
+Parsing package body <ipif_pkg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/async_fifo_fg.vhd" into library proc_common_v3_00_a
+Parsing entity <async_fifo_fg>.
+Parsing architecture <implementation> of entity <async_fifo_fg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/sync_fifo_fg.vhd" into library proc_common_v3_00_a
+Parsing entity <sync_fifo_fg>.
+Parsing architecture <implementation> of entity <sync_fifo_fg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/basic_sfifo_fg.vhd" into library proc_common_v3_00_a
+Parsing entity <basic_sfifo_fg>.
+Parsing architecture <implementation> of entity <basic_sfifo_fg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/blk_mem_gen_wrapper.vhd" into library proc_common_v3_00_a
+Parsing entity <blk_mem_gen_wrapper>.
+Parsing architecture <implementation> of entity <blk_mem_gen_wrapper>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/addsub.vhd" into library proc_common_v3_00_a
+Parsing entity <addsub>.
+Parsing architecture <imp> of entity <addsub>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_bit.vhd" into library proc_common_v3_00_a
+Parsing entity <counter_bit>.
+Parsing architecture <imp> of entity <counter_bit>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter.vhd" into library proc_common_v3_00_a
+Parsing entity <Counter>.
+Parsing architecture <imp> of entity <counter>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr.vhd" into library proc_common_v3_00_a
+Parsing entity <direct_path_cntr>.
+Parsing architecture <imp> of entity <direct_path_cntr>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/direct_path_cntr_ai.vhd" into library proc_common_v3_00_a
+Parsing entity <direct_path_cntr_ai>.
+Parsing architecture <imp> of entity <direct_path_cntr_ai>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/down_counter.vhd" into library proc_common_v3_00_a
+Parsing entity <down_counter>.
+Parsing architecture <simulation> of entity <down_counter>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/eval_timer.vhd" into library proc_common_v3_00_a
+Parsing entity <eval_timer>.
+Parsing architecture <imp> of entity <eval_timer>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/inferred_lut4.vhd" into library proc_common_v3_00_a
+Parsing entity <inferred_lut4>.
+Parsing architecture <implementation> of entity <inferred_lut4>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer.vhd" into library proc_common_v3_00_a
+Parsing entity <IPIF_Steer>.
+Parsing architecture <IMP> of entity <ipif_steer>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_steer128.vhd" into library proc_common_v3_00_a
+Parsing entity <ipif_steer128>.
+Parsing architecture <IMP> of entity <ipif_steer128>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_mirror128.vhd" into library proc_common_v3_00_a
+Parsing entity <ipif_mirror128>.
+Parsing architecture <IMP> of entity <ipif_mirror128>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg.vhd" into library proc_common_v3_00_a
+Parsing entity <ld_arith_reg>.
+Parsing architecture <imp> of entity <ld_arith_reg>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ld_arith_reg2.vhd" into library proc_common_v3_00_a
+Parsing entity <ld_arith_reg2>.
+Parsing architecture <imp> of entity <ld_arith_reg2>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot.vhd" into library proc_common_v3_00_a
+Parsing entity <mux_onehot>.
+Parsing architecture <imp> of entity <mux_onehot>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_bits.vhd" into library proc_common_v3_00_a
+Parsing entity <or_bits>.
+Parsing architecture <implementation> of entity <or_bits>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" into library proc_common_v3_00_a
+Parsing entity <or_muxcy>.
+Parsing architecture <implementation> of entity <or_muxcy>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate.vhd" into library proc_common_v3_00_a
+Parsing entity <or_gate>.
+Parsing architecture <imp> of entity <or_gate>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" into library proc_common_v3_00_a
+Parsing entity <or_gate128>.
+Parsing architecture <imp> of entity <or_gate128>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder_bit.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_adder_bit>.
+Parsing architecture <implementation> of entity <pf_adder_bit>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_adder.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_adder>.
+Parsing architecture <implementation> of entity <pf_adder>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_bit.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_counter_bit>.
+Parsing architecture <implementation> of entity <pf_counter_bit>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_counter>.
+Parsing architecture <implementation> of entity <pf_counter>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_counter_top.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_counter_top>.
+Parsing architecture <implementation> of entity <pf_counter_top>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_occ_counter>.
+Parsing architecture <implementation> of entity <pf_occ_counter>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_occ_counter_top.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_occ_counter_top>.
+Parsing architecture <implementation> of entity <pf_occ_counter_top>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pf_dpram_select.vhd" into library proc_common_v3_00_a
+Parsing entity <pf_dpram_select>.
+Parsing architecture <implementation> of entity <pf_dpram_select>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect.vhd" into library proc_common_v3_00_a
+Parsing entity <pselect>.
+Parsing architecture <imp> of entity <pselect>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_mask.vhd" into library proc_common_v3_00_a
+Parsing entity <pselect_mask>.
+Parsing architecture <imp> of entity <pselect_mask>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl16_fifo.vhd" into library proc_common_v3_00_a
+Parsing entity <srl16_fifo>.
+Parsing architecture <implementation> of entity <srl16_fifo>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo.vhd" into library proc_common_v3_00_a
+Parsing entity <SRL_FIFO>.
+Parsing architecture <IMP> of entity <srl_fifo>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo2.vhd" into library proc_common_v3_00_a
+Parsing entity <srl_fifo2>.
+Parsing architecture <imp> of entity <srl_fifo2>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo3.vhd" into library proc_common_v3_00_a
+Parsing entity <srl_fifo3>.
+Parsing architecture <imp> of entity <srl_fifo3>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu.vhd" into library proc_common_v3_00_a
+Parsing entity <srl_fifo_rbu>.
+Parsing architecture <imp> of entity <srl_fifo_rbu>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/valid_be.vhd" into library proc_common_v3_00_a
+Parsing entity <valid_be>.
+Parsing architecture <implementation> of entity <valid_be>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_with_enable_f.vhd" into library proc_common_v3_00_a
+Parsing entity <or_with_enable_f>.
+Parsing architecture <implementation> of entity <or_with_enable_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/muxf_struct_f.vhd" into library proc_common_v3_00_a
+Parsing entity <muxf_struct>.
+Parsing architecture <imp> of entity <muxf_struct>.
+Parsing entity <muxf_struct_f>.
+Parsing architecture <imp> of entity <muxf_struct_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/cntr_incr_decr_addn_f.vhd" into library proc_common_v3_00_a
+Parsing entity <cntr_incr_decr_addn_f>.
+Parsing architecture <imp> of entity <cntr_incr_decr_addn_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_f.vhd" into library proc_common_v3_00_a
+Parsing entity <dynshreg_f>.
+Parsing architecture <behavioral> of entity <dynshreg_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/dynshreg_i_f.vhd" into library proc_common_v3_00_a
+Parsing entity <dynshreg_i_f>.
+Parsing architecture <behavioral> of entity <dynshreg_i_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/mux_onehot_f.vhd" into library proc_common_v3_00_a
+Parsing entity <mux_onehot_f>.
+Parsing architecture <imp> of entity <mux_onehot_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_rbu_f.vhd" into library proc_common_v3_00_a
+Parsing entity <srl_fifo_rbu_f>.
+Parsing architecture <imp> of entity <srl_fifo_rbu_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_f.vhd" into library proc_common_v3_00_a
+Parsing entity <srl_fifo_f>.
+Parsing architecture <imp> of entity <srl_fifo_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/compare_vectors_f.vhd" into library proc_common_v3_00_a
+Parsing entity <compare_vectors_f>.
+Parsing architecture <imp> of entity <compare_vectors_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" into library proc_common_v3_00_a
+Parsing entity <pselect_f>.
+Parsing architecture <imp> of entity <pselect_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" into library proc_common_v3_00_a
+Parsing entity <counter_f>.
+Parsing architecture <imp> of entity <counter_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy_f.vhd" into library proc_common_v3_00_a
+Parsing entity <or_muxcy_f>.
+Parsing architecture <implementation> of entity <or_muxcy_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate_f.vhd" into library proc_common_v3_00_a
+Parsing entity <or_gate_f>.
+Parsing architecture <imp> of entity <or_gate_f>.
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd" into library proc_common_v3_00_a
+Parsing entity <soft_reset>.
+Parsing architecture <implementation> of entity <soft_reset>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/address_decoder.vhd" into library v_tc_v5_01_a
+Parsing entity <address_decoder>.
+Parsing architecture <IMP> of entity <address_decoder>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/slave_attachment.vhd" into library v_tc_v5_01_a
+Parsing entity <slave_attachment>.
+Parsing architecture <imp> of entity <slave_attachment>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/axi4s_control.vhd" into library v_tc_v5_01_a
+Parsing entity <axi4s_control>.
+Parsing architecture <synth> of entity <axi4s_control>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/debug.vhd" into library v_tc_v5_01_a
+Parsing entity <debug>.
+Parsing architecture <rtl> of entity <debug>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_ctrl_pkg.vhd" into library v_tc_v5_01_a
+Parsing package <video_ctrl_pkg>.
+Parsing package body <video_ctrl_pkg>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/axi_lite_ipif.vhd" into library v_tc_v5_01_a
+Parsing entity <axi_lite_ipif>.
+Parsing architecture <imp> of entity <axi_lite_ipif>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_detector.vhd" into library v_tc_v5_01_a
+Parsing entity <tc_detector>.
+Parsing architecture <rtl> of entity <tc_detector>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" into library v_tc_v5_01_a
+Parsing entity <tc_generator>.
+Parsing architecture <rtl> of entity <tc_generator>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" into library v_tc_v5_01_a
+Parsing entity <tc_top>.
+Parsing architecture <rtl> of entity <tc_top>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_clock_cross.vhd" into library v_tc_v5_01_a
+Parsing entity <video_clock_cross>.
+Parsing architecture <RTL> of entity <video_clock_cross>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/video_ctrl.vhd" into library v_tc_v5_01_a
+Parsing package <hwt_pkg>.
+Parsing entity <hwt>.
+Parsing architecture <rtl> of entity <hwt>.
+Parsing entity <video_ctrl>.
+Parsing architecture <RTL> of entity <video_ctrl>.
+Parsing VHDL file "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" into library v_tc_v5_01_a
+Parsing entity <v_tc>.
+Parsing architecture <IMP> of entity <v_tc>.
+Parsing VHDL file "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_v_tc_0_wrapper.vhd" into library work
+Parsing entity <system_v_tc_0_wrapper>.
+Parsing architecture <STRUCTURE> of entity <system_v_tc_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system_v_tc_0_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <v_tc> (architecture <IMP>) with generics from library <v_tc_v5_01_a>.
+WARNING:HDLCompiler:871 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 634: Using initial value ("00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000") for core_status_regs since it is never assigned
+
+Elaborating entity <video_ctrl> (architecture <RTL>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <axi_lite_ipif> (architecture <imp>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <slave_attachment> (architecture <imp>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <address_decoder> (architecture <IMP>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
+
+Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
+INFO:HDLCompiler:679 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/slave_attachment.vhd" Line 458. Case statement is complete. others clause is never selected
+
+Elaborating entity <video_clock_cross> (architecture <RTL>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <video_clock_cross> (architecture <RTL>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <tc_top> (architecture <rtl>) with generics from library <v_tc_v5_01_a>.
+
+Elaborating entity <tc_generator> (architecture <rtl>) with generics from library <v_tc_v5_01_a>.
+WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 300: Assignment to hblank_hold ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 301: Assignment to hsync_hold ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 837: Assignment to htotal_1_v ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 266: Net <v1total[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 267: Net <v1fp_start[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 268: Net <v1sync_start[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 269: Net <v1bp_start[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 270: Net <v1active_start[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 278: Net <v1fp_start_hori[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 279: Net <v1sync_start_hori[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 280: Net <v1bp_start_hori[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_generator.vhd" Line 281: Net <v1active_start_hori[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 285: Net <det_htotal_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 286: Net <det_hfp_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 287: Net <det_hsync_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 288: Net <det_hbp_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 289: Net <det_hactive_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 291: Net <det_v0total_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 292: Net <det_v0fp_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 293: Net <det_v0sync_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 294: Net <det_v0bp_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 295: Net <det_v0active_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 296: Net <det_v0chroma_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 298: Net <det_v1total_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 299: Net <det_v1fp_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 300: Net <det_v1sync_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 301: Net <det_v1bp_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 302: Net <det_v1active_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 303: Net <det_v1chroma_start_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 305: Net <det_v0fp_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 306: Net <det_v0sync_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 307: Net <det_v0bp_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 308: Net <det_v0active_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 310: Net <det_v1fp_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 311: Net <det_v1sync_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 312: Net <det_v1bp_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 313: Net <det_v1active_start_hori_int[11]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 315: Net <det_chroma_skip_int[1]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 330: Net <det_hsync_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 331: Net <det_vsync_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 332: Net <det_hblank_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 333: Net <det_vblank_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 334: Net <det_field_id_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 335: Net <det_active_video_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 336: Net <det_active_chroma_pol> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 338: Net <det_fsync> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 340: Net <hsync_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 341: Net <hblank_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 342: Net <vsync_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 343: Net <vblank_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 344: Net <field_id_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 345: Net <active_video_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/tc_top.vhd" Line 346: Net <active_chroma_lock_int> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 628: Net <genr_status_regs[0][31]> does not have a driver.
+WARNING:HDLCompiler:634 - "//my.files.iastate.edu/users/burneykb/Documents/cpre488mp0/system/hdl/xlpp/v_tc_v5_01_a/hdl/vhdl/v_tc.vhd" Line 631: Net <time_status_regs[0][31]> does not have a driver.
+INFO:coreutil - Full license for component <v_tc> allows you to use this component. This license does not give you access to source code implementing this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+
+INFO:coreutil - Full license for component <v_tc> allows you to use this component. This license does not give you access to source code implementing this component.
+
+   The license for this core was generated for zambreno on 01/28/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_v_tc_0_wrapper>.
+    Related source file is "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_v_tc_0_wrapper.vhd".
+INFO:Xst:3210 - "\\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\hdl\system_v_tc_0_wrapper.vhd" line 192: Output port <field_id_out> of the instance <v_tc_0> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <system_v_tc_0_wrapper> synthesized.
+
+Synthesizing Secure Unit <v_tc>.
+Secure Unit <v_tc> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2404 -  FFs/Latches <param_cfg<16:11>> (without init value) have a constant value of 0 in block <tc_generator>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_v_tc_0_wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_v_tc_0_wrapper, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_v_tc_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1930
+#      GND                         : 1
+#      INV                         : 30
+#      LUT1                        : 31
+#      LUT2                        : 33
+#      LUT3                        : 55
+#      LUT4                        : 468
+#      LUT5                        : 315
+#      LUT6                        : 788
+#      MUXCY                       : 51
+#      MUXF7                       : 77
+#      MUXF8                       : 24
+#      VCC                         : 1
+#      XORCY                       : 56
+# FlipFlops/Latches                : 1480
+#      FD                          : 295
+#      FDR                         : 811
+#      FDRE                        : 272
+#      FDS                         : 89
+#      FDSE                        : 13
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1480  out of  106400     1%  
+ Number of Slice LUTs:                 1720  out of  53200     3%  
+    Number used as Logic:              1720  out of  53200     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2460
+   Number with an unused Flip Flop:     980  out of   2460    39%  
+   Number with an unused LUT:           740  out of   2460    30%  
+   Number of fully used LUT-FF pairs:   740  out of   2460    30%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         155
+ Number of bonded IOBs:                   0  out of    200     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                  | Load  |
+-----------------------------------+----------------------------------------+-------+
+clk                                | NONE(v_tc_0/gen_v0chroma_start_0)      | 1279  |
+s_axi_aclk                         | NONE(v_tc_0/U_VIDEO_CTRL/proc_sync1_44)| 201   |
+-----------------------------------+----------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.566ns (Maximum Frequency: 280.414MHz)
+   Minimum input arrival time before clock: 1.909ns
+   Maximum output required time after clock: 0.847ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.566ns (frequency: 280.414MHz)
+  Total number of paths / destination ports: 19418 / 2410
+-------------------------------------------------------------------------
+Delay:               3.566ns (Levels of Logic = 6)
+  Source:            sec_inst (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: sec_inst to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out          149   0.282   0.917  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.635  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.413  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.217   0.413  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.413  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
+     SEC:in                    0.011          sec_inst
+    ----------------------------------------
+    Total                      3.566ns (0.775ns logic, 2.791ns route)
+                                       (21.7% logic, 78.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 's_axi_aclk'
+  Clock period: 1.839ns (frequency: 543.774MHz)
+  Total number of paths / destination ports: 313 / 206
+-------------------------------------------------------------------------
+Delay:               1.839ns (Levels of Logic = 2)
+  Source:            sec_inst (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      s_axi_aclk rising
+  Destination Clock: s_axi_aclk rising
+
+  Data Path: sec_inst to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           11   0.282   0.791  sec_inst (sec_net)
+     SEC:in->out           3   0.053   0.649  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
+     SEC:in                    0.011          sec_inst
+    ----------------------------------------
+    Total                      1.839ns (0.399ns logic, 1.440ns route)
+                                       (21.7% logic, 78.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1756 / 1170
+-------------------------------------------------------------------------
+Offset:              1.909ns (Levels of Logic = 4)
+  Source:            clken (PAD)
+  Destination:       sec_inst (FF)
+  Destination Clock: clk rising
+
+  Data Path: clken to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'v_tc_0:clken'
+     SEC:in->out          32   0.053   0.788  sec_inst (sec_net)
+     SEC:in->out          24   0.053   0.748  sec_inst (sec_net)
+     SEC:in->out           1   0.053   0.000  sec_inst (sec_net)
+     SEC:in                    0.011          sec_inst
+    ----------------------------------------
+    Total                      1.909ns (0.373ns logic, 1.536ns route)
+                                       (19.5% logic, 80.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 's_axi_aclk'
+  Total number of paths / destination ports: 108 / 62
+-------------------------------------------------------------------------
+Offset:              1.019ns (Levels of Logic = 2)
+  Source:            s_axi_aresetn (PAD)
+  Destination:       sec_inst (FF)
+  Destination Clock: s_axi_aclk rising
+
+  Data Path: s_axi_aresetn to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'v_tc_0:s_axi_aresetn'
+     SEC:in->out           2   0.053   0.405  sec_inst (sec_net)
+     SEC:in                    0.325          sec_inst
+    ----------------------------------------
+    Total                      1.019ns (0.614ns logic, 0.405ns route)
+                                       (60.3% logic, 39.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 's_axi_aclk'
+  Total number of paths / destination ports: 42 / 39
+-------------------------------------------------------------------------
+Offset:              0.847ns (Levels of Logic = 2)
+  Source:            sec_inst (FF)
+  Destination:       s_axi_awready (PAD)
+  Source Clock:      s_axi_aclk rising
+
+  Data Path: sec_inst to s_axi_awready
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out            5   0.282   0.512  sec_inst (sec_net)
+     SEC:in->out           0   0.053   0.000  sec_inst (sec_net)
+     end scope: 'v_tc_0:s_axi_awready'
+    ----------------------------------------
+    Total                      0.847ns (0.335ns logic, 0.512ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              0.282ns (Levels of Logic = 1)
+  Source:            sec_inst (FF)
+  Destination:       intc_if<16> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sec_inst to intc_if<16>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out            3   0.282   0.000  sec_inst (sec_net)
+     end scope: 'v_tc_0:intc_if<16>'
+    ----------------------------------------
+    Total                      0.282ns (0.282ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.566|         |         |         |
+s_axi_aclk     |    0.692|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock s_axi_aclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.698|         |         |         |
+s_axi_aclk     |    1.839|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 35.00 secs
+Total CPU time to Xst completion: 35.46 secs
+ 
+--> 
+
+Total memory usage is 635328 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   57 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

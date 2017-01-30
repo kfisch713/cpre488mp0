@@ -1,7 +1,7 @@
 
 # ##############################################################################
 # Created by Base System Builder Wizard for Xilinx EDK 14.7 Build EDK_P.20131013
-# Thu Jan 19 16:28:24 2017
+# Wed Jan 18 09:20:20 2017
 # Target Board:  em.avnet.com ZedBoard Rev C
 # Family:    zynq
 # Device:    xc7z020
@@ -35,11 +35,10 @@
  PORT processing_system7_0_DDR_DQS_n = processing_system7_0_DDR_DQS_n, DIR = IO, VEC = [3:0]
  PORT processing_system7_0_DDR_VRN = processing_system7_0_DDR_VRN, DIR = IO
  PORT processing_system7_0_DDR_VRP = processing_system7_0_DDR_VRP, DIR = IO
- PORT VGAData = v_axi4s_vid_out_0_video_data_0, DIR = O, VEC = [11:0]
- PORT HSync = v_axi4s_vid_out_0_video_hsync_0, DIR = O
- PORT VSync = v_axi4s_vid_out_0_video_vsync_0, DIR = O
- PORT vsync_test = v_tc_0_VTIMING_OUT_vsync, DIR = O
- PORT hsync_test = v_tc_0_VTIMING_OUT_hsync, DIR = O
+ PORT v_axi4s_vid_out_0_video_vsync_pin = v_axi4s_vid_out_0_video_vsync, DIR = O
+ PORT v_axi4s_vid_out_0_video_hsync_pin = v_axi4s_vid_out_0_video_hsync, DIR = O
+ PORT v_axi4s_vid_out_0_video_data_pin = v_axi4s_vid_out_0_video_data, DIR = O, VEC = [11:0]
+ PORT JB = axi_gpio_0_GPIO_IO, DIR = IO, SIGIS = NONE, VEC = [3:0]
 
 
 BEGIN axi_interconnect
@@ -76,6 +75,7 @@ BEGIN axi_gpio
  BUS_INTERFACE S_AXI = axi4lite_0
  PORT S_AXI_ACLK = processing_system7_0_FCLK_CLK0
  PORT GPIO_IO_O = LEDs_8Bits_TRI_IO
+ PORT GPIO_IO_T = LEDs_8Bits_GPIO_IO_T
 END
 
 BEGIN axi_gpio
@@ -149,8 +149,8 @@ BEGIN processing_system7
  PARAMETER C_EN_GPIO = 1
  PARAMETER C_FCLK_CLK0_FREQ = 100000000
  PARAMETER C_FCLK_CLK1_FREQ = 142857132
- PARAMETER C_FCLK_CLK2_FREQ = 25000000
- PARAMETER C_FCLK_CLK3_FREQ = 50000000
+ PARAMETER C_FCLK_CLK2_FREQ = 50000000
+ PARAMETER C_FCLK_CLK3_FREQ = 25000000
  PARAMETER C_USE_S_AXI_HP0 = 1
  PARAMETER C_INTERCONNECT_S_AXI_HP0_MASTERS = axi_vdma_0.M_AXI_MM2S
  BUS_INTERFACE M_AXI_GP0 = axi4lite_0
@@ -180,28 +180,9 @@ BEGIN processing_system7
  PORT FCLK_RESET0_N = processing_system7_0_FCLK_RESET0_N_0
  PORT M_AXI_GP0_ACLK = processing_system7_0_FCLK_CLK0
  PORT S_AXI_HP0_ACLK = processing_system7_0_FCLK_CLK0
- PORT FCLK_CLK1 = processing_system7_0_FCLK_CLK1
  PORT FCLK_CLK3 = processing_system7_0_FCLK_CLK3
- PORT FCLK_CLK2 = processing_system7_0_FCLK_CLK2
-END
-
-BEGIN axi_vdma
- PARAMETER INSTANCE = axi_vdma_0
- PARAMETER HW_VER = 5.04.a
- PARAMETER C_BASEADDR = 0x43000000
- PARAMETER C_HIGHADDR = 0x43000FFF
- PARAMETER C_INCLUDE_S2MM = 0
- PARAMETER C_M_AXIS_MM2S_TDATA_WIDTH = 16
- PARAMETER C_MM2S_GENLOCK_MODE = 1
- PARAMETER C_USE_FSYNC = 0
- BUS_INTERFACE S_AXI_LITE = axi4lite_0
- BUS_INTERFACE M_AXI_MM2S = axi_interconnect_1
- BUS_INTERFACE M_AXIS_MM2S = axi_vdma_0_M_AXIS_MM2S
- PORT s_axi_lite_aclk = processing_system7_0_FCLK_CLK0
- PORT m_axi_mm2s_aclk = processing_system7_0_FCLK_CLK0
- PORT m_axi_s2mm_aclk = processing_system7_0_FCLK_CLK0
- PORT m_axis_mm2s_aclk = processing_system7_0_FCLK_CLK0
- PORT mm2s_fsync = v_tc_0_fsync_out
+ PORT S_AXI_HP0_RACOUNT = processing_system7_0_S_AXI_HP0_RACOUNT
+ PORT FCLK_CLK1 = processing_system7_0_FCLK_CLK1
 END
 
 BEGIN axi_interconnect
@@ -212,11 +193,30 @@ BEGIN axi_interconnect
  PORT INTERCONNECT_ARESETN = processing_system7_0_FCLK_RESET0_N_0
 END
 
+BEGIN v_axi4s_vid_out
+ PARAMETER INSTANCE = v_axi4s_vid_out_0
+ PARAMETER HW_VER = 2.01.a
+ PARAMETER C_S_AXIS_VIDEO_DATA_WIDTH = 12
+ PARAMETER C_S_AXIS_VIDEO_FORMAT = 13
+ PARAMETER VTG_MASTER_SLAVE = 1
+ BUS_INTERFACE VTIMING_IN = v_tc_0_VTIMING_OUT
+ BUS_INTERFACE S_AXIS_VIDEO = axi_vdma_0_M_AXIS_MM2S
+ PORT video_out_clk = processing_system7_0_FCLK_CLK3
+ PORT video_vsync = v_axi4s_vid_out_0_video_vsync
+ PORT video_hsync = v_axi4s_vid_out_0_video_hsync
+ PORT video_data = v_axi4s_vid_out_0_video_data
+ PORT empty = v_axi4s_vid_out_0_empty
+ PORT aclken = net_vcc
+ PORT aclk = processing_system7_0_FCLK_CLK0
+ PORT vtg_ce = v_axi4s_vid_out_0_vtg_ce
+ PORT rst = net_gnd
+ PORT aresetn = axi4lite_0_S_ARESETN
+ PORT vtg_fsync = v_axi4s_vid_out_0_vtg_fsync
+END
+
 BEGIN v_tc
  PARAMETER INSTANCE = v_tc_0
  PARAMETER HW_VER = 5.01.a
- PARAMETER C_BASEADDR = 0x76800000
- PARAMETER C_HIGHADDR = 0x76800FFF
  PARAMETER C_GEN_HACTIVE_SIZE = 640
  PARAMETER C_GEN_HFRAME_SIZE = 800
  PARAMETER C_GEN_HSYNC_START = 656
@@ -226,39 +226,59 @@ BEGIN v_tc
  PARAMETER C_GEN_F0_VSYNC_VSTART = 490
  PARAMETER C_GEN_F0_VSYNC_VEND = 492
  PARAMETER C_GEN_VIDEO_FORMAT = 2
+ PARAMETER C_GEN_VBLANK_POLARITY = 1
+ PARAMETER C_GEN_HBLANK_POLARITY = 1
+ PARAMETER C_GEN_VSYNC_POLARITY = 0
+ PARAMETER C_GEN_HSYNC_POLARITY = 0
+ PARAMETER C_GEN_AVIDEO_POLARITY = 1
  PARAMETER C_GEN_F0_VBLANK_HSTART = 640
  PARAMETER C_GEN_F0_VBLANK_HEND = 640
  PARAMETER C_GEN_F0_VSYNC_HSTART = 640
  PARAMETER C_GEN_F0_VSYNC_HEND = 640
- PARAMETER C_GEN_VSYNC_POLARITY = 0
- PARAMETER C_GEN_HSYNC_POLARITY = 0
+ PARAMETER C_MAX_PIXELS = 1024
+ PARAMETER C_MAX_LINES = 1024
+ PARAMETER C_BASEADDR = 0x44000000
+ PARAMETER C_HIGHADDR = 0x4400ffff
  BUS_INTERFACE S_AXI = axi4lite_0
  BUS_INTERFACE VTIMING_OUT = v_tc_0_VTIMING_OUT
  PORT s_axi_aclk = processing_system7_0_FCLK_CLK0
+ PORT clk = processing_system7_0_FCLK_CLK3
  PORT fsync_out = v_tc_0_fsync_out
- PORT clk = processing_system7_0_FCLK_CLK2
  PORT clken = net_vcc
- PORT gen_clken = v_axi4s_vid_out_0_vtg_ce
  PORT s_axi_aclken = net_vcc
+ PORT gen_clken = v_axi4s_vid_out_0_vtg_ce
  PORT resetn = net_vcc
+ PORT fsync_in = v_axi4s_vid_out_0_vtg_fsync
 END
 
-BEGIN v_axi4s_vid_out
- PARAMETER INSTANCE = v_axi4s_vid_out_0
- PARAMETER HW_VER = 2.01.a
- PARAMETER VTG_MASTER_SLAVE = 1
- PARAMETER C_S_AXIS_VIDEO_DATA_WIDTH = 12
- PARAMETER C_S_AXIS_VIDEO_FORMAT = 13
- BUS_INTERFACE S_AXIS_VIDEO = axi_vdma_0_M_AXIS_MM2S
- BUS_INTERFACE VTIMING_IN = v_tc_0_VTIMING_OUT
- PORT aclk = processing_system7_0_FCLK_CLK0
- PORT aclken = net_vcc
- PORT video_out_clk = processing_system7_0_FCLK_CLK2
- PORT video_data = v_axi4s_vid_out_0_video_data_0
- PORT video_vsync = v_axi4s_vid_out_0_video_vsync_0
- PORT video_hsync = v_axi4s_vid_out_0_video_hsync_0
- PORT vtg_ce = v_axi4s_vid_out_0_vtg_ce
- PORT rst = net_gnd
- PORT aresetn = axi4lite_0_S_ARESETN
+BEGIN axi_vdma
+ PARAMETER INSTANCE = axi_vdma_0
+ PARAMETER HW_VER = 5.04.a
+ PARAMETER C_INCLUDE_S2MM = 0
+ PARAMETER C_M_AXIS_MM2S_TDATA_WIDTH = 16
+ PARAMETER C_NUM_FSTORES = 1
+ PARAMETER C_USE_FSYNC = 0
+ PARAMETER C_BASEADDR = 0x43000000
+ PARAMETER C_HIGHADDR = 0x4300ffff
+ BUS_INTERFACE S_AXI_LITE = axi4lite_0
+ BUS_INTERFACE M_AXIS_MM2S = axi_vdma_0_M_AXIS_MM2S
+ BUS_INTERFACE M_AXI_MM2S = axi_interconnect_1
+ PORT s_axi_lite_aclk = processing_system7_0_FCLK_CLK0
+ PORT m_axi_mm2s_aclk = processing_system7_0_FCLK_CLK0
+ PORT m_axis_mm2s_aclk = processing_system7_0_FCLK_CLK0
+ PORT axi_vdma_tstvec = axi_vdma_0_axi_vdma_tstvec
+ PORT mm2s_fsync = v_tc_0_fsync_out
+END
+
+BEGIN axi_gpio
+ PARAMETER INSTANCE = axi_gpio_0
+ PARAMETER HW_VER = 1.01.b
+ PARAMETER C_BASEADDR = 0x41280000
+ PARAMETER C_HIGHADDR = 0x4128ffff
+ BUS_INTERFACE S_AXI = axi4lite_0
+ PORT S_AXI_ACLK = processing_system7_0_FCLK_CLK0
+ PORT GPIO_IO = axi_gpio_0_GPIO_IO
+ PORT GPIO_IO_I = JB1
+ PORT GPIO_IO_O = axi_gpio_0_GPIO_IO_O
 END
 
