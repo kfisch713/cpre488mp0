@@ -1,4 +1,4 @@
-15:06:23 **** Incremental Build of configuration Debug for project hello_world ****
+18:39:57 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: ARM gcc compiler'
@@ -7,5 +7,5 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp2/ps7_
 compilation terminated.
 make: *** [src/helloworld.o] Error 1
 
-15:06:23 Build Finished (took 250ms)
+18:39:57 Build Finished (took 225ms)
 

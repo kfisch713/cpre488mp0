@@ -3283,3 +3283,88 @@ Failed to Scan JTAG Chain
 15:07:23.924 ERROR - Exception while attemping to 'diff' hardware specification files. 
 15:07:23.924 ERROR - File does not found exception. File provided:  \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xmljava.io.FileNotFoundException: \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml (Access is denied) 
 15:07:27.698 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:46:02.341 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+16:48:27.706 INFO  - FPGA configured successfully with bitstream "U:/Documents/cpre488mp0/sw/system_hw_platform/system.bit" 
+16:48:41.092 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:48:41.192 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:48:41.292 INFO  - PS initialization will be done as it is not done before. 
+16:48:41.294 INFO  - Running PS initialization.... 
+16:48:41.420 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+16:49:30.784 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:49:30.884 INFO  - PS initialization will be done as it is not done before. 
+16:49:30.886 INFO  - Running PS initialization.... 
+16:49:31.395 INFO  - ps7_init is completed. 
+16:49:31.495 INFO  - ps7_post_config is completed. 
+16:49:31.595 INFO  - PS Initialization is complete. 
+16:55:11.245 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:55:13.140 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:57:44.562 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:57:49.201 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:59:36.281 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:59:38.478 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:06:43.059 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:06:46.463 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:10:20.153 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:10:22.319 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:12:07.421 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:12:09.752 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:20:46.525 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:20:47.966 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:21:33.897 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:21:40.094 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:27:08.593 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:27:18.644 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:28:44.595 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:28:45.833 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:29:29.375 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:29:31.047 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:32:29.083 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:32:40.595 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:32:41.638 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:37:45.134 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:37:46.876 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:38:44.046 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:38:46.014 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:40:38.183 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:40:41.370 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:47:09.722 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:47:11.336 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:47:11.446 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:47:55.055 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:47:55.165 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:48:25.751 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:48:25.851 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:54:40.608 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:54:40.708 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:55:03.042 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:55:03.142 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:57:03.492 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:57:03.522 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:57:44.153 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+17:57:44.253 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:02:57.677 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:02:57.787 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:04:31.670 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:04:31.770 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:05:45.493 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:05:45.598 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:07:10.842 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:07:10.942 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:20:49.315 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:33:46.649 INFO  - Processing command line option -hwspec \\my.files.iastate.edu\users\burneykb\Documents\cpre488mp0\system\SDK\SDK_Export\hw\system.xml. 
+18:38:31.595 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:40:00.330 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:40:02.759 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:48:01.304 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+18:48:01.315 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+18:48:01.322 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

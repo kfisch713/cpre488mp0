@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
- 510476	   4392	67852268	68367136	4133320	nes_bootloader.elf
+ 511004	   4392	67852268	68367664	4133530	nes_bootloader.elf

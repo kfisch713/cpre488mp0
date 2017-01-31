@@ -22,8 +22,10 @@
 #include "platform.h"
 
 
-#define GOLD 0x0FC3//0xFDC82F
-#define CARDINAL 0x0A23 //0xA71930
+#define GOLD 0x03CF//0xFDC82F
+#define CARDINAL 0x032A //0xA71930
+
+
 
 u16 test_image[480][640];
 
@@ -35,32 +37,31 @@ int main() {
     XVtc_Config *VtcCfgPtr;
 
     int i, j;
+    int color_flag=0;
 
     // Enable the VTC module
     VtcCfgPtr = XVtc_LookupConfig(XPAR_AXI_VDMA_0_DEVICE_ID);
     XVtc_CfgInitialize(&Vtc, VtcCfgPtr, VtcCfgPtr->BaseAddress);
     XVtc_Enable(&Vtc, XVTC_EN_GENERATOR);
 
+
     // Initialize Test image for VDMA transfer to VGA monitor
     for (i = 0; i < 480; i++) {
-      for (j = 0; j < 640 ; j++) {
-    	  if(j < 80)
-    		  test_image[i][j] = CARDINAL;//CARDINAL
-    	  else if (j < 160)
-    		  test_image[i][j] = GOLD;//GOLD
-    	  else if (j < 240)
-    		  test_image[i][j] = CARDINAL;//CARDINAL
-    	  else if (j < 320)
-    		  test_image[i][j] = GOLD;//GOLD
-    	  else if (j < 400)
-    		  test_image[i][j] = CARDINAL;//CARDINAL
-    	  else if (j < 480)
-    		  test_image[i][j] = GOLD;//GOLD
-    	  else if (j < 560)
-    		  test_image[i][j] = CARDINAL; //CARDINAL
-    	  else if (j < 640)
-    		  test_image[i][j] = GOLD; //GOLD
-      }
+    	if(i % 60 == 0) color_flag = !color_flag;
+		int tmp_flag = color_flag;
+
+		for (j = 1; j < 640 ; j++) {
+			int color;
+			if (tmp_flag) {
+				color = CARDINAL;
+			} else {
+				color = GOLD;
+			}
+
+			if(j % 80 == 0) tmp_flag = !tmp_flag;
+
+			test_image[i][j] = color;
+		}
     }
 
     Xil_DCacheFlush();

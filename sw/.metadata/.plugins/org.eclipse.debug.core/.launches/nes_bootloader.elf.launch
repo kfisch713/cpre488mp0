@@ -23,7 +23,7 @@
 </mapAttribute>
 <stringAttribute key="xilinx.data.files.list" value=""/>
 <booleanAttribute key="xilinx.elf.verify" value="false"/>
-<stringAttribute key="xilinx.init.tcl" value="U:\Desktop\cpre488mp0\sw\system_hw_platform\ps7_init.tcl"/>
+<stringAttribute key="xilinx.init.tcl" value="U:\Documents\cpre488mp0\sw\system_hw_platform\ps7_init.tcl"/>
 <booleanAttribute key="xilinx.no.download.program" value="false"/>
 <booleanAttribute key="xilinx.profile.enable" value="false"/>
 <intAttribute key="xilinx.reset.type" value="1"/>
